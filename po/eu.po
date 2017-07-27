@@ -1,0 +1,762 @@
+# translation of Brightside.gnome-2-4.eu.po to Basque
+# translation of Brightside.gnome-2-4.po to Basque
+# translation of Brightside.gnome-2-4.po to Euskara
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>, 2003
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Brightside.gnome-2-4.eu\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-01-16 02:13+0000\n"
+"PO-Revision-Date: 2003-09-26 23:43GMT\n"
+"Last-Translator: Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>\n"
+"Language-Team: Basque <itzulpena@euskalgnu.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.0.1\n"
+
+#: src/brightside.c:224
+#, c-format
+msgid ""
+"Couldn't execute command: %s\n"
+"Verify that this command exists."
+msgstr ""
+"Ezin egikaritu komandoa: %s\n"
+"Komando hau existitzen dela ziurtatu."
+
+#: src/brightside.c:243
+#, c-format
+msgid ""
+"Permissions on the file %s are broken\n"
+"Please check Brightside's documentation, correct the problem and restart "
+"Brightside."
+msgstr ""
+"%s fitxategiaren baimenak apurtuta daude\n"
+"Mesedez, Brightsideren dokumentazioa irakurri, arazoa zuzendu eta Brightside "
+"berrabiarazi."
+
+#: src/brightside.c:487
+msgid "translator_credits"
+msgstr "Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>"
+
+#: src/brightside.c:498
+msgid "Brightside"
+msgstr "Brightside"
+
+#: src/brightside.c:500 src/brightside.c:573
+msgid "Screen Corners and Edges daemon"
+msgstr ""
+
+#: src/brightside.c:579
+msgid "Screen Corners and Edges daemon active"
+msgstr ""
+
+#: src/brightside.c:1733
+msgid "Daemon already running, exiting...\n"
+msgstr ""
+
+#: src/brightside.c:1742
+msgid ""
+"Couldn't load the Glade file.\n"
+"Make sure that this daemon is properly installed."
+msgstr ""
+"Glade fitxategia ezin hartu\n"
+"Ziurtatu zaitez kudeatzaile hau ongi instalatua dagoela."
+
+#: src/brightside.glade.h:1
+msgid "Volume"
+msgstr "Bolumena"
+
+#: src/brightside.h:65
+#, fuzzy
+msgid "Mute volume"
+msgstr "Ixiltzeko tekla"
+
+#: src/brightside.h:67
+msgid "Prevent screensaver starting"
+msgstr ""
+
+#: src/brightside.h:69
+#, fuzzy
+msgid "Start screensaver"
+msgstr "Pantailazaina tekla"
+
+#: src/brightside.h:71
+msgid "Enter DPMS standby mode"
+msgstr ""
+
+#: src/brightside.h:73
+msgid "Enter DPMS suspend mode"
+msgstr ""
+
+#: src/brightside.h:75
+msgid "Enter DPMS off mode"
+msgstr ""
+
+#: src/brightside.h:78
+msgid "Dim laptop backlight"
+msgstr ""
+
+#: src/brightside.h:81
+msgid "Custom action..."
+msgstr ""
+
+#: src/brightside-properties.c:283 src/brightside-properties.glade.h:9
+#: src/brightside.desktop.in.h:2
+msgid "Screen Corners and Edges"
+msgstr ""
+
+#: src/brightside-properties.glade.h:1 src/custom-action.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: src/brightside-properties.glade.h:2
+msgid "<small><i>Long</i></small>"
+msgstr ""
+
+#: src/brightside-properties.glade.h:3
+msgid "<small><i>Short</i></small>"
+msgstr ""
+
+#: src/brightside-properties.glade.h:4
+#, fuzzy
+msgid "<span weight=\"bold\">Screen Corners</span>"
+msgstr "<span weight=\"bold\">Soinuaren konfigurazioa</span>"
+
+#: src/brightside-properties.glade.h:5
+#, fuzzy
+msgid "<span weight=\"bold\">Screen Edges</span>"
+msgstr "<span weight=\"bold\">Soinuaren konfigurazioa</span>"
+
+#: src/brightside-properties.glade.h:6
+#, fuzzy
+msgid "Action to take while mouse is placed in corner of screen"
+msgstr "Egotzi botoia zapaltzerakoan landuko duen komandoa"
+
+#: src/brightside-properties.glade.h:7
+msgid "Bottom r_ight corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:8
+msgid "D_elay:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:10
+msgid "Switch to _adjacent workspace when mouse is moved to edge of screen"
+msgstr ""
+
+#: src/brightside-properties.glade.h:11
+msgid "Top _right corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:12
+msgid "When switching workspace, _wrap around edges of workspace layout"
+msgstr ""
+
+#: src/brightside-properties.glade.h:13
+msgid "_Bottom left corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:14
+msgid "_Configurable actions"
+msgstr ""
+
+#: src/brightside-properties.glade.h:15
+msgid "_Delay:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:16
+msgid "_Switch to diagonally adjacent workspace"
+msgstr ""
+
+#: src/brightside-properties.glade.h:17
+msgid "_Top left corner:"
+msgstr ""
+
+#: src/brightside.desktop.in.h:1
+#, fuzzy
+msgid "Configure screen-edge behaviour"
+msgstr "Multimediako teklen jokaera konfiguratu"
+
+#: src/brightside.schemas.in.h:1
+msgid "Action enabled when mouse is in bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:2
+msgid "Action enabled when mouse is in bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:3
+msgid "Action enabled when mouse is in top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:4
+msgid "Action enabled when mouse is in top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:5
+msgid "Action to occur when mouse is in bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:6
+msgid "Action to occur when mouse is in bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:7
+msgid "Action to occur when mouse is in top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:8
+msgid "Action to occur when mouse is in top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:9
+msgid "After flip command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:10
+msgid "Bottom left corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:11
+msgid "Bottom left corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:12
+msgid "Bottom left corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:13
+msgid "Bottom left corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:14
+msgid "Bottom left corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:15
+msgid "Bottom right corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:16
+msgid "Bottom right corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:17
+msgid "Bottom right corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:18
+msgid "Bottom right corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:19
+msgid "Bottom right corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:20
+msgid "Command to execute after flipping workspace (empty string for none)"
+msgstr ""
+
+#: src/brightside.schemas.in.h:21
+msgid "Corner delay"
+msgstr ""
+
+#: src/brightside.schemas.in.h:22
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse enters bottom left corner of screen"
+msgstr "Egotzi botoia zapaltzerakoan landuko duen komandoa"
+
+#: src/brightside.schemas.in.h:23
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse enters bottom right corner of screen"
+msgstr "Egotzi botoia zapaltzerakoan landuko duen komandoa"
+
+#: src/brightside.schemas.in.h:24
+#, fuzzy
+msgid "Custom command to execute when mouse enters top left corner of screen"
+msgstr "Egotzi botoia zapaltzerakoan landuko duen komandoa"
+
+#: src/brightside.schemas.in.h:25
+#, fuzzy
+msgid "Custom command to execute when mouse enters top right corner of screen"
+msgstr "Egotzi botoia zapaltzerakoan landuko duen komandoa"
+
+#: src/brightside.schemas.in.h:26
+#, fuzzy
+msgid "Custom command to execute when mouse exits bottom left corner of screen"
+msgstr "Egotzi botoia zapaltzerakoan landuko duen komandoa"
+
+#: src/brightside.schemas.in.h:27
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse exits bottom right corner of screen"
+msgstr "Egotzi botoia zapaltzerakoan landuko duen komandoa"
+
+#: src/brightside.schemas.in.h:28
+#, fuzzy
+msgid "Custom command to execute when mouse exits top left corner of screen"
+msgstr "Egotzi botoia zapaltzerakoan landuko duen komandoa"
+
+#: src/brightside.schemas.in.h:29
+#, fuzzy
+msgid "Custom command to execute when mouse exits top right corner of screen"
+msgstr "Egotzi botoia zapaltzerakoan landuko duen komandoa"
+
+#: src/brightside.schemas.in.h:30
+msgid "Delay in milliseconds before edge flip occurs"
+msgstr ""
+
+#: src/brightside.schemas.in.h:31
+msgid "Delay in milliseconds before screen corner action occurs"
+msgstr ""
+
+#: src/brightside.schemas.in.h:32
+msgid "Edge delay"
+msgstr ""
+
+#: src/brightside.schemas.in.h:33
+msgid "Edge wrap"
+msgstr ""
+
+#: src/brightside.schemas.in.h:34
+#, fuzzy
+msgid "Enable corner flip"
+msgstr "Gaitua"
+
+#: src/brightside.schemas.in.h:35
+#, fuzzy
+msgid "Enable edge flip"
+msgstr "Gaitua"
+
+#: src/brightside.schemas.in.h:36
+msgid "Orientable workspaces"
+msgstr ""
+
+#: src/brightside.schemas.in.h:37
+msgid ""
+"Switch to diagonally adjacent workspace when mouse placed in the corner of "
+"the screen, instead of executing a configurable action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:38
+msgid ""
+"Switch to the adjacent workspace when the mouse reaches the edge of the "
+"screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:39
+msgid "Terminate custom command when mouse exits bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:40
+msgid "Terminate custom command when mouse exits bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:41
+msgid "Terminate custom command when mouse exits top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:42
+msgid "Terminate custom command when mouse exits top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:43
+msgid "Top left corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:44
+msgid "Top left corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:45
+msgid "Top left corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:46
+msgid "Top left corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:47
+msgid "Top left corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:48
+msgid "Top right corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:49
+msgid "Top right corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:50
+msgid "Top right corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:51
+msgid "Top right corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:52
+msgid "Top right corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:53
+msgid "Use PCM Volume instead of Master Volume"
+msgstr "Bolumen nagusia ordez PCM bolumena erabili"
+
+#: src/brightside.schemas.in.h:54
+msgid "Whether workspace layout is orientable"
+msgstr ""
+
+#: src/brightside.schemas.in.h:55
+msgid "Wrap wround edges of workspace layout when flipping workspace"
+msgstr ""
+
+#: src/custom-action.glade.h:2
+msgid "*"
+msgstr ""
+
+#: src/custom-action.glade.h:3
+#, fuzzy
+msgid "<span weight=\"bold\">On _entering region</span>"
+msgstr "<span weight=\"bold\">Teklen konfigurazioa</span>"
+
+#: src/custom-action.glade.h:4
+#, fuzzy
+msgid "<span weight=\"bold\">On leaving region</span>"
+msgstr "<span weight=\"bold\">Soinuaren konfigurazioa</span>"
+
+#: src/custom-action.glade.h:5 src/custom-action.c:104
+msgid "Custom action"
+msgstr ""
+
+#: src/custom-action.glade.h:6
+msgid "_Run another command:"
+msgstr ""
+
+#: src/custom-action.glade.h:7
+msgid "_Terminate above application"
+msgstr ""
+
+#~ msgid ""
+#~ "Couldn't execute either command: %s\n"
+#~ "or command: %s\n"
+#~ "Verify that at least one of these commands exist."
+#~ msgstr ""
+#~ "Ezin egikaritu ondorengo komandoa: %s\n"
+#~ "edo beste komando hau:%s\n"
+#~ "Komando hauetariko bat behintzat existitzen dela egiaztatu."
+
+#~ msgid ""
+#~ "There was an error removing access to the multimedia keys.\n"
+#~ "Key %d couldn't be unbound."
+#~ msgstr ""
+#~ "Multimediako teklen atzipena ezabatzerakoan akats bat egon da.\n"
+#~ "%d tekla ezin askatu."
+
+#~ msgid ""
+#~ "It seems that another application already has access to the multimedia "
+#~ "keys.\n"
+#~ "Key %d couldn't be bound.\n"
+#~ "Is another daemon already running ?"
+#~ msgstr ""
+#~ "Badirudi beste aplikazio batek multimediako teklen atzipena daukala.\n"
+#~ "%d tekla ezinezkoa da lotzea.\n"
+#~ "Ari al da beste zerbitzurik lanean?"
+
+#~ msgid "Multimedia keys daemon"
+#~ msgstr "Multimediako teklen kudeatzailea"
+
+#~ msgid "Multimedia Keys daemon active"
+#~ msgstr "Multimediako teklen kudeatzailea piztuta dago"
+
+#~ msgid "Volume down key"
+#~ msgstr "Bolumena jeisteko tekla"
+
+#~ msgid "Volume up key"
+#~ msgstr "Bolumena igotzeko tekla"
+
+#~ msgid "Power key"
+#~ msgstr "Itzaltze tekla"
+
+#~ msgid "Eject key"
+#~ msgstr "Egozteko tekla"
+
+#~ msgid "Media key"
+#~ msgstr "Multimedia tekla"
+
+#~ msgid "Play key"
+#~ msgstr "Jotze tekla"
+
+#~ msgid "Pause key"
+#~ msgstr "Etenaldi tekla"
+
+#~ msgid "Stop (Audio) key"
+#~ msgstr "Gelditze (audio) tekla"
+
+#~ msgid "Previous (Audio) key"
+#~ msgstr "Aurrekoa (audio) tekla"
+
+#~ msgid "Next (Audio) key"
+#~ msgstr "Hurrengoa (audio) tekla"
+
+#~ msgid "My Home key"
+#~ msgstr "Nere etxea tekla"
+
+#~ msgid "Refresh key"
+#~ msgstr "Freskatze tekla"
+
+#~ msgid "Search key"
+#~ msgstr "Bilatze tekla"
+
+#~ msgid "E-Mail key"
+#~ msgstr "Posta tekla"
+
+#~ msgid "Sleep key"
+#~ msgstr "Lotaratze tekla"
+
+#~ msgid "Finance key"
+#~ msgstr "Finantza tekla"
+
+#~ msgid "Help key"
+#~ msgstr "Laguntza tekla"
+
+#~ msgid "WWW key"
+#~ msgstr "Web tekla"
+
+#~ msgid "Groups key"
+#~ msgstr "Taldeak tekla"
+
+#~ msgid "Calculator key"
+#~ msgstr "Kalkulagailu tekla"
+
+#~ msgid "Record key"
+#~ msgstr "Grabatze tekla"
+
+#~ msgid "Close Window key"
+#~ msgstr "Leihoa ixteko tekla"
+
+#~ msgid "Shade Window key"
+#~ msgstr "Lehioa biltzeko tekla"
+
+#~ msgid "Brightness down key"
+#~ msgstr "Distira jaisteko tekla"
+
+#~ msgid "Brightness up key"
+#~ msgstr "Distira igotzeko tekla"
+
+#~ msgid "Disabled"
+#~ msgstr "Desgaitua"
+
+#~ msgid ""
+#~ "This key is already bound to action '%s'.\n"
+#~ "Please select another key."
+#~ msgstr ""
+#~ "Tekla hau, '%s', jadanik ekintza batekin elkartua dago \n"
+#~ "Hautatu beste tekla bat."
+
+#~ msgid "Description"
+#~ msgstr "Azalpena"
+
+#~ msgid "Status"
+#~ msgstr "Egoera"
+
+#~ msgid "Multimedia Keys Preferences"
+#~ msgstr "Multimediako teklen hobespenak"
+
+#~ msgid ""
+#~ "To assign a key to an action, click on a line, and press the key you want "
+#~ "to associate with it.\n"
+#~ "\"C\" cancels the capture, and \"Backspace\" disables the key shortcut."
+#~ msgstr ""
+#~ "Ekintza bati tekla bat ezartzeko lerro batean saguarekin zaztatu eta "
+#~ "sakatu ekintzari elkartzea nahi diozun tekla.\n"
+#~ "\"C\" atzemandakoa ezereztu eta \"Atzera\" teklaren laisterbidea "
+#~ "desgaitzen du."
+
+#~ msgid "Use _PCM volume instead of Master volume"
+#~ msgstr "Bolumen nagusia ordez, _PCM bolumena erabili"
+
+#~ msgid "Multimedia Keys"
+#~ msgstr "Multimediako teklak"
+
+#~ msgid "Brightness down key's XKeycode"
+#~ msgstr "Distira jeisteko teklaren XKeycode"
+
+#~ msgid "Brightness down key's XKeycode, 0 to disable"
+#~ msgstr "Distira jeisteko teklaren XKeycode, 0-rekin desgaitu"
+
+#~ msgid "Brightness up key's XKeycode"
+#~ msgstr "Distira igotzeko teklaren XKeycode"
+
+#~ msgid "Brightness up key's XKeycode, 0 to disable"
+#~ msgstr "Argitasun igotzeko teklaren XKeycode,  0-rekin desgaitu"
+
+#~ msgid "Calculator key's XKeycode"
+#~ msgstr "Kalkulagailu teklaren XKeycode"
+
+#~ msgid "Calculator key's XKeycode, 0 to disable"
+#~ msgstr "Kalkulagailu teklaren XKeycode, 0-rekin desgaitu"
+
+#~ msgid "Close Window key's XKeycode"
+#~ msgstr "Leihoa ixteko teklaren Xkeycode"
+
+#~ msgid "Close Window key's XKeycode, 0 to disable"
+#~ msgstr "Leihoa ixteko teklaren Xkeycode, 0-rekin desgaitu"
+
+#~ msgid "E-Mail key's XKeycode"
+#~ msgstr "Posta teklaren XKeycode"
+
+#~ msgid "E-Mail key's XKeycode, 0 to disable"
+#~ msgstr "Posta teklaren XKeycode, 0-rekin desgaitu"
+
+#~ msgid "Eject key's XKeycode"
+#~ msgstr "Egotzi teklaren XKeycode"
+
+#~ msgid "Eject key's XKeycode, 0 to disable"
+#~ msgstr "Egotzi teklaren XKeycode, 0-rekin desgaitu"
+
+#~ msgid "Finance key's XKeycode"
+#~ msgstr "Finantza teklaren XKeycode"
+
+#~ msgid "Finance key's XKeycode, 0 to disable"
+#~ msgstr "Finantza teklaren XKeycode, 0-rekin desgaitu"
+
+#~ msgid "Groups key's XKeycode"
+#~ msgstr "Taldeak teklaren XKeycode"
+
+#~ msgid "Groups key's XKeycode, 0 to disable"
+#~ msgstr "Taldeak teklaren XKeycode, 0-rekin desgaitu"
+
+#~ msgid "Help key's XKeycode"
+#~ msgstr "Laguntzako teklaren XKeycode"
+
+#~ msgid "Help key's XKeycode, 0 to disable"
+#~ msgstr "Laguntzako teklaren XKeycode, 0-rekin desgaitu"
+
+#~ msgid "Mute key's XKeycode"
+#~ msgstr "Ixiltzeko teklaren XKeycode"
+
+#~ msgid "Mute key's XKeycode, 0 to disable"
+#~ msgstr "Ixiltzeko teklaren XKeycode, 0-rekin desgaitu"
+
+#~ msgid "My Home key's XKeycode"
+#~ msgstr "Nere etxea teklaren XKeycode"
+
+#~ msgid "My Home key's XKeycode, 0 to disable"
+#~ msgstr "Nere etxea teklaren XKeycode, 0-rekin desgaitu"
+
+#~ msgid "Next key's XKeycode"
+#~ msgstr "Hurrengoa teklaren XKeycode"
+
+#~ msgid "Next key's XKeycode, 0 to disable"
+#~ msgstr "Hurrengoa teklaren XKeycode, 0-rekin desgaitu"
+
+#~ msgid "Pause key's XKeycode"
+#~ msgstr "Etenaldi teklaren XKeycode"
+
+#~ msgid "Pause key's XKeycode, 0 to disable"
+#~ msgstr "Etenaldi teklaren Xkeycode, 0-rekin desgaitu"
+
+#~ msgid "Play key's XKeycode"
+#~ msgstr "Jo teklaren XKeycode"
+
+#~ msgid "Play key's XKeycode, 0 to disable"
+#~ msgstr "Jo teklaren XKeycode, 0-rekin desgaitu"
+
+#~ msgid "Power key's XKeycode"
+#~ msgstr "Itzaltzeko teklaren XKeycode"
+
+#~ msgid "Power key's XKeycode, 0 to disable"
+#~ msgstr "Itzaltzeko teklaren XKeycode, 0-rekin desgaitu"
+
+#~ msgid "Previous key's XKeycode"
+#~ msgstr "Aurrekoa teklaren XKeycode"
+
+#~ msgid "Previous key's XKeycode, 0 to disable"
+#~ msgstr "Aurrekoa teklaren XKeycode, 0-rekin desgaitu"
+
+#~ msgid "Record key's XKeycode"
+#~ msgstr "Grabatze teklaren XKeycode"
+
+#~ msgid "Record key's XKeycode, 0 to disable"
+#~ msgstr "Grabatze teklaren XKeycode, 0-rekin desgaitu"
+
+#~ msgid "Refresh key's XKeycode"
+#~ msgstr "Freskatze teklaren XKeycode"
+
+#~ msgid "Refresh key's XKeycode, 0 to disable"
+#~ msgstr "Freskatze teklaren XKeycode, 0-rekin desgaitu"
+
+#~ msgid "Screensaver key's XKeycode"
+#~ msgstr "Pantailazaina teklaren XKeycode"
+
+#~ msgid "Screensaver key's XKeycode, 0 to disable"
+#~ msgstr "Pantailazaina teklaren XKeycode, 0-rekin desgaitu"
+
+#~ msgid "Search key's XKeycode"
+#~ msgstr "Bilatze teklaren XKeycode"
+
+#~ msgid "Search key's XKeycode, 0 to disable"
+#~ msgstr "Bilatze teklaren XKeycode, 0-rekin desgaitu"
+
+#~ msgid "Shade Window key's XKeycode"
+#~ msgstr "Leihoa biltzeko teklaren XKeycode"
+
+#~ msgid "Shade Window key's XKeycode, 0 to disable"
+#~ msgstr "Leihoa biltzeko teklaren XKeycode, 0-rekin desgaitu"
+
+#~ msgid "Sleep key's XKeycode"
+#~ msgstr "Lotaratze teklaren XKeycode"
+
+#~ msgid "Sleep key's XKeycode, 0 to disable"
+#~ msgstr "Lotaratze teklaren XKeycode, 0-rekin desgaitu"
+
+#~ msgid "Sound file to be played when volume is changed"
+#~ msgstr "Bolumena aldatzerakoan joko duen soinu fitxategia"
+
+#~ msgid "Volume down key's XKeycode"
+#~ msgstr "Bolumena jeisteko teklaren XKeycode"
+
+#~ msgid "Volume down key's XKeycode, 0 to disable"
+#~ msgstr "Bolumena jeisteko teklaren XKeycode, 0-rekin desgaitu"
+
+#, fuzzy
+#~ msgid "Volume step"
+#~ msgstr "Bolumena"
+
+#~ msgid "Volume up key's XKeycode"
+#~ msgstr "Bolumena igotzeko teklaren XKeycode"
+
+#~ msgid "Volume up key's XKeycode, 0 to disable"
+#~ msgstr "Bolumena igotzeko teklaren XKeycode, 0-rekin desgaitu"
+
+#~ msgid "WWW key's XKeycode"
+#~ msgstr "Web teklaren XKeycode"
+
+#~ msgid "WWW key's XKeycode, 0 to disable"
+#~ msgstr "Web teklaren XKeycode, 0-rekin desgaitu"
+
+#~ msgid "Accelerator key"
+#~ msgstr "Bizkortze tekla"
+
+#~ msgid "Accelerator modifiers"
+#~ msgstr "Bizkortze aldatzaileak"
+
+#~ msgid "Accelerator Mode"
+#~ msgstr "Bizkortze era"
+
+#~ msgid "The type of accelerator."
+#~ msgstr "Bizkortze mota"
+
+#~ msgid "Type a new accelerator, or press Backspace to clear"
+#~ msgstr "Bizkortze berria sartu, edo garbitzeko Atzera sakatu"
+
+#~ msgid "Type a new accelerator"
+#~ msgstr "Bizkortze berria sartu"

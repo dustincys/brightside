@@ -1,0 +1,762 @@
+# Romanian translation for Brightside
+# Copyright (C) 2003 Free Software Foundation, Inc.
+# Mişu Moldovan <dumol@go.ro>, 2003.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Brightside 2.0.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-01-16 02:13+0000\n"
+"PO-Revision-Date: 2003-08-24 18:48+0200\n"
+"Last-Translator: Mişu Moldovan <dumol@go.ro>\n"
+"Language-Team: Romanian <gnomero-list@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/brightside.c:224
+#, c-format
+msgid ""
+"Couldn't execute command: %s\n"
+"Verify that this command exists."
+msgstr ""
+"Nu am putut executa comanda: %s\n"
+"Verificaţi dacă această comandă există."
+
+#: src/brightside.c:243
+#, c-format
+msgid ""
+"Permissions on the file %s are broken\n"
+"Please check Brightside's documentation, correct the problem and restart "
+"Brightside."
+msgstr ""
+"Permisiile fişierului %s sunt invalide\n"
+"Consultaţi documentaţia Brightside, corectaţi problema şi apoi reporniţi "
+"Brightside."
+
+#: src/brightside.c:487
+msgid "translator_credits"
+msgstr "Mişu Moldovan <dumol@go.ro>"
+
+#: src/brightside.c:498
+msgid "Brightside"
+msgstr "Brightside"
+
+#: src/brightside.c:500 src/brightside.c:573
+msgid "Screen Corners and Edges daemon"
+msgstr ""
+
+#: src/brightside.c:579
+msgid "Screen Corners and Edges daemon active"
+msgstr ""
+
+#: src/brightside.c:1733
+msgid "Daemon already running, exiting...\n"
+msgstr ""
+
+#: src/brightside.c:1742
+msgid ""
+"Couldn't load the Glade file.\n"
+"Make sure that this daemon is properly installed."
+msgstr ""
+"Nu am putut încărca fişierul Glade.\n"
+"Asiguraţi-vă că acest demon este corect instalat."
+
+#: src/brightside.glade.h:1
+msgid "Volume"
+msgstr "Volum"
+
+#: src/brightside.h:65
+#, fuzzy
+msgid "Mute volume"
+msgstr "Tastă Amuţire"
+
+#: src/brightside.h:67
+msgid "Prevent screensaver starting"
+msgstr ""
+
+#: src/brightside.h:69
+#, fuzzy
+msgid "Start screensaver"
+msgstr "Tastă Protecţie ecran"
+
+#: src/brightside.h:71
+msgid "Enter DPMS standby mode"
+msgstr ""
+
+#: src/brightside.h:73
+msgid "Enter DPMS suspend mode"
+msgstr ""
+
+#: src/brightside.h:75
+msgid "Enter DPMS off mode"
+msgstr ""
+
+#: src/brightside.h:78
+msgid "Dim laptop backlight"
+msgstr ""
+
+#: src/brightside.h:81
+msgid "Custom action..."
+msgstr ""
+
+#: src/brightside-properties.c:283 src/brightside-properties.glade.h:9
+#: src/brightside.desktop.in.h:2
+msgid "Screen Corners and Edges"
+msgstr ""
+
+#: src/brightside-properties.glade.h:1 src/custom-action.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: src/brightside-properties.glade.h:2
+msgid "<small><i>Long</i></small>"
+msgstr ""
+
+#: src/brightside-properties.glade.h:3
+msgid "<small><i>Short</i></small>"
+msgstr ""
+
+#: src/brightside-properties.glade.h:4
+#, fuzzy
+msgid "<span weight=\"bold\">Screen Corners</span>"
+msgstr "<span weight=\"bold\">Configurare sunet</span>"
+
+#: src/brightside-properties.glade.h:5
+#, fuzzy
+msgid "<span weight=\"bold\">Screen Edges</span>"
+msgstr "<span weight=\"bold\">Configurare sunet</span>"
+
+#: src/brightside-properties.glade.h:6
+#, fuzzy
+msgid "Action to take while mouse is placed in corner of screen"
+msgstr "Comandă de executat la apăsarea butonului Eject"
+
+#: src/brightside-properties.glade.h:7
+msgid "Bottom r_ight corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:8
+msgid "D_elay:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:10
+msgid "Switch to _adjacent workspace when mouse is moved to edge of screen"
+msgstr ""
+
+#: src/brightside-properties.glade.h:11
+msgid "Top _right corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:12
+msgid "When switching workspace, _wrap around edges of workspace layout"
+msgstr ""
+
+#: src/brightside-properties.glade.h:13
+msgid "_Bottom left corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:14
+msgid "_Configurable actions"
+msgstr ""
+
+#: src/brightside-properties.glade.h:15
+msgid "_Delay:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:16
+msgid "_Switch to diagonally adjacent workspace"
+msgstr ""
+
+#: src/brightside-properties.glade.h:17
+msgid "_Top left corner:"
+msgstr ""
+
+#: src/brightside.desktop.in.h:1
+#, fuzzy
+msgid "Configure screen-edge behaviour"
+msgstr "Configurarea comportamentului tastelor multimedia"
+
+#: src/brightside.schemas.in.h:1
+msgid "Action enabled when mouse is in bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:2
+msgid "Action enabled when mouse is in bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:3
+msgid "Action enabled when mouse is in top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:4
+msgid "Action enabled when mouse is in top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:5
+msgid "Action to occur when mouse is in bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:6
+msgid "Action to occur when mouse is in bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:7
+msgid "Action to occur when mouse is in top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:8
+msgid "Action to occur when mouse is in top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:9
+msgid "After flip command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:10
+msgid "Bottom left corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:11
+msgid "Bottom left corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:12
+msgid "Bottom left corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:13
+msgid "Bottom left corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:14
+msgid "Bottom left corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:15
+msgid "Bottom right corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:16
+msgid "Bottom right corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:17
+msgid "Bottom right corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:18
+msgid "Bottom right corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:19
+msgid "Bottom right corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:20
+msgid "Command to execute after flipping workspace (empty string for none)"
+msgstr ""
+
+#: src/brightside.schemas.in.h:21
+msgid "Corner delay"
+msgstr ""
+
+#: src/brightside.schemas.in.h:22
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse enters bottom left corner of screen"
+msgstr "Comandă de executat la apăsarea butonului Eject"
+
+#: src/brightside.schemas.in.h:23
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse enters bottom right corner of screen"
+msgstr "Comandă de executat la apăsarea butonului Eject"
+
+#: src/brightside.schemas.in.h:24
+#, fuzzy
+msgid "Custom command to execute when mouse enters top left corner of screen"
+msgstr "Comandă de executat la apăsarea butonului Eject"
+
+#: src/brightside.schemas.in.h:25
+#, fuzzy
+msgid "Custom command to execute when mouse enters top right corner of screen"
+msgstr "Comandă de executat la apăsarea butonului Eject"
+
+#: src/brightside.schemas.in.h:26
+#, fuzzy
+msgid "Custom command to execute when mouse exits bottom left corner of screen"
+msgstr "Comandă de executat la apăsarea butonului Eject"
+
+#: src/brightside.schemas.in.h:27
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse exits bottom right corner of screen"
+msgstr "Comandă de executat la apăsarea butonului Eject"
+
+#: src/brightside.schemas.in.h:28
+#, fuzzy
+msgid "Custom command to execute when mouse exits top left corner of screen"
+msgstr "Comandă de executat la apăsarea butonului Eject"
+
+#: src/brightside.schemas.in.h:29
+#, fuzzy
+msgid "Custom command to execute when mouse exits top right corner of screen"
+msgstr "Comandă de executat la apăsarea butonului Eject"
+
+#: src/brightside.schemas.in.h:30
+msgid "Delay in milliseconds before edge flip occurs"
+msgstr ""
+
+#: src/brightside.schemas.in.h:31
+msgid "Delay in milliseconds before screen corner action occurs"
+msgstr ""
+
+#: src/brightside.schemas.in.h:32
+msgid "Edge delay"
+msgstr ""
+
+#: src/brightside.schemas.in.h:33
+msgid "Edge wrap"
+msgstr ""
+
+#: src/brightside.schemas.in.h:34
+#, fuzzy
+msgid "Enable corner flip"
+msgstr "Activată"
+
+#: src/brightside.schemas.in.h:35
+#, fuzzy
+msgid "Enable edge flip"
+msgstr "Activată"
+
+#: src/brightside.schemas.in.h:36
+msgid "Orientable workspaces"
+msgstr ""
+
+#: src/brightside.schemas.in.h:37
+msgid ""
+"Switch to diagonally adjacent workspace when mouse placed in the corner of "
+"the screen, instead of executing a configurable action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:38
+msgid ""
+"Switch to the adjacent workspace when the mouse reaches the edge of the "
+"screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:39
+msgid "Terminate custom command when mouse exits bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:40
+msgid "Terminate custom command when mouse exits bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:41
+msgid "Terminate custom command when mouse exits top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:42
+msgid "Terminate custom command when mouse exits top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:43
+msgid "Top left corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:44
+msgid "Top left corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:45
+msgid "Top left corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:46
+msgid "Top left corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:47
+msgid "Top left corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:48
+msgid "Top right corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:49
+msgid "Top right corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:50
+msgid "Top right corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:51
+msgid "Top right corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:52
+msgid "Top right corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:53
+msgid "Use PCM Volume instead of Master Volume"
+msgstr "Utilizează volumul PCM în locul volumului Master"
+
+#: src/brightside.schemas.in.h:54
+msgid "Whether workspace layout is orientable"
+msgstr ""
+
+#: src/brightside.schemas.in.h:55
+msgid "Wrap wround edges of workspace layout when flipping workspace"
+msgstr ""
+
+#: src/custom-action.glade.h:2
+msgid "*"
+msgstr ""
+
+#: src/custom-action.glade.h:3
+#, fuzzy
+msgid "<span weight=\"bold\">On _entering region</span>"
+msgstr "<span weight=\"bold\">Configurare taste </span>"
+
+#: src/custom-action.glade.h:4
+#, fuzzy
+msgid "<span weight=\"bold\">On leaving region</span>"
+msgstr "<span weight=\"bold\">Configurare sunet</span>"
+
+#: src/custom-action.glade.h:5 src/custom-action.c:104
+msgid "Custom action"
+msgstr ""
+
+#: src/custom-action.glade.h:6
+msgid "_Run another command:"
+msgstr ""
+
+#: src/custom-action.glade.h:7
+msgid "_Terminate above application"
+msgstr ""
+
+#~ msgid ""
+#~ "Couldn't execute either command: %s\n"
+#~ "or command: %s\n"
+#~ "Verify that at least one of these commands exist."
+#~ msgstr ""
+#~ "Nu am putut executa nici comanda: %s,\n"
+#~ "nici comanda: %s\n"
+#~ "Verificaţi dacă cel puţin una din aceste comenzi există."
+
+#~ msgid ""
+#~ "There was an error removing access to the multimedia keys.\n"
+#~ "Key %d couldn't be unbound."
+#~ msgstr ""
+#~ "Eroare la ştergerea accesului la tastele multimedia.\n"
+#~ "Tasta %d nu a putut fi găsită."
+
+#~ msgid ""
+#~ "It seems that another application already has access to the multimedia "
+#~ "keys.\n"
+#~ "Key %d couldn't be bound.\n"
+#~ "Is another daemon already running ?"
+#~ msgstr ""
+#~ "Se pare că o altă aplicaţie are deja acces la tastele multimedia.\n"
+#~ "Tasta %d nu a putut fi alocată.\n"
+#~ "Este pornit un alt demon?"
+
+#~ msgid "Multimedia keys daemon"
+#~ msgstr "Demonul tastelor multimedia"
+
+#~ msgid "Multimedia Keys daemon active"
+#~ msgstr "Demonul tastelor multimedia este activ"
+
+#~ msgid "Volume down key"
+#~ msgstr "Tastă Volum micşorat"
+
+#~ msgid "Volume up key"
+#~ msgstr "Tastă Volum mărit"
+
+#~ msgid "Power key"
+#~ msgstr "Tastă Oprire"
+
+#~ msgid "Eject key"
+#~ msgstr "Tastă Eject"
+
+#~ msgid "Media key"
+#~ msgstr "Tastă Media"
+
+#~ msgid "Play key"
+#~ msgstr "Tastă Redare"
+
+#~ msgid "Pause key"
+#~ msgstr "Tastă Pauză"
+
+#~ msgid "Stop (Audio) key"
+#~ msgstr "Tastă Stop (Audio)"
+
+#~ msgid "Previous (Audio) key"
+#~ msgstr "Tastă Înapoi (Audio)"
+
+#~ msgid "Next (Audio) key"
+#~ msgstr "Tastă Înainte (Audio)"
+
+#~ msgid "My Home key"
+#~ msgstr "Tastă Acasă"
+
+#~ msgid "Refresh key"
+#~ msgstr "Tastă Reactualizare"
+
+#~ msgid "Search key"
+#~ msgstr "Tastă Căutare"
+
+#~ msgid "E-Mail key"
+#~ msgstr "Tastă Email"
+
+#~ msgid "Sleep key"
+#~ msgstr "Tastă Adormire"
+
+#~ msgid "Finance key"
+#~ msgstr "Tastă Finanţe"
+
+#~ msgid "Help key"
+#~ msgstr "Tastă Ajutor"
+
+#~ msgid "WWW key"
+#~ msgstr "Tastă Internet"
+
+#~ msgid "Groups key"
+#~ msgstr "Tastă Grupuri"
+
+#~ msgid "Calculator key"
+#~ msgstr "Tastă Calculator"
+
+#~ msgid "Record key"
+#~ msgstr "Tastă Înregistrare"
+
+#~ msgid "Close Window key"
+#~ msgstr "Tastă Închidere fereastră"
+
+#~ msgid "Shade Window key"
+#~ msgstr "Tastă Umbrire fereastră"
+
+#~ msgid "Brightness down key"
+#~ msgstr "Tastă Strălucire crescută"
+
+#~ msgid "Brightness up key"
+#~ msgstr "Tastă Strălucire micşorată"
+
+#~ msgid "Disabled"
+#~ msgstr "Dezactivată"
+
+#~ msgid ""
+#~ "This key is already bound to action '%s'.\n"
+#~ "Please select another key."
+#~ msgstr ""
+#~ "Această tastă este deja asociată acţiunii „%s“.\n"
+#~ "Vă rugăm să selectaţi o altă tastă."
+
+#~ msgid "Description"
+#~ msgstr "Descriere"
+
+#~ msgid "Status"
+#~ msgstr "Stare"
+
+#~ msgid "Multimedia Keys Preferences"
+#~ msgstr "Preferinţe taste multimedia"
+
+#~ msgid ""
+#~ "To assign a key to an action, click on a line, and press the key you want "
+#~ "to associate with it.\n"
+#~ "\"C\" cancels the capture, and \"Backspace\" disables the key shortcut."
+#~ msgstr ""
+#~ "Pentru a asocia o tastă unei acţiuni, activaţi o linie şi apăsaţi tasta "
+#~ "sau tastele pe care doriţi să le asociaţi.\n"
+#~ "\"C\" renunţă la combinaţia reţinută, iar \"Backspace\" dezactivează o "
+#~ "combinaţie deja asociată."
+
+#~ msgid "Use _PCM volume instead of Master volume"
+#~ msgstr "Foloseşte volumul _PCM în loc de volumul General"
+
+#~ msgid "Multimedia Keys"
+#~ msgstr "Taste multimedia"
+
+#~ msgid "Brightness down key's XKeycode"
+#~ msgstr "Codul XKeycode al tastei Strălucire mişorată"
+
+#~ msgid "Brightness down key's XKeycode, 0 to disable"
+#~ msgstr "Codul XKeycode al tastei Strălucire mişorată, O pentru dezactivare"
+
+#~ msgid "Brightness up key's XKeycode"
+#~ msgstr "Codul XKeycode al tastei Strălucire mărită"
+
+#~ msgid "Brightness up key's XKeycode, 0 to disable"
+#~ msgstr "Codul XKeycode al tastei Strălucire mărită, 0 pentru dezactivare"
+
+#~ msgid "Calculator key's XKeycode"
+#~ msgstr "Codul XKeycode al tastei Calculator"
+
+#~ msgid "Calculator key's XKeycode, 0 to disable"
+#~ msgstr "Codul XKeycode al tastei Calculator, O pentru dezactivare"
+
+#~ msgid "Close Window key's XKeycode"
+#~ msgstr "Codul XKeycode al tastei Închidere fereastră"
+
+#~ msgid "Close Window key's XKeycode, 0 to disable"
+#~ msgstr "Codul XKeycode al tastei Închidere fereastră, 0 pentru dezactivare"
+
+#~ msgid "E-Mail key's XKeycode"
+#~ msgstr "Codul XKeycode al tastei Email"
+
+#~ msgid "E-Mail key's XKeycode, 0 to disable"
+#~ msgstr "Codul XKeycode al tastei Email, 0 pentru dezactivare"
+
+#~ msgid "Eject key's XKeycode"
+#~ msgstr "Codul XKeycode al tastei Eject"
+
+#~ msgid "Eject key's XKeycode, 0 to disable"
+#~ msgstr "Codul XKeycode al tastei Eject, 0 pentru dezactivare"
+
+#~ msgid "Finance key's XKeycode"
+#~ msgstr "Codul XKeycode al tastei Finanţe"
+
+#~ msgid "Finance key's XKeycode, 0 to disable"
+#~ msgstr "Codul XKeycode al tastei Finanţe, 0 pentru dezactivare"
+
+#~ msgid "Groups key's XKeycode"
+#~ msgstr "Codul XKeycode al tastei Grupuri"
+
+#~ msgid "Groups key's XKeycode, 0 to disable"
+#~ msgstr "Codul XKeycode al tastei Grupuri, 0 pentru dezactivare"
+
+#~ msgid "Help key's XKeycode"
+#~ msgstr "Codul XKeycode al tastei Ajutor"
+
+#~ msgid "Help key's XKeycode, 0 to disable"
+#~ msgstr "Codul XKeycode al tastei Ajutor, 0 pentru dezactivare"
+
+#~ msgid "Mute key's XKeycode"
+#~ msgstr "Codul XKeycode al tastei Amuţire"
+
+#~ msgid "Mute key's XKeycode, 0 to disable"
+#~ msgstr "Codul XKeycode al tastei Amuţire, 0 pentru dezactivare"
+
+#~ msgid "My Home key's XKeycode"
+#~ msgstr "Codul XKeycode al tastei Acasă"
+
+#~ msgid "My Home key's XKeycode, 0 to disable"
+#~ msgstr "Codul XKeycode al tastei Acasă, 0 pentru dezactivare"
+
+#~ msgid "Next key's XKeycode"
+#~ msgstr "Codul XKeycode al tastei Înainte"
+
+#~ msgid "Next key's XKeycode, 0 to disable"
+#~ msgstr "Codul XKeycode al tastei Înainte, 0 pentru dezactivare"
+
+#~ msgid "Pause key's XKeycode"
+#~ msgstr "Codul XKeycode al tastei Pauză"
+
+#~ msgid "Pause key's XKeycode, 0 to disable"
+#~ msgstr "Codul XKeycode al tastei Pauză, 0 pentru dezactivare"
+
+#~ msgid "Play key's XKeycode"
+#~ msgstr "Codul XKeycode al tastei Redare"
+
+#~ msgid "Play key's XKeycode, 0 to disable"
+#~ msgstr "Codul XKeycode al tastei Redare, 0 pentru dezactivare"
+
+#~ msgid "Power key's XKeycode"
+#~ msgstr "Codul XKeycode al tastei Oprire"
+
+#~ msgid "Power key's XKeycode, 0 to disable"
+#~ msgstr "Codul XKeycode al tastei Oprire, 0 pentru dezactivare"
+
+#~ msgid "Previous key's XKeycode"
+#~ msgstr "Codul XKeycode al tastei Înapoi"
+
+#~ msgid "Previous key's XKeycode, 0 to disable"
+#~ msgstr "Codul XKeycode al tastei Înapoi, 0 pentru dezactivare"
+
+#~ msgid "Record key's XKeycode"
+#~ msgstr "Codul XKeycode al tastei Înregistrare"
+
+#~ msgid "Record key's XKeycode, 0 to disable"
+#~ msgstr "Codul XKeycode al tastei Înregistrare, 0 pentru dezactivare"
+
+#~ msgid "Refresh key's XKeycode"
+#~ msgstr "Codul XKeycode al tastei Reactualizare"
+
+#~ msgid "Refresh key's XKeycode, 0 to disable"
+#~ msgstr "Codul XKeycode al tastei Reactualizare, 0 pentru dezactivare"
+
+#~ msgid "Screensaver key's XKeycode"
+#~ msgstr "Codul XKeycode al tastei Protecţie ecran"
+
+#~ msgid "Screensaver key's XKeycode, 0 to disable"
+#~ msgstr "Codul XKeycode al tastei Protecţie ecran, 0 pentru dezactivare"
+
+#~ msgid "Search key's XKeycode"
+#~ msgstr "Codul XKeycode al tastei Căutare"
+
+#~ msgid "Search key's XKeycode, 0 to disable"
+#~ msgstr "Codul XKeycode al tastei Căutare, 0 pentru dezactivare"
+
+#~ msgid "Shade Window key's XKeycode"
+#~ msgstr "Codul XKeycode al tastei Umbrire fereastră"
+
+#~ msgid "Shade Window key's XKeycode, 0 to disable"
+#~ msgstr "Codul XKeycode al tastei Umbrire fereastră, 0 pentru dezactivare"
+
+#~ msgid "Sleep key's XKeycode"
+#~ msgstr "Codul XKeycode al tastei Adormire"
+
+#~ msgid "Sleep key's XKeycode, 0 to disable"
+#~ msgstr "Codul XKeycode al tastei Adormire, 0 pentru dezactivare"
+
+#~ msgid "Sound file to be played when volume is changed"
+#~ msgstr "Fişier multimedia de redat la schimbarea volumului"
+
+#~ msgid "Volume down key's XKeycode"
+#~ msgstr "Codul XKeycode al tastei Volum mişorat"
+
+#~ msgid "Volume down key's XKeycode, 0 to disable"
+#~ msgstr "Codul XKeycode al tastei Volum micşorat, 0 pentru dezactivare"
+
+#, fuzzy
+#~ msgid "Volume step"
+#~ msgstr "Volum"
+
+#~ msgid "Volume up key's XKeycode"
+#~ msgstr "Codul XKeycode al tastei Volum mărit"
+
+#~ msgid "Volume up key's XKeycode, 0 to disable"
+#~ msgstr "Codul XKeycode al tastei Volum mărit, 0 pentru dezactivare"
+
+#~ msgid "WWW key's XKeycode"
+#~ msgstr "Codul XKeycode al tastei Net"
+
+#~ msgid "WWW key's XKeycode, 0 to disable"
+#~ msgstr "Codul XKeycode al tastei Net, 0 pentru dezactivare"
+
+#~ msgid "Accelerator key"
+#~ msgstr "Tastă acceleratoare"
+
+#~ msgid "Accelerator modifiers"
+#~ msgstr "Modificatori accelerare"
+
+#~ msgid "Accelerator Mode"
+#~ msgstr "Mod accelerare"
+
+#~ msgid "The type of accelerator."
+#~ msgstr "Tipul acceleratorului."
+
+#~ msgid "Type a new accelerator, or press Backspace to clear"
+#~ msgstr ""
+#~ "Introduceţi un noi accelerator, sau apăsaţi Backspace pentru ştergere"
+
+#~ msgid "Type a new accelerator"
+#~ msgstr "Introduceţi un nou accelerator"
+
+#~ msgid "_Launch the multimedia key daemon"
+#~ msgstr "_Porneşte demonul tastelor multimedia"

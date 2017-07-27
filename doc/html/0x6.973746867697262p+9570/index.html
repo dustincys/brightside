@@ -1,0 +1,358 @@
+<html>
+	<head>
+		<style type="text/css">
+			span { font-size: 20px }
+			div#field { position: absolute; }
+			span#snake { position: absolute; visibility: hidden;
+				left: 0; top: 0 }
+			span#snake > * { position: absolute; 
+				background: inherit; width: 20; height: 20; }
+			span#snake * { visibility: inherit; }
+			span.food { position: absolute; visibility: hidden;
+				left: 0; top: 0 }
+			span.food * { visibility: inherit; }
+			span.food > * { position: absolute;
+				background: inherit; width: 20; height: 20; }
+		</style>
+	</head>
+<script>
+	function init() {
+		var field = document.getElementById("field");
+		var snake = document.getElementById("snake");
+
+		field.left = parseInt(field.style.left);
+		field.top = parseInt(field.style.top);
+		field.gridSize = 20;
+		field.w = parseInt(field.style.width) / field.gridSize;
+		field.h = parseInt(field.style.height) / field.gridSize;
+		field.rows = new Array(field.w);
+		for ( var i = 0; i < field.rows.length; i++ ) {
+			field.rows[i] = new Array(field.h);
+			for ( var j = 0; j < field.rows[i].length; j++ )
+				field.rows[i][j] = null;
+		}
+		field.objectAt = new Function("x", "y", "return(document.getElementById('field').rows[x][y]);");
+		field.snakeAt = new Function("x", "y", "return(document.getElementById('field').objectAt(x, y) ? document.getElementById('field').objectAt(x, y).isSegment : false);");
+		field.foodAt = new Function("x", "y", "return(document.getElementById('field').objectAt(x, y) ? document.getElementById('field').objectAt(x, y).isFood : false);");
+		field.food = new Array();
+		
+		snake.left = parseInt(snake.style.left);
+		snake.top = parseInt(snake.style.top);
+		snake.direction = 0;
+		snake.dX = new Function("return (document.getElementById('snake').direction % 2) * (2 - document.getElementById('snake').direction);");
+		snake.dY = new Function("return ((document.getElementById('snake').direction + 1) % 2) * (1 - document.getElementById('snake').direction);");
+		var i;
+		var j;
+		var k;
+		var l;
+		snake.pipeline = new Array();
+		for ( i = 0, j = 0; i < snake.childNodes.length; i++ ) {
+			if ( snake.childNodes[i].nodeType == 1 ) {
+				if ( snake.childNodes[i].loaded == undefined || !snake.childNodes[i].loaded )
+					snake.pipeline[j++] = snake.childNodes[i];
+			}
+			else if ( snake.childNodes[i].nodeType == 3 ) {
+				var text = snake.childNodes[i].nodeValue;
+				for ( k = 0; k < text.length; k++ ) {
+					if ( text[k].search(/\s/) != -1 ) continue;
+					snake.pipeline[j++] = makeBlock(text[k], snake);
+				}
+			}
+		}
+		snake.segment = new Array();
+		snake.segment[0] = snake.pipeline[0];
+		snake.pipeline[0].style.display = "inline";
+		snake.pipeline[0].style.visibility = "visible";
+		snake.pipeline[0].isSegment = true;
+		snake.pipeline = snake.pipeline.slice(1);
+		var spans = document.getElementsByTagName("span");
+		for ( i = 0; i < spans.length; i++ )
+			if ( spans[i].className == "food" ) {
+				field.food[field.food.length] = spans[i];
+				spans[i].isFood = true;
+				spans[i].icon = spans[i].childNodes[j];
+				spans[i].pipeline = new Array();
+				for ( j = 0, k = 0; j < spans[i].childNodes.length; j++ ) {
+					if ( spans[i].childNodes[j].nodeType == 1 ) {
+						if ( spans[i].childNodes[j].loaded == undefined || !spans[i].childNodes[j].loaded )
+							spans[i].pipeline[k++] = spans[i].childNodes[j];
+					}
+					else if ( spans[i].childNodes[j].nodeType == 3 ) {
+						var text = spans[i].childNodes[j].nodeValue;
+						for ( l = 0; l < text.length; l++ ) {
+							if ( text[l].search(/\s/) != -1 ) continue;
+							spans[i].pipeline[k++] = makeBlock(text[l], spans[i]);
+						}
+					}
+				}
+				spans[i].icon = spans[i].pipeline[0];
+				spans[i].pipeline = spans[i].pipeline.slice(1);
+			}
+		beginGame();
+	}
+		
+	function beginGame() {
+		var field = document.getElementById("field");
+		var snake = document.getElementById("snake");
+
+		var x = Math.floor(Math.random() * field.w);
+		var y = Math.floor(Math.random() * field.h);
+		var i = Math.floor(Math.random() * field.food.length);
+		field.rows[x][y] = field.food[i];
+		field.food[i].icon.style.left = field.left + x * field.gridSize;
+		field.food[i].icon.style.top = field.top + y * field.gridSize;
+		field.food[i].icon.style.display = "inline";
+		field.food[i].icon.style.visibility = "visible";
+		
+		do {
+			x = Math.floor(Math.random() * field.w);
+			y = Math.floor(Math.random() * field.h);
+		} while ( field.objectAt(x,y) !== null )
+			snake.segment[0].x = x;
+			snake.segment[0].y = y;
+			snake.segment[0].style.left = field.left + x * field.gridSize;
+			snake.segment[0].style.top = field.top + y * field.gridSize;
+			snake.segment[0].style.display = "inline";
+			snake.segment[0].style.visibility = "visible";
+			snake.direction = Math.floor(Math.random() * 4);
+			window.setTimeout("tick();", 100);
+		}
+		
+	function tick() {
+		var field = document.getElementById("field");
+		var snake = document.getElementById("snake");
+
+		aI();
+		if ( snake.pipeline.length > 0 ) {
+			snake.segment[snake.segment.length] = snake.pipeline[0];
+			snake.pipeline[0].style.display = "inline";
+			snake.pipeline[0].style.visibility = "visible";
+			snake.pipeline[0].isSegment = true;
+			snake.pipeline = snake.pipeline.slice(1);
+		} else {
+			field.rows[snake.segment[snake.segment.length - 1].x][snake.segment[snake.segment.length - 1].y] = null;
+		}
+		for ( var i = snake.segment.length - 1; i > 0; i-- ) {
+			snake.segment[i].x = snake.segment[i-1].x;
+			snake.segment[i].y = snake.segment[i-1].y;
+			field.rows[snake.segment[i].x][snake.segment[i].y] = snake.segment[i];
+			snake.segment[i].style.left = snake.segment[i-1].style.left;
+			snake.segment[i].style.top = snake.segment[i-1].style.top;
+		}
+		var x = snake.segment[0].x += snake.dX();
+		var y = snake.segment[0].y += snake.dY();
+		snake.segment[0].style.left = field.left + x * field.gridSize;
+		snake.segment[0].style.top = field.top + y * field.gridSize;
+		if ( x < 0 || y < 0 || x >= field.w || y >= field.h || field.snakeAt(x,y) )
+			die();
+		else {
+			if ( field.foodAt(x,y) )
+				eat(x,y);
+			field.rows[x][y] = snake.segment[0];
+			window.setTimeout("tick();", 100);
+		}
+	}
+	
+	function aI() {
+		var field = document.getElementById("field");
+		var snake = document.getElementById("snake");
+
+		var x = snake.segment[0].x;
+		var y = snake.segment[0].y;
+		var canSeeFood = false;
+		
+		do {
+			x += snake.dX();
+			y += snake.dY();
+			if ( x < 0 || y < 0 || x >= field.w || y >= field.h || field.snakeAt(x,y) ) break;
+			if ( field.foodAt(x,y) ) canSeeFood = true;
+		} while (!canSeeFood)
+		
+		if (!canSeeFood) {
+			var oldDir = snake.direction
+			if (Math.random() < 0.5) {
+				snake.direction = (snake.direction + 1) % 4;
+				x = snake.segment[0].x;
+				y = snake.segment[0].y;
+				do {
+					x += snake.dX();
+					y += snake.dY();
+					if ( x < 0 || y < 0 || x >= field.w || y >= field.h || field.snakeAt(x,y) ) break;
+					if ( field.foodAt(x,y) ) canSeeFood = true;
+				} while (!canSeeFood)
+				if (!canSeeFood) {
+					snake.direction = (snake.direction + 2) % 4;
+					x = snake.segment[0].x;
+					y = snake.segment[0].y;
+					do {
+						x += snake.dX();
+						y += snake.dY();
+						if ( x < 0 || y < 0 || x >= field.w || y >= field.h || field.snakeAt(x,y) ) break;
+						if ( field.foodAt(x,y) ) canSeeFood = true;
+					} while (!canSeeFood)
+				}
+			} else {
+				x = snake.segment[0].x;
+				y = snake.segment[0].y;
+				snake.direction = (snake.direction + 3) % 4;
+				do {
+					x += snake.dX();
+					y += snake.dY();
+					if ( x < 0 || y < 0 || x >= field.w || y >= field.h || field.snakeAt(x,y) ) break;
+					if ( field.foodAt(x,y) ) canSeeFood = true;
+				} while (!canSeeFood)
+				if (!canSeeFood) {
+					x = snake.segment[0].x;
+					y = snake.segment[0].y;
+					snake.direction = (snake.direction + 2) % 4;
+					do {
+						x += snake.dX();
+						y += snake.dY();
+						if ( x < 0 || y < 0 || x >= field.w || y >= field.h || field.snakeAt(x,y) ) break;
+						if ( field.foodAt(x,y) ) canSeeFood = true;
+					} while (!canSeeFood)
+				}
+			}
+			if (!canSeeFood)  {
+				snake.direction = oldDir;
+				if (Math.random() < 0.8) ;
+				else if (Math.random() < 0.5) snake.direction = (snake.direction + 1) % 4;
+				else snake.direction = (snake.direction + 3) % 4;
+			}
+		}
+		
+		x = snake.segment[0].x + snake.dX();
+		y = snake.segment[0].y + snake.dY();
+		if ( x < 0 || y < 0 || x >= field.w || y >= field.h || field.snakeAt(x,y) ) {
+			var i = 0;
+			if (Math.random() < 0.5)
+				do {
+					snake.direction = (snake.direction + 1) % 4;
+					x = snake.segment[0].x + snake.dX();
+					y = snake.segment[0].y + snake.dY();
+					i++;
+				} while (i < 3 && ( x < 0 || y < 0 || x >= field.w || y >= field.h || field.snakeAt(x,y) ) )
+			else
+				do {
+					snake.direction = (snake.direction + 3) % 4;
+					x = snake.segment[0].x + snake.dX();
+					y = snake.segment[0].y + snake.dY();
+					i++;
+				} while (i < 3 && ( x < 0 || y < 0 || x >= field.w || y >= field.h || field.snakeAt(x,y) ) )
+		}
+	}
+	
+	function die() {
+		location.reload();
+	}
+	
+	function eat(x,y) {
+		var field = document.getElementById("field");
+		var snake = document.getElementById("snake");
+
+		snake.pipeline = snake.pipeline.concat( field.rows[x][y].pipeline );
+		field.rows[x][y].icon.style.display = "none";
+		if (field.food.length == 0)
+			location.reload();
+		else {
+			var i;
+			var j;
+			var food = new Array(field.food.length - 1);
+			for ( i = 0, j = 0; i < field.food.length; i++ )
+				if ( field.food[i] !== field.rows[x][y] )
+					food[j++] = field.food[i];
+			field.food = food;
+			field.rows[x][y] = null;
+			if (field.food.length > 0) {
+				var x2;
+				var y2;
+				var i = Math.floor(Math.random() * field.food.length);
+				do {
+					x2 = Math.floor(Math.random() * field.w);
+					y2 = Math.floor(Math.random() * field.h);
+				} while ( field.rows[x2][y2] !== null )
+				field.rows[x2][y2] = field.food[i];
+				field.food[i].icon.style.left = field.left + x2 * field.gridSize;
+				field.food[i].icon.style.top = field.top + y2 * field.gridSize;
+				field.food[i].icon.style.display = "inline";
+				field.food[i].icon.style.visibility = "visible";
+			}
+		}
+	}
+
+	function makeBlock(c, p) {
+		var t = document.createTextNode(c);
+		var s = document.createElement("span");
+		var d = document.createElement("div");
+		s.appendChild(t);
+		s.style.position = "relative";
+		s.style.top = "-3";
+		d.appendChild(s);
+		d.style.position = "absolute";
+		d.style.display = "none";
+		d.style.background = "inherit";
+		d.style.overflow = "hidden";
+		d.style.textAlign = "center";
+		d.style.verticalAlign = "top";
+		d.style.width = "20";
+		d.style.height = "20";
+		d.loaded = true;
+		p.appendChild(d);
+		return d;
+	}
+</script>
+<body onload="init()">
+	<img style="position: absolute; left: 8px; top: 8px"
+	src="brightside.png" />
+	<div id="field" style="width: 560px; height: 400px; 
+		left: 90px; top: 73px;"></div>
+	<img style="position: absolute; left: 8px; top: 8px; z-index: 1"
+	src="corners.png" />
+	<span id="snake" style="background: #bedded">
+		<div><div style="padding: 3"><div style="border: 3px solid green; width: 8; height: 8; background: blue !important"></div></div></div>
+		Thanks for running Brightside!
+	</span>
+	<span class="food" style="background: orange">
+		&bull;
+		a&nbsp;small&nbsp;tool&nbsp;to&nbsp;do&nbsp;what&nbsp;Metacity&nbsp;doesn't
+	</span>
+	<span class="food" style="background: yellow">
+		&loz;
+		Mute volume (uses the OSS mixer by default, then ALSA; the ALSA
+		code doesn't work too well)
+	</span>
+	<span class="food" style="background: lime">
+		&spades;
+		Prevent screensaver starting (implemented by running 
+		xscreensaver-command -deactivate every 30 seconds)
+	</span>
+	<span class="food" style="background: aqua">
+		&clubs;
+		Start screensaver and lock screen (using 
+		xscreensaver-command -lock)
+	</span>
+	<span class="food" style="background: navy">
+		&hearts;
+		Enter DPMS standby mode (using xset dpms force standby)
+	</span>
+	<span class="food" style="background: purple">
+		&diams;
+		Enter DPMS suspend mode
+	</span>
+	<span class="food" style="background: olive">
+		&infin;
+		Dim laptop backlight (kernel 2.4.18-rc2-benh minimum, 
+		PowerBooks only)
+	</span>
+	<span class="food" style="background: teal">
+		&iquest;
+		Custom action
+	</span>
+	<span class="food" style="background: #cabbed">
+		<div><div style="width: 14px; height: 14px; border: 3px solid black; background: white"></div></div></div>
+		Flip to adjacent workspace when mouse pointer rests on edge of 
+		screen (needs special Metacity for best results)
+	</span>
+	</div>
+</body>
+</html>

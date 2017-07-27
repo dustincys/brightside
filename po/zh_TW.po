@@ -1,0 +1,763 @@
+# traditional Chinese translation of Brightside.
+# Copyright (C) 2003 Free Software Foundation, Inc.
+# Abel Cheung <maddog@linux.org.hk>, 2003.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Brightside 2.0.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-01-16 02:13+0000\n"
+"PO-Revision-Date: 2003-03-17 18:42+0800\n"
+"Last-Translator: Abel Cheung <maddog@linux.org.hk>\n"
+"Language-Team: Chinese (traditional) <zh-l10n@linux.org.tw>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/brightside.c:224
+#, c-format
+msgid ""
+"Couldn't execute command: %s\n"
+"Verify that this command exists."
+msgstr ""
+"無法執行指令：%s\n"
+"請確定該指令已經存在。"
+
+#: src/brightside.c:243
+#, c-format
+msgid ""
+"Permissions on the file %s are broken\n"
+"Please check Brightside's documentation, correct the problem and restart "
+"Brightside."
+msgstr ""
+"檔案 %s 的權限不正確\n"
+"請參考 Brightside 的文件，修正問題後再重新啟動 Brightside。"
+
+#: src/brightside.c:487
+msgid "translator_credits"
+msgstr ""
+"i18n 程式中文化計劃\n"
+"http://i18n.linux.org.tw/\n"
+"\n"
+"Abel Cheung <maddog@linux.org.hk>, 2003"
+
+#: src/brightside.c:498
+msgid "Brightside"
+msgstr "Brightside"
+
+#: src/brightside.c:500 src/brightside.c:573
+msgid "Screen Corners and Edges daemon"
+msgstr ""
+
+#: src/brightside.c:579
+msgid "Screen Corners and Edges daemon active"
+msgstr ""
+
+#: src/brightside.c:1733
+msgid "Daemon already running, exiting...\n"
+msgstr ""
+
+#: src/brightside.c:1742
+msgid ""
+"Couldn't load the Glade file.\n"
+"Make sure that this daemon is properly installed."
+msgstr ""
+"無法載入 Glade 檔案。\n"
+"請確定已經正確安裝本伺服程式。"
+
+#: src/brightside.glade.h:1
+msgid "Volume"
+msgstr "音量"
+
+#: src/brightside.h:65
+#, fuzzy
+msgid "Mute volume"
+msgstr "靜音按鈕"
+
+#: src/brightside.h:67
+msgid "Prevent screensaver starting"
+msgstr ""
+
+#: src/brightside.h:69
+#, fuzzy
+msgid "Start screensaver"
+msgstr "螢幕保護按鈕"
+
+#: src/brightside.h:71
+msgid "Enter DPMS standby mode"
+msgstr ""
+
+#: src/brightside.h:73
+msgid "Enter DPMS suspend mode"
+msgstr ""
+
+#: src/brightside.h:75
+msgid "Enter DPMS off mode"
+msgstr ""
+
+#: src/brightside.h:78
+msgid "Dim laptop backlight"
+msgstr ""
+
+#: src/brightside.h:81
+msgid "Custom action..."
+msgstr ""
+
+#: src/brightside-properties.c:283 src/brightside-properties.glade.h:9
+#: src/brightside.desktop.in.h:2
+msgid "Screen Corners and Edges"
+msgstr ""
+
+#: src/brightside-properties.glade.h:1 src/custom-action.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: src/brightside-properties.glade.h:2
+msgid "<small><i>Long</i></small>"
+msgstr ""
+
+#: src/brightside-properties.glade.h:3
+msgid "<small><i>Short</i></small>"
+msgstr ""
+
+#: src/brightside-properties.glade.h:4
+#, fuzzy
+msgid "<span weight=\"bold\">Screen Corners</span>"
+msgstr "<span weight=\"bold\">音效設定</span>"
+
+#: src/brightside-properties.glade.h:5
+#, fuzzy
+msgid "<span weight=\"bold\">Screen Edges</span>"
+msgstr "<span weight=\"bold\">音效設定</span>"
+
+#: src/brightside-properties.glade.h:6
+#, fuzzy
+msgid "Action to take while mouse is placed in corner of screen"
+msgstr "當按下退出碟片按鈕時執行的指令"
+
+#: src/brightside-properties.glade.h:7
+msgid "Bottom r_ight corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:8
+msgid "D_elay:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:10
+msgid "Switch to _adjacent workspace when mouse is moved to edge of screen"
+msgstr ""
+
+#: src/brightside-properties.glade.h:11
+msgid "Top _right corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:12
+msgid "When switching workspace, _wrap around edges of workspace layout"
+msgstr ""
+
+#: src/brightside-properties.glade.h:13
+msgid "_Bottom left corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:14
+msgid "_Configurable actions"
+msgstr ""
+
+#: src/brightside-properties.glade.h:15
+msgid "_Delay:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:16
+msgid "_Switch to diagonally adjacent workspace"
+msgstr ""
+
+#: src/brightside-properties.glade.h:17
+msgid "_Top left corner:"
+msgstr ""
+
+#: src/brightside.desktop.in.h:1
+#, fuzzy
+msgid "Configure screen-edge behaviour"
+msgstr "設定多媒體按鈕的運作方式"
+
+#: src/brightside.schemas.in.h:1
+msgid "Action enabled when mouse is in bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:2
+msgid "Action enabled when mouse is in bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:3
+msgid "Action enabled when mouse is in top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:4
+msgid "Action enabled when mouse is in top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:5
+msgid "Action to occur when mouse is in bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:6
+msgid "Action to occur when mouse is in bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:7
+msgid "Action to occur when mouse is in top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:8
+msgid "Action to occur when mouse is in top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:9
+msgid "After flip command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:10
+msgid "Bottom left corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:11
+msgid "Bottom left corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:12
+msgid "Bottom left corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:13
+msgid "Bottom left corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:14
+msgid "Bottom left corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:15
+msgid "Bottom right corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:16
+msgid "Bottom right corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:17
+msgid "Bottom right corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:18
+msgid "Bottom right corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:19
+msgid "Bottom right corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:20
+msgid "Command to execute after flipping workspace (empty string for none)"
+msgstr ""
+
+#: src/brightside.schemas.in.h:21
+msgid "Corner delay"
+msgstr ""
+
+#: src/brightside.schemas.in.h:22
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse enters bottom left corner of screen"
+msgstr "當按下退出碟片按鈕時執行的指令"
+
+#: src/brightside.schemas.in.h:23
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse enters bottom right corner of screen"
+msgstr "當按下退出碟片按鈕時執行的指令"
+
+#: src/brightside.schemas.in.h:24
+#, fuzzy
+msgid "Custom command to execute when mouse enters top left corner of screen"
+msgstr "當按下退出碟片按鈕時執行的指令"
+
+#: src/brightside.schemas.in.h:25
+#, fuzzy
+msgid "Custom command to execute when mouse enters top right corner of screen"
+msgstr "當按下退出碟片按鈕時執行的指令"
+
+#: src/brightside.schemas.in.h:26
+#, fuzzy
+msgid "Custom command to execute when mouse exits bottom left corner of screen"
+msgstr "當按下退出碟片按鈕時執行的指令"
+
+#: src/brightside.schemas.in.h:27
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse exits bottom right corner of screen"
+msgstr "當按下退出碟片按鈕時執行的指令"
+
+#: src/brightside.schemas.in.h:28
+#, fuzzy
+msgid "Custom command to execute when mouse exits top left corner of screen"
+msgstr "當按下退出碟片按鈕時執行的指令"
+
+#: src/brightside.schemas.in.h:29
+#, fuzzy
+msgid "Custom command to execute when mouse exits top right corner of screen"
+msgstr "當按下退出碟片按鈕時執行的指令"
+
+#: src/brightside.schemas.in.h:30
+msgid "Delay in milliseconds before edge flip occurs"
+msgstr ""
+
+#: src/brightside.schemas.in.h:31
+msgid "Delay in milliseconds before screen corner action occurs"
+msgstr ""
+
+#: src/brightside.schemas.in.h:32
+msgid "Edge delay"
+msgstr ""
+
+#: src/brightside.schemas.in.h:33
+msgid "Edge wrap"
+msgstr ""
+
+#: src/brightside.schemas.in.h:34
+#, fuzzy
+msgid "Enable corner flip"
+msgstr "己經啟用"
+
+#: src/brightside.schemas.in.h:35
+#, fuzzy
+msgid "Enable edge flip"
+msgstr "己經啟用"
+
+#: src/brightside.schemas.in.h:36
+msgid "Orientable workspaces"
+msgstr ""
+
+#: src/brightside.schemas.in.h:37
+msgid ""
+"Switch to diagonally adjacent workspace when mouse placed in the corner of "
+"the screen, instead of executing a configurable action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:38
+msgid ""
+"Switch to the adjacent workspace when the mouse reaches the edge of the "
+"screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:39
+msgid "Terminate custom command when mouse exits bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:40
+msgid "Terminate custom command when mouse exits bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:41
+msgid "Terminate custom command when mouse exits top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:42
+msgid "Terminate custom command when mouse exits top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:43
+msgid "Top left corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:44
+msgid "Top left corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:45
+msgid "Top left corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:46
+msgid "Top left corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:47
+msgid "Top left corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:48
+msgid "Top right corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:49
+msgid "Top right corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:50
+msgid "Top right corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:51
+msgid "Top right corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:52
+msgid "Top right corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:53
+msgid "Use PCM Volume instead of Master Volume"
+msgstr "使用 PCM 音量而不用主音量"
+
+#: src/brightside.schemas.in.h:54
+msgid "Whether workspace layout is orientable"
+msgstr ""
+
+#: src/brightside.schemas.in.h:55
+msgid "Wrap wround edges of workspace layout when flipping workspace"
+msgstr ""
+
+#: src/custom-action.glade.h:2
+msgid "*"
+msgstr ""
+
+#: src/custom-action.glade.h:3
+#, fuzzy
+msgid "<span weight=\"bold\">On _entering region</span>"
+msgstr "<span weight=\"bold\">按鈕設定</span>"
+
+#: src/custom-action.glade.h:4
+#, fuzzy
+msgid "<span weight=\"bold\">On leaving region</span>"
+msgstr "<span weight=\"bold\">音效設定</span>"
+
+#: src/custom-action.glade.h:5 src/custom-action.c:104
+msgid "Custom action"
+msgstr ""
+
+#: src/custom-action.glade.h:6
+msgid "_Run another command:"
+msgstr ""
+
+#: src/custom-action.glade.h:7
+msgid "_Terminate above application"
+msgstr ""
+
+#~ msgid ""
+#~ "Couldn't execute either command: %s\n"
+#~ "or command: %s\n"
+#~ "Verify that at least one of these commands exist."
+#~ msgstr ""
+#~ "無法執行指令：%s\n"
+#~ "或是指令：%s\n"
+#~ "請確定至少其中一個指令已經存在。"
+
+#~ msgid ""
+#~ "There was an error removing access to the multimedia keys.\n"
+#~ "Key %d couldn't be unbound."
+#~ msgstr ""
+#~ "當嘗試解除多媒體按鈕設定時出現錯誤。\n"
+#~ "按鈕 %d 無法解除。"
+
+#~ msgid ""
+#~ "It seems that another application already has access to the multimedia "
+#~ "keys.\n"
+#~ "Key %d couldn't be bound.\n"
+#~ "Is another daemon already running ?"
+#~ msgstr ""
+#~ "可能已經有另一個程式正在使用多媒體按鈕。\n"
+#~ "按鈕 %d 無法解除。\n"
+#~ "是不是另一個伺服程式正在執行？"
+
+#~ msgid "Multimedia keys daemon"
+#~ msgstr "多媒體按鈕伺服程式"
+
+#~ msgid "Multimedia Keys daemon active"
+#~ msgstr "多媒體按鈕伺服程式已經啟用"
+
+#~ msgid "Volume down key"
+#~ msgstr "降低音量按鈕"
+
+#~ msgid "Volume up key"
+#~ msgstr "提高音量按鈕"
+
+#~ msgid "Power key"
+#~ msgstr "電源按鈕"
+
+#~ msgid "Eject key"
+#~ msgstr "退出碟片按鈕"
+
+#~ msgid "Media key"
+#~ msgstr "媒體按鈕"
+
+#~ msgid "Play key"
+#~ msgstr "播放按鈕"
+
+#~ msgid "Pause key"
+#~ msgstr "暫停按鈕"
+
+#~ msgid "Stop (Audio) key"
+#~ msgstr "停止播放(樂曲)按鈕"
+
+#~ msgid "Previous (Audio) key"
+#~ msgstr "上一首(樂曲)按鈕"
+
+#~ msgid "Next (Audio) key"
+#~ msgstr "下一首(樂曲)按鈕"
+
+#~ msgid "My Home key"
+#~ msgstr "首頁按鈕"
+
+#~ msgid "Refresh key"
+#~ msgstr "重新整理按鈕"
+
+#~ msgid "Search key"
+#~ msgstr "搜尋按鈕"
+
+#~ msgid "E-Mail key"
+#~ msgstr "電郵按鈕"
+
+#~ msgid "Sleep key"
+#~ msgstr "暫停系統按鈕"
+
+#~ msgid "Finance key"
+#~ msgstr "理財按鈕"
+
+#~ msgid "Help key"
+#~ msgstr "求助按鈕"
+
+#~ msgid "WWW key"
+#~ msgstr "瀏覽器按鈕"
+
+#~ msgid "Groups key"
+#~ msgstr "群組按鈕"
+
+#~ msgid "Calculator key"
+#~ msgstr "計算機按鈕"
+
+#~ msgid "Record key"
+#~ msgstr "錄音按鈕"
+
+#~ msgid "Close Window key"
+#~ msgstr "關閉視窗按鈕"
+
+#~ msgid "Shade Window key"
+#~ msgstr "捲起視窗按鈕"
+
+#~ msgid "Brightness down key"
+#~ msgstr "降低亮度按鈕"
+
+#~ msgid "Brightness up key"
+#~ msgstr "提高亮度按鈕"
+
+#~ msgid "Disabled"
+#~ msgstr "暫停使用"
+
+#~ msgid ""
+#~ "This key is already bound to action '%s'.\n"
+#~ "Please select another key."
+#~ msgstr ""
+#~ "該按鈕已經有另一種用途：‘%s’。\n"
+#~ "請選取另一個按鈕。"
+
+#~ msgid "Description"
+#~ msgstr "說明"
+
+#~ msgid "Status"
+#~ msgstr "狀態"
+
+#~ msgid "Multimedia Keys Preferences"
+#~ msgstr "多媒體按鈕偏好設定"
+
+#~ msgid ""
+#~ "To assign a key to an action, click on a line, and press the key you want "
+#~ "to associate with it.\n"
+#~ "\"C\" cancels the capture, and \"Backspace\" disables the key shortcut."
+#~ msgstr ""
+#~ "如果要分配一個按鈕作為某種用途，請在相應的欄位按下滑鼠按鈕，並按下準備建立"
+#~ "聯繫的按鈕。\n"
+#~ "按“C”會取消擷取按鍵，而“Backspace”會暫停使用該捷徑鍵。"
+
+#~ msgid "Use _PCM volume instead of Master volume"
+#~ msgstr "使用 _PCM 音量而不用主音量"
+
+#~ msgid "Multimedia Keys"
+#~ msgstr "多媒體按鈕"
+
+#~ msgid "Brightness down key's XKeycode"
+#~ msgstr "降低亮度按鈕的 XKeycode"
+
+#~ msgid "Brightness down key's XKeycode, 0 to disable"
+#~ msgstr "降低亮度按鈕的 XKeycode，0 表示停止使用"
+
+#~ msgid "Brightness up key's XKeycode"
+#~ msgstr "提高亮度按鈕的 XKeycode"
+
+#~ msgid "Brightness up key's XKeycode, 0 to disable"
+#~ msgstr "提高亮度按鈕的 XKeycode，0 表示停止使用"
+
+#~ msgid "Calculator key's XKeycode"
+#~ msgstr "計算機按鈕的 XKeycode"
+
+#~ msgid "Calculator key's XKeycode, 0 to disable"
+#~ msgstr "計算機按鈕的 XKeycode，0 表示停止使用"
+
+#~ msgid "Close Window key's XKeycode"
+#~ msgstr "關閉視窗按鈕的 XKeycode"
+
+#~ msgid "Close Window key's XKeycode, 0 to disable"
+#~ msgstr "關閉視窗按鈕的 XKeycode，0 表示停止使用"
+
+#~ msgid "E-Mail key's XKeycode"
+#~ msgstr "電郵按鈕的 XKeycode"
+
+#~ msgid "E-Mail key's XKeycode, 0 to disable"
+#~ msgstr "電郵按鈕的 XKeycode，0 表示停止使用"
+
+#~ msgid "Eject key's XKeycode"
+#~ msgstr "退出碟片按鈕的 XKeycode"
+
+#~ msgid "Eject key's XKeycode, 0 to disable"
+#~ msgstr "退出碟片按鈕的 XKeycode，0 表示停止使用"
+
+#~ msgid "Finance key's XKeycode"
+#~ msgstr "理財按鈕的 XKeycode"
+
+#~ msgid "Finance key's XKeycode, 0 to disable"
+#~ msgstr "理財按鈕的 XKeycode，0 表示停止使用"
+
+#~ msgid "Groups key's XKeycode"
+#~ msgstr "群組按鈕的 XKeycode"
+
+#~ msgid "Groups key's XKeycode, 0 to disable"
+#~ msgstr "群組按鈕的 XKeycode，0 表示停止使用"
+
+#~ msgid "Help key's XKeycode"
+#~ msgstr "求助按鈕的 XKeycode"
+
+#~ msgid "Help key's XKeycode, 0 to disable"
+#~ msgstr "求助按鈕的 XKeycode，0 表示停止使用"
+
+#~ msgid "Mute key's XKeycode"
+#~ msgstr "靜音按鈕的 XKeycode"
+
+#~ msgid "Mute key's XKeycode, 0 to disable"
+#~ msgstr "靜音按鈕的 XKeycode，0 表示停止使用"
+
+#~ msgid "My Home key's XKeycode"
+#~ msgstr "首頁按鈕的 XKeycode"
+
+#~ msgid "My Home key's XKeycode, 0 to disable"
+#~ msgstr "首頁按鈕的 XKeycode，0 表示停止使用"
+
+#~ msgid "Next key's XKeycode"
+#~ msgstr "下一首(樂曲)按鈕的 XKeycode"
+
+#~ msgid "Next key's XKeycode, 0 to disable"
+#~ msgstr "下一首(樂曲)按鈕的 XKeycode，0 表示停止使用"
+
+#~ msgid "Pause key's XKeycode"
+#~ msgstr "暫停按鈕的 XKeycode"
+
+#~ msgid "Pause key's XKeycode, 0 to disable"
+#~ msgstr "暫停按鈕的 XKeycode，0 表示停止使用"
+
+#~ msgid "Play key's XKeycode"
+#~ msgstr "播放按鈕的 XKeycode"
+
+#~ msgid "Play key's XKeycode, 0 to disable"
+#~ msgstr "播放按鈕的 XKeycode，0 表示停止使用"
+
+#~ msgid "Power key's XKeycode"
+#~ msgstr "電源按鈕的 XKeycode"
+
+#~ msgid "Power key's XKeycode, 0 to disable"
+#~ msgstr "電源按鈕的 XKeycode，0 表示停止使用"
+
+#~ msgid "Previous key's XKeycode"
+#~ msgstr "上一首(樂曲)按鈕的 XKeycode"
+
+#~ msgid "Previous key's XKeycode, 0 to disable"
+#~ msgstr "上一首(樂曲)按鈕的 XKeycode，0 表示停止使用"
+
+#~ msgid "Record key's XKeycode"
+#~ msgstr "錄音按鈕的 XKeycode"
+
+#~ msgid "Record key's XKeycode, 0 to disable"
+#~ msgstr "錄音按鈕的 XKeycode，0 表示停止使用"
+
+#~ msgid "Refresh key's XKeycode"
+#~ msgstr "重新整理按鈕的 XKeycode"
+
+#~ msgid "Refresh key's XKeycode, 0 to disable"
+#~ msgstr "重新整理按鈕的 XKeycode，0 表示停止使用"
+
+#~ msgid "Screensaver key's XKeycode"
+#~ msgstr "螢幕保護按鈕的 XKeycode"
+
+#~ msgid "Screensaver key's XKeycode, 0 to disable"
+#~ msgstr "螢幕保護按鈕的 XKeycode，0 表示停止使用"
+
+#~ msgid "Search key's XKeycode"
+#~ msgstr "搜尋按鈕的 XKeycode"
+
+#~ msgid "Search key's XKeycode, 0 to disable"
+#~ msgstr "搜尋按鈕的 XKeycode，0 表示停止使用"
+
+#~ msgid "Shade Window key's XKeycode"
+#~ msgstr "捲起視窗按鈕的 XKeycode"
+
+#~ msgid "Shade Window key's XKeycode, 0 to disable"
+#~ msgstr "捲起視窗按鈕的 XKeycode，0 表示停止使用"
+
+#~ msgid "Sleep key's XKeycode"
+#~ msgstr "暫停系統按鈕的 XKeycode"
+
+#~ msgid "Sleep key's XKeycode, 0 to disable"
+#~ msgstr "暫停系統按鈕的 XKeycode，0 表示停止使用"
+
+#~ msgid "Sound file to be played when volume is changed"
+#~ msgstr "當音量改變時播放的音效檔"
+
+#~ msgid "Volume down key's XKeycode"
+#~ msgstr "降低音量按鈕的 XKeycode"
+
+#~ msgid "Volume down key's XKeycode, 0 to disable"
+#~ msgstr "降低音量按鈕的 XKeycode，0 表示停止使用"
+
+#, fuzzy
+#~ msgid "Volume step"
+#~ msgstr "音量"
+
+#~ msgid "Volume up key's XKeycode"
+#~ msgstr "提高音量按鈕的 XKeycode"
+
+#~ msgid "Volume up key's XKeycode, 0 to disable"
+#~ msgstr "提高音量按鈕的 XKeycode，0 表示停止使用"
+
+#~ msgid "WWW key's XKeycode"
+#~ msgstr "瀏覽器按鈕的 XKeycode"
+
+#~ msgid "WWW key's XKeycode, 0 to disable"
+#~ msgstr "瀏覽器按鈕的 XKeycode，0 表示停止使用"
+
+#~ msgid "Accelerator key"
+#~ msgstr "捷徑鍵"
+
+#~ msgid "Accelerator modifiers"
+#~ msgstr "捷徑鍵中的特殊按鍵"
+
+#~ msgid "Accelerator Mode"
+#~ msgstr "捷徑鍵模式"
+
+#~ msgid "The type of accelerator."
+#~ msgstr "捷徑鍵的類型。"
+
+#~ msgid "Type a new accelerator, or press Backspace to clear"
+#~ msgstr "請輸入新的捷徑鍵，或是按 Backspace 清除捷徑鍵"
+
+#~ msgid "Type a new accelerator"
+#~ msgstr "請輸入新的捷徑鍵"
+
+#~ msgid "_Launch the multimedia key daemon"
+#~ msgstr "啟動多媒體按鈕伺服程式(_L)"

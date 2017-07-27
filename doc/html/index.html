@@ -1,0 +1,318 @@
+<!DOCTYPE html 
+	PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<title>Brightside</title>
+	</head>
+	<body>
+		<h3><a name="TOP">
+				<acronym title="Brightside Renders Into Gnome Helpful Things Such as are In Other Desktop Environments">
+					Brightside
+				</acronym>
+		</a></h3>
+		<p><dfn><acronym>Brightside</acronym> Renders Into 
+			<acronym title="GNU Network Oriented Model Environment">
+				Gnome</acronym> Helpful Things Such as are In 
+			Other Desktop Environments</dfn>
+		<sup><a href="#acronym">&dagger;</a></sup></p>
+		<p><a href="#logo">
+			<img src="brightside.png" 
+			alt="The Brightside logo" 
+			title="The Brightside logo"/>
+		</a></p>
+		<p>The <acronym>Brightside</acronym> Screen Corners and Edges 
+		daemon</p>
+		<hr />
+		<h4>Table of contents</h4>
+		<ul>
+			<li><a href="#introduction" name="TOCintroduction">
+				Introduction to <acronym>Brightside</acronym>
+			</a></li>
+			<li><a href="#opinions" name="TOCopinions">
+				Opinions</a>
+			(or, why not to use <acronym>Brightside</acronym>)</li>
+			<li><a href="#screenshots" name="TOCscreenshots">
+				Screenshots of <acronym>Brightside</acronym>
+			</a></li>
+			<li><a href="#downloading" name="TOCdownloading">
+			       Downloading <acronym>Brightside</acronym>
+			</a></li>
+			<li><a href="#logo" name="TOClogo">
+			       The <acronym>Brightside</acronym> logo
+			</a></li>
+		</ul>
+		<hr />
+		<h4><a href="#TOCintroduction" name="introduction">
+				Introduction to <acronym>Brightside</acronym>
+		</a></h4>
+		<p><acronym>Brightside</acronym> is a tool to add reactivity to 
+		the corners and edges of your <acronym>Gnome</acronym> desktop.
+		</p>
+		<p><acronym>Brightside</acronym> provides &lsquo;edge 
+		flipping&rsquo; to allow you to	switch to the adjacent 
+		workspace simply by pressing your mouse	against the edge of 
+		the screen.</p>
+		<p><acronym>Brightside</acronym> also allows you to assign 
+		configurable actions to	occur while you rest the mouse in a 
+		corner of the screen. Currently available actions comprise: 
+		</p>
+		<ul>
+			<li>Fade out volume</li>
+			<li>Prevent screensaver starting</li>
+			<li>Start screensaver and lock screen</li>
+			<li>Enter <abbr title="Display Power Management Signaling">DPMS</abbr> 
+			standby mode</li>
+			<li>Enter <abbr>DPMS</abbr> suspend mode</li>
+			<li>Enter <abbr>DPMS</abbr> off mode</li>
+			<li>Dim laptop backlight </li>
+			<li>Custom action</li>
+		</ul>
+		<p>The actions are reversed when the pointer leaves the corner
+		&mdash; if you wish to prevent the screen being locked you have
+		until the action progress bar fills up (1 second, as it 
+		happens). Custom actions comprise a command to run upon
+		entering the corner, and a decision to either kill that process
+		upon leaving the corner or run another command.
+		</p>
+		<p>Alternatively, you may choose to switch to the diagonally 
+		adjacent workspace when you press the mouse into the corner
+		of the screen.</p>
+		<p>Upon switching workspace, a 
+		<a href="Screenshot-Brightside-pager.png">pager</a> will be
+		shown in the centre of the screen; as long as it stays on 
+		screen you can keep switching workspace without penalty of
+		delay for workspace switching to be activated.</p>
+		<h5>History</h5>
+		<p><acronym>Brightside</acronym> was born both out of a 
+		motivation to add a missing if nonessential feature, i.e. 
+		edge flipping, to <acronym>Gnome</acronym>; and also out of 
+		the need for an easy and fast way to mute music when taking a 
+		phone call or responding to conversation, and a quick way to 
+		lock the screen when leaving the computer.</p>
+		<p>Because of my lack of experience at starting software 
+		projects, I used Bastien Nocera's 
+		<a href="http://www.hadess.net/misc-code.php3">ACME</a> as a
+		template, a guide, and a source of useful code. Quite a bit of
+		code still shows its provenance.</p>
+		<h5>More information</h5>
+		<p>There is more up-to-date information available in the
+		<a href="README">README</a> and 
+		<a href="ChangeLog">ChangeLog</a>.</p>
+		<a name="acronym"><sup>&dagger;</sup></a>. The 
+		<acronym title="Abbreviation by CROpping Names that Yield Meaning">acronym</acronym> 
+		for <acronym>Brightside</acronym> was made up on the spot 
+		shortly	after the name was decided upon. I consider it worse 
+		than most (yet still better than many) in terms of trite 
+		artificiality. Incidentally, &lsquo;renders&rsquo; is intended 
+		to be taken in the sense of 
+		<q cite="http://dictionary.oed.com/cgi/entry/00202565?query_type=word&queryword=render&edition=2e&result_place=3" title="The Oxford English Dictionary, Second Edition">To give (or hand) back, to restore</q>;
+		also, the use of &lsquo;into&rsquo; rather than 
+		&lsquo;unto&rsquo; may be excused by either taking 
+		<acronym>Gnome</acronym> as a collective noun, or regarding my
+		usage as an archaism (indeed, one employed by Shakespeare).
+		<hr />
+		<h4><a href="#TOCopinions" name="opinions">
+				Opinions</a>
+			(or, why not to use <acronym>Brightside</acronym>)</h4>
+		<address>Havoc Pennington:</address>
+		<blockquote cite="Havoc Pennington">
+			...&lsquo;ouija board&rsquo; UI, where you just move 
+			the mouse around and the computer guesses what you 
+			mean, has a lot of issues.
+		</blockquote>
+		<blockquote cite="Havoc Pennington">
+			I don't like edge flipping because:
+			<ul>
+				<li>
+				it breaks fitt's law
+				</li><li>
+				it's disorienting to users since just moving 
+				the mouse causes a lot of "instability"
+				</li><li>
+				it involves a lot of implementation complexity 
+				(putting up input-only windows on the sides of 
+				the screen to detect the mouse motion)
+				</li>
+			</ul>
+		</blockquote>
+		<blockquote cite="Havoc Pennington">
+			<em>[regarding workspace wrapping]</em><br />
+			Basically this is your standard combinatorial explosion
+			of preferences; you can change number of spaces and 
+			their layout, and choose directional or direct-to-space 
+			or mouse navigation, etc. etc., and so then you might 
+			learn to work in a way that involves wrapping or not, 
+			and then it goes on and on. How many ways can we 
+			accomplish the same simple task...<br />
+			I'm opposed to a preference here, it just perpetuates 
+			the insanity and is feature-micromanagement-via-prefs.
+			Let's just pick something and go with it.
+		</blockquote>
+		<address>Jamie Zawinski:</address>
+		<blockquote cite="Jamie Zawinski">
+			<em>[regarding the lack of corner actions in 
+				XScreenSaver]</em><br />
+			The reason is just that I don't like that behavior (I 
+			think it's non-obvious, non-discoverable, and 
+			counter-intuitive.) I added an &lsquo;Activate 
+			XScreenSaver&rsquo; menu item to my window manager, 
+			and that's good enough for me.
+		</blockquote>
+		<hr />
+		<h4><a href="#TOCscreenshots" name="screenshots">
+				Screenshots of <acronym>Brightside</acronym>
+		</a></h4>
+		<p>Screenshots of <acronym>Brightside</acronym> 1.3.0:</p>
+		<ul>
+			<li><a href="Screenshot-Gnome-panel.png">
+				<acronym>Brightside</acronym> running in the 
+				Gnome panel
+			</a></li>
+			<li><a href="Screenshot-Brightside.png">
+				<acronym>Brightside</acronym> displaying its 
+				About box
+			</a></li>
+			<li><a href="Screenshot-Brightside-properties.png">
+				<acronym>Brightside</acronym> displaying its 
+				preferences panel
+			</a></li>
+			<li><a href="Screenshot-Gnome-session-properties.png">
+				<acronym>Brightside</acronym> being managed by 
+				gnome-session
+			</a></li>
+			<li><a href="Screenshot-Fade-in.png">
+				<acronym>Brightside</acronym> fading the volume 
+				back in after the mouse is removed from the 
+				corner of the screen
+			</a></li>
+			<li><a href="Screenshot-Fade-in-animated.gif">
+				The previous image, animated</a> (as a <acronym title="Graphics Interchange Format">GIF</acronym>,
+			sadly &mdash; Gecko <a href="http://bugzilla.mozilla.org/show_bug.cgi?id=18574"><em>still</em></a> 
+			doesn't display <acronym title="Multiple-image Network Graphics">MNG</acronym>s 
+			or <acronym title="JPEG Network Graphics">JNG</acronym>s&hellip;)
+			</li>
+			<li><a href="Screenshot-Brightside-pager.png">
+				<acronym>Brightside</acronym> showing its pager
+			</a></li>
+		</ul>
+		<hr />
+		<h4><a href="#TOCdownloading" name="downloading">
+				Downloading <acronym>Brightside</acronym>
+		</a></h4>
+		<p><acronym>Brightside</acronym> is, of course, licensed under 
+		the <a href="http://www.gnu.org/copyleft/gpl.html"><acronym 
+				title="GNU's Not Unix!">GNU</acronym> 
+			<abbr title="General Public License">GPL</abbr></a>,
+		version 2 or later.</p>
+		<p>Source code is available in the <a href="download">download
+		</a>folder. To install the traditional way, just use the 
+		standard method:</p>
+		<blockquote cite="Antiquity"><code>
+			./configure<br />
+			make<br />
+			make install
+		</code></blockquote>
+		<p><acronym>Brightside</acronym> will install an item into the 
+		<acronym>Gnome</acronym> Desktop Preferences system, available 
+		via <var>preferences:///</var> and the 
+		<acronym>Gnome</acronym> menu &mdash; if you aren't running 
+		<acronym title="File Alteration Monitor">FAM</acronym> you will
+		need to kill <code>gnome-panel</code> to reload the menu tree.
+		</p>
+		<p>Make sure you read the <a href="README">README</a>.</p>
+		<h5>Packaging systems</h5>
+		<p>The configure stage should generate a <code>spec</code> 
+		file, suitable for <abbr title="RPM Package Manager">RPM</abbr>
+		based systems.</p>
+		<p>Note that if you are compiling on an <abbr>RPM</abbr> based 
+		binary system you will need to install <code>-devel</code> 
+		packages for all the support libraries used by 
+		<acronym>Brightside</acronym>. On Debian based binary systems 
+		you will need the corresponding <code>-dev</code> packages. Of
+		course, if you use a source-based distribution the header files
+		will be installed with the libraries.</p>
+		<p>Ebuilds are available from 
+		<a href="http://catmur.co.uk/gentoo/trees/">my Portage 
+			overlay</a>, in the directory <a href="http://catmur.co.uk/gentoo/trees/capella.catmur.co.uk/gnome-extra/brightside/">gnome-extra/brightside</a> (download 
+		<a href="http://catmur.co.uk/gentoo/trees/capella.catmur.co.uk/gnome-extra/brightside/tarball-brightside.tar.bz2">directory tarball</a>).
+		</p>
+		<p>I would welcome specification files for other package 
+		management systems.</p>
+		<p>I am willing to post links to binary packages for popular
+		distributions, as long as the packager is willing to support
+		users of their packages.</p>
+		<hr />
+		<h4><a href="#TOClogo" name="logo">
+				The <acronym>Brightside</acronym> logo
+		</a></h4>
+		<p>The <acronym>Brightside</acronym> logo (which you can see at 
+		the <a href="#TOP">top</a> of this page) is based on the 
+		Monitor icon from the beautiful 
+		<a href="http://librsvg.sourceforge.net/theme.php">Amaranth</a>
+		<acronym>Gnome</acronym> icon theme by Michael Doches. It was 
+		edited using 
+		<a href="http://www.inkscape.org/">Inkscape</a> 0.36, then 
+		<a href="brightside.svg">the original 
+			<abbr title="Scalable Vector Graphics">SVG</abbr></a> 
+		was converted to 
+		<acronym title="Portable Network Graphics">PNG</acronym>
+		using <code>rsvg</code> from the 
+		<a href="http://librsvg.sourceforge.net/">librsvg</a> library.
+		</p>
+		<hr />
+		<p>
+		<a href="http://www.vim.org/">
+			<img src="vim_created.png" 
+			alt="Created with Vim" 
+			title="Created with Vim" />
+		</a>
+		<a href="http://www.gentoo.org/">
+			<img src="ralph_gentoo_badge.png" 
+			alt="Powered by Gentoo Linux" 
+			title="Powered by Gentoo Linux" />
+		</a>
+		<a href="http://breakmygentoo.net/">
+			<img src="barry.png" 
+			alt="Powered by Barry the Cow" 
+			title="Powered by Barry the Cow" />
+		</a>
+		<a href="http://www.gimp.org/">
+			<img src="gfx_by_gimp.png" 
+			alt="Graphics by GIMP" 
+			title="Graphics by GIMP" />
+		</a>
+		<a href="http://www.inkscape.org/">
+			<img src="inkscape.png" 
+			alt="Edited in Inkscape" 
+			title="Edited in Inkscape" />
+		</a>
+		<a href="http://www.gnome.org/projects/epiphany/">
+			<img src="epiphany.png" 
+			alt="Designed with Epiphany" 
+			title="Designed with Epiphany" />
+		</a>
+		<a href="http://validator.w3.org/check/referer">
+			<img src="valid-xhtml10" 
+			alt="Valid XHTML 1.0!" 
+			title="Valid XHTML 1.0!"/></a>
+		<a href="http://www.anybrowser.org/campaign/">
+			<img src="w3c_ab.png" 
+			alt="Viewable With Any Browser" 
+			title="Viewable With Any Browser" /></a>
+		</p>
+		<hr />
+		<address>
+			Created: Sun Jan 11 18:50:09 GMT 2004
+			<br />
+			Updated: <!--use :r!date to update -->
+Wed May 19 11:25:50 BST 2004
+			<br />
+			Author: <a href="http://catmur.co.uk">Ed Catmur</a>,
+			&lt;<a href="mailto:ed@catmur.co.uk?subject=Brightside"
+				>ed@catmur.co.uk</a>&gt;
+			<br />
+			URL: http://catmur.co.uk/brightside/
+		</address>
+	</body>
+</html>

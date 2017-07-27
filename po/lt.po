@@ -1,0 +1,765 @@
+# Lithuanian translation of Brightside.
+# Copyright (C) 2003 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Tomas Kuliavas <tokul@users.sourceforge.net>, 2003.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Brightside\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-01-16 02:13+0000\n"
+"PO-Revision-Date: 2003-10-06 14:11+0300\n"
+"Last-Translator: Tomas Kuliavas <tokul@users.sourceforge.net>\n"
+"Language-Team: Lithuanian <komp_lt@konferencijos.lt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/brightside.c:224
+#, c-format
+msgid ""
+"Couldn't execute command: %s\n"
+"Verify that this command exists."
+msgstr ""
+"Nepavyko paleisti komandos: %s\n"
+"Patikrinkite, ar ši  komanda yra teisinga."
+
+#: src/brightside.c:243
+#, c-format
+msgid ""
+"Permissions on the file %s are broken\n"
+"Please check Brightside's documentation, correct the problem and restart "
+"Brightside."
+msgstr ""
+"Netinkamos bylos %s priėjimo teisės.\n"
+"Patikrinkite Brightside dokumentaciją, ištaisykite klaidą ir paleiskite "
+"Brightside iš naujo."
+
+#: src/brightside.c:487
+msgid "translator_credits"
+msgstr "Tomas Kuliavas <tokul@users.sourceforge.net>"
+
+#: src/brightside.c:498
+#, fuzzy
+msgid "Brightside"
+msgstr "Spec.klavišai"
+
+#: src/brightside.c:500 src/brightside.c:573
+msgid "Screen Corners and Edges daemon"
+msgstr ""
+
+#: src/brightside.c:579
+msgid "Screen Corners and Edges daemon active"
+msgstr ""
+
+#: src/brightside.c:1733
+msgid "Daemon already running, exiting...\n"
+msgstr ""
+
+#: src/brightside.c:1742
+msgid ""
+"Couldn't load the Glade file.\n"
+"Make sure that this daemon is properly installed."
+msgstr ""
+"Nepavyko paleisti Glade bylos.\n"
+"Įsitikinkite, kad šis demonas yra teisingai įdiegtas."
+
+#: src/brightside.glade.h:1
+msgid "Volume"
+msgstr "Garsumas"
+
+#: src/brightside.h:65
+#, fuzzy
+msgid "Mute volume"
+msgstr "Tylos klavišas"
+
+#: src/brightside.h:67
+msgid "Prevent screensaver starting"
+msgstr ""
+
+#: src/brightside.h:69
+#, fuzzy
+msgid "Start screensaver"
+msgstr "Ekrano užsklandos klavišas"
+
+#: src/brightside.h:71
+msgid "Enter DPMS standby mode"
+msgstr ""
+
+#: src/brightside.h:73
+msgid "Enter DPMS suspend mode"
+msgstr ""
+
+#: src/brightside.h:75
+msgid "Enter DPMS off mode"
+msgstr ""
+
+#: src/brightside.h:78
+msgid "Dim laptop backlight"
+msgstr ""
+
+#: src/brightside.h:81
+msgid "Custom action..."
+msgstr ""
+
+#: src/brightside-properties.c:283 src/brightside-properties.glade.h:9
+#: src/brightside.desktop.in.h:2
+msgid "Screen Corners and Edges"
+msgstr ""
+
+#: src/brightside-properties.glade.h:1 src/custom-action.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: src/brightside-properties.glade.h:2
+msgid "<small><i>Long</i></small>"
+msgstr ""
+
+#: src/brightside-properties.glade.h:3
+msgid "<small><i>Short</i></small>"
+msgstr ""
+
+#: src/brightside-properties.glade.h:4
+#, fuzzy
+msgid "<span weight=\"bold\">Screen Corners</span>"
+msgstr "<span weight=\"bold\">Garsų nustatymas</span>"
+
+#: src/brightside-properties.glade.h:5
+#, fuzzy
+msgid "<span weight=\"bold\">Screen Edges</span>"
+msgstr "<span weight=\"bold\">Garsų nustatymas</span>"
+
+#: src/brightside-properties.glade.h:6
+#, fuzzy
+msgid "Action to take while mouse is placed in corner of screen"
+msgstr "Komanda, kurią reikia paleisti, kai paspaustas disko išmetimo klavišas"
+
+#: src/brightside-properties.glade.h:7
+msgid "Bottom r_ight corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:8
+msgid "D_elay:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:10
+msgid "Switch to _adjacent workspace when mouse is moved to edge of screen"
+msgstr ""
+
+#: src/brightside-properties.glade.h:11
+msgid "Top _right corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:12
+msgid "When switching workspace, _wrap around edges of workspace layout"
+msgstr ""
+
+#: src/brightside-properties.glade.h:13
+msgid "_Bottom left corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:14
+msgid "_Configurable actions"
+msgstr ""
+
+#: src/brightside-properties.glade.h:15
+msgid "_Delay:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:16
+msgid "_Switch to diagonally adjacent workspace"
+msgstr ""
+
+#: src/brightside-properties.glade.h:17
+msgid "_Top left corner:"
+msgstr ""
+
+#: src/brightside.desktop.in.h:1
+#, fuzzy
+msgid "Configure screen-edge behaviour"
+msgstr "Nustatyti specialiųjų klavišų elgseną"
+
+#: src/brightside.schemas.in.h:1
+msgid "Action enabled when mouse is in bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:2
+msgid "Action enabled when mouse is in bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:3
+msgid "Action enabled when mouse is in top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:4
+msgid "Action enabled when mouse is in top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:5
+msgid "Action to occur when mouse is in bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:6
+msgid "Action to occur when mouse is in bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:7
+msgid "Action to occur when mouse is in top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:8
+msgid "Action to occur when mouse is in top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:9
+msgid "After flip command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:10
+msgid "Bottom left corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:11
+msgid "Bottom left corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:12
+msgid "Bottom left corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:13
+msgid "Bottom left corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:14
+msgid "Bottom left corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:15
+msgid "Bottom right corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:16
+msgid "Bottom right corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:17
+msgid "Bottom right corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:18
+msgid "Bottom right corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:19
+msgid "Bottom right corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:20
+msgid "Command to execute after flipping workspace (empty string for none)"
+msgstr ""
+
+#: src/brightside.schemas.in.h:21
+msgid "Corner delay"
+msgstr ""
+
+#: src/brightside.schemas.in.h:22
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse enters bottom left corner of screen"
+msgstr "Komanda, kurią reikia paleisti, kai paspaustas disko išmetimo klavišas"
+
+#: src/brightside.schemas.in.h:23
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse enters bottom right corner of screen"
+msgstr "Komanda, kurią reikia paleisti, kai paspaustas disko išmetimo klavišas"
+
+#: src/brightside.schemas.in.h:24
+#, fuzzy
+msgid "Custom command to execute when mouse enters top left corner of screen"
+msgstr "Komanda, kurią reikia paleisti, kai paspaustas disko išmetimo klavišas"
+
+#: src/brightside.schemas.in.h:25
+#, fuzzy
+msgid "Custom command to execute when mouse enters top right corner of screen"
+msgstr "Komanda, kurią reikia paleisti, kai paspaustas disko išmetimo klavišas"
+
+#: src/brightside.schemas.in.h:26
+#, fuzzy
+msgid "Custom command to execute when mouse exits bottom left corner of screen"
+msgstr "Komanda, kurią reikia paleisti, kai paspaustas disko išmetimo klavišas"
+
+#: src/brightside.schemas.in.h:27
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse exits bottom right corner of screen"
+msgstr "Komanda, kurią reikia paleisti, kai paspaustas disko išmetimo klavišas"
+
+#: src/brightside.schemas.in.h:28
+#, fuzzy
+msgid "Custom command to execute when mouse exits top left corner of screen"
+msgstr "Komanda, kurią reikia paleisti, kai paspaustas disko išmetimo klavišas"
+
+#: src/brightside.schemas.in.h:29
+#, fuzzy
+msgid "Custom command to execute when mouse exits top right corner of screen"
+msgstr "Komanda, kurią reikia paleisti, kai paspaustas disko išmetimo klavišas"
+
+#: src/brightside.schemas.in.h:30
+msgid "Delay in milliseconds before edge flip occurs"
+msgstr ""
+
+#: src/brightside.schemas.in.h:31
+msgid "Delay in milliseconds before screen corner action occurs"
+msgstr ""
+
+#: src/brightside.schemas.in.h:32
+msgid "Edge delay"
+msgstr ""
+
+#: src/brightside.schemas.in.h:33
+msgid "Edge wrap"
+msgstr ""
+
+#: src/brightside.schemas.in.h:34
+#, fuzzy
+msgid "Enable corner flip"
+msgstr "Įjungta"
+
+#: src/brightside.schemas.in.h:35
+#, fuzzy
+msgid "Enable edge flip"
+msgstr "Įjungta"
+
+#: src/brightside.schemas.in.h:36
+msgid "Orientable workspaces"
+msgstr ""
+
+#: src/brightside.schemas.in.h:37
+msgid ""
+"Switch to diagonally adjacent workspace when mouse placed in the corner of "
+"the screen, instead of executing a configurable action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:38
+msgid ""
+"Switch to the adjacent workspace when the mouse reaches the edge of the "
+"screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:39
+msgid "Terminate custom command when mouse exits bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:40
+msgid "Terminate custom command when mouse exits bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:41
+msgid "Terminate custom command when mouse exits top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:42
+msgid "Terminate custom command when mouse exits top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:43
+msgid "Top left corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:44
+msgid "Top left corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:45
+msgid "Top left corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:46
+msgid "Top left corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:47
+msgid "Top left corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:48
+msgid "Top right corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:49
+msgid "Top right corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:50
+msgid "Top right corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:51
+msgid "Top right corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:52
+msgid "Top right corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:53
+msgid "Use PCM Volume instead of Master Volume"
+msgstr "Reguliuoti PCM garso kanalą vietoj pagrindinio kanalo."
+
+#: src/brightside.schemas.in.h:54
+msgid "Whether workspace layout is orientable"
+msgstr ""
+
+#: src/brightside.schemas.in.h:55
+msgid "Wrap wround edges of workspace layout when flipping workspace"
+msgstr ""
+
+#: src/custom-action.glade.h:2
+msgid "*"
+msgstr ""
+
+#: src/custom-action.glade.h:3
+#, fuzzy
+msgid "<span weight=\"bold\">On _entering region</span>"
+msgstr "<span weight=\"bold\">Klavišų nustatymas </span>"
+
+#: src/custom-action.glade.h:4
+#, fuzzy
+msgid "<span weight=\"bold\">On leaving region</span>"
+msgstr "<span weight=\"bold\">Garsų nustatymas</span>"
+
+#: src/custom-action.glade.h:5 src/custom-action.c:104
+msgid "Custom action"
+msgstr ""
+
+#: src/custom-action.glade.h:6
+msgid "_Run another command:"
+msgstr ""
+
+#: src/custom-action.glade.h:7
+msgid "_Terminate above application"
+msgstr ""
+
+#~ msgid ""
+#~ "Couldn't execute either command: %s\n"
+#~ "or command: %s\n"
+#~ "Verify that at least one of these commands exist."
+#~ msgstr ""
+#~ "Nepavyko paleisti nei %s\n"
+#~ "nei %s komandos.\n"
+#~ "Įsitikinkite, kad bent viena iš šių komandų yra teisinga."
+
+#~ msgid ""
+#~ "There was an error removing access to the multimedia keys.\n"
+#~ "Key %d couldn't be unbound."
+#~ msgstr ""
+#~ "Įvyko klaida panaikinant specialiųjų klavišų nustatymus.\n"
+#~ "Nepavyko atsieti klavišo %d."
+
+#~ msgid ""
+#~ "It seems that another application already has access to the multimedia "
+#~ "keys.\n"
+#~ "Key %d couldn't be bound.\n"
+#~ "Is another daemon already running ?"
+#~ msgstr ""
+#~ "Panašu, kad kita programa jau valdo priėjimą prie specialiųjų klavišų.\n"
+#~ "Neįmanoma pakeisti klavišas %d nustatymų.\n"
+#~ "Gal kažkur jau paleistas kitas Brightside procesas ?"
+
+#~ msgid "Multimedia keys daemon"
+#~ msgstr "Specialių klavišų valdymo demonas"
+
+#~ msgid "Multimedia Keys daemon active"
+#~ msgstr "Specialių klavišų valdymo demonas paleistas"
+
+#~ msgid "Volume down key"
+#~ msgstr "Garso mažinimo klavišas"
+
+#~ msgid "Volume up key"
+#~ msgstr "Garso didinimo klavišas"
+
+#~ msgid "Power key"
+#~ msgstr "Išjungimo klavišas"
+
+#~ msgid "Eject key"
+#~ msgstr "Išmetimo klavišas"
+
+#, fuzzy
+#~ msgid "Media key"
+#~ msgstr "Įvairialypės terpės klavišas"
+
+#~ msgid "Play key"
+#~ msgstr "Grojimo klavišas"
+
+#~ msgid "Pause key"
+#~ msgstr "Pauzės klavišas"
+
+#~ msgid "Stop (Audio) key"
+#~ msgstr "Sustabdymo (garso) klavišas"
+
+#~ msgid "Previous (Audio) key"
+#~ msgstr "Ankstesnio (garso) klavišas"
+
+#~ msgid "Next (Audio) key"
+#~ msgstr "Kito (garso) klavišas"
+
+#~ msgid "My Home key"
+#~ msgstr "Namų klavišas"
+
+#~ msgid "Refresh key"
+#~ msgstr "Atnaujinimo klavišas"
+
+#~ msgid "Search key"
+#~ msgstr "Paieškos klaivišas"
+
+#~ msgid "E-Mail key"
+#~ msgstr "El. pašto klavišas"
+
+#~ msgid "Sleep key"
+#~ msgstr "Miego klavišas"
+
+#~ msgid "Finance key"
+#~ msgstr "Finansų klavišas"
+
+#~ msgid "Help key"
+#~ msgstr "Pagalbos klavišas"
+
+#~ msgid "WWW key"
+#~ msgstr "Žiniatinklio klavišas"
+
+#~ msgid "Groups key"
+#~ msgstr "Naujienų grupių klavišas"
+
+#~ msgid "Calculator key"
+#~ msgstr "Skaičiuoklio klavišas"
+
+#~ msgid "Record key"
+#~ msgstr "Įrašymo klavišas"
+
+#~ msgid "Close Window key"
+#~ msgstr "Lango uždarymo klavišas"
+
+#~ msgid "Shade Window key"
+#~ msgstr "Lango sutraukimo klavišas"
+
+#~ msgid "Brightness down key"
+#~ msgstr "Ryškumo mažinimo klavišas"
+
+#~ msgid "Brightness up key"
+#~ msgstr "Ryškumo didinimo klavišas"
+
+#~ msgid "Disabled"
+#~ msgstr "Išjungta"
+
+#~ msgid ""
+#~ "This key is already bound to action '%s'.\n"
+#~ "Please select another key."
+#~ msgstr ""
+#~ "Šis klavišas jau susietas su veiksmu '%s'.\n"
+#~ "Pasirinkite kitą klavišą."
+
+#~ msgid "Description"
+#~ msgstr "Aprašymas"
+
+#~ msgid "Status"
+#~ msgstr "Būklė"
+
+#~ msgid "Multimedia Keys Preferences"
+#~ msgstr "Specialių klavišų nustatymai"
+
+#~ msgid ""
+#~ "To assign a key to an action, click on a line, and press the key you want "
+#~ "to associate with it.\n"
+#~ "\"C\" cancels the capture, and \"Backspace\" disables the key shortcut."
+#~ msgstr ""
+#~ "Norėdami priskirti klavišą kokiam nors veiksmui, pasirinkite eilutę ir "
+#~ "paspauskite tą klavišą, kurį Jūs norite su ja susieti.\n"
+#~ "\"C\" atšaukia bandymą priskirti,   \"Backspace\" atšaukia anksčiau "
+#~ "priskirtą klavišą."
+
+#~ msgid "Use _PCM volume instead of Master volume"
+#~ msgstr "Reguliuoti _PCM garso kanalą vietoj pagrindinio kanalo."
+
+#~ msgid "Multimedia Keys"
+#~ msgstr "Specialūs klavišai"
+
+#~ msgid "Brightness down key's XKeycode"
+#~ msgstr "Ryškumo mažinimo klavišo Xkodas"
+
+#~ msgid "Brightness down key's XKeycode, 0 to disable"
+#~ msgstr "Ryškumo mažinimo klavišo Xkodas, 0 atjungia"
+
+#~ msgid "Brightness up key's XKeycode"
+#~ msgstr "Ryškumo didinimo klavišo Xkodas"
+
+#~ msgid "Brightness up key's XKeycode, 0 to disable"
+#~ msgstr "Ryškumo didinimo klavišo Xkodas, 0 atjungia"
+
+#~ msgid "Calculator key's XKeycode"
+#~ msgstr "Skaičiuoklio klavišo Xkodas"
+
+#~ msgid "Calculator key's XKeycode, 0 to disable"
+#~ msgstr "Skaičiuoklio klavišo Xkodas, 0 atjungia"
+
+#~ msgid "Close Window key's XKeycode"
+#~ msgstr "Lango uždarymo klavišo Xkodas"
+
+#~ msgid "Close Window key's XKeycode, 0 to disable"
+#~ msgstr "Lango uždarymo klavišo Xkodas, 0 atjungia"
+
+#~ msgid "E-Mail key's XKeycode"
+#~ msgstr "El.pašto klavišo Xkodas"
+
+#~ msgid "E-Mail key's XKeycode, 0 to disable"
+#~ msgstr "El.pašto klavišo Xkodas, 0 atjungia"
+
+#~ msgid "Eject key's XKeycode"
+#~ msgstr "Disko išmetimo klavišo Xkodas"
+
+#~ msgid "Eject key's XKeycode, 0 to disable"
+#~ msgstr "Disko ismetimo klavišo Xkodas, 0 atjungia"
+
+#~ msgid "Finance key's XKeycode"
+#~ msgstr "Finansų klavišo Xkodas"
+
+#~ msgid "Finance key's XKeycode, 0 to disable"
+#~ msgstr "Finansų klavišo Xkodas, 0 atjungia"
+
+#~ msgid "Groups key's XKeycode"
+#~ msgstr "Naujienų grupių klavišo Xkodas"
+
+#~ msgid "Groups key's XKeycode, 0 to disable"
+#~ msgstr "Naujienų grupių klavišo Xkodas, 0 atjungia"
+
+#~ msgid "Help key's XKeycode"
+#~ msgstr "Pagalbos klavišo Xkodas"
+
+#~ msgid "Help key's XKeycode, 0 to disable"
+#~ msgstr "Pagalbos klavišo Xkodas, 0 atjungia"
+
+#~ msgid "Mute key's XKeycode"
+#~ msgstr "Tylos klavišo Xkodas"
+
+#~ msgid "Mute key's XKeycode, 0 to disable"
+#~ msgstr "Tylos klavišo Xkodas, 0 atjungia"
+
+#~ msgid "My Home key's XKeycode"
+#~ msgstr "Namų klavišo Xkodas"
+
+#~ msgid "My Home key's XKeycode, 0 to disable"
+#~ msgstr "Namų klavišo Xkodas, 0 atjungia"
+
+#~ msgid "Next key's XKeycode"
+#~ msgstr "Kito klavišo Xkodas"
+
+#~ msgid "Next key's XKeycode, 0 to disable"
+#~ msgstr "Kito klavišo Xkodas, 0 atjungia"
+
+#~ msgid "Pause key's XKeycode"
+#~ msgstr "Pauzės klavišo Xkodas"
+
+#~ msgid "Pause key's XKeycode, 0 to disable"
+#~ msgstr "Pauzės klavišo Xkodas, 0 atjungia"
+
+#~ msgid "Play key's XKeycode"
+#~ msgstr "Grojimo klavišo Xkodas"
+
+#~ msgid "Play key's XKeycode, 0 to disable"
+#~ msgstr "Grojimo klavišo Xkodas, 0 atjungia"
+
+#~ msgid "Power key's XKeycode"
+#~ msgstr "Išjungimo klavišo Xkodas"
+
+#~ msgid "Power key's XKeycode, 0 to disable"
+#~ msgstr "Išjungimo klavišo Xkodas, 0 atjungia"
+
+#~ msgid "Previous key's XKeycode"
+#~ msgstr "Ankstesnio klavišo Xkodas"
+
+#~ msgid "Previous key's XKeycode, 0 to disable"
+#~ msgstr "Ankstesnio klavišo Xkodas, 0 atjungia"
+
+#~ msgid "Record key's XKeycode"
+#~ msgstr "Įrašymo klavišo Xkodas"
+
+#~ msgid "Record key's XKeycode, 0 to disable"
+#~ msgstr "Įrašymo klavišo Xkodas, 0 atjungia"
+
+#~ msgid "Refresh key's XKeycode"
+#~ msgstr "Atnaujimo klavišo Xkodas"
+
+#~ msgid "Refresh key's XKeycode, 0 to disable"
+#~ msgstr "Atnaujimo klavišo Xkodas, 0 atjungia"
+
+#~ msgid "Screensaver key's XKeycode"
+#~ msgstr "Ekrano užsklandos klavišo Xkodas"
+
+#~ msgid "Screensaver key's XKeycode, 0 to disable"
+#~ msgstr "Ekrano užsklandos klavišo Xkodas, 0 atjungia"
+
+#~ msgid "Search key's XKeycode"
+#~ msgstr "Paieškos klavišo Xkodas"
+
+#~ msgid "Search key's XKeycode, 0 to disable"
+#~ msgstr "Paieškos klavišo Xkodas, 0 atjungia"
+
+#~ msgid "Shade Window key's XKeycode"
+#~ msgstr "Lango sutraukimo klavišo XKodas"
+
+#~ msgid "Shade Window key's XKeycode, 0 to disable"
+#~ msgstr "Lango sutraukimo klavišo XKodas, 0, kad atjungti"
+
+#~ msgid "Sleep key's XKeycode"
+#~ msgstr "Miego klavišo Xkodas"
+
+#~ msgid "Sleep key's XKeycode, 0 to disable"
+#~ msgstr "Miego klavišo Xkodas, 0 atjungia"
+
+#~ msgid "Sound file to be played when volume is changed"
+#~ msgstr "Garso bylą, kurią reikia paleisti pasikeitus garso lygiui"
+
+#~ msgid "Volume down key's XKeycode"
+#~ msgstr "Garso mažinimo klavišo Xkodas"
+
+#~ msgid "Volume down key's XKeycode, 0 to disable"
+#~ msgstr "Garso mažinimo klavišo Xkodas, 0 atjungia"
+
+#~ msgid "Volume step"
+#~ msgstr "Garsumas"
+
+#~ msgid "Volume step as percentage of volume"
+#~ msgstr "Garsumo keitimas procentais"
+
+#~ msgid "Volume up key's XKeycode"
+#~ msgstr "Garso didinimo klavišo Xkodas"
+
+#~ msgid "Volume up key's XKeycode, 0 to disable"
+#~ msgstr "Garso didinimo klavišo Xkodas, 0 atjungia"
+
+#~ msgid "WWW key's XKeycode"
+#~ msgstr "Žiniatinklio klavišo Xkodas"
+
+#~ msgid "WWW key's XKeycode, 0 to disable"
+#~ msgstr "Žiniatinklio klavišo Xkodas, 0 atjungia"
+
+#~ msgid "Accelerator key"
+#~ msgstr "Trumpas klavišas"
+
+#~ msgid "Accelerator modifiers"
+#~ msgstr "Trumpų klavišų keitikliai"
+
+#~ msgid "Accelerator Mode"
+#~ msgstr "Trumpų klavišų veiksena"
+
+#~ msgid "The type of accelerator."
+#~ msgstr "Trumpo klavišo tipas"
+
+#~ msgid "Type a new accelerator, or press Backspace to clear"
+#~ msgstr ""
+#~ "Įveskite naują trumpą klavišą arba paspauskite Backspace klavišą, kad "
+#~ "atšaukti esamą nustatymą"
+
+#~ msgid "Type a new accelerator"
+#~ msgstr "Įveskite naują trumpą klavišą"

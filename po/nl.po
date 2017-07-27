@@ -1,0 +1,765 @@
+# Commentaar:
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Brightside\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-01-16 02:13+0000\n"
+"PO-Revision-Date: 2003-10-17 13:35+0200\n"
+"Last-Translator: Vincent van Adrighem <V.vanAdrighem@dirck.mine.nu>\n"
+"Language-Team: Dutch <vertaling@nl.linux.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/brightside.c:224
+#, c-format
+msgid ""
+"Couldn't execute command: %s\n"
+"Verify that this command exists."
+msgstr ""
+"Deze opdracht kon niet worden uitgevoerd: %s\n"
+"Controleer of deze opdracht wel bestaat."
+
+#: src/brightside.c:243
+#, c-format
+msgid ""
+"Permissions on the file %s are broken\n"
+"Please check Brightside's documentation, correct the problem and restart "
+"Brightside."
+msgstr ""
+"De rechten op het bestand %s zijn niet goed.\n"
+"Bekijk a.u.b. de documentatie van Brightside, corrigeer het probleem en "
+"herstart Brightside."
+
+#: src/brightside.c:487
+msgid "translator_credits"
+msgstr ""
+"Jeroen van der Vegt <A.J.vanderVegt@ITS.TUDelft.nl>\n"
+"Vincent van Adrighem <V.vanAdrighem@dirck.mine.nu>"
+
+#: src/brightside.c:498
+msgid "Brightside"
+msgstr "Brightside"
+
+#: src/brightside.c:500 src/brightside.c:573
+msgid "Screen Corners and Edges daemon"
+msgstr ""
+
+#: src/brightside.c:579
+msgid "Screen Corners and Edges daemon active"
+msgstr ""
+
+#: src/brightside.c:1733
+msgid "Daemon already running, exiting...\n"
+msgstr ""
+
+#: src/brightside.c:1742
+msgid ""
+"Couldn't load the Glade file.\n"
+"Make sure that this daemon is properly installed."
+msgstr ""
+"Het Glade bestand kon niet worden geladen.\n"
+"Zorg er voor dat deze voorziening correct is geïnstalleerd"
+
+#: src/brightside.glade.h:1
+msgid "Volume"
+msgstr "Volume"
+
+#: src/brightside.h:65
+#, fuzzy
+msgid "Mute volume"
+msgstr "Geluid uit"
+
+#: src/brightside.h:67
+msgid "Prevent screensaver starting"
+msgstr ""
+
+#: src/brightside.h:69
+#, fuzzy
+msgid "Start screensaver"
+msgstr "Schermbeveiliging"
+
+#: src/brightside.h:71
+msgid "Enter DPMS standby mode"
+msgstr ""
+
+#: src/brightside.h:73
+msgid "Enter DPMS suspend mode"
+msgstr ""
+
+#: src/brightside.h:75
+msgid "Enter DPMS off mode"
+msgstr ""
+
+#: src/brightside.h:78
+msgid "Dim laptop backlight"
+msgstr ""
+
+#: src/brightside.h:81
+msgid "Custom action..."
+msgstr ""
+
+#: src/brightside-properties.c:283 src/brightside-properties.glade.h:9
+#: src/brightside.desktop.in.h:2
+msgid "Screen Corners and Edges"
+msgstr ""
+
+#: src/brightside-properties.glade.h:1 src/custom-action.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: src/brightside-properties.glade.h:2
+msgid "<small><i>Long</i></small>"
+msgstr ""
+
+#: src/brightside-properties.glade.h:3
+msgid "<small><i>Short</i></small>"
+msgstr ""
+
+#: src/brightside-properties.glade.h:4
+#, fuzzy
+msgid "<span weight=\"bold\">Screen Corners</span>"
+msgstr "<span weight=\"bold\">Geluidsinstellingen</span>"
+
+#: src/brightside-properties.glade.h:5
+#, fuzzy
+msgid "<span weight=\"bold\">Screen Edges</span>"
+msgstr "<span weight=\"bold\">Geluidsinstellingen</span>"
+
+#: src/brightside-properties.glade.h:6
+#, fuzzy
+msgid "Action to take while mouse is placed in corner of screen"
+msgstr "Opdracht om uit te voeren wanneer de 'Uitwerpen'-toets wordt ingedrukt"
+
+#: src/brightside-properties.glade.h:7
+msgid "Bottom r_ight corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:8
+msgid "D_elay:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:10
+msgid "Switch to _adjacent workspace when mouse is moved to edge of screen"
+msgstr ""
+
+#: src/brightside-properties.glade.h:11
+msgid "Top _right corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:12
+msgid "When switching workspace, _wrap around edges of workspace layout"
+msgstr ""
+
+#: src/brightside-properties.glade.h:13
+msgid "_Bottom left corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:14
+msgid "_Configurable actions"
+msgstr ""
+
+#: src/brightside-properties.glade.h:15
+msgid "_Delay:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:16
+msgid "_Switch to diagonally adjacent workspace"
+msgstr ""
+
+#: src/brightside-properties.glade.h:17
+msgid "_Top left corner:"
+msgstr ""
+
+#: src/brightside.desktop.in.h:1
+#, fuzzy
+msgid "Configure screen-edge behaviour"
+msgstr "Gedrag van multimedia-toetsen instellen"
+
+#: src/brightside.schemas.in.h:1
+msgid "Action enabled when mouse is in bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:2
+msgid "Action enabled when mouse is in bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:3
+msgid "Action enabled when mouse is in top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:4
+msgid "Action enabled when mouse is in top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:5
+msgid "Action to occur when mouse is in bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:6
+msgid "Action to occur when mouse is in bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:7
+msgid "Action to occur when mouse is in top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:8
+msgid "Action to occur when mouse is in top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:9
+msgid "After flip command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:10
+msgid "Bottom left corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:11
+msgid "Bottom left corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:12
+msgid "Bottom left corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:13
+msgid "Bottom left corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:14
+msgid "Bottom left corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:15
+msgid "Bottom right corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:16
+msgid "Bottom right corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:17
+msgid "Bottom right corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:18
+msgid "Bottom right corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:19
+msgid "Bottom right corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:20
+msgid "Command to execute after flipping workspace (empty string for none)"
+msgstr ""
+
+#: src/brightside.schemas.in.h:21
+msgid "Corner delay"
+msgstr ""
+
+#: src/brightside.schemas.in.h:22
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse enters bottom left corner of screen"
+msgstr "Opdracht om uit te voeren wanneer de 'Uitwerpen'-toets wordt ingedrukt"
+
+#: src/brightside.schemas.in.h:23
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse enters bottom right corner of screen"
+msgstr "Opdracht om uit te voeren wanneer de 'Uitwerpen'-toets wordt ingedrukt"
+
+#: src/brightside.schemas.in.h:24
+#, fuzzy
+msgid "Custom command to execute when mouse enters top left corner of screen"
+msgstr "Opdracht om uit te voeren wanneer de 'Uitwerpen'-toets wordt ingedrukt"
+
+#: src/brightside.schemas.in.h:25
+#, fuzzy
+msgid "Custom command to execute when mouse enters top right corner of screen"
+msgstr "Opdracht om uit te voeren wanneer de 'Uitwerpen'-toets wordt ingedrukt"
+
+#: src/brightside.schemas.in.h:26
+#, fuzzy
+msgid "Custom command to execute when mouse exits bottom left corner of screen"
+msgstr "Opdracht om uit te voeren wanneer de 'Uitwerpen'-toets wordt ingedrukt"
+
+#: src/brightside.schemas.in.h:27
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse exits bottom right corner of screen"
+msgstr "Opdracht om uit te voeren wanneer de 'Uitwerpen'-toets wordt ingedrukt"
+
+#: src/brightside.schemas.in.h:28
+#, fuzzy
+msgid "Custom command to execute when mouse exits top left corner of screen"
+msgstr "Opdracht om uit te voeren wanneer de 'Uitwerpen'-toets wordt ingedrukt"
+
+#: src/brightside.schemas.in.h:29
+#, fuzzy
+msgid "Custom command to execute when mouse exits top right corner of screen"
+msgstr "Opdracht om uit te voeren wanneer de 'Uitwerpen'-toets wordt ingedrukt"
+
+#: src/brightside.schemas.in.h:30
+msgid "Delay in milliseconds before edge flip occurs"
+msgstr ""
+
+#: src/brightside.schemas.in.h:31
+msgid "Delay in milliseconds before screen corner action occurs"
+msgstr ""
+
+#: src/brightside.schemas.in.h:32
+msgid "Edge delay"
+msgstr ""
+
+#: src/brightside.schemas.in.h:33
+msgid "Edge wrap"
+msgstr ""
+
+#: src/brightside.schemas.in.h:34
+#, fuzzy
+msgid "Enable corner flip"
+msgstr "Ingeschakeld"
+
+#: src/brightside.schemas.in.h:35
+#, fuzzy
+msgid "Enable edge flip"
+msgstr "Ingeschakeld"
+
+#: src/brightside.schemas.in.h:36
+msgid "Orientable workspaces"
+msgstr ""
+
+#: src/brightside.schemas.in.h:37
+msgid ""
+"Switch to diagonally adjacent workspace when mouse placed in the corner of "
+"the screen, instead of executing a configurable action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:38
+msgid ""
+"Switch to the adjacent workspace when the mouse reaches the edge of the "
+"screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:39
+msgid "Terminate custom command when mouse exits bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:40
+msgid "Terminate custom command when mouse exits bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:41
+msgid "Terminate custom command when mouse exits top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:42
+msgid "Terminate custom command when mouse exits top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:43
+msgid "Top left corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:44
+msgid "Top left corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:45
+msgid "Top left corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:46
+msgid "Top left corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:47
+msgid "Top left corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:48
+msgid "Top right corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:49
+msgid "Top right corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:50
+msgid "Top right corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:51
+msgid "Top right corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:52
+msgid "Top right corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:53
+msgid "Use PCM Volume instead of Master Volume"
+msgstr "PCM-volume gebruiken in plaats van het algemene volume"
+
+#: src/brightside.schemas.in.h:54
+msgid "Whether workspace layout is orientable"
+msgstr ""
+
+#: src/brightside.schemas.in.h:55
+msgid "Wrap wround edges of workspace layout when flipping workspace"
+msgstr ""
+
+#: src/custom-action.glade.h:2
+msgid "*"
+msgstr ""
+
+#: src/custom-action.glade.h:3
+#, fuzzy
+msgid "<span weight=\"bold\">On _entering region</span>"
+msgstr "<span weight=\"bold\">Toetsinstellingen </span>"
+
+#: src/custom-action.glade.h:4
+#, fuzzy
+msgid "<span weight=\"bold\">On leaving region</span>"
+msgstr "<span weight=\"bold\">Geluidsinstellingen</span>"
+
+#: src/custom-action.glade.h:5 src/custom-action.c:104
+msgid "Custom action"
+msgstr ""
+
+#: src/custom-action.glade.h:6
+msgid "_Run another command:"
+msgstr ""
+
+#: src/custom-action.glade.h:7
+msgid "_Terminate above application"
+msgstr ""
+
+#~ msgid ""
+#~ "Couldn't execute either command: %s\n"
+#~ "or command: %s\n"
+#~ "Verify that at least one of these commands exist."
+#~ msgstr ""
+#~ "De opdracht '%s' noch de opdracht '%s'\n"
+#~ "konden worden uitgevoerd.\n"
+#~ "Controleer of deze opdrachten wel bestaan."
+
+#~ msgid ""
+#~ "There was an error removing access to the multimedia keys.\n"
+#~ "Key %d couldn't be unbound."
+#~ msgstr ""
+#~ "Er ging iets mis bij het verwijderen van toegang tot de multimedia-"
+#~ "toetsen.\n"
+#~ "Toets %d kon niet worden ontkoppeld."
+
+#~ msgid ""
+#~ "It seems that another application already has access to the multimedia "
+#~ "keys.\n"
+#~ "Key %d couldn't be bound.\n"
+#~ "Is another daemon already running ?"
+#~ msgstr ""
+#~ "Het lijkt er op dat een ander programma al toegang heeft tot de "
+#~ "multimedia-toetsen.\n"
+#~ "Toets %d kon niet worden gekoppeld.\n"
+#~ "Is er een andere voorziening actief?"
+
+#~ msgid "Multimedia keys daemon"
+#~ msgstr "Voorzieningen voor Multimedia-toetsen"
+
+#~ msgid "Multimedia Keys daemon active"
+#~ msgstr "Voorzieningen voor multimedia-toetsen actief"
+
+#~ msgid "Volume down key"
+#~ msgstr "Geluid zachter"
+
+#~ msgid "Volume up key"
+#~ msgstr "Geluid harder"
+
+#~ msgid "Power key"
+#~ msgstr "Aan/uit"
+
+#~ msgid "Eject key"
+#~ msgstr "Uitwerpen"
+
+#~ msgid "Media key"
+#~ msgstr "Media"
+
+#~ msgid "Play key"
+#~ msgstr "Afspelen"
+
+#~ msgid "Pause key"
+#~ msgstr "Pauzeren"
+
+#~ msgid "Stop (Audio) key"
+#~ msgstr "Stop (audio)"
+
+#~ msgid "Previous (Audio) key"
+#~ msgstr "Vorige (audio)"
+
+#~ msgid "Next (Audio) key"
+#~ msgstr "Volgende (audio)"
+
+#~ msgid "My Home key"
+#~ msgstr "Mijn thuis"
+
+#~ msgid "Refresh key"
+#~ msgstr "Verversen"
+
+#~ msgid "Search key"
+#~ msgstr "Zoeken"
+
+#~ msgid "E-Mail key"
+#~ msgstr "E-mail"
+
+#~ msgid "Sleep key"
+#~ msgstr "Slaapstand"
+
+#~ msgid "Finance key"
+#~ msgstr "Financiën"
+
+#~ msgid "Help key"
+#~ msgstr "Hulp"
+
+#~ msgid "WWW key"
+#~ msgstr "Internet"
+
+#~ msgid "Groups key"
+#~ msgstr "Groepen"
+
+#~ msgid "Calculator key"
+#~ msgstr "Rekenmachine"
+
+#~ msgid "Record key"
+#~ msgstr "Opnemen"
+
+#~ msgid "Close Window key"
+#~ msgstr "Venster sluiten"
+
+#~ msgid "Shade Window key"
+#~ msgstr "Venster oprollen"
+
+#~ msgid "Brightness down key"
+#~ msgstr "Minder helderheid"
+
+#~ msgid "Brightness up key"
+#~ msgstr "Meer helderheid"
+
+#~ msgid "Disabled"
+#~ msgstr "Uitgeschakeld"
+
+#~ msgid ""
+#~ "This key is already bound to action '%s'.\n"
+#~ "Please select another key."
+#~ msgstr ""
+#~ "Deze toets is gebonden aan de actie '%s'.\n"
+#~ "Kies a.u.b. een andere toets."
+
+#~ msgid "Description"
+#~ msgstr "Beschrijving"
+
+#~ msgid "Status"
+#~ msgstr "Status"
+
+#~ msgid "Multimedia Keys Preferences"
+#~ msgstr "Multimedia-toetsen voorkeuren"
+
+#~ msgid ""
+#~ "To assign a key to an action, click on a line, and press the key you want "
+#~ "to associate with it.\n"
+#~ "\"C\" cancels the capture, and \"Backspace\" disables the key shortcut."
+#~ msgstr ""
+#~ "Klik op een regel hieronder en druk een toets in om deze aan een opdracht "
+#~ "te koppelen.\n"
+#~ "Met \"c\" kunt u het koppelen annuleren, met \"backspace\" verwijdert u "
+#~ "de koppeling."
+
+#~ msgid "Use _PCM volume instead of Master volume"
+#~ msgstr "_PCM-volume gebruiken in plaats van algemeen volume"
+
+#~ msgid "Multimedia Keys"
+#~ msgstr "Multimedia-toetsen"
+
+#~ msgid "Brightness down key's XKeycode"
+#~ msgstr "Minder helderheid XKeycode"
+
+#~ msgid "Brightness down key's XKeycode, 0 to disable"
+#~ msgstr "Minder helderheid XKeycode, 0 om uit te schakelen"
+
+#~ msgid "Brightness up key's XKeycode"
+#~ msgstr "Meer helderheid XKeycode"
+
+#~ msgid "Brightness up key's XKeycode, 0 to disable"
+#~ msgstr "Meer helderheid XKeycode, 0 om uit te schakelen"
+
+#~ msgid "Calculator key's XKeycode"
+#~ msgstr "Rekenmachine XKeycode"
+
+#~ msgid "Calculator key's XKeycode, 0 to disable"
+#~ msgstr "Rekenmachine XKeycode, 0 om uit te schakelen"
+
+#~ msgid "Close Window key's XKeycode"
+#~ msgstr "Venter sluiten XKeycode"
+
+#~ msgid "Close Window key's XKeycode, 0 to disable"
+#~ msgstr "Venster sluiten XKeycode, 0 om uit te schakelen"
+
+#~ msgid "E-Mail key's XKeycode"
+#~ msgstr "E-mail XKeycode"
+
+#~ msgid "E-Mail key's XKeycode, 0 to disable"
+#~ msgstr "E-mail XKeycode, 0 om uit te schakelen"
+
+#~ msgid "Eject key's XKeycode"
+#~ msgstr "Uitwerpen XKeycode"
+
+#~ msgid "Eject key's XKeycode, 0 to disable"
+#~ msgstr "Uitwerpen XKeycode, 0 om uit te schakelen"
+
+#~ msgid "Finance key's XKeycode"
+#~ msgstr "Financiën XKeycode"
+
+#~ msgid "Finance key's XKeycode, 0 to disable"
+#~ msgstr "Financiën XKeycode, 0 om uit te schakelen"
+
+#~ msgid "Groups key's XKeycode"
+#~ msgstr "Groepen XKeycode"
+
+#~ msgid "Groups key's XKeycode, 0 to disable"
+#~ msgstr "Groepen XKeycode, 0 om uit te schakelen"
+
+#~ msgid "Help key's XKeycode"
+#~ msgstr "Hulp XKeycode"
+
+#~ msgid "Help key's XKeycode, 0 to disable"
+#~ msgstr "Hulp XKeycode, 0 om uit te schakelen"
+
+#~ msgid "Mute key's XKeycode"
+#~ msgstr "Geluid uit XKeycode"
+
+#~ msgid "Mute key's XKeycode, 0 to disable"
+#~ msgstr "Geluid uit XKeycode, 0 om uit te schakelen"
+
+#~ msgid "My Home key's XKeycode"
+#~ msgstr "Mijn thuis XKeycode"
+
+#~ msgid "My Home key's XKeycode, 0 to disable"
+#~ msgstr "Mijn thuis XKeycode, 0 om uit te schakelen"
+
+#~ msgid "Next key's XKeycode"
+#~ msgstr "Volgende XKeycode"
+
+#~ msgid "Next key's XKeycode, 0 to disable"
+#~ msgstr "Volgende XKeycode, 0 om uit te schakelen"
+
+#~ msgid "Pause key's XKeycode"
+#~ msgstr "Pauzeren XKeycode"
+
+#~ msgid "Pause key's XKeycode, 0 to disable"
+#~ msgstr "Pauzeren XKeycode, 0 om uit te schakelen"
+
+#~ msgid "Play key's XKeycode"
+#~ msgstr "Afspelen XKeycode"
+
+#~ msgid "Play key's XKeycode, 0 to disable"
+#~ msgstr "Afspelen XKeycode, 0 om uit te schakelen"
+
+#~ msgid "Power key's XKeycode"
+#~ msgstr "Aan/uit XKeycode"
+
+#~ msgid "Power key's XKeycode, 0 to disable"
+#~ msgstr "Aan/uit XKeycode, 0 om uit te schakelen"
+
+#~ msgid "Previous key's XKeycode"
+#~ msgstr "Vorige XKeycode"
+
+#~ msgid "Previous key's XKeycode, 0 to disable"
+#~ msgstr "Vorige XKeycode, 0 om uit te schakelen"
+
+#~ msgid "Record key's XKeycode"
+#~ msgstr "Opnemen XKeycode"
+
+#~ msgid "Record key's XKeycode, 0 to disable"
+#~ msgstr "Opnemen XKeycode, 0 om uit te schakelen"
+
+#~ msgid "Refresh key's XKeycode"
+#~ msgstr "Verversen XKeycode"
+
+#~ msgid "Refresh key's XKeycode, 0 to disable"
+#~ msgstr "Verversen XKeycode, 0 om uit te schakelen"
+
+#~ msgid "Screensaver key's XKeycode"
+#~ msgstr "Schermbeveiliging XKeycode"
+
+#~ msgid "Screensaver key's XKeycode, 0 to disable"
+#~ msgstr "Schermbeveiliging XKeycode, 0 om uit te schakelen"
+
+#~ msgid "Search key's XKeycode"
+#~ msgstr "Zoeken XKeycode"
+
+#~ msgid "Search key's XKeycode, 0 to disable"
+#~ msgstr "Zoeken XKeycode, 0 om uit te schakelen"
+
+#~ msgid "Shade Window key's XKeycode"
+#~ msgstr "Venster oprollen XKeycode"
+
+#~ msgid "Shade Window key's XKeycode, 0 to disable"
+#~ msgstr "Venster oprollen XKeycode, 0 om uit te schakelen"
+
+#~ msgid "Sleep key's XKeycode"
+#~ msgstr "Slaapstand XKeycode"
+
+#~ msgid "Sleep key's XKeycode, 0 to disable"
+#~ msgstr "Slaapstand XKeycode, 0 om uit te schakelen"
+
+#~ msgid "Sound file to be played when volume is changed"
+#~ msgstr ""
+#~ "Geluidsbestand dat afgespeeld moet worden wanneer het volume wordt "
+#~ "veranderd"
+
+#~ msgid "Volume down key's XKeycode"
+#~ msgstr "Geluid zachter XKeycode"
+
+#~ msgid "Volume down key's XKeycode, 0 to disable"
+#~ msgstr "Geluid zachter XKeycode, 0 om uit te schakelen"
+
+#~ msgid "Volume step"
+#~ msgstr "Stapgrootte"
+
+#~ msgid "Volume step as percentage of volume"
+#~ msgstr "Stapgrootte als percentage van geluidssterkte"
+
+#~ msgid "Volume up key's XKeycode"
+#~ msgstr "Geluid harder XKeycode"
+
+#~ msgid "Volume up key's XKeycode, 0 to disable"
+#~ msgstr "Geluid harder XKeycode, 0 om uit te schakelen"
+
+#~ msgid "WWW key's XKeycode"
+#~ msgstr "Internet XKeycode"
+
+#~ msgid "WWW key's XKeycode, 0 to disable"
+#~ msgstr "Internet XKeycode, 0 om uit te schakelen"
+
+#~ msgid "Accelerator key"
+#~ msgstr "Sneltoets"
+
+#~ msgid "Accelerator modifiers"
+#~ msgstr "Sneltoets-optietoets"
+
+#~ msgid "Accelerator Mode"
+#~ msgstr "Sneltoetsmodus"
+
+#~ msgid "The type of accelerator."
+#~ msgstr "Het sneltoetstype"
+
+#~ msgid "Type a new accelerator, or press Backspace to clear"
+#~ msgstr ""
+#~ "Tik een nieuwe sneltoets of druk op Backspace om deze te verwijderen"
+
+#~ msgid "Type a new accelerator"
+#~ msgstr "Tik een nieuwe sneltoets"

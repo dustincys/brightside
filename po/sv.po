@@ -1,0 +1,835 @@
+# Swedish messages for Brightside.
+# Copyright (C) 2002, 2003 Free Software Foundation, Inc.
+# Christian Rose <menthos@menthos.com>, 2002, 2003.
+#
+# $Id: sv.po,v 1.15 2003/08/31 14:42:38 menthos Exp $
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Brightside\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-01-16 02:13+0000\n"
+"PO-Revision-Date: 2003-08-31 16:41+0200\n"
+"Last-Translator: Christian Rose <menthos@menthos.com>\n"
+"Language-Team: Swedish <sv@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/brightside.c:224
+#, c-format
+msgid ""
+"Couldn't execute command: %s\n"
+"Verify that this command exists."
+msgstr ""
+"Kunde inte köra kommandot: %s\n"
+"Verifiera att detta kommando finns."
+
+#: src/brightside.c:243
+#, c-format
+msgid ""
+"Permissions on the file %s are broken\n"
+"Please check Brightside's documentation, correct the problem and restart "
+"Brightside."
+msgstr ""
+"Rättigheterna på filen %s är felaktiga\n"
+"Kontrollera Brightside:s dokumentation, rätta till felet och starta om "
+"Brightside."
+
+#: src/brightside.c:487
+msgid "translator_credits"
+msgstr ""
+"Christian Rose\n"
+"Skicka synpunkter på översättningen till sv@li.org"
+
+#: src/brightside.c:498
+msgid "Brightside"
+msgstr "Brightside"
+
+#: src/brightside.c:500 src/brightside.c:573
+msgid "Screen Corners and Edges daemon"
+msgstr ""
+
+#: src/brightside.c:579
+msgid "Screen Corners and Edges daemon active"
+msgstr ""
+
+#: src/brightside.c:1733
+msgid "Daemon already running, exiting...\n"
+msgstr ""
+
+#: src/brightside.c:1742
+msgid ""
+"Couldn't load the Glade file.\n"
+"Make sure that this daemon is properly installed."
+msgstr ""
+"Kunde inte läsa in Glade-filen.\n"
+"Se till att demonen är korrekt installerad."
+
+#: src/brightside.glade.h:1
+msgid "Volume"
+msgstr "Volym"
+
+#: src/brightside.h:65
+#, fuzzy
+msgid "Mute volume"
+msgstr "Tystningstangent"
+
+#: src/brightside.h:67
+msgid "Prevent screensaver starting"
+msgstr ""
+
+#: src/brightside.h:69
+#, fuzzy
+msgid "Start screensaver"
+msgstr "Skärmsläckartangent"
+
+#: src/brightside.h:71
+msgid "Enter DPMS standby mode"
+msgstr ""
+
+#: src/brightside.h:73
+msgid "Enter DPMS suspend mode"
+msgstr ""
+
+#: src/brightside.h:75
+msgid "Enter DPMS off mode"
+msgstr ""
+
+#: src/brightside.h:78
+msgid "Dim laptop backlight"
+msgstr ""
+
+#: src/brightside.h:81
+msgid "Custom action..."
+msgstr ""
+
+#: src/brightside-properties.c:283 src/brightside-properties.glade.h:9
+#: src/brightside.desktop.in.h:2
+msgid "Screen Corners and Edges"
+msgstr ""
+
+#: src/brightside-properties.glade.h:1 src/custom-action.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: src/brightside-properties.glade.h:2
+msgid "<small><i>Long</i></small>"
+msgstr ""
+
+#: src/brightside-properties.glade.h:3
+msgid "<small><i>Short</i></small>"
+msgstr ""
+
+#: src/brightside-properties.glade.h:4
+#, fuzzy
+msgid "<span weight=\"bold\">Screen Corners</span>"
+msgstr "<span weight=\"bold\">Ljudkonfiguration</span>"
+
+#: src/brightside-properties.glade.h:5
+#, fuzzy
+msgid "<span weight=\"bold\">Screen Edges</span>"
+msgstr "<span weight=\"bold\">Ljudkonfiguration</span>"
+
+#: src/brightside-properties.glade.h:6
+#, fuzzy
+msgid "Action to take while mouse is placed in corner of screen"
+msgstr "Kommando att köra då utmatningstangenten trycks ned"
+
+#: src/brightside-properties.glade.h:7
+msgid "Bottom r_ight corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:8
+msgid "D_elay:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:10
+msgid "Switch to _adjacent workspace when mouse is moved to edge of screen"
+msgstr ""
+
+#: src/brightside-properties.glade.h:11
+msgid "Top _right corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:12
+msgid "When switching workspace, _wrap around edges of workspace layout"
+msgstr ""
+
+#: src/brightside-properties.glade.h:13
+msgid "_Bottom left corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:14
+msgid "_Configurable actions"
+msgstr ""
+
+#: src/brightside-properties.glade.h:15
+msgid "_Delay:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:16
+msgid "_Switch to diagonally adjacent workspace"
+msgstr ""
+
+#: src/brightside-properties.glade.h:17
+msgid "_Top left corner:"
+msgstr ""
+
+#: src/brightside.desktop.in.h:1
+#, fuzzy
+msgid "Configure screen-edge behaviour"
+msgstr "Konfigurera beteende för multimediatangenter"
+
+#: src/brightside.schemas.in.h:1
+msgid "Action enabled when mouse is in bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:2
+msgid "Action enabled when mouse is in bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:3
+msgid "Action enabled when mouse is in top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:4
+msgid "Action enabled when mouse is in top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:5
+msgid "Action to occur when mouse is in bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:6
+msgid "Action to occur when mouse is in bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:7
+msgid "Action to occur when mouse is in top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:8
+msgid "Action to occur when mouse is in top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:9
+msgid "After flip command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:10
+msgid "Bottom left corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:11
+msgid "Bottom left corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:12
+msgid "Bottom left corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:13
+msgid "Bottom left corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:14
+msgid "Bottom left corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:15
+msgid "Bottom right corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:16
+msgid "Bottom right corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:17
+msgid "Bottom right corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:18
+msgid "Bottom right corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:19
+msgid "Bottom right corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:20
+msgid "Command to execute after flipping workspace (empty string for none)"
+msgstr ""
+
+#: src/brightside.schemas.in.h:21
+msgid "Corner delay"
+msgstr ""
+
+#: src/brightside.schemas.in.h:22
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse enters bottom left corner of screen"
+msgstr "Kommando att köra då utmatningstangenten trycks ned"
+
+#: src/brightside.schemas.in.h:23
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse enters bottom right corner of screen"
+msgstr "Kommando att köra då utmatningstangenten trycks ned"
+
+#: src/brightside.schemas.in.h:24
+#, fuzzy
+msgid "Custom command to execute when mouse enters top left corner of screen"
+msgstr "Kommando att köra då utmatningstangenten trycks ned"
+
+#: src/brightside.schemas.in.h:25
+#, fuzzy
+msgid "Custom command to execute when mouse enters top right corner of screen"
+msgstr "Kommando att köra då utmatningstangenten trycks ned"
+
+#: src/brightside.schemas.in.h:26
+#, fuzzy
+msgid "Custom command to execute when mouse exits bottom left corner of screen"
+msgstr "Kommando att köra då utmatningstangenten trycks ned"
+
+#: src/brightside.schemas.in.h:27
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse exits bottom right corner of screen"
+msgstr "Kommando att köra då utmatningstangenten trycks ned"
+
+#: src/brightside.schemas.in.h:28
+#, fuzzy
+msgid "Custom command to execute when mouse exits top left corner of screen"
+msgstr "Kommando att köra då utmatningstangenten trycks ned"
+
+#: src/brightside.schemas.in.h:29
+#, fuzzy
+msgid "Custom command to execute when mouse exits top right corner of screen"
+msgstr "Kommando att köra då utmatningstangenten trycks ned"
+
+#: src/brightside.schemas.in.h:30
+msgid "Delay in milliseconds before edge flip occurs"
+msgstr ""
+
+#: src/brightside.schemas.in.h:31
+msgid "Delay in milliseconds before screen corner action occurs"
+msgstr ""
+
+#: src/brightside.schemas.in.h:32
+msgid "Edge delay"
+msgstr ""
+
+#: src/brightside.schemas.in.h:33
+msgid "Edge wrap"
+msgstr ""
+
+#: src/brightside.schemas.in.h:34
+#, fuzzy
+msgid "Enable corner flip"
+msgstr "Aktiverad"
+
+#: src/brightside.schemas.in.h:35
+#, fuzzy
+msgid "Enable edge flip"
+msgstr "Aktiverad"
+
+#: src/brightside.schemas.in.h:36
+msgid "Orientable workspaces"
+msgstr ""
+
+#: src/brightside.schemas.in.h:37
+msgid ""
+"Switch to diagonally adjacent workspace when mouse placed in the corner of "
+"the screen, instead of executing a configurable action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:38
+msgid ""
+"Switch to the adjacent workspace when the mouse reaches the edge of the "
+"screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:39
+msgid "Terminate custom command when mouse exits bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:40
+msgid "Terminate custom command when mouse exits bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:41
+msgid "Terminate custom command when mouse exits top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:42
+msgid "Terminate custom command when mouse exits top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:43
+msgid "Top left corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:44
+msgid "Top left corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:45
+msgid "Top left corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:46
+msgid "Top left corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:47
+msgid "Top left corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:48
+msgid "Top right corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:49
+msgid "Top right corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:50
+msgid "Top right corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:51
+msgid "Top right corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:52
+msgid "Top right corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:53
+msgid "Use PCM Volume instead of Master Volume"
+msgstr "Använd PCM-volym istället för huvudvolymen"
+
+#: src/brightside.schemas.in.h:54
+msgid "Whether workspace layout is orientable"
+msgstr ""
+
+#: src/brightside.schemas.in.h:55
+msgid "Wrap wround edges of workspace layout when flipping workspace"
+msgstr ""
+
+#: src/custom-action.glade.h:2
+msgid "*"
+msgstr ""
+
+#: src/custom-action.glade.h:3
+#, fuzzy
+msgid "<span weight=\"bold\">On _entering region</span>"
+msgstr "<span weight=\"bold\">Tangentkonfiguration </span>"
+
+#: src/custom-action.glade.h:4
+#, fuzzy
+msgid "<span weight=\"bold\">On leaving region</span>"
+msgstr "<span weight=\"bold\">Ljudkonfiguration</span>"
+
+#: src/custom-action.glade.h:5 src/custom-action.c:104
+msgid "Custom action"
+msgstr ""
+
+#: src/custom-action.glade.h:6
+msgid "_Run another command:"
+msgstr ""
+
+#: src/custom-action.glade.h:7
+msgid "_Terminate above application"
+msgstr ""
+
+#~ msgid ""
+#~ "Couldn't execute either command: %s\n"
+#~ "or command: %s\n"
+#~ "Verify that at least one of these commands exist."
+#~ msgstr ""
+#~ "Kunde varken köra kommandot: %s\n"
+#~ "eller kommandot: %s\n"
+#~ "Verifiera att åtminstone ett av dessa kommandon finns."
+
+#~ msgid ""
+#~ "There was an error removing access to the multimedia keys.\n"
+#~ "Key %d couldn't be unbound."
+#~ msgstr ""
+#~ "Ett fel inträffade när åtkomst till multimediatangenterna skulle tas "
+#~ "bort.\n"
+#~ "Tangent %d kunde inte avbindas."
+
+#~ msgid ""
+#~ "It seems that another application already has access to the multimedia "
+#~ "keys.\n"
+#~ "Key %d couldn't be bound.\n"
+#~ "Is another daemon already running ?"
+#~ msgstr ""
+#~ "Det verkar som om ett annat program redan har tillgång till "
+#~ "multimediatangenterna.\n"
+#~ "Tangent %d kunde inte avbindas.\n"
+#~ "Kör en annan demon redan?"
+
+#~ msgid "Multimedia keys daemon"
+#~ msgstr "Multimediatangentdemon"
+
+#~ msgid "Multimedia Keys daemon active"
+#~ msgstr "Multimediatangentdemonen aktiv"
+
+#~ msgid "Volume down key"
+#~ msgstr "Volymsänkningstangent"
+
+#~ msgid "Volume up key"
+#~ msgstr "Volymökningstangent"
+
+#~ msgid "Power key"
+#~ msgstr "Strömtangent"
+
+#~ msgid "Eject key"
+#~ msgstr "Utmatningstangent"
+
+#~ msgid "Media key"
+#~ msgstr "Mediatangent"
+
+#~ msgid "Play key"
+#~ msgstr "Spelatangent"
+
+#~ msgid "Pause key"
+#~ msgstr "Paustangent"
+
+#~ msgid "Stop (Audio) key"
+#~ msgstr "Stopptangent (ljud)"
+
+#~ msgid "Previous (Audio) key"
+#~ msgstr "Föregåendetangent (ljud)"
+
+#~ msgid "Next (Audio) key"
+#~ msgstr "Nästatangent (ljud)"
+
+#~ msgid "My Home key"
+#~ msgstr "Hemtangent"
+
+#~ msgid "Refresh key"
+#~ msgstr "Uppdateratangent"
+
+#~ msgid "Search key"
+#~ msgstr "Söktangent"
+
+#~ msgid "E-Mail key"
+#~ msgstr "E-posttangent"
+
+#~ msgid "Sleep key"
+#~ msgstr "Insomningstangent"
+
+#~ msgid "Finance key"
+#~ msgstr "Ekonomitangent"
+
+#~ msgid "Help key"
+#~ msgstr "Hjälptangent"
+
+#~ msgid "WWW key"
+#~ msgstr "WWW-tangent"
+
+#~ msgid "Groups key"
+#~ msgstr "Grupptangent"
+
+#~ msgid "Calculator key"
+#~ msgstr "Miniräknartangent"
+
+#~ msgid "Record key"
+#~ msgstr "Inspelningstangent"
+
+#~ msgid "Close Window key"
+#~ msgstr "Fönsterstängningstangent"
+
+#~ msgid "Shade Window key"
+#~ msgstr "Fönsterskuggningstangent"
+
+#~ msgid "Brightness down key"
+#~ msgstr "Ljusstyrkesänkningstangent"
+
+#~ msgid "Brightness up key"
+#~ msgstr "Ljusstyrkeökningstangent"
+
+#~ msgid "Disabled"
+#~ msgstr "Inaktiverad"
+
+#~ msgid ""
+#~ "This key is already bound to action '%s'.\n"
+#~ "Please select another key."
+#~ msgstr ""
+#~ "Denna tangent är redan knuten till åtgärden \"%s\".\n"
+#~ "Välj en annan tangent."
+
+#~ msgid "Description"
+#~ msgstr "Beskrivning"
+
+#~ msgid "Status"
+#~ msgstr "Status"
+
+#~ msgid "Multimedia Keys Preferences"
+#~ msgstr "Inställningar för multimediatangenter"
+
+#~ msgid ""
+#~ "To assign a key to an action, click on a line, and press the key you want "
+#~ "to associate with it.\n"
+#~ "\"C\" cancels the capture, and \"Backspace\" disables the key shortcut."
+#~ msgstr ""
+#~ "För att tilldela en tangent en åtgärd klickar du på en rad och trycker på "
+#~ "den tangent som du vill associera med den.\n"
+#~ "\"C\" avbryter infångandet och Backsteg inaktiverar tangentgenvägen."
+
+#~ msgid "Use _PCM volume instead of Master volume"
+#~ msgstr "Använd _PCM-volymen istället för huvudvolymen"
+
+#~ msgid "Multimedia Keys"
+#~ msgstr "Multimediatangenter"
+
+#~ msgid "Brightness down key's XKeycode"
+#~ msgstr "Ljusstyrkesänkningstangentens X-tangentkod"
+
+#~ msgid "Brightness down key's XKeycode, 0 to disable"
+#~ msgstr "Ljusstyrkesänkningstangentens X-tangentkod, 0 för att inaktivera"
+
+#~ msgid "Brightness up key's XKeycode"
+#~ msgstr "Ljusstyrkeökningstangentens X-tangentkod"
+
+#~ msgid "Brightness up key's XKeycode, 0 to disable"
+#~ msgstr "Ljusstyrkeökningstangentens X-tangentkod, 0 för att inaktivera"
+
+#~ msgid "Calculator key's XKeycode"
+#~ msgstr "Miniräknartangentens X-tangentkod"
+
+#~ msgid "Calculator key's XKeycode, 0 to disable"
+#~ msgstr "Miniräknartangentens X-tangentkod, 0 för att inaktivera"
+
+#~ msgid "Close Window key's XKeycode"
+#~ msgstr "Fönsterstängningstangentens X-tangentkod"
+
+#~ msgid "Close Window key's XKeycode, 0 to disable"
+#~ msgstr "Fönsterstängningstangentens X-tangentkod, 0 för att inaktivera"
+
+#~ msgid "E-Mail key's XKeycode"
+#~ msgstr "E-posttangentens X-tangentkod"
+
+#~ msgid "E-Mail key's XKeycode, 0 to disable"
+#~ msgstr "E-posttangentens X-tangentkod, 0 för att inaktivera"
+
+#~ msgid "Eject key's XKeycode"
+#~ msgstr "Utmatningstangentens X-tangentkod"
+
+#~ msgid "Eject key's XKeycode, 0 to disable"
+#~ msgstr "Utmatningstangentens X-tangentkod, 0 för att inaktivera"
+
+#~ msgid "Finance key's XKeycode"
+#~ msgstr "Ekonomitangentens X-tangentkod"
+
+#~ msgid "Finance key's XKeycode, 0 to disable"
+#~ msgstr "Ekonomitangentens X-tangentkod, 0 för att inaktivera"
+
+#~ msgid "Groups key's XKeycode"
+#~ msgstr "Grupptangentens X-tangentkod"
+
+#~ msgid "Groups key's XKeycode, 0 to disable"
+#~ msgstr "Grupptangentens X-tangentkod, 0 för att inaktivera"
+
+#~ msgid "Help key's XKeycode"
+#~ msgstr "Hjälptangentens X-tangentkod"
+
+#~ msgid "Help key's XKeycode, 0 to disable"
+#~ msgstr "Hjälptangentens X-tangentkod, 0 för att inaktivera"
+
+#~ msgid "Mute key's XKeycode"
+#~ msgstr "Tystningstangentens X-tangentkod"
+
+#~ msgid "Mute key's XKeycode, 0 to disable"
+#~ msgstr "Tystningstangentens X-tangentkod, 0 för att inaktivera"
+
+#~ msgid "My Home key's XKeycode"
+#~ msgstr "Hemtangentens X-tangentkod"
+
+#~ msgid "My Home key's XKeycode, 0 to disable"
+#~ msgstr "Hemtangentens X-tangentkod, 0 för att inaktivera"
+
+#~ msgid "Next key's XKeycode"
+#~ msgstr "Nästatangentens X-tangentkod"
+
+#~ msgid "Next key's XKeycode, 0 to disable"
+#~ msgstr "Nästatangentens X-tangentkod, 0 för att inaktivera"
+
+#~ msgid "Pause key's XKeycode"
+#~ msgstr "Paustangentens X-tangentkod"
+
+#~ msgid "Pause key's XKeycode, 0 to disable"
+#~ msgstr "Paustangentens X-tangentkod, 0 för att inaktivera"
+
+#~ msgid "Play key's XKeycode"
+#~ msgstr "Spelatangentens X-tangentkod"
+
+#~ msgid "Play key's XKeycode, 0 to disable"
+#~ msgstr "Spelatangentens X-tangentkod, 0 för att inaktivera"
+
+#~ msgid "Power key's XKeycode"
+#~ msgstr "Strömtangentens X-tangentkod"
+
+#~ msgid "Power key's XKeycode, 0 to disable"
+#~ msgstr "Strömtangentens X-tangentkod, 0 för att inaktivera"
+
+#~ msgid "Previous key's XKeycode"
+#~ msgstr "Föregåendetangentens X-tangentkod"
+
+#~ msgid "Previous key's XKeycode, 0 to disable"
+#~ msgstr "Föregåendetangentens X-tangentkod, 0 för att inaktivera"
+
+#~ msgid "Record key's XKeycode"
+#~ msgstr "Inspelningstangentens X-tangentkod"
+
+#~ msgid "Record key's XKeycode, 0 to disable"
+#~ msgstr "Inspelningstangentens X-tangentkod, 0 för att inaktivera"
+
+#~ msgid "Refresh key's XKeycode"
+#~ msgstr "Uppdateratangentens X-tangentkod"
+
+#~ msgid "Refresh key's XKeycode, 0 to disable"
+#~ msgstr "Uppdateratangentens X-tangentkod, 0 för att inaktivera"
+
+#~ msgid "Screensaver key's XKeycode"
+#~ msgstr "Skärmsläckartangentens X-tangentkod"
+
+#~ msgid "Screensaver key's XKeycode, 0 to disable"
+#~ msgstr "Skärmsläckartangentens X-tangentkod, 0 för att inaktivera"
+
+#~ msgid "Search key's XKeycode"
+#~ msgstr "Söktangentens X-tangentkod"
+
+#~ msgid "Search key's XKeycode, 0 to disable"
+#~ msgstr "Söktangentens X-tangentkod, 0 för att inaktivera"
+
+#~ msgid "Shade Window key's XKeycode"
+#~ msgstr "Fönsterskuggningstangentens X-tangentkod"
+
+#~ msgid "Shade Window key's XKeycode, 0 to disable"
+#~ msgstr "Fönsterskuggningstangentens X-tangentkod, 0 för att inaktivera"
+
+#~ msgid "Sleep key's XKeycode"
+#~ msgstr "Insomningstangentens X-tangentkod"
+
+#~ msgid "Sleep key's XKeycode, 0 to disable"
+#~ msgstr "Insomningstangentens X-tangentkod, 0 för att inaktivera"
+
+#~ msgid "Sound file to be played when volume is changed"
+#~ msgstr "Ljudfil att spela när volymen ändras"
+
+#~ msgid "Volume down key's XKeycode"
+#~ msgstr "Volymsänkningstangentens X-tangentkod"
+
+#~ msgid "Volume down key's XKeycode, 0 to disable"
+#~ msgstr "Volymsänkningstangentens X-tangentkod, 0 för att inaktivera"
+
+#~ msgid "Volume step"
+#~ msgstr "Volymsteg"
+
+#~ msgid "Volume step as percentage of volume"
+#~ msgstr "Volymsteg i procent av volymen"
+
+#~ msgid "Volume up key's XKeycode"
+#~ msgstr "Volymökningstangentens X-tangentkod"
+
+#~ msgid "Volume up key's XKeycode, 0 to disable"
+#~ msgstr "Volymökningstangentens X-tangentkod, 0 för att inaktivera"
+
+#~ msgid "WWW key's XKeycode"
+#~ msgstr "WWW-tangentens X-tangentkod"
+
+#~ msgid "WWW key's XKeycode, 0 to disable"
+#~ msgstr "WWW-tangentens X-tangentkod, 0 för att inaktivera"
+
+#~ msgid "Accelerator key"
+#~ msgstr "Snabbtangent"
+
+#~ msgid "Accelerator modifiers"
+#~ msgstr "Snabbtangentsmodifierare"
+
+#~ msgid "Accelerator Mode"
+#~ msgstr "Snabbtangentsläge"
+
+#~ msgid "The type of accelerator."
+#~ msgstr "Typen av snabbtangent."
+
+#~ msgid "Type a new accelerator, or press Backspace to clear"
+#~ msgstr "Ange en ny snabbtangent, eller tryck backsteg för att ta bort"
+
+#~ msgid "Type a new accelerator"
+#~ msgstr "Ange en ny snabbtangent"
+
+#~ msgid ""
+#~ "This key is already bound to an action.\n"
+#~ "Please select another key."
+#~ msgstr ""
+#~ "Denna tangent är redan knuten till en åtgärd.\n"
+#~ "Välj en annan tangent."
+
+#~ msgid "_Launch the multimedia key daemon"
+#~ msgstr "_Starta multimediatangentdemonen"
+
+#~ msgid "(C) 2001 Bastien Nocera"
+#~ msgstr "© 2001 Bastien Nocera"
+
+#~ msgid "(C) 2001, 2002 Bastien Nocera"
+#~ msgstr "© 2001, 2002 Bastien Nocera"
+
+#~ msgid "Keys setup"
+#~ msgstr "Tangentkonfiguration"
+
+#~ msgid "Sound setup"
+#~ msgstr "Ljudkonfiguration"
+
+#~ msgid ""
+#~ "Couldn't execute either command: %s\n"
+#~ "or command: %s\n"
+#~ "Verify that at least one of these commandsexist."
+#~ msgstr ""
+#~ "Kunde inte köra kommandot: %s\n"
+#~ "eller kommandot: %s\n"
+#~ "Verifiera att detta kommando finns."
+
+#~ msgid ""
+#~ "Your system has no sound support, or Brightside was compiled without any "
+#~ "sound support\n"
+#~ "Brightside will now exit"
+#~ msgstr ""
+#~ "Ditt system har inget ljudstöd eller så kompilerades Brightside utan "
+#~ "ljudstöd\n"
+#~ "Brightside kommer nu att avslutas"
+
+#~ msgid "Keycode value"
+#~ msgstr "Tangentkodsvärde"
+
+#~ msgid ""
+#~ "Permissions on the file /dev/mixer are broken\n"
+#~ "Please check Brightside's documentation, correct the problem and restart "
+#~ "Brightside."
+#~ msgstr ""
+#~ "Rättigheterna på filen /dev/mixer är felaktiga\n"
+#~ "Kontrollera Brightside:s dokumentation, rätta till felet och starta om "
+#~ "Brightside."
+
+#~ msgid ""
+#~ "Permissions on /dev/pmu are broken.\n"
+#~ "Please check Brightside's documentation, correct the problem and restart "
+#~ "Brightside."
+#~ msgstr ""
+#~ "Rättigheterna på /dev/pmu är felaktiga.\n"
+#~ "Kontrollera Brightside:s dokumentation, rätta till felet och starta om "
+#~ "Brightside."
+
+#~ msgid ""
+#~ "Permissions on the files /dev/fb0 and/or /dev/pmu are broken.\n"
+#~ "Please check Brightside's documentation, correct the problem and restart "
+#~ "Brightside."
+#~ msgstr ""
+#~ "Rättigheterna på filen /dev/fb0 och/eller /dev/pmu är felaktiga.\n"
+#~ "Kontrollera Brightside:s dokumentation, rätta till felet och starta om "
+#~ "Brightside."

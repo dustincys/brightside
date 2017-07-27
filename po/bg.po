@@ -1,0 +1,774 @@
+# Bulgarian translation for Brightside.
+# Copyright (C) 2002 The Free Software Foundation
+# This file is distributed under the same license as the Brightside package.
+# Alexander Shopov <al_shopov@yahoo.com>, 2002.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Brightside\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-01-16 02:13+0000\n"
+"PO-Revision-Date: 2003-01-14 12:30+0200\n"
+"Last-Translator: Alexander Shopov <al_shopov@yahoo.com>\n"
+"Language-Team: Bulgarian <dict@linux.zonebg.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 0.9.6\n"
+
+#: src/brightside.c:224
+#, c-format
+msgid ""
+"Couldn't execute command: %s\n"
+"Verify that this command exists."
+msgstr ""
+"Не можах да изпълня командата : %s\n"
+"Проверете дали съществува."
+
+#: src/brightside.c:243
+#, c-format
+msgid ""
+"Permissions on the file %s are broken\n"
+"Please check Brightside's documentation, correct the problem and restart "
+"Brightside."
+msgstr ""
+"Режимът за достъп на файла %s са неправилни. Проверете документацията на "
+"Екми, оправете проблема и рестартирайте Екми."
+
+#: src/brightside.c:487
+msgid "translator_credits"
+msgstr "Александър Шопов <al_shopov@yahoo.com>"
+
+#: src/brightside.c:498
+msgid "Brightside"
+msgstr "Екми"
+
+#: src/brightside.c:500 src/brightside.c:573
+msgid "Screen Corners and Edges daemon"
+msgstr ""
+
+#: src/brightside.c:579
+msgid "Screen Corners and Edges daemon active"
+msgstr ""
+
+#: src/brightside.c:1733
+msgid "Daemon already running, exiting...\n"
+msgstr ""
+
+#: src/brightside.c:1742
+msgid ""
+"Couldn't load the Glade file.\n"
+"Make sure that this daemon is properly installed."
+msgstr ""
+"Не можах да заредя Глейд файл.\n"
+"Проверете дали демонът е правилно инсталиран."
+
+#: src/brightside.glade.h:1
+msgid "Volume"
+msgstr "Сила на звука"
+
+#: src/brightside.h:65
+#, fuzzy
+msgid "Mute volume"
+msgstr "Клавиш за заглушаване"
+
+#: src/brightside.h:67
+msgid "Prevent screensaver starting"
+msgstr ""
+
+#: src/brightside.h:69
+#, fuzzy
+msgid "Start screensaver"
+msgstr "Клавиш за предпазителя на екрана"
+
+#: src/brightside.h:71
+msgid "Enter DPMS standby mode"
+msgstr ""
+
+#: src/brightside.h:73
+msgid "Enter DPMS suspend mode"
+msgstr ""
+
+#: src/brightside.h:75
+msgid "Enter DPMS off mode"
+msgstr ""
+
+#: src/brightside.h:78
+msgid "Dim laptop backlight"
+msgstr ""
+
+#: src/brightside.h:81
+msgid "Custom action..."
+msgstr ""
+
+#: src/brightside-properties.c:283 src/brightside-properties.glade.h:9
+#: src/brightside.desktop.in.h:2
+msgid "Screen Corners and Edges"
+msgstr ""
+
+#: src/brightside-properties.glade.h:1 src/custom-action.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: src/brightside-properties.glade.h:2
+msgid "<small><i>Long</i></small>"
+msgstr ""
+
+#: src/brightside-properties.glade.h:3
+msgid "<small><i>Short</i></small>"
+msgstr ""
+
+#: src/brightside-properties.glade.h:4
+#, fuzzy
+msgid "<span weight=\"bold\">Screen Corners</span>"
+msgstr "<span weight=\"bold\">Настройка на звука</span>"
+
+#: src/brightside-properties.glade.h:5
+#, fuzzy
+msgid "<span weight=\"bold\">Screen Edges</span>"
+msgstr "<span weight=\"bold\">Настройка на звука</span>"
+
+#: src/brightside-properties.glade.h:6
+#, fuzzy
+msgid "Action to take while mouse is placed in corner of screen"
+msgstr ""
+"Команда, която да се изпълни при натискане на бутона за отваряне на CD-то"
+
+#: src/brightside-properties.glade.h:7
+msgid "Bottom r_ight corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:8
+msgid "D_elay:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:10
+msgid "Switch to _adjacent workspace when mouse is moved to edge of screen"
+msgstr ""
+
+#: src/brightside-properties.glade.h:11
+msgid "Top _right corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:12
+msgid "When switching workspace, _wrap around edges of workspace layout"
+msgstr ""
+
+#: src/brightside-properties.glade.h:13
+msgid "_Bottom left corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:14
+msgid "_Configurable actions"
+msgstr ""
+
+#: src/brightside-properties.glade.h:15
+msgid "_Delay:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:16
+msgid "_Switch to diagonally adjacent workspace"
+msgstr ""
+
+#: src/brightside-properties.glade.h:17
+msgid "_Top left corner:"
+msgstr ""
+
+#: src/brightside.desktop.in.h:1
+#, fuzzy
+msgid "Configure screen-edge behaviour"
+msgstr "Настрой поведението на мултимедийните клавиши"
+
+#: src/brightside.schemas.in.h:1
+msgid "Action enabled when mouse is in bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:2
+msgid "Action enabled when mouse is in bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:3
+msgid "Action enabled when mouse is in top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:4
+msgid "Action enabled when mouse is in top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:5
+msgid "Action to occur when mouse is in bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:6
+msgid "Action to occur when mouse is in bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:7
+msgid "Action to occur when mouse is in top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:8
+msgid "Action to occur when mouse is in top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:9
+msgid "After flip command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:10
+msgid "Bottom left corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:11
+msgid "Bottom left corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:12
+msgid "Bottom left corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:13
+msgid "Bottom left corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:14
+msgid "Bottom left corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:15
+msgid "Bottom right corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:16
+msgid "Bottom right corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:17
+msgid "Bottom right corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:18
+msgid "Bottom right corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:19
+msgid "Bottom right corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:20
+msgid "Command to execute after flipping workspace (empty string for none)"
+msgstr ""
+
+#: src/brightside.schemas.in.h:21
+msgid "Corner delay"
+msgstr ""
+
+#: src/brightside.schemas.in.h:22
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse enters bottom left corner of screen"
+msgstr ""
+"Команда, която да се изпълни при натискане на бутона за отваряне на CD-то"
+
+#: src/brightside.schemas.in.h:23
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse enters bottom right corner of screen"
+msgstr ""
+"Команда, която да се изпълни при натискане на бутона за отваряне на CD-то"
+
+#: src/brightside.schemas.in.h:24
+#, fuzzy
+msgid "Custom command to execute when mouse enters top left corner of screen"
+msgstr ""
+"Команда, която да се изпълни при натискане на бутона за отваряне на CD-то"
+
+#: src/brightside.schemas.in.h:25
+#, fuzzy
+msgid "Custom command to execute when mouse enters top right corner of screen"
+msgstr ""
+"Команда, която да се изпълни при натискане на бутона за отваряне на CD-то"
+
+#: src/brightside.schemas.in.h:26
+#, fuzzy
+msgid "Custom command to execute when mouse exits bottom left corner of screen"
+msgstr ""
+"Команда, която да се изпълни при натискане на бутона за отваряне на CD-то"
+
+#: src/brightside.schemas.in.h:27
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse exits bottom right corner of screen"
+msgstr ""
+"Команда, която да се изпълни при натискане на бутона за отваряне на CD-то"
+
+#: src/brightside.schemas.in.h:28
+#, fuzzy
+msgid "Custom command to execute when mouse exits top left corner of screen"
+msgstr ""
+"Команда, която да се изпълни при натискане на бутона за отваряне на CD-то"
+
+#: src/brightside.schemas.in.h:29
+#, fuzzy
+msgid "Custom command to execute when mouse exits top right corner of screen"
+msgstr ""
+"Команда, която да се изпълни при натискане на бутона за отваряне на CD-то"
+
+#: src/brightside.schemas.in.h:30
+msgid "Delay in milliseconds before edge flip occurs"
+msgstr ""
+
+#: src/brightside.schemas.in.h:31
+msgid "Delay in milliseconds before screen corner action occurs"
+msgstr ""
+
+#: src/brightside.schemas.in.h:32
+msgid "Edge delay"
+msgstr ""
+
+#: src/brightside.schemas.in.h:33
+msgid "Edge wrap"
+msgstr ""
+
+#: src/brightside.schemas.in.h:34
+#, fuzzy
+msgid "Enable corner flip"
+msgstr "Включен"
+
+#: src/brightside.schemas.in.h:35
+#, fuzzy
+msgid "Enable edge flip"
+msgstr "Включен"
+
+#: src/brightside.schemas.in.h:36
+msgid "Orientable workspaces"
+msgstr ""
+
+#: src/brightside.schemas.in.h:37
+msgid ""
+"Switch to diagonally adjacent workspace when mouse placed in the corner of "
+"the screen, instead of executing a configurable action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:38
+msgid ""
+"Switch to the adjacent workspace when the mouse reaches the edge of the "
+"screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:39
+msgid "Terminate custom command when mouse exits bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:40
+msgid "Terminate custom command when mouse exits bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:41
+msgid "Terminate custom command when mouse exits top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:42
+msgid "Terminate custom command when mouse exits top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:43
+msgid "Top left corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:44
+msgid "Top left corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:45
+msgid "Top left corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:46
+msgid "Top left corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:47
+msgid "Top left corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:48
+msgid "Top right corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:49
+msgid "Top right corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:50
+msgid "Top right corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:51
+msgid "Top right corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:52
+msgid "Top right corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:53
+msgid "Use PCM Volume instead of Master Volume"
+msgstr "Използвай PCM вместо основна сила на звука"
+
+#: src/brightside.schemas.in.h:54
+msgid "Whether workspace layout is orientable"
+msgstr ""
+
+#: src/brightside.schemas.in.h:55
+msgid "Wrap wround edges of workspace layout when flipping workspace"
+msgstr ""
+
+#: src/custom-action.glade.h:2
+msgid "*"
+msgstr ""
+
+#: src/custom-action.glade.h:3
+#, fuzzy
+msgid "<span weight=\"bold\">On _entering region</span>"
+msgstr "<span weight=\"bold\">Настройка на клавишите</span>"
+
+#: src/custom-action.glade.h:4
+#, fuzzy
+msgid "<span weight=\"bold\">On leaving region</span>"
+msgstr "<span weight=\"bold\">Настройка на звука</span>"
+
+#: src/custom-action.glade.h:5 src/custom-action.c:104
+msgid "Custom action"
+msgstr ""
+
+#: src/custom-action.glade.h:6
+msgid "_Run another command:"
+msgstr ""
+
+#: src/custom-action.glade.h:7
+msgid "_Terminate above application"
+msgstr ""
+
+#~ msgid ""
+#~ "Couldn't execute either command: %s\n"
+#~ "or command: %s\n"
+#~ "Verify that at least one of these commands exist."
+#~ msgstr ""
+#~ "Не можах да изпълня нито командата : %s\n"
+#~ "нито : %s\n"
+#~ "Проверете дали поне една от двете съществува."
+
+#~ msgid ""
+#~ "There was an error removing access to the multimedia keys.\n"
+#~ "Key %d couldn't be unbound."
+#~ msgstr ""
+#~ "Грешка при опит за премахване на достъпа до мултимедийните клавиши.\n"
+#~ "Клавишът %d все още има действие."
+
+#~ msgid ""
+#~ "It seems that another application already has access to the multimedia "
+#~ "keys.\n"
+#~ "Key %d couldn't be bound.\n"
+#~ "Is another daemon already running ?"
+#~ msgstr ""
+#~ "Изглежда друго приложение вече има достъп до мултимедийните клавиши.\n"
+#~ "На клавиша %d не може да се присвои действие.\n"
+#~ "Да няма друг демон?"
+
+#~ msgid "Multimedia keys daemon"
+#~ msgstr "Демон за мултимедийни клавиши"
+
+#~ msgid "Multimedia Keys daemon active"
+#~ msgstr "Демонът за мултимедийни клавиши е активен"
+
+#~ msgid "Volume down key"
+#~ msgstr "Клавиш за намаляне на звука"
+
+#~ msgid "Volume up key"
+#~ msgstr "Клавиш за увеличаване на звука"
+
+#~ msgid "Power key"
+#~ msgstr "Клавиш за изключване"
+
+#~ msgid "Eject key"
+#~ msgstr "Клавиш за отваряне на CD-то"
+
+#~ msgid "Media key"
+#~ msgstr "Клавиш за аудио"
+
+#~ msgid "Play key"
+#~ msgstr "Клавиш за пускане (аудио)"
+
+#~ msgid "Pause key"
+#~ msgstr "Клавиш пауза (аудио)"
+
+#~ msgid "Stop (Audio) key"
+#~ msgstr "Клавиш за спиране (аудио)"
+
+#~ msgid "Previous (Audio) key"
+#~ msgstr "Клавиш за предна песен (аудио)"
+
+#~ msgid "Next (Audio) key"
+#~ msgstr "Клавиш за следваща песен (аудио)"
+
+#~ msgid "My Home key"
+#~ msgstr "Клавиш Вкъщи"
+
+#~ msgid "Refresh key"
+#~ msgstr "Клавиш за обновяване"
+
+#~ msgid "Search key"
+#~ msgstr "Клавиш за търсене"
+
+#~ msgid "E-Mail key"
+#~ msgstr "Клавиш за електронна поща"
+
+#~ msgid "Sleep key"
+#~ msgstr "Клавиш за приспиване"
+
+#~ msgid "Finance key"
+#~ msgstr "Клавиш за финанси"
+
+#~ msgid "Help key"
+#~ msgstr "Клавиш за помощ"
+
+#~ msgid "WWW key"
+#~ msgstr "Клавиш за Световната мрежа"
+
+#~ msgid "Groups key"
+#~ msgstr "Клавиш за групи"
+
+#~ msgid "Calculator key"
+#~ msgstr "Клавиш за калкулатор"
+
+#~ msgid "Record key"
+#~ msgstr "Клавиш за запис"
+
+#~ msgid "Close Window key"
+#~ msgstr "Клавиш за затваряне на прозореца"
+
+#~ msgid "Shade Window key"
+#~ msgstr "Клавиш за свиване на прозорец"
+
+#~ msgid "Brightness down key"
+#~ msgstr "Клавиш за намаляне на осветеността"
+
+#~ msgid "Brightness up key"
+#~ msgstr "Клавиш за увеличаване на осветеността"
+
+#~ msgid "Disabled"
+#~ msgstr "Изключен"
+
+#, fuzzy
+#~ msgid ""
+#~ "This key is already bound to action '%s'.\n"
+#~ "Please select another key."
+#~ msgstr ""
+#~ "На клавиша е присвоено друго действие.\n"
+#~ "Изберете друг клавиш."
+
+#~ msgid "Description"
+#~ msgstr "Описание"
+
+#~ msgid "Status"
+#~ msgstr "Състояние"
+
+#~ msgid "Multimedia Keys Preferences"
+#~ msgstr "Настройки на мултимедийните клавиши"
+
+#~ msgid ""
+#~ "To assign a key to an action, click on a line, and press the key you want "
+#~ "to associate with it.\n"
+#~ "\"C\" cancels the capture, and \"Backspace\" disables the key shortcut."
+#~ msgstr ""
+#~ "За да присвоите клавиш на действие, щракнете върху ред и натиснете "
+#~ "клавиша, който искате да свържете.\n"
+#~ "\"C\" прекъсва присвояването, а \"Backspace\" премахва асоциацията."
+
+#~ msgid "Use _PCM volume instead of Master volume"
+#~ msgstr "Използвай _PCM управление на звука вместо основната сила"
+
+#~ msgid "Multimedia Keys"
+#~ msgstr "Мултимедийни клавиши"
+
+#~ msgid "Brightness down key's XKeycode"
+#~ msgstr "Х кода на клавиша за намаляне на осветеността"
+
+#~ msgid "Brightness down key's XKeycode, 0 to disable"
+#~ msgstr "Х кода на клавиша за намаляне на осветеността, с 0 се изключва"
+
+#~ msgid "Brightness up key's XKeycode"
+#~ msgstr "Х кода на клавиша за увеличаване на осветеността"
+
+#~ msgid "Brightness up key's XKeycode, 0 to disable"
+#~ msgstr "Х кода на клавиша за увеличаване на осветеността, с 0 се изключва"
+
+#~ msgid "Calculator key's XKeycode"
+#~ msgstr "Х кода на клавиша за калкулатора"
+
+#~ msgid "Calculator key's XKeycode, 0 to disable"
+#~ msgstr "Х кода на клавиша за калкулатора, с 0 се изключва"
+
+#~ msgid "Close Window key's XKeycode"
+#~ msgstr "Х кода на клавиша за затваряне на прозорец"
+
+#~ msgid "Close Window key's XKeycode, 0 to disable"
+#~ msgstr "Х кода на клавиша за затваряне на прозорец, с 0 се изключва"
+
+#~ msgid "E-Mail key's XKeycode"
+#~ msgstr "Х кода на клавиша за електронна поща"
+
+#~ msgid "E-Mail key's XKeycode, 0 to disable"
+#~ msgstr "Х кода на клавиша за електронна поща, с 0 се изключва"
+
+#~ msgid "Eject key's XKeycode"
+#~ msgstr "Х кода на клавиша за отваряне на CD-то"
+
+#~ msgid "Eject key's XKeycode, 0 to disable"
+#~ msgstr "Х кода на клавиша за отваряне на CD-то, с 0 се изключва"
+
+#~ msgid "Finance key's XKeycode"
+#~ msgstr "Х кода на клавиша за финанси"
+
+#~ msgid "Finance key's XKeycode, 0 to disable"
+#~ msgstr "Х кода на клавиша за финанси, с 0 се изключва"
+
+#~ msgid "Groups key's XKeycode"
+#~ msgstr "Х кода на клавиша за групите"
+
+#~ msgid "Groups key's XKeycode, 0 to disable"
+#~ msgstr "Х кода на клавиша за групите, с 0 се изключва"
+
+#~ msgid "Help key's XKeycode"
+#~ msgstr "Х кода на клавиша за помощта"
+
+#~ msgid "Help key's XKeycode, 0 to disable"
+#~ msgstr "Х кода на клавиша за помощта, с 0 се изключва"
+
+#~ msgid "Mute key's XKeycode"
+#~ msgstr "Х кода на клавиша за заглушаване"
+
+#~ msgid "Mute key's XKeycode, 0 to disable"
+#~ msgstr "Х кода на клавиша за заглушаване, с 0 се изключва"
+
+#~ msgid "My Home key's XKeycode"
+#~ msgstr "Х кода на клавиша Вкъщи"
+
+#~ msgid "My Home key's XKeycode, 0 to disable"
+#~ msgstr "Х кода на клавиша Вкъщи, с 0 се изключва"
+
+#~ msgid "Next key's XKeycode"
+#~ msgstr "Х кода на клавиша за следваща песен"
+
+#~ msgid "Next key's XKeycode, 0 to disable"
+#~ msgstr "Х кода на клавиша за следваща песен, с 0 се изключва"
+
+#~ msgid "Pause key's XKeycode"
+#~ msgstr "Х кода на клавиша за пауза"
+
+#~ msgid "Pause key's XKeycode, 0 to disable"
+#~ msgstr "Х кода на клавиша за пауза, с 0 се изключва"
+
+#~ msgid "Play key's XKeycode"
+#~ msgstr "Х кода на клавиша за пускане"
+
+#~ msgid "Play key's XKeycode, 0 to disable"
+#~ msgstr "Х кода на клавиша за пускане, с 0 се изключва"
+
+#~ msgid "Power key's XKeycode"
+#~ msgstr "Х кода на клавиша за изключване"
+
+#~ msgid "Power key's XKeycode, 0 to disable"
+#~ msgstr "Х кода на клавиша за изключване, с 0 се изключва"
+
+#~ msgid "Previous key's XKeycode"
+#~ msgstr "Х кода на клавиша за предна песен"
+
+#~ msgid "Previous key's XKeycode, 0 to disable"
+#~ msgstr "Х кода на клавиша за предна песен, с 0 се изключва"
+
+#~ msgid "Record key's XKeycode"
+#~ msgstr "Х кода на клавиша за запис"
+
+#~ msgid "Record key's XKeycode, 0 to disable"
+#~ msgstr "Х кода на клавиша за запис, с 0 се изключва"
+
+#~ msgid "Refresh key's XKeycode"
+#~ msgstr "Х кода на клавиша за обновяване"
+
+#~ msgid "Refresh key's XKeycode, 0 to disable"
+#~ msgstr "Х кода на клавиша за обновяване, с 0 се изключва"
+
+#~ msgid "Screensaver key's XKeycode"
+#~ msgstr "Х кода на клавиша за предпазителя на екрана"
+
+#~ msgid "Screensaver key's XKeycode, 0 to disable"
+#~ msgstr "Х кода на клавиша за предпазителя на екрана, с 0 се изключва"
+
+#~ msgid "Search key's XKeycode"
+#~ msgstr "Х кода на клавиша за търсене"
+
+#~ msgid "Search key's XKeycode, 0 to disable"
+#~ msgstr "Х кода на клавиша за търсене, с 0 се изключва"
+
+#~ msgid "Shade Window key's XKeycode"
+#~ msgstr "Х кода на клавиша за свиване"
+
+#~ msgid "Shade Window key's XKeycode, 0 to disable"
+#~ msgstr "Х кода на клавиша за свиване, с 0 се изключва"
+
+#~ msgid "Sleep key's XKeycode"
+#~ msgstr "Х кода на клавиша за приспиване"
+
+#~ msgid "Sleep key's XKeycode, 0 to disable"
+#~ msgstr "Х кода на клавиша за приспиване, с 0 се изключва"
+
+#~ msgid "Sound file to be played when volume is changed"
+#~ msgstr "Кой файл да се просвири при промяна на силата на звука"
+
+#~ msgid "Volume down key's XKeycode"
+#~ msgstr "Х кода на клавиша за намаляне на звука"
+
+#~ msgid "Volume down key's XKeycode, 0 to disable"
+#~ msgstr "Х кода на клавиша за намаляне на звука, с 0 се изключва"
+
+#, fuzzy
+#~ msgid "Volume step"
+#~ msgstr "Сила на звука"
+
+#~ msgid "Volume up key's XKeycode"
+#~ msgstr "Х кода на клавиша за увеличаване на звука"
+
+#~ msgid "Volume up key's XKeycode, 0 to disable"
+#~ msgstr "Х кода на клавиша за увеличаване на звука, с 0 се изключва"
+
+#~ msgid "WWW key's XKeycode"
+#~ msgstr "Х кода на клавиша за Световната мрежа"
+
+#~ msgid "WWW key's XKeycode, 0 to disable"
+#~ msgstr "Х кода на клавиша за Световната мрежа, с 0 се изключва"
+
+#~ msgid "Accelerator key"
+#~ msgstr "Клавиш за ускорител"
+
+#~ msgid "Accelerator modifiers"
+#~ msgstr "Модификатор на ускорителя"
+
+#~ msgid "Accelerator Mode"
+#~ msgstr "Режим на ускорителя"
+
+#~ msgid "The type of accelerator."
+#~ msgstr "Типът на ускорителя"
+
+#~ msgid "Type a new accelerator, or press Backspace to clear"
+#~ msgstr "Въведете нов ускорител или изтрийте с Backspace"
+
+#~ msgid "Type a new accelerator"
+#~ msgstr "Въведете нов ускорител"
+
+#~ msgid "_Launch the multimedia key daemon"
+#~ msgstr "_Стартирай демона за мултимедийните клавиши"
+
+#~ msgid "(C) 2001 Bastien Nocera"
+#~ msgstr "(C) 2001 Bastien Nocera"

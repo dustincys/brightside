@@ -1,0 +1,104 @@
+2004-10-23  Ari Pollak  <ari@debian.org>
+
+	* src/gconf-property-editor.c: fix crash when schema not installed
+	correctly
+
+2004-09-16  Joe Marcus Clarke  <marcus@FreeBSD.org>
+
+	* src/brightside-tray.c, src/brightside-util.c, src/brightside.c:
+	move variable declarations to beginning of code blocks (enable compile
+	under gcc 2.9x)
+
+2004-06-23  Ed Catmur  <ed@catmur.co.uk>
+
+	* README, configure.ac:
+
+	  version 1.3.2
+
+2004-06-23  Ed Catmur  <ed@catmur.co.uk>
+
+	* src/brightside.c:
+	
+	  keep pager alive on wheel
+	  no edge flipping off sides of 1-d layout
+
+	* src/brightside-util.c:
+
+	  split out some simple process stuff
+
+	* configure.ac, src/Makefile.am, src/brightside-tray.c:
+
+	  split out the tray icon and make it optional (--enable-tray-icon)
+
+	* brightside.desktop.in
+
+	  move capplet into Advanced
+
+2004-05-07  Ed Catmur  <ed@catmur.co.uk>
+
+	* README, configure.ac:
+
+	  version 1.3.1
+
+	* src/brightside-volume-alsa.c:
+
+	  static forward definition to prevent error message
+
+	* src/brightside.c:
+
+	  add popt argument parsing, --pager switch, pager stays alive on
+	  mouseover
+
+2004-01-11  Ed Catmur  <ed@catmur.co.uk>
+
+	* po/Makefile.in.in: 
+	  
+	  the tools I currently have (gettext-0.12.1, automake-1.7,
+	  autoconf-2.58, GNU Make 3.80) are either broken or don't play 
+	  well together. Tips: don't use gettextize under any circumstances;
+	  instead copy the po/Makefile.in.in from any Gnome distribution
+	  package.
+	  
+	* configure.in: ditto
+
+2004-01-11  gettextize  <bug-gnu-gettext@gnu.org>
+
+	* Makefile.am (SUBDIRS): Add m4.
+	* configure.ac (AC_OUTPUT): Add m4/Makefile.
+
+2004-01-11  gettextize  <bug-gnu-gettext@gnu.org>
+
+	* Makefile.am (SUBDIRS): Add m4.
+	* configure.ac (AC_OUTPUT): Add m4/Makefile.
+
+2004-01-11  gettextize  <bug-gnu-gettext@gnu.org>
+
+	* Makefile.am (SUBDIRS): Remove intl.
+	* configure.ac (AC_OUTPUT): Remove intl/Makefile.
+
+2004-01-11  gettextize  <bug-gnu-gettext@gnu.org>
+
+	* configure.ac (AC_OUTPUT): Add intl/Makefile.
+
+2004-01-11  gettextize  <bug-gnu-gettext@gnu.org>
+
+	* Makefile.am (SUBDIRS): Add intl.
+	* configure.ac (AC_OUTPUT): Add intl/Makefile.
+
+2004-01-11  gettextize  <bug-gnu-gettext@gnu.org>
+
+	* Makefile.am (SUBDIRS): Add m4.
+	(ACLOCAL_AMFLAGS): New variable.
+	(EXTRA_DIST): Add config.rpath.
+	* configure.in (AC_OUTPUT): Add po/Makefile.in,
+
+2004-01-11  Ed Catmur  <ed@catmur.co.uk>
+
+	* README: set version to 1.3.0
+	* configure.in: ditto
+
+2004-01-11  Ed Catmur  <ed@catmur.co.uk>
+
+	* src/brightside.c: (quit_activated):
+
+	Disconnect from session management on user initiated quit

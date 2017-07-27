@@ -1,0 +1,767 @@
+# Albanian translation of Brightside.
+# Copyright (C) 2002, 2003 The Free Software Foundation.
+# This file is distributed under the same license as the Brightside package.
+# Deep_Dark <epidamus@netscape.net>, 2002.
+# Laurent Dhima <laurenti@alblinux.net>, 2003.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Brightside\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-01-16 02:13+0000\n"
+"PO-Revision-Date: 2003-08-31 10:57+0200\n"
+"Last-Translator: Laurent Dhima <laurenti@alblinux.net>\n"
+"Language-Team: Albanian <gnome-albanian-perkthyesit@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.0.2\n"
+
+#: src/brightside.c:224
+#, c-format
+msgid ""
+"Couldn't execute command: %s\n"
+"Verify that this command exists."
+msgstr ""
+"Nuk mund të ekzekutojë komandën: %s\n"
+"Verifiko që kjo komandë ekziston."
+
+#: src/brightside.c:243
+#, c-format
+msgid ""
+"Permissions on the file %s are broken\n"
+"Please check Brightside's documentation, correct the problem and restart "
+"Brightside."
+msgstr ""
+"Lejet e file-s %s jane te demtuara\n"
+"Ju lutem kontrolloni dokumentacionin e Brightside, korrigjoni problemin dhe "
+"restartoni Brightside."
+
+#: src/brightside.c:487
+msgid "translator_credits"
+msgstr "Emilian Gjoni <epidamus@netscape.net>"
+
+#: src/brightside.c:498
+msgid "Brightside"
+msgstr "Brightside"
+
+#: src/brightside.c:500 src/brightside.c:573
+msgid "Screen Corners and Edges daemon"
+msgstr ""
+
+#: src/brightside.c:579
+msgid "Screen Corners and Edges daemon active"
+msgstr ""
+
+#: src/brightside.c:1733
+msgid "Daemon already running, exiting...\n"
+msgstr ""
+
+#: src/brightside.c:1742
+msgid ""
+"Couldn't load the Glade file.\n"
+"Make sure that this daemon is properly installed."
+msgstr ""
+"Nuk mund të ngarkoj file-n e Glade.\n"
+"Sigurohu që demoni i tij të jetë i instaluar në mënyrë të rregullt."
+
+#: src/brightside.glade.h:1
+msgid "Volume"
+msgstr "Volumi"
+
+#: src/brightside.h:65
+#, fuzzy
+msgid "Mute volume"
+msgstr "Tasti i mute(disaktivizimit të zërit)"
+
+#: src/brightside.h:67
+msgid "Prevent screensaver starting"
+msgstr ""
+
+#: src/brightside.h:69
+#, fuzzy
+msgid "Start screensaver"
+msgstr "Tasti i screensaver-it"
+
+#: src/brightside.h:71
+msgid "Enter DPMS standby mode"
+msgstr ""
+
+#: src/brightside.h:73
+msgid "Enter DPMS suspend mode"
+msgstr ""
+
+#: src/brightside.h:75
+msgid "Enter DPMS off mode"
+msgstr ""
+
+#: src/brightside.h:78
+msgid "Dim laptop backlight"
+msgstr ""
+
+#: src/brightside.h:81
+msgid "Custom action..."
+msgstr ""
+
+#: src/brightside-properties.c:283 src/brightside-properties.glade.h:9
+#: src/brightside.desktop.in.h:2
+msgid "Screen Corners and Edges"
+msgstr ""
+
+#: src/brightside-properties.glade.h:1 src/custom-action.glade.h:1
+msgid "    "
+msgstr "...."
+
+#: src/brightside-properties.glade.h:2
+msgid "<small><i>Long</i></small>"
+msgstr ""
+
+#: src/brightside-properties.glade.h:3
+msgid "<small><i>Short</i></small>"
+msgstr ""
+
+#: src/brightside-properties.glade.h:4
+#, fuzzy
+msgid "<span weight=\"bold\">Screen Corners</span>"
+msgstr "<span weight=\"bold\">Sound Setup</span>"
+
+#: src/brightside-properties.glade.h:5
+#, fuzzy
+msgid "<span weight=\"bold\">Screen Edges</span>"
+msgstr "<span weight=\"bold\">Sound Setup</span>"
+
+#: src/brightside-properties.glade.h:6
+#, fuzzy
+msgid "Action to take while mouse is placed in corner of screen"
+msgstr "Komandë që duhet egzekutuar kur të shtypet tasti Eject"
+
+#: src/brightside-properties.glade.h:7
+msgid "Bottom r_ight corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:8
+msgid "D_elay:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:10
+msgid "Switch to _adjacent workspace when mouse is moved to edge of screen"
+msgstr ""
+
+#: src/brightside-properties.glade.h:11
+msgid "Top _right corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:12
+msgid "When switching workspace, _wrap around edges of workspace layout"
+msgstr ""
+
+#: src/brightside-properties.glade.h:13
+msgid "_Bottom left corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:14
+msgid "_Configurable actions"
+msgstr ""
+
+#: src/brightside-properties.glade.h:15
+msgid "_Delay:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:16
+msgid "_Switch to diagonally adjacent workspace"
+msgstr ""
+
+#: src/brightside-properties.glade.h:17
+msgid "_Top left corner:"
+msgstr ""
+
+#: src/brightside.desktop.in.h:1
+#, fuzzy
+msgid "Configure screen-edge behaviour"
+msgstr "Konfigurimi i sjelljes së tasteve të multimedias"
+
+#: src/brightside.schemas.in.h:1
+msgid "Action enabled when mouse is in bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:2
+msgid "Action enabled when mouse is in bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:3
+msgid "Action enabled when mouse is in top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:4
+msgid "Action enabled when mouse is in top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:5
+msgid "Action to occur when mouse is in bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:6
+msgid "Action to occur when mouse is in bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:7
+msgid "Action to occur when mouse is in top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:8
+msgid "Action to occur when mouse is in top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:9
+msgid "After flip command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:10
+msgid "Bottom left corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:11
+msgid "Bottom left corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:12
+msgid "Bottom left corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:13
+msgid "Bottom left corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:14
+msgid "Bottom left corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:15
+msgid "Bottom right corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:16
+msgid "Bottom right corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:17
+msgid "Bottom right corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:18
+msgid "Bottom right corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:19
+msgid "Bottom right corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:20
+msgid "Command to execute after flipping workspace (empty string for none)"
+msgstr ""
+
+#: src/brightside.schemas.in.h:21
+msgid "Corner delay"
+msgstr ""
+
+#: src/brightside.schemas.in.h:22
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse enters bottom left corner of screen"
+msgstr "Komandë që duhet egzekutuar kur të shtypet tasti Eject"
+
+#: src/brightside.schemas.in.h:23
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse enters bottom right corner of screen"
+msgstr "Komandë që duhet egzekutuar kur të shtypet tasti Eject"
+
+#: src/brightside.schemas.in.h:24
+#, fuzzy
+msgid "Custom command to execute when mouse enters top left corner of screen"
+msgstr "Komandë që duhet egzekutuar kur të shtypet tasti Eject"
+
+#: src/brightside.schemas.in.h:25
+#, fuzzy
+msgid "Custom command to execute when mouse enters top right corner of screen"
+msgstr "Komandë që duhet egzekutuar kur të shtypet tasti Eject"
+
+#: src/brightside.schemas.in.h:26
+#, fuzzy
+msgid "Custom command to execute when mouse exits bottom left corner of screen"
+msgstr "Komandë që duhet egzekutuar kur të shtypet tasti Eject"
+
+#: src/brightside.schemas.in.h:27
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse exits bottom right corner of screen"
+msgstr "Komandë që duhet egzekutuar kur të shtypet tasti Eject"
+
+#: src/brightside.schemas.in.h:28
+#, fuzzy
+msgid "Custom command to execute when mouse exits top left corner of screen"
+msgstr "Komandë që duhet egzekutuar kur të shtypet tasti Eject"
+
+#: src/brightside.schemas.in.h:29
+#, fuzzy
+msgid "Custom command to execute when mouse exits top right corner of screen"
+msgstr "Komandë që duhet egzekutuar kur të shtypet tasti Eject"
+
+#: src/brightside.schemas.in.h:30
+msgid "Delay in milliseconds before edge flip occurs"
+msgstr ""
+
+#: src/brightside.schemas.in.h:31
+msgid "Delay in milliseconds before screen corner action occurs"
+msgstr ""
+
+#: src/brightside.schemas.in.h:32
+msgid "Edge delay"
+msgstr ""
+
+#: src/brightside.schemas.in.h:33
+msgid "Edge wrap"
+msgstr ""
+
+#: src/brightside.schemas.in.h:34
+#, fuzzy
+msgid "Enable corner flip"
+msgstr "Aktivizuar"
+
+#: src/brightside.schemas.in.h:35
+#, fuzzy
+msgid "Enable edge flip"
+msgstr "Aktivizuar"
+
+#: src/brightside.schemas.in.h:36
+msgid "Orientable workspaces"
+msgstr ""
+
+#: src/brightside.schemas.in.h:37
+msgid ""
+"Switch to diagonally adjacent workspace when mouse placed in the corner of "
+"the screen, instead of executing a configurable action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:38
+msgid ""
+"Switch to the adjacent workspace when the mouse reaches the edge of the "
+"screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:39
+msgid "Terminate custom command when mouse exits bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:40
+msgid "Terminate custom command when mouse exits bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:41
+msgid "Terminate custom command when mouse exits top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:42
+msgid "Terminate custom command when mouse exits top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:43
+msgid "Top left corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:44
+msgid "Top left corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:45
+msgid "Top left corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:46
+msgid "Top left corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:47
+msgid "Top left corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:48
+msgid "Top right corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:49
+msgid "Top right corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:50
+msgid "Top right corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:51
+msgid "Top right corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:52
+msgid "Top right corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:53
+msgid "Use PCM Volume instead of Master Volume"
+msgstr "Përdor volumin PCM në vend të Master Volume"
+
+#: src/brightside.schemas.in.h:54
+msgid "Whether workspace layout is orientable"
+msgstr ""
+
+#: src/brightside.schemas.in.h:55
+msgid "Wrap wround edges of workspace layout when flipping workspace"
+msgstr ""
+
+#: src/custom-action.glade.h:2
+msgid "*"
+msgstr ""
+
+#: src/custom-action.glade.h:3
+#, fuzzy
+msgid "<span weight=\"bold\">On _entering region</span>"
+msgstr "<span weight=\"bold\">Keys Setup </span>"
+
+#: src/custom-action.glade.h:4
+#, fuzzy
+msgid "<span weight=\"bold\">On leaving region</span>"
+msgstr "<span weight=\"bold\">Sound Setup</span>"
+
+#: src/custom-action.glade.h:5 src/custom-action.c:104
+msgid "Custom action"
+msgstr ""
+
+#: src/custom-action.glade.h:6
+msgid "_Run another command:"
+msgstr ""
+
+#: src/custom-action.glade.h:7
+msgid "_Terminate above application"
+msgstr ""
+
+#~ msgid ""
+#~ "Couldn't execute either command: %s\n"
+#~ "or command: %s\n"
+#~ "Verify that at least one of these commands exist."
+#~ msgstr ""
+#~ "Nuk mund të ekzekutojë as komandën: %s\n"
+#~ "as komandën: %s\n"
+#~ "Verifiko që të paktën njëra nga të dyja këto komanda të ekzistojë."
+
+#~ msgid ""
+#~ "There was an error removing access to the multimedia keys.\n"
+#~ "Key %d couldn't be unbound."
+#~ msgstr ""
+#~ "Ndodhi një gabim duke hequr hyrjen për tastet multimedialë.\n"
+#~ "Tasti %d nuk mund të ç'aktivizohet."
+
+#~ msgid ""
+#~ "It seems that another application already has access to the multimedia "
+#~ "keys.\n"
+#~ "Key %d couldn't be bound.\n"
+#~ "Is another daemon already running ?"
+#~ msgstr ""
+#~ "Me sa duket një aplikim tjetër po përdor tastet e multimedias.\n"
+#~ "Tasti %d nuk mund të disaktivizohet.\n"
+#~ "ls të tregon nëse nje aplikacion po punon.Kontrollo!"
+
+#~ msgid "Multimedia keys daemon"
+#~ msgstr "Demoni i tasteve të multimedias"
+
+#~ msgid "Multimedia Keys daemon active"
+#~ msgstr "Demoni i tasteve të multimedias është aktiv"
+
+#~ msgid "Volume down key"
+#~ msgstr "Tasti i uljes së volumit"
+
+#~ msgid "Volume up key"
+#~ msgstr "Tasti i ngritjes së volumit"
+
+#~ msgid "Power key"
+#~ msgstr "Tasti i fuqisë(power)"
+
+#~ msgid "Eject key"
+#~ msgstr "Tasti i eject(i nxjerrjes)"
+
+#~ msgid "Media key"
+#~ msgstr "Tasti i medias"
+
+#~ msgid "Play key"
+#~ msgstr "Tasti i play"
+
+#~ msgid "Pause key"
+#~ msgstr "Tasti i pauzes"
+
+#~ msgid "Stop (Audio) key"
+#~ msgstr "Tasti i (Audio) stop"
+
+#~ msgid "Previous (Audio) key"
+#~ msgstr "Tasti (Audio) precedent"
+
+#~ msgid "Next (Audio) key"
+#~ msgstr "Tasti (Audio) pasardhës"
+
+#~ msgid "My Home key"
+#~ msgstr "Tasti i Home(shtëpia)"
+
+#~ msgid "Refresh key"
+#~ msgstr "Tasti i rifreskimit"
+
+#~ msgid "Search key"
+#~ msgstr "Tasti i kërkimit"
+
+#~ msgid "E-Mail key"
+#~ msgstr "Tasti i e-mail-it"
+
+#~ msgid "Sleep key"
+#~ msgstr "Tasti i gjumit"
+
+#~ msgid "Finance key"
+#~ msgstr "Tasti i financës"
+
+#~ msgid "Help key"
+#~ msgstr "Tasti i help(ndihmë)"
+
+#~ msgid "WWW key"
+#~ msgstr "Tasti i WWW"
+
+#~ msgid "Groups key"
+#~ msgstr "Tasti i grupit"
+
+#~ msgid "Calculator key"
+#~ msgstr "Tasti i kalkulatorit"
+
+#~ msgid "Record key"
+#~ msgstr "Tasti i regjistrimit"
+
+#~ msgid "Close Window key"
+#~ msgstr "Tasti i mbylljes së dritares"
+
+#~ msgid "Shade Window key"
+#~ msgstr "Tasti i mbështjelljes së dritares"
+
+#~ msgid "Brightness down key"
+#~ msgstr "Tasti i uljes së ndriçimit"
+
+#~ msgid "Brightness up key"
+#~ msgstr "Tasti i ngritjes së ndriçimit"
+
+#~ msgid "Disabled"
+#~ msgstr "Disaktivizuar"
+
+#~ msgid ""
+#~ "This key is already bound to action '%s'.\n"
+#~ "Please select another key."
+#~ msgstr ""
+#~ "Ky tast është tashmë i zënë nga veprimi '%s'.\n"
+#~ "Ju lutem zgjidhni një tast tjetër."
+
+#~ msgid "Description"
+#~ msgstr "Përshkrim"
+
+#~ msgid "Status"
+#~ msgstr "Status"
+
+#~ msgid "Multimedia Keys Preferences"
+#~ msgstr "Preferencat e tasteve të multimedias"
+
+#~ msgid ""
+#~ "To assign a key to an action, click on a line, and press the key you want "
+#~ "to associate with it.\n"
+#~ "\"C\" cancels the capture, and \"Backspace\" disables the key shortcut."
+#~ msgstr ""
+#~ "Për ti bashkangjitur një tast një veprimi kliko në një linjë, dhe shtyp "
+#~ "tastin që do ti bashkangjisësh.\n"
+#~ "\"C\" anullon shtypjen, dhe \"Backspace\" disaktivizon tastin e shpejtë."
+
+#~ msgid "Use _PCM volume instead of Master volume"
+#~ msgstr "Përdor volumin _PCM në vend të Master volum"
+
+#~ msgid "Multimedia Keys"
+#~ msgstr "Tastet e multimedias"
+
+#~ msgid "Brightness down key's XKeycode"
+#~ msgstr "Tastet e uljes së ndriçimit XKeycode"
+
+#~ msgid "Brightness down key's XKeycode, 0 to disable"
+#~ msgstr "Tastet e uljes së ndriçimit XKeycode 0 për të disaktivizuar"
+
+#~ msgid "Brightness up key's XKeycode"
+#~ msgstr "Tastet e ngritjes së ndriçimit XKeycode"
+
+#~ msgid "Brightness up key's XKeycode, 0 to disable"
+#~ msgstr "Tastet e ngritjes së ndriçimit XKeycode, 0 për te disaktivizuar"
+
+#~ msgid "Calculator key's XKeycode"
+#~ msgstr "Tasti i makinës llogaritëse XKeycode"
+
+#~ msgid "Calculator key's XKeycode, 0 to disable"
+#~ msgstr "Tasti i makinës llogaritëse XKeycode 0 për të disaktivizuar"
+
+#~ msgid "Close Window key's XKeycode"
+#~ msgstr "Tasti i mbylljes së dritares XKeycode"
+
+#~ msgid "Close Window key's XKeycode, 0 to disable"
+#~ msgstr "Tasti i mbylljes së dritares XKeycode, 0 për të disaktivizuar"
+
+#~ msgid "E-Mail key's XKeycode"
+#~ msgstr "Tasti i e-mail-it XKeycode"
+
+#~ msgid "E-Mail key's XKeycode, 0 to disable"
+#~ msgstr "Tasti i e-mail-it XKeycode, 0 për të disaktivizuar"
+
+#~ msgid "Eject key's XKeycode"
+#~ msgstr "Tasti i eject XKeycode"
+
+#~ msgid "Eject key's XKeycode, 0 to disable"
+#~ msgstr "Tasti i eject XKeycode, 0 për të disaktivizuar"
+
+#~ msgid "Finance key's XKeycode"
+#~ msgstr "Tasti i financës XKeycode"
+
+#~ msgid "Finance key's XKeycode, 0 to disable"
+#~ msgstr "Tasti i financës XKeycode, 0 për të disaktivizuar"
+
+#~ msgid "Groups key's XKeycode"
+#~ msgstr "Tasti i grupit XKeycode"
+
+#~ msgid "Groups key's XKeycode, 0 to disable"
+#~ msgstr "Tasti i grupit XKeycode, 0 për të disaktivizuar"
+
+#~ msgid "Help key's XKeycode"
+#~ msgstr "Tasti i help(ndihmës) XKeycode"
+
+#~ msgid "Help key's XKeycode, 0 to disable"
+#~ msgstr "Tasti i help XKeycode, 0 për të disaktivizuar"
+
+#~ msgid "Mute key's XKeycode"
+#~ msgstr "Tasti i mute XKeycode"
+
+#~ msgid "Mute key's XKeycode, 0 to disable"
+#~ msgstr "Tasti i mute XKeycode, 0 për të disaktivizuar"
+
+#~ msgid "My Home key's XKeycode"
+#~ msgstr "Tasti i home XKeycode"
+
+#~ msgid "My Home key's XKeycode, 0 to disable"
+#~ msgstr "Tasti i home XKeycode, 0 për të disaktivizuar"
+
+#~ msgid "Next key's XKeycode"
+#~ msgstr "Tasti pasardhës XKeycode"
+
+#~ msgid "Next key's XKeycode, 0 to disable"
+#~ msgstr "Tasti pasardhës XKeycode, 0 për të disaktivizuar"
+
+#~ msgid "Pause key's XKeycode"
+#~ msgstr "Tasti i pauzes XKeycode"
+
+#~ msgid "Pause key's XKeycode, 0 to disable"
+#~ msgstr "Tasti i pauzës XKeycode, 0 për të disaktivizuar"
+
+#~ msgid "Play key's XKeycode"
+#~ msgstr "Tasti i play XKeycode"
+
+#~ msgid "Play key's XKeycode, 0 to disable"
+#~ msgstr "Tasti i play XKeycode, 0 për të disaktivizuar"
+
+#~ msgid "Power key's XKeycode"
+#~ msgstr "Tasti i fuqisë XKeycode"
+
+#~ msgid "Power key's XKeycode, 0 to disable"
+#~ msgstr "Tasti i fuqisë XKeycode, 0 për të disaktivizuar"
+
+#~ msgid "Previous key's XKeycode"
+#~ msgstr "Tasti paraardhës XKeycode"
+
+#~ msgid "Previous key's XKeycode, 0 to disable"
+#~ msgstr "Tasti paraardhës XKeycode, 0 për të disaktivizuar"
+
+#~ msgid "Record key's XKeycode"
+#~ msgstr "Tasti i rregjistrimit XKeycode"
+
+#~ msgid "Record key's XKeycode, 0 to disable"
+#~ msgstr "Tasti i rregjistrimit XKeycode, 0 për të disaktivizuar"
+
+#~ msgid "Refresh key's XKeycode"
+#~ msgstr "Tasti i rifreskimit XKeycode"
+
+#~ msgid "Refresh key's XKeycode, 0 to disable"
+#~ msgstr "Tasti i rifreskimit XKeycode, 0 për të disaktivizuar"
+
+#~ msgid "Screensaver key's XKeycode"
+#~ msgstr "Tasti i screensaver-it XKeycode"
+
+#~ msgid "Screensaver key's XKeycode, 0 to disable"
+#~ msgstr "Tasti i screensaver-it XKeycode, 0 për të disaktivizuar"
+
+#~ msgid "Search key's XKeycode"
+#~ msgstr "Tasti i kërkimit XKeycode"
+
+#~ msgid "Search key's XKeycode, 0 to disable"
+#~ msgstr "Tasti i kërkimit XKeycode, 0 për të disaktivizuar"
+
+#~ msgid "Shade Window key's XKeycode"
+#~ msgstr "Tasti i mbeshtjelljes së dritares XKeycode"
+
+#~ msgid "Shade Window key's XKeycode, 0 to disable"
+#~ msgstr "Tasti i mbështjelljes së dritares XKeycode, 0 për të disaktivizuar"
+
+#~ msgid "Sleep key's XKeycode"
+#~ msgstr "Tasti i gjumit XKeycode"
+
+#~ msgid "Sleep key's XKeycode, 0 to disable"
+#~ msgstr "Tasti i gjumit XKeycode, 0 për të disaktivizuar"
+
+#~ msgid "Sound file to be played when volume is changed"
+#~ msgstr "File i zërit për tu luajtur(play) kur volumi është ndryshuar"
+
+#~ msgid "Volume down key's XKeycode"
+#~ msgstr "Tasti i uljes së volumit XKeycode"
+
+#~ msgid "Volume down key's XKeycode, 0 to disable"
+#~ msgstr "Tasti i uljes së volumit XKeycode, 0 për të disaktivizuar"
+
+#~ msgid "Volume step"
+#~ msgstr "Shkalla e volumit"
+
+#~ msgid "Volume step as percentage of volume"
+#~ msgstr "Shkalla e volumit si përqindje e volumit "
+
+#~ msgid "Volume up key's XKeycode"
+#~ msgstr "Tasti i ngritjes së volumit XKeycode"
+
+#~ msgid "Volume up key's XKeycode, 0 to disable"
+#~ msgstr "Tasti i ngritjes së volumit XKeycode, 0 për të disaktivizuar"
+
+#~ msgid "WWW key's XKeycode"
+#~ msgstr "Tasti i WWW XKeycode"
+
+#~ msgid "WWW key's XKeycode, 0 to disable"
+#~ msgstr "Tasti i WWW XKeycode, 0 për të disaktivizuar"
+
+#~ msgid "Accelerator key"
+#~ msgstr "Tasti i përshpejtuesit"
+
+#~ msgid "Accelerator modifiers"
+#~ msgstr "Modifikuesit e përshpejtuesit"
+
+#~ msgid "Accelerator Mode"
+#~ msgstr "Mënyra e përshepjtimit"
+
+#~ msgid "The type of accelerator."
+#~ msgstr "Tipi i përshpejtuesit"
+
+#~ msgid "Type a new accelerator, or press Backspace to clear"
+#~ msgstr ""
+#~ "Shtyp një përshpejtues të ri ose shtypackspace(tastin e barit) për të "
+#~ "fshirë "
+
+#~ msgid "Type a new accelerator"
+#~ msgstr "Shtyp një përshpejtues të ri"
+
+#~ msgid "_Launch the multimedia key daemon"
+#~ msgstr "_Starton demonin e tastit të multimedias"

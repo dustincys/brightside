@@ -1,0 +1,761 @@
+# Brightside for Latvian.
+# Copyright (C) 2002 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Brightside package.
+# Peteris Krisjanis <peteris.krisjanis@os.lv>, 2002.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Brightside\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-01-16 02:13+0000\n"
+"PO-Revision-Date: 2003-03-15 19:28+0200\n"
+"Last-Translator: Artis Trops  <hornet@navigator.lv>\n"
+"Language-Team: Latvian <ll10nt@os.lv>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/brightside.c:224
+#, c-format
+msgid ""
+"Couldn't execute command: %s\n"
+"Verify that this command exists."
+msgstr ""
+"Nevarēju palaist komandu %s\n"
+"Pārbaudiet, vai šāda komanda eksistē."
+
+#: src/brightside.c:243
+#, c-format
+msgid ""
+"Permissions on the file %s are broken\n"
+"Please check Brightside's documentation, correct the problem and restart "
+"Brightside."
+msgstr ""
+"Atļaujas failam %s ir kļūdainas\n"
+"Lūdzu pārbaudiet Brightside dokumentāciju, novērsiet problēmu un "
+"pārstartējiet Brightside."
+
+#: src/brightside.c:487
+msgid "translator_credits"
+msgstr ""
+"Pēteris Krišjānis <peteris.krisjanis@os.lv>\n"
+"Artis Trops <hornet@navigator.lv>"
+
+#: src/brightside.c:498
+msgid "Brightside"
+msgstr "Brightside"
+
+#: src/brightside.c:500 src/brightside.c:573
+msgid "Screen Corners and Edges daemon"
+msgstr ""
+
+#: src/brightside.c:579
+msgid "Screen Corners and Edges daemon active"
+msgstr ""
+
+#: src/brightside.c:1733
+msgid "Daemon already running, exiting...\n"
+msgstr ""
+
+#: src/brightside.c:1742
+msgid ""
+"Couldn't load the Glade file.\n"
+"Make sure that this daemon is properly installed."
+msgstr ""
+"Nevarēju ielādēt Glade failu.\n"
+"Pārliecinieties, vai dēmons ir pareizi uzstādīts."
+
+#: src/brightside.glade.h:1
+msgid "Volume"
+msgstr "Skaļums"
+
+#: src/brightside.h:65
+#, fuzzy
+msgid "Mute volume"
+msgstr "Aplklusināšanas taustiņš"
+
+#: src/brightside.h:67
+msgid "Prevent screensaver starting"
+msgstr ""
+
+#: src/brightside.h:69
+#, fuzzy
+msgid "Start screensaver"
+msgstr "Ekrānsaudzētāja taustiņš"
+
+#: src/brightside.h:71
+msgid "Enter DPMS standby mode"
+msgstr ""
+
+#: src/brightside.h:73
+msgid "Enter DPMS suspend mode"
+msgstr ""
+
+#: src/brightside.h:75
+msgid "Enter DPMS off mode"
+msgstr ""
+
+#: src/brightside.h:78
+msgid "Dim laptop backlight"
+msgstr ""
+
+#: src/brightside.h:81
+msgid "Custom action..."
+msgstr ""
+
+#: src/brightside-properties.c:283 src/brightside-properties.glade.h:9
+#: src/brightside.desktop.in.h:2
+msgid "Screen Corners and Edges"
+msgstr ""
+
+#: src/brightside-properties.glade.h:1 src/custom-action.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: src/brightside-properties.glade.h:2
+msgid "<small><i>Long</i></small>"
+msgstr ""
+
+#: src/brightside-properties.glade.h:3
+msgid "<small><i>Short</i></small>"
+msgstr ""
+
+#: src/brightside-properties.glade.h:4
+#, fuzzy
+msgid "<span weight=\"bold\">Screen Corners</span>"
+msgstr "<span weight=\"bold\">Skaņas Uzstādījumi</span>"
+
+#: src/brightside-properties.glade.h:5
+#, fuzzy
+msgid "<span weight=\"bold\">Screen Edges</span>"
+msgstr "<span weight=\"bold\">Skaņas Uzstādījumi</span>"
+
+#: src/brightside-properties.glade.h:6
+#, fuzzy
+msgid "Action to take while mouse is placed in corner of screen"
+msgstr "Komanda, ko izpildīt, kad nospiesta Iekārtas izbīdes poga"
+
+#: src/brightside-properties.glade.h:7
+msgid "Bottom r_ight corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:8
+msgid "D_elay:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:10
+msgid "Switch to _adjacent workspace when mouse is moved to edge of screen"
+msgstr ""
+
+#: src/brightside-properties.glade.h:11
+msgid "Top _right corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:12
+msgid "When switching workspace, _wrap around edges of workspace layout"
+msgstr ""
+
+#: src/brightside-properties.glade.h:13
+msgid "_Bottom left corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:14
+msgid "_Configurable actions"
+msgstr ""
+
+#: src/brightside-properties.glade.h:15
+msgid "_Delay:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:16
+msgid "_Switch to diagonally adjacent workspace"
+msgstr ""
+
+#: src/brightside-properties.glade.h:17
+msgid "_Top left corner:"
+msgstr ""
+
+#: src/brightside.desktop.in.h:1
+#, fuzzy
+msgid "Configure screen-edge behaviour"
+msgstr "Konfigurēt multimēdiju taustiņu uzvedību"
+
+#: src/brightside.schemas.in.h:1
+msgid "Action enabled when mouse is in bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:2
+msgid "Action enabled when mouse is in bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:3
+msgid "Action enabled when mouse is in top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:4
+msgid "Action enabled when mouse is in top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:5
+msgid "Action to occur when mouse is in bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:6
+msgid "Action to occur when mouse is in bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:7
+msgid "Action to occur when mouse is in top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:8
+msgid "Action to occur when mouse is in top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:9
+msgid "After flip command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:10
+msgid "Bottom left corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:11
+msgid "Bottom left corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:12
+msgid "Bottom left corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:13
+msgid "Bottom left corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:14
+msgid "Bottom left corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:15
+msgid "Bottom right corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:16
+msgid "Bottom right corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:17
+msgid "Bottom right corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:18
+msgid "Bottom right corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:19
+msgid "Bottom right corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:20
+msgid "Command to execute after flipping workspace (empty string for none)"
+msgstr ""
+
+#: src/brightside.schemas.in.h:21
+msgid "Corner delay"
+msgstr ""
+
+#: src/brightside.schemas.in.h:22
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse enters bottom left corner of screen"
+msgstr "Komanda, ko izpildīt, kad nospiesta Iekārtas izbīdes poga"
+
+#: src/brightside.schemas.in.h:23
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse enters bottom right corner of screen"
+msgstr "Komanda, ko izpildīt, kad nospiesta Iekārtas izbīdes poga"
+
+#: src/brightside.schemas.in.h:24
+#, fuzzy
+msgid "Custom command to execute when mouse enters top left corner of screen"
+msgstr "Komanda, ko izpildīt, kad nospiesta Iekārtas izbīdes poga"
+
+#: src/brightside.schemas.in.h:25
+#, fuzzy
+msgid "Custom command to execute when mouse enters top right corner of screen"
+msgstr "Komanda, ko izpildīt, kad nospiesta Iekārtas izbīdes poga"
+
+#: src/brightside.schemas.in.h:26
+#, fuzzy
+msgid "Custom command to execute when mouse exits bottom left corner of screen"
+msgstr "Komanda, ko izpildīt, kad nospiesta Iekārtas izbīdes poga"
+
+#: src/brightside.schemas.in.h:27
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse exits bottom right corner of screen"
+msgstr "Komanda, ko izpildīt, kad nospiesta Iekārtas izbīdes poga"
+
+#: src/brightside.schemas.in.h:28
+#, fuzzy
+msgid "Custom command to execute when mouse exits top left corner of screen"
+msgstr "Komanda, ko izpildīt, kad nospiesta Iekārtas izbīdes poga"
+
+#: src/brightside.schemas.in.h:29
+#, fuzzy
+msgid "Custom command to execute when mouse exits top right corner of screen"
+msgstr "Komanda, ko izpildīt, kad nospiesta Iekārtas izbīdes poga"
+
+#: src/brightside.schemas.in.h:30
+msgid "Delay in milliseconds before edge flip occurs"
+msgstr ""
+
+#: src/brightside.schemas.in.h:31
+msgid "Delay in milliseconds before screen corner action occurs"
+msgstr ""
+
+#: src/brightside.schemas.in.h:32
+msgid "Edge delay"
+msgstr ""
+
+#: src/brightside.schemas.in.h:33
+msgid "Edge wrap"
+msgstr ""
+
+#: src/brightside.schemas.in.h:34
+#, fuzzy
+msgid "Enable corner flip"
+msgstr "Aktivizēts"
+
+#: src/brightside.schemas.in.h:35
+#, fuzzy
+msgid "Enable edge flip"
+msgstr "Aktivizēts"
+
+#: src/brightside.schemas.in.h:36
+msgid "Orientable workspaces"
+msgstr ""
+
+#: src/brightside.schemas.in.h:37
+msgid ""
+"Switch to diagonally adjacent workspace when mouse placed in the corner of "
+"the screen, instead of executing a configurable action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:38
+msgid ""
+"Switch to the adjacent workspace when the mouse reaches the edge of the "
+"screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:39
+msgid "Terminate custom command when mouse exits bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:40
+msgid "Terminate custom command when mouse exits bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:41
+msgid "Terminate custom command when mouse exits top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:42
+msgid "Terminate custom command when mouse exits top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:43
+msgid "Top left corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:44
+msgid "Top left corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:45
+msgid "Top left corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:46
+msgid "Top left corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:47
+msgid "Top left corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:48
+msgid "Top right corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:49
+msgid "Top right corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:50
+msgid "Top right corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:51
+msgid "Top right corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:52
+msgid "Top right corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:53
+msgid "Use PCM Volume instead of Master Volume"
+msgstr "Lietot PCM skaļumu Master (galvenā) skaļuma vietā"
+
+#: src/brightside.schemas.in.h:54
+msgid "Whether workspace layout is orientable"
+msgstr ""
+
+#: src/brightside.schemas.in.h:55
+msgid "Wrap wround edges of workspace layout when flipping workspace"
+msgstr ""
+
+#: src/custom-action.glade.h:2
+msgid "*"
+msgstr ""
+
+#: src/custom-action.glade.h:3
+#, fuzzy
+msgid "<span weight=\"bold\">On _entering region</span>"
+msgstr "<span weight=\"bold\">Taustiņu Uzstādījumi </span>"
+
+#: src/custom-action.glade.h:4
+#, fuzzy
+msgid "<span weight=\"bold\">On leaving region</span>"
+msgstr "<span weight=\"bold\">Skaņas Uzstādījumi</span>"
+
+#: src/custom-action.glade.h:5 src/custom-action.c:104
+msgid "Custom action"
+msgstr ""
+
+#: src/custom-action.glade.h:6
+msgid "_Run another command:"
+msgstr ""
+
+#: src/custom-action.glade.h:7
+msgid "_Terminate above application"
+msgstr ""
+
+#~ msgid ""
+#~ "Couldn't execute either command: %s\n"
+#~ "or command: %s\n"
+#~ "Verify that at least one of these commands exist."
+#~ msgstr ""
+#~ "Nevarēju izpildīt vai nu komandu: %s\n"
+#~ "vai komandu: %s\n"
+#~ "Pārbaudiet, vai vismaz viena no šīm komandām eksistē."
+
+#~ msgid ""
+#~ "There was an error removing access to the multimedia keys.\n"
+#~ "Key %d couldn't be unbound."
+#~ msgstr ""
+#~ "Kļūda noņemot pieeju multimēdiju taustiņiem.\n"
+#~ "Taustiņš %d nevarēja tikt atsaistīts."
+
+#~ msgid ""
+#~ "It seems that another application already has access to the multimedia "
+#~ "keys.\n"
+#~ "Key %d couldn't be bound.\n"
+#~ "Is another daemon already running ?"
+#~ msgstr ""
+#~ "Izskatās, ka jau cita aplikācija izmanto mūltimēdiju taustiņus.\n"
+#~ "Taustiņš %d nevarēja tikt piesaistīts.\n"
+#~ "Vai nestrādā jau cits dēmons ?"
+
+#~ msgid "Multimedia keys daemon"
+#~ msgstr "Multimediju taustiņu dēmons"
+
+#~ msgid "Multimedia Keys daemon active"
+#~ msgstr "Multimediju taustiņu dēmons aktīvs"
+
+#~ msgid "Volume down key"
+#~ msgstr "Klusāk taustiņš"
+
+#~ msgid "Volume up key"
+#~ msgstr "Skaļāk taustiņš"
+
+#~ msgid "Power key"
+#~ msgstr "Strāvas taustiņš"
+
+#~ msgid "Eject key"
+#~ msgstr "Iekārtas izbīdes taustiņš"
+
+#~ msgid "Media key"
+#~ msgstr "Medija taustiņš"
+
+#~ msgid "Play key"
+#~ msgstr "Atskaņošanas taustiņš"
+
+#~ msgid "Pause key"
+#~ msgstr "Pauzes taustiņš"
+
+#~ msgid "Stop (Audio) key"
+#~ msgstr "Stop (Audio) taustiņš"
+
+#~ msgid "Previous (Audio) key"
+#~ msgstr "Iepriekšējā (Audio) taustiņš"
+
+#~ msgid "Next (Audio) key"
+#~ msgstr "Nākošā (Audio) taustiņš"
+
+#~ msgid "My Home key"
+#~ msgstr "Manas Mājas taustiņš"
+
+#~ msgid "Refresh key"
+#~ msgstr "Atjaunināšanas taustiņš"
+
+#~ msgid "Search key"
+#~ msgstr "Meklēšanas taustiņš"
+
+#~ msgid "E-Mail key"
+#~ msgstr "E-pasta taustiņš"
+
+#~ msgid "Sleep key"
+#~ msgstr "Iemidzināšanas taustiņš"
+
+#~ msgid "Finance key"
+#~ msgstr "Finanšu taustiņš"
+
+#~ msgid "Help key"
+#~ msgstr "Palīdzības taustiņš"
+
+#~ msgid "WWW key"
+#~ msgstr "WWW taustiņš"
+
+#~ msgid "Groups key"
+#~ msgstr "Grupu taustiņš"
+
+#~ msgid "Calculator key"
+#~ msgstr "Kalkuklātora taustiņš"
+
+#~ msgid "Record key"
+#~ msgstr "Ierakstīt taustiņu"
+
+#~ msgid "Close Window key"
+#~ msgstr "Aizvērt Logu taustiņš"
+
+#~ msgid "Shade Window key"
+#~ msgstr "Ēnot Logu taustiņš"
+
+#~ msgid "Brightness down key"
+#~ msgstr "Tumšāk taustiņš"
+
+#~ msgid "Brightness up key"
+#~ msgstr "Gaišāk taustiņš"
+
+#~ msgid "Disabled"
+#~ msgstr "Deaktivizēts"
+
+#~ msgid ""
+#~ "This key is already bound to action '%s'.\n"
+#~ "Please select another key."
+#~ msgstr ""
+#~ "Šis taustiņš jau ir piesaistīts darbībai '%s'.\n"
+#~ "Lūdzu izvēlaties citu taustiņu."
+
+#~ msgid "Description"
+#~ msgstr "Apraksts"
+
+#~ msgid "Status"
+#~ msgstr "Statuss"
+
+#~ msgid "Multimedia Keys Preferences"
+#~ msgstr "Multimēdiju Taustiņu Preferences"
+
+#~ msgid ""
+#~ "To assign a key to an action, click on a line, and press the key you want "
+#~ "to associate with it.\n"
+#~ "\"C\" cancels the capture, and \"Backspace\" disables the key shortcut."
+#~ msgstr ""
+#~ "Lai darbībai piešķirtu taustiņu, klikšķiniet uz līnijas un nospiediet "
+#~ "taustiņu, kuru ar to vēlaties asociēt.\n"
+#~ "\"C\" atsauc uzņemšanu un \"Atpakļatkāpe\" seaktivizē taustiņa saīsni."
+
+#~ msgid "Use _PCM volume instead of Master volume"
+#~ msgstr "Lietot _PCM skaļumu Master (galvenā) skaļuma vietā"
+
+#~ msgid "Multimedia Keys"
+#~ msgstr "Multimēdiju Taustiņi"
+
+#~ msgid "Brightness down key's XKeycode"
+#~ msgstr "Tumšāk taustiņa XKeycode"
+
+#~ msgid "Brightness down key's XKeycode, 0 to disable"
+#~ msgstr "Tumšāk taustiņa XKeycode, 0, lai izslēgtu"
+
+#~ msgid "Brightness up key's XKeycode"
+#~ msgstr "Gaišāk taustiņa XKeycode"
+
+#~ msgid "Brightness up key's XKeycode, 0 to disable"
+#~ msgstr "Gaišāk taustiņa XKeycode, 0, lai izslēgtu"
+
+#~ msgid "Calculator key's XKeycode"
+#~ msgstr "Kalkulātora taustiņa XKeycode"
+
+#~ msgid "Calculator key's XKeycode, 0 to disable"
+#~ msgstr "Kalkulatora taustiņa XKeycode, 0, lai izslēgtu"
+
+#~ msgid "Close Window key's XKeycode"
+#~ msgstr "Aizvērt Logu taustiņa XKeycode"
+
+#~ msgid "Close Window key's XKeycode, 0 to disable"
+#~ msgstr "Aizvērt Logu taustiņa XKeycode, 0, lai izslēgtu"
+
+#~ msgid "E-Mail key's XKeycode"
+#~ msgstr "E-pasta taustiņa XKeycode"
+
+#~ msgid "E-Mail key's XKeycode, 0 to disable"
+#~ msgstr "E-pasta taustiņa XKeycode, 0, lai izslēgtu"
+
+#~ msgid "Eject key's XKeycode"
+#~ msgstr "Iekārtas izbīdes taustiņa XKeycode"
+
+#~ msgid "Eject key's XKeycode, 0 to disable"
+#~ msgstr "Iekārtas izbīdes taustiņa XKeycode, 0, lai izslēgtu"
+
+#~ msgid "Finance key's XKeycode"
+#~ msgstr "Finanšu taustiņa XKeycode"
+
+#~ msgid "Finance key's XKeycode, 0 to disable"
+#~ msgstr "Finanšu taustiņa XKeycode, 0, lai izslēgtu"
+
+#~ msgid "Groups key's XKeycode"
+#~ msgstr "Grupas taustiņa XKeycode"
+
+#~ msgid "Groups key's XKeycode, 0 to disable"
+#~ msgstr "Grupas taustiņa XKeycode, 0, lai izslēgtu"
+
+#~ msgid "Help key's XKeycode"
+#~ msgstr "Palīdzības taustiņa XKeycode"
+
+#~ msgid "Help key's XKeycode, 0 to disable"
+#~ msgstr "Palīdzības taustiņa XKeycode, 0, lai izslēgtu"
+
+#~ msgid "Mute key's XKeycode"
+#~ msgstr "Apklusināšanas' taustiņa XKeycode"
+
+#~ msgid "Mute key's XKeycode, 0 to disable"
+#~ msgstr "Apklusināšanas taustiņa XKeycode, 0, lai izslēgtu"
+
+#~ msgid "My Home key's XKeycode"
+#~ msgstr "Manas Mājas taustiņa XKeycode"
+
+#~ msgid "My Home key's XKeycode, 0 to disable"
+#~ msgstr "Manas Mājas taustiņa XKeycode, 0, lai izslēgtu"
+
+#~ msgid "Next key's XKeycode"
+#~ msgstr "Nākošā taustiņa XKeycode"
+
+#~ msgid "Next key's XKeycode, 0 to disable"
+#~ msgstr "Nākošā taustiņa XKeycode, 0, lai izslēgtu"
+
+#~ msgid "Pause key's XKeycode"
+#~ msgstr "Pauzes taustiņa XKeycode"
+
+#~ msgid "Pause key's XKeycode, 0 to disable"
+#~ msgstr "Pauzes taustiņa XKeycode, 0, lai izslēgtu"
+
+#~ msgid "Play key's XKeycode"
+#~ msgstr "Atskaņošanas taustiņa XKeycode"
+
+#~ msgid "Play key's XKeycode, 0 to disable"
+#~ msgstr "Atskaņošanas taustiņa XKeycode, 0, lai izslēgtu"
+
+#~ msgid "Power key's XKeycode"
+#~ msgstr "Strāvas taustiņa XKeycode"
+
+#~ msgid "Power key's XKeycode, 0 to disable"
+#~ msgstr "Strāvas taustiņa XKeycode, 0, lai izslēgtu"
+
+#~ msgid "Previous key's XKeycode"
+#~ msgstr "Iepriekšējā taustiņa XKeycode"
+
+#~ msgid "Previous key's XKeycode, 0 to disable"
+#~ msgstr "Iepriekšējā taustiņa XKeycode, 0, lai izslēgtu"
+
+#~ msgid "Record key's XKeycode"
+#~ msgstr "Ierakstīt taustiņa XKeycode"
+
+#~ msgid "Record key's XKeycode, 0 to disable"
+#~ msgstr "Ierakstīt taustiņa XKeycode, 0, lai izslēgtu"
+
+#~ msgid "Refresh key's XKeycode"
+#~ msgstr "Atjanināšanas taustiņa XKeycode"
+
+#~ msgid "Refresh key's XKeycode, 0 to disable"
+#~ msgstr "Atjunināšanas taustiņa XKeycode, 0, lai izslēgtu"
+
+#~ msgid "Screensaver key's XKeycode"
+#~ msgstr "Ekrānsaudzētāja taustiņa XKeycode"
+
+#~ msgid "Screensaver key's XKeycode, 0 to disable"
+#~ msgstr "Ekrānsaudzētāja taustiņa XKeycode, 0, lai izslēgtu"
+
+#~ msgid "Search key's XKeycode"
+#~ msgstr "Meklēšanas taustiņa XKeycode"
+
+#~ msgid "Search key's XKeycode, 0 to disable"
+#~ msgstr "Meklēšanas taustiņa XKeycode, 0, lai izslēgtu"
+
+#~ msgid "Shade Window key's XKeycode"
+#~ msgstr "Ēnot Logu taustiņa XKeycode"
+
+#~ msgid "Shade Window key's XKeycode, 0 to disable"
+#~ msgstr "Ēnot Logu taustiņa XKeycode, 0, lai izslēgtu"
+
+#~ msgid "Sleep key's XKeycode"
+#~ msgstr "Iemidzināšanas taustiņa XKeycode"
+
+#~ msgid "Sleep key's XKeycode, 0 to disable"
+#~ msgstr "Iemidzināšanas taustiņa XKeycode, 0, lai izslēgtu"
+
+#~ msgid "Sound file to be played when volume is changed"
+#~ msgstr "Skaņas fails, ko atskaņot, kad tiek mainīts skaļums"
+
+#~ msgid "Volume down key's XKeycode"
+#~ msgstr "Klusāk taustiņa XKeycode"
+
+#~ msgid "Volume down key's XKeycode, 0 to disable"
+#~ msgstr "Klusāk taustiņa XKeycode, 0, lai izslēgtu"
+
+#, fuzzy
+#~ msgid "Volume step"
+#~ msgstr "Skaļums"
+
+#~ msgid "Volume up key's XKeycode"
+#~ msgstr "Skaļāk taustiņa XKeycode"
+
+#~ msgid "Volume up key's XKeycode, 0 to disable"
+#~ msgstr "Skaļāk taustiņa XKeycode, 0, lai izslēgtu"
+
+#~ msgid "WWW key's XKeycode"
+#~ msgstr "WWW taustiņa XKeycode"
+
+#~ msgid "WWW key's XKeycode, 0 to disable"
+#~ msgstr "Kalkulātora taustiņa XKeycode, 0, lai izslēgtu"
+
+#~ msgid "Accelerator key"
+#~ msgstr "Paātrinātāja taustiņš"
+
+#~ msgid "Accelerator modifiers"
+#~ msgstr "Paātrinātāja modifikatori"
+
+#~ msgid "Accelerator Mode"
+#~ msgstr "Paātrinātāja Režīms"
+
+#~ msgid "The type of accelerator."
+#~ msgstr "Paātrinātāja tips."
+
+#~ msgid "Type a new accelerator, or press Backspace to clear"
+#~ msgstr ""
+#~ "Ievadiet jaunu paātrinātāju vai nospiediet Atpakaļatkāpi, lai attīrītu"
+
+#~ msgid "Type a new accelerator"
+#~ msgstr "Ievadiet jaunu paātrinātāju"

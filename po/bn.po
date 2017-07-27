@@ -1,0 +1,766 @@
+# Bangla translation Brightside
+# Copyright (C) 2003, Free Software Foundation, Inc. 
+# This file is distributed under the same license as the Brightside package.
+# Progga <Abulfazl@juniv.edu>, 2003.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Brightside 2.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-01-16 02:13+0000\n"
+"PO-Revision-Date: 2003-06-23 04:50+0600\n"
+"Last-Translator: Progga <Abulfazl@juniv.edu>\n"
+"Language-Team: Bangla <gnome-translation@bengalinux.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Accelerator এর বাংলা "গতিবর্ধক" কিনা এইটা নিয়ে Confusion আছে
+#: src/brightside.c:224
+#, c-format
+msgid ""
+"Couldn't execute command: %s\n"
+"Verify that this command exists."
+msgstr ""
+"এই কমান্ডটি চালানো যায়নি: %s\n"
+"আদৌ এরকম কোন কমান্ডের অস্তিত্ব আছে কিনা তা পরীক্ষা করুন।"
+
+#: src/brightside.c:243
+#, c-format
+msgid ""
+"Permissions on the file %s are broken\n"
+"Please check Brightside's documentation, correct the problem and restart "
+"Brightside."
+msgstr ""
+"%s ফাইলের ব্যবহার অনুমতি (Permission) সমস্যাযুক্ত\n"
+"দয়া করে Brightside'র সহায়িকা পড়ে সমস্যাটি দূর করুন ও তারপর পুনরায় Brightside চালু "
+"করুন।"
+
+#: src/brightside.c:487
+msgid "translator_credits"
+msgstr "গুহ্‌নোম বাংলা অনুবাদ প্রকল্পের পক্ষে, প্রজ্ঞা [ Abulfazl@juniv.edu ]"
+
+#: src/brightside.c:498
+msgid "Brightside"
+msgstr "Brightside"
+
+#: src/brightside.c:500 src/brightside.c:573
+msgid "Screen Corners and Edges daemon"
+msgstr ""
+
+#: src/brightside.c:579
+msgid "Screen Corners and Edges daemon active"
+msgstr ""
+
+#: src/brightside.c:1733
+msgid "Daemon already running, exiting...\n"
+msgstr ""
+
+#: src/brightside.c:1742
+msgid ""
+"Couldn't load the Glade file.\n"
+"Make sure that this daemon is properly installed."
+msgstr ""
+"গ্লেড (Glade) ফাইল পড়া যায়নি।\n"
+"এই ডীমনটি (Deamon) সঠিকভাবে ইনস্টলকৃত আছে কি না তা নিশ্চিত হোন।"
+
+#: src/brightside.glade.h:1
+msgid "Volume"
+msgstr "শব্দমাত্রা"
+
+#: src/brightside.h:65
+#, fuzzy
+msgid "Mute volume"
+msgstr "নীরবতা (Mute) কী (Key)"
+
+#: src/brightside.h:67
+msgid "Prevent screensaver starting"
+msgstr ""
+
+#: src/brightside.h:69
+#, fuzzy
+msgid "Start screensaver"
+msgstr "স্ক্রিনসেভার কী (Key)"
+
+#: src/brightside.h:71
+msgid "Enter DPMS standby mode"
+msgstr ""
+
+#: src/brightside.h:73
+msgid "Enter DPMS suspend mode"
+msgstr ""
+
+#: src/brightside.h:75
+msgid "Enter DPMS off mode"
+msgstr ""
+
+#: src/brightside.h:78
+msgid "Dim laptop backlight"
+msgstr ""
+
+#: src/brightside.h:81
+msgid "Custom action..."
+msgstr ""
+
+#: src/brightside-properties.c:283 src/brightside-properties.glade.h:9
+#: src/brightside.desktop.in.h:2
+msgid "Screen Corners and Edges"
+msgstr ""
+
+#: src/brightside-properties.glade.h:1 src/custom-action.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: src/brightside-properties.glade.h:2
+msgid "<small><i>Long</i></small>"
+msgstr ""
+
+#: src/brightside-properties.glade.h:3
+msgid "<small><i>Short</i></small>"
+msgstr ""
+
+#: src/brightside-properties.glade.h:4
+#, fuzzy
+msgid "<span weight=\"bold\">Screen Corners</span>"
+msgstr "<span weight=\"bold\">শব্দ ব্যবস্থাপনা</span>"
+
+#: src/brightside-properties.glade.h:5
+#, fuzzy
+msgid "<span weight=\"bold\">Screen Edges</span>"
+msgstr "<span weight=\"bold\">শব্দ ব্যবস্থাপনা</span>"
+
+#: src/brightside-properties.glade.h:6
+#, fuzzy
+msgid "Action to take while mouse is placed in corner of screen"
+msgstr "বের করে দেয়ার (Eject) বাটন চাপলে যে কমান্ড চালানো হবে"
+
+#: src/brightside-properties.glade.h:7
+msgid "Bottom r_ight corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:8
+msgid "D_elay:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:10
+msgid "Switch to _adjacent workspace when mouse is moved to edge of screen"
+msgstr ""
+
+#: src/brightside-properties.glade.h:11
+msgid "Top _right corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:12
+msgid "When switching workspace, _wrap around edges of workspace layout"
+msgstr ""
+
+#: src/brightside-properties.glade.h:13
+msgid "_Bottom left corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:14
+msgid "_Configurable actions"
+msgstr ""
+
+#: src/brightside-properties.glade.h:15
+msgid "_Delay:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:16
+msgid "_Switch to diagonally adjacent workspace"
+msgstr ""
+
+#: src/brightside-properties.glade.h:17
+msgid "_Top left corner:"
+msgstr ""
+
+#: src/brightside.desktop.in.h:1
+#, fuzzy
+msgid "Configure screen-edge behaviour"
+msgstr "মাল্টিমিডিয়া কী'র (Key) কর্মপদ্ধতি (বা আচরণ) কনফিগার করুন"
+
+#: src/brightside.schemas.in.h:1
+msgid "Action enabled when mouse is in bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:2
+msgid "Action enabled when mouse is in bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:3
+msgid "Action enabled when mouse is in top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:4
+msgid "Action enabled when mouse is in top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:5
+msgid "Action to occur when mouse is in bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:6
+msgid "Action to occur when mouse is in bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:7
+msgid "Action to occur when mouse is in top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:8
+msgid "Action to occur when mouse is in top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:9
+msgid "After flip command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:10
+msgid "Bottom left corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:11
+msgid "Bottom left corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:12
+msgid "Bottom left corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:13
+msgid "Bottom left corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:14
+msgid "Bottom left corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:15
+msgid "Bottom right corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:16
+msgid "Bottom right corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:17
+msgid "Bottom right corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:18
+msgid "Bottom right corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:19
+msgid "Bottom right corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:20
+msgid "Command to execute after flipping workspace (empty string for none)"
+msgstr ""
+
+#: src/brightside.schemas.in.h:21
+msgid "Corner delay"
+msgstr ""
+
+#: src/brightside.schemas.in.h:22
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse enters bottom left corner of screen"
+msgstr "বের করে দেয়ার (Eject) বাটন চাপলে যে কমান্ড চালানো হবে"
+
+#: src/brightside.schemas.in.h:23
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse enters bottom right corner of screen"
+msgstr "বের করে দেয়ার (Eject) বাটন চাপলে যে কমান্ড চালানো হবে"
+
+#: src/brightside.schemas.in.h:24
+#, fuzzy
+msgid "Custom command to execute when mouse enters top left corner of screen"
+msgstr "বের করে দেয়ার (Eject) বাটন চাপলে যে কমান্ড চালানো হবে"
+
+#: src/brightside.schemas.in.h:25
+#, fuzzy
+msgid "Custom command to execute when mouse enters top right corner of screen"
+msgstr "বের করে দেয়ার (Eject) বাটন চাপলে যে কমান্ড চালানো হবে"
+
+#: src/brightside.schemas.in.h:26
+#, fuzzy
+msgid "Custom command to execute when mouse exits bottom left corner of screen"
+msgstr "বের করে দেয়ার (Eject) বাটন চাপলে যে কমান্ড চালানো হবে"
+
+#: src/brightside.schemas.in.h:27
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse exits bottom right corner of screen"
+msgstr "বের করে দেয়ার (Eject) বাটন চাপলে যে কমান্ড চালানো হবে"
+
+#: src/brightside.schemas.in.h:28
+#, fuzzy
+msgid "Custom command to execute when mouse exits top left corner of screen"
+msgstr "বের করে দেয়ার (Eject) বাটন চাপলে যে কমান্ড চালানো হবে"
+
+#: src/brightside.schemas.in.h:29
+#, fuzzy
+msgid "Custom command to execute when mouse exits top right corner of screen"
+msgstr "বের করে দেয়ার (Eject) বাটন চাপলে যে কমান্ড চালানো হবে"
+
+#: src/brightside.schemas.in.h:30
+msgid "Delay in milliseconds before edge flip occurs"
+msgstr ""
+
+#: src/brightside.schemas.in.h:31
+msgid "Delay in milliseconds before screen corner action occurs"
+msgstr ""
+
+#: src/brightside.schemas.in.h:32
+msgid "Edge delay"
+msgstr ""
+
+#: src/brightside.schemas.in.h:33
+msgid "Edge wrap"
+msgstr ""
+
+#: src/brightside.schemas.in.h:34
+#, fuzzy
+msgid "Enable corner flip"
+msgstr "সক্রিয়"
+
+#: src/brightside.schemas.in.h:35
+#, fuzzy
+msgid "Enable edge flip"
+msgstr "সক্রিয়"
+
+#: src/brightside.schemas.in.h:36
+msgid "Orientable workspaces"
+msgstr ""
+
+#: src/brightside.schemas.in.h:37
+msgid ""
+"Switch to diagonally adjacent workspace when mouse placed in the corner of "
+"the screen, instead of executing a configurable action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:38
+msgid ""
+"Switch to the adjacent workspace when the mouse reaches the edge of the "
+"screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:39
+msgid "Terminate custom command when mouse exits bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:40
+msgid "Terminate custom command when mouse exits bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:41
+msgid "Terminate custom command when mouse exits top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:42
+msgid "Terminate custom command when mouse exits top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:43
+msgid "Top left corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:44
+msgid "Top left corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:45
+msgid "Top left corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:46
+msgid "Top left corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:47
+msgid "Top left corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:48
+msgid "Top right corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:49
+msgid "Top right corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:50
+msgid "Top right corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:51
+msgid "Top right corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:52
+msgid "Top right corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:53
+msgid "Use PCM Volume instead of Master Volume"
+msgstr "মাস্টার শব্দমাত্রার (Volume) পরিবর্তে পিসিএম শব্দমাত্রা ব্যবহার করা হোক"
+
+#: src/brightside.schemas.in.h:54
+msgid "Whether workspace layout is orientable"
+msgstr ""
+
+#: src/brightside.schemas.in.h:55
+msgid "Wrap wround edges of workspace layout when flipping workspace"
+msgstr ""
+
+#: src/custom-action.glade.h:2
+msgid "*"
+msgstr ""
+
+#: src/custom-action.glade.h:3
+#, fuzzy
+msgid "<span weight=\"bold\">On _entering region</span>"
+msgstr "<span weight=\"bold\">কী (Key) ব্যবস্থাপনা </span>"
+
+#: src/custom-action.glade.h:4
+#, fuzzy
+msgid "<span weight=\"bold\">On leaving region</span>"
+msgstr "<span weight=\"bold\">শব্দ ব্যবস্থাপনা</span>"
+
+#: src/custom-action.glade.h:5 src/custom-action.c:104
+msgid "Custom action"
+msgstr ""
+
+#: src/custom-action.glade.h:6
+msgid "_Run another command:"
+msgstr ""
+
+#: src/custom-action.glade.h:7
+msgid "_Terminate above application"
+msgstr ""
+
+#~ msgid ""
+#~ "Couldn't execute either command: %s\n"
+#~ "or command: %s\n"
+#~ "Verify that at least one of these commands exist."
+#~ msgstr ""
+#~ "কমান্ড: %s\n"
+#~ "বা কমান্ড: %s , এদের কোনটিকেই চালানো যায়নি\n"
+#~ "এদুটির অন্তত একটি কমান্ডের অস্তিত্ব আছে কিনা তা পরীক্ষা করুন।"
+
+#~ msgid ""
+#~ "There was an error removing access to the multimedia keys.\n"
+#~ "Key %d couldn't be unbound."
+#~ msgstr ""
+#~ "মাল্টিমিডিয়া কী'সমূহের (Multimedia key) ব্যবহারের সুযোগ প্রত্যাহারের সময় একটি "
+#~ "সমস্যা হয়েছে।\n"
+#~ "%d কী'কে মুক্ত (Unbound) করা যায়নি।"
+
+# এইটা নিয়ে Confusion আছে
+#~ msgid ""
+#~ "It seems that another application already has access to the multimedia "
+#~ "keys.\n"
+#~ "Key %d couldn't be bound.\n"
+#~ "Is another daemon already running ?"
+#~ msgstr ""
+#~ "সম্ভবত অপর একটি অ্যাপলিকেশন ইতিমধ্যেই মাল্টিমিডিয়া কী'সমূহ (Keys) ব্যবহার "
+#~ "করছে।\n"
+#~ "%d কী'কে মুক্ত (Unbound) করা যায়নি।\n"
+#~ "অন্য একটি ডীমন (Deamon) কি আসলেই চলছে ?"
+
+#~ msgid "Multimedia keys daemon"
+#~ msgstr "মাল্টিমিডিয়া কী (Key) ডীমন (Deamon)"
+
+#~ msgid "Multimedia Keys daemon active"
+#~ msgstr "মাল্টিমিডিয়া কী (Key) ডীমন (Deamon) সক্রিয় রয়েছে"
+
+#~ msgid "Volume down key"
+#~ msgstr "শব্দমাত্রা হ্রাস করার কী (Key)"
+
+#~ msgid "Volume up key"
+#~ msgstr "শব্দমাত্রা বৃদ্ধি করার কী (Key)"
+
+#~ msgid "Power key"
+#~ msgstr "বিদ্যুত্‍ কী (Key)"
+
+#~ msgid "Eject key"
+#~ msgstr "বের করে দেয়া (Eject) কী (Key)"
+
+#~ msgid "Media key"
+#~ msgstr "মিডিয়া কী (Key)"
+
+#~ msgid "Play key"
+#~ msgstr "শব্দ বাজানোর কী (Key)"
+
+#~ msgid "Pause key"
+#~ msgstr "বিরতি কী (Key)"
+
+#~ msgid "Stop (Audio) key"
+#~ msgstr "স্থগিত (অডিও) কী (Key)"
+
+#~ msgid "Previous (Audio) key"
+#~ msgstr "পূর্ববর্তী (অডিও) কী (Key)"
+
+#~ msgid "Next (Audio) key"
+#~ msgstr "পরবর্তী (অডিও) কী (Key)"
+
+#~ msgid "My Home key"
+#~ msgstr "প্রথম অবস্থানসূচক (Home) কী (Key)"
+
+#~ msgid "Refresh key"
+#~ msgstr "পুনঃপ্রদর্শন কী (Key)"
+
+#~ msgid "Search key"
+#~ msgstr "অনুসন্ধান কী (Key)"
+
+#~ msgid "E-Mail key"
+#~ msgstr "ই-মেইল কী (Key)"
+
+#~ msgid "Sleep key"
+#~ msgstr "নিষ্ক্রিয় (Sleep) কী (Key)"
+
+#~ msgid "Finance key"
+#~ msgstr "অর্থবিষয়ক (Finance) কী (Key)"
+
+# এইটা নিয়ে Serious Confusion আছে
+#~ msgid "Help key"
+#~ msgstr "সহায়িকা প্রদর্শক কী (Key)"
+
+#~ msgid "WWW key"
+#~ msgstr "ডব্লিউ.ডব্লিউ.ডব্লিউ. (WWW) কী (Key)"
+
+#~ msgid "Groups key"
+#~ msgstr "গ্রুপ কী (Key)"
+
+#~ msgid "Calculator key"
+#~ msgstr "ক্যালকুলেটর কী (Key)"
+
+#~ msgid "Record key"
+#~ msgstr "ধারণকারী (Record) কী (Key)"
+
+#~ msgid "Close Window key"
+#~ msgstr "উইন্ডো বন্ধ করার কী (Key)"
+
+#~ msgid "Shade Window key"
+#~ msgstr "উইন্ডো গুটানোর কী (Key)"
+
+#~ msgid "Brightness down key"
+#~ msgstr "উজ্জ্বলতা হ্রাসকারী কী (Key)"
+
+#~ msgid "Brightness up key"
+#~ msgstr "উজ্জ্বলতা বৃদ্ধিকারী কী (Key)"
+
+#~ msgid "Disabled"
+#~ msgstr "নিষ্ক্রিয়"
+
+#~ msgid ""
+#~ "This key is already bound to action '%s'.\n"
+#~ "Please select another key."
+#~ msgstr ""
+#~ "এই কী (Key) ইতিমধ্যেই '%s' কাজটির সাথে যুক্ত রয়েছে।\n"
+#~ "দয়া করে অন্য একটি কী বেছে নিন।"
+
+#~ msgid "Description"
+#~ msgstr "বর্ণনা"
+
+#~ msgid "Status"
+#~ msgstr "অবস্থা"
+
+#~ msgid "Multimedia Keys Preferences"
+#~ msgstr "মাল্টিমিডিয়া কী (Key) সংক্রান্ত পছন্দ"
+
+#~ msgid ""
+#~ "To assign a key to an action, click on a line, and press the key you want "
+#~ "to associate with it.\n"
+#~ "\"C\" cancels the capture, and \"Backspace\" disables the key shortcut."
+#~ msgstr ""
+#~ "কোন কাজের জন্য কী (Key) নির্ধারণ করতে চাইলে একটি লাইনের ওপর ক্লিক করুন ও "
+#~ "তারপর যে কী'টি বরাদ্দ করতে চান, তা চাপুন।\n"
+#~ "\"C\", কী সনাক্তকরণ বাতিল করে আর \"ব্যাকস্পেস\", সংক্ষিপ্ত কী (Key Shortcut) "
+#~ "নিষ্ক্রিয় করে।"
+
+#~ msgid "Use _PCM volume instead of Master volume"
+#~ msgstr "মাস্টার শব্দমাত্রার (ভলিউম) পরিবর্তে _পিসিএম শব্দমাত্রা ব্যবহার করা হোক"
+
+#~ msgid "Multimedia Keys"
+#~ msgstr "মাল্টিমিডিয়া কী (Key)"
+
+#~ msgid "Brightness down key's XKeycode"
+#~ msgstr "উজ্জ্বলতা হ্রাসকারী কী'র (Key's) XKeycode"
+
+#~ msgid "Brightness down key's XKeycode, 0 to disable"
+#~ msgstr "উজ্জ্বলতা হ্রাসকারী কী'র (Key's) XKeycode, ০ হলে নিষ্ক্রিয়"
+
+#~ msgid "Brightness up key's XKeycode"
+#~ msgstr "উজ্জ্বলতা বৃদ্ধিকারী কী'র (Key's) XKeycode"
+
+#~ msgid "Brightness up key's XKeycode, 0 to disable"
+#~ msgstr "উজ্জ্বলতা হ্রাসকারী কী'র (Key's) XKeycode, ০ হলে নিষ্ক্রিয়"
+
+#~ msgid "Calculator key's XKeycode"
+#~ msgstr "ক্যালকুলেটর কী'র (Key's) XKeycode"
+
+#~ msgid "Calculator key's XKeycode, 0 to disable"
+#~ msgstr "ক্যালকুলেটর কী'র (Key's) XKeycode, ০ হলে নিষ্ক্রিয়"
+
+#~ msgid "Close Window key's XKeycode"
+#~ msgstr "উইন্ডো বন্ধকারী কী'র (Key's) XKeycode"
+
+#~ msgid "Close Window key's XKeycode, 0 to disable"
+#~ msgstr "উইন্ডো বন্ধকারী কী'র (Key's) XKeycode, ০ হলে নিষ্ক্রিয়"
+
+#~ msgid "E-Mail key's XKeycode"
+#~ msgstr "ই-মেইল কী'র (Key's) XKeycode"
+
+#~ msgid "E-Mail key's XKeycode, 0 to disable"
+#~ msgstr "ই-মেইল কী'র (Key's) XKeycode, ০ হলে নিষ্ক্রিয়"
+
+#~ msgid "Eject key's XKeycode"
+#~ msgstr "বের করে দেয়া (Eject) কী'র (Key's) XKeycode"
+
+#~ msgid "Eject key's XKeycode, 0 to disable"
+#~ msgstr "বের করে দেয়া (Eject) কী'র (Key's) XKeycode, ০ হলে নিষ্ক্রিয়"
+
+#~ msgid "Finance key's XKeycode"
+#~ msgstr "অর্থনৈতিক (Finance) কী'র (Key's) XKeycode"
+
+# এইটা নিয়ে Serious Confusion আছে
+#~ msgid "Finance key's XKeycode, 0 to disable"
+#~ msgstr "অর্থনৈতিক (Finance) কী'র (Key's) XKeycode, 0 হলে নিষ্ক্রিয়"
+
+# এইটা নিয়েও Serious Confusion আছে
+#~ msgid "Groups key's XKeycode"
+#~ msgstr "গ্রুপ কী'র (Key's) XKeycode"
+
+#~ msgid "Groups key's XKeycode, 0 to disable"
+#~ msgstr "গ্রুপ কী'র (Key's) XKeycode, ০ হলে নিষ্ক্রিয়"
+
+#~ msgid "Help key's XKeycode"
+#~ msgstr "সহায়িকা কী'র (Key's) XKeycode"
+
+#~ msgid "Help key's XKeycode, 0 to disable"
+#~ msgstr "সহায়িকা কী'র (Key's) XKeycode, ০ হলে নিষ্ক্রিয়"
+
+#~ msgid "Mute key's XKeycode"
+#~ msgstr "নীরবতা (Mute) কী'র (Key's) XKeycode"
+
+#~ msgid "Mute key's XKeycode, 0 to disable"
+#~ msgstr "নীরবতা (Mute) কী'র (Key's) XKeycode, ০ হলে নিষ্ক্রিয়"
+
+#~ msgid "My Home key's XKeycode"
+#~ msgstr "প্রথম অবস্থানসূচক (Home) কী'র (Key's) XKeycode"
+
+#~ msgid "My Home key's XKeycode, 0 to disable"
+#~ msgstr "প্রথম অবস্থানসূচক (Home) কী'র (Key's) XKeycode, 0 হলে নিষ্ক্রিয়"
+
+#~ msgid "Next key's XKeycode"
+#~ msgstr "পরবর্তী কী'র (Key's) XKeycode"
+
+#~ msgid "Next key's XKeycode, 0 to disable"
+#~ msgstr "পরবর্তী কী'র (Key's) XKeycode, ০ হলে নিষ্ক্রিয়"
+
+#~ msgid "Pause key's XKeycode"
+#~ msgstr "বিরতি কী'র (Key's) XKeycode"
+
+#~ msgid "Pause key's XKeycode, 0 to disable"
+#~ msgstr "বিরতি কী'র (Key's) XKeycode, ০ হলে নিষ্ক্রিয়"
+
+#~ msgid "Play key's XKeycode"
+#~ msgstr "শব্দ বাজানো কী'র (Key's) XKeycode"
+
+#~ msgid "Play key's XKeycode, 0 to disable"
+#~ msgstr "শব্দ বাজানো কী'র (Key's) XKeycode, ০ হলে নিষ্ক্রিয়"
+
+#~ msgid "Power key's XKeycode"
+#~ msgstr "বিদ্যুত্‍ কী'র (Key's) XKeycode"
+
+#~ msgid "Power key's XKeycode, 0 to disable"
+#~ msgstr "বিদ্যুত্‍ কী'র (Key's) XKeycode, ০ হলে নিষ্ক্রিয়"
+
+#~ msgid "Previous key's XKeycode"
+#~ msgstr "পূর্ববর্তী কী'র (Key's) XKeycode"
+
+#~ msgid "Previous key's XKeycode, 0 to disable"
+#~ msgstr "পূর্ববর্তী কী'র (Key's) XKeycode, ০ হলে নিষ্ক্রিয়"
+
+#~ msgid "Record key's XKeycode"
+#~ msgstr "ধারণকারী (Record) কী'র (Key's) XKeycode"
+
+#~ msgid "Record key's XKeycode, 0 to disable"
+#~ msgstr "ধারণকারী (Record) কী'র (Key's) XKeycode, ০ হলে নিষ্ক্রিয়"
+
+#~ msgid "Refresh key's XKeycode"
+#~ msgstr "পুনঃপ্রদর্শন কী'র (Key's) XKeycode"
+
+#~ msgid "Refresh key's XKeycode, 0 to disable"
+#~ msgstr "পুনঃপ্রদর্শন কী'র (Key's) XKeycode, ০ হলে নিষ্ক্রিয়"
+
+#~ msgid "Screensaver key's XKeycode"
+#~ msgstr "স্ক্রিনসেভার কী'র (Key's) XKeycode"
+
+#~ msgid "Screensaver key's XKeycode, 0 to disable"
+#~ msgstr "স্ক্রিনসেভার কী'র (Key's) XKeycode, ০ হলে নিষ্ক্রিয়"
+
+#~ msgid "Search key's XKeycode"
+#~ msgstr "অনুসন্ধান কী'র (Key's) XKeycode"
+
+#~ msgid "Search key's XKeycode, 0 to disable"
+#~ msgstr "অনুসন্ধান কী'র (Key's) XKeycode, ০ হলে নিষ্ক্রিয়"
+
+#~ msgid "Shade Window key's XKeycode"
+#~ msgstr "গুটানো কী'র (Key's) XKeycode"
+
+#~ msgid "Shade Window key's XKeycode, 0 to disable"
+#~ msgstr "গুটানো কী'র (Key's) XKeycode, ০ হলে নিষ্ক্রিয়"
+
+#~ msgid "Sleep key's XKeycode"
+#~ msgstr "নিষ্ক্রিয় (Sleep) কী'র (Key's) XKeycode"
+
+#~ msgid "Sleep key's XKeycode, 0 to disable"
+#~ msgstr "নিষ্ক্রিয় (Sleep) কী'র (Key's) XKeycode, ০ হলে প্রযোজ্য হবে না"
+
+#~ msgid "Sound file to be played when volume is changed"
+#~ msgstr "শব্দমাত্রা পরিবর্তিত হলে যে শব্দের ফাইলটি বাজানো হবে"
+
+#~ msgid "Volume down key's XKeycode"
+#~ msgstr "শব্দ হ্রাসকারী কী'র (Key's) XKeycode"
+
+#~ msgid "Volume down key's XKeycode, 0 to disable"
+#~ msgstr "শব্দ হ্রাসকারী কী'র (Key's) XKeycode, ০ হলে নিষ্ক্রিয়"
+
+#, fuzzy
+#~ msgid "Volume step"
+#~ msgstr "শব্দমাত্রা"
+
+#~ msgid "Volume up key's XKeycode"
+#~ msgstr "শব্দ বৃদ্ধিকারী কী'র (Key's) XKeycode"
+
+#~ msgid "Volume up key's XKeycode, 0 to disable"
+#~ msgstr "শব্দ বৃদ্ধিকারী কী'র (Key's) XKeycode, ০ হলে নিষ্ক্রিয়"
+
+#~ msgid "WWW key's XKeycode"
+#~ msgstr "ডব্লিউ.ডব্লিউ.ডব্লিউ. (WWW) কী'র (Key's) XKeycode"
+
+#~ msgid "WWW key's XKeycode, 0 to disable"
+#~ msgstr "ডব্লিউ.ডব্লিউ.ডব্লিউ. (WWW) কী'র (Key's) XKeycode, ০ হলে নিষ্ক্রিয়"
+
+#~ msgid "Accelerator key"
+#~ msgstr "গতিবর্ধক (Accelerator) কী (Key)"
+
+#~ msgid "Accelerator modifiers"
+#~ msgstr "গতিবর্ধক (Accelerator) পরিবর্তক"
+
+#~ msgid "Accelerator Mode"
+#~ msgstr "গতিবর্ধক (Accelerator) মোড (Mode)"
+
+#~ msgid "The type of accelerator."
+#~ msgstr "গতিবর্ধক (Accelerator) এর ধরন।"
+
+#~ msgid "Type a new accelerator, or press Backspace to clear"
+#~ msgstr "নতুন কোন গতিবর্ধক (Accelerator) লিখুন অথবা ব্যাকস্পেস চেপে মুছে ফেলুন"
+
+#~ msgid "Type a new accelerator"
+#~ msgstr "নতুন কোন গতিবর্ধক (Accelerator) লিখুন"

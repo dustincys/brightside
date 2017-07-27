@@ -1,0 +1,775 @@
+# translation of Brightside.HEAD.ar.po to Arabic
+# translation of Brightside.po to Arabic
+# translation of Brightside.po to
+# translation of Brightside.po to
+# Copyright (C) 2002,2003 Free Software Foundation, Inc.
+# Isam Bayazidi <bayazidi@arabeyes.org>, 2002
+# Hassan Abdin <habdin@link.net>, 2003
+# Arafat Medini <lumina@silverpen.de>, 2003
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Brightside.HEAD.ar\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-01-16 02:13+0000\n"
+"PO-Revision-Date: 2003-07-21 20:08+0200\n"
+"Last-Translator: Arafat Medini <lumina@silverpen.de>\n"
+"Language-Team: Arabic <doc@arabeyes.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.0\n"
+
+#: src/brightside.c:224
+#, c-format
+msgid ""
+"Couldn't execute command: %s\n"
+"Verify that this command exists."
+msgstr ""
+"لا يمكن تنفيذ الأمر: %s\n"
+"تأكّد من وجود هذا الأمر."
+
+#: src/brightside.c:243
+#, c-format
+msgid ""
+"Permissions on the file %s are broken\n"
+"Please check Brightside's documentation, correct the problem and restart "
+"Brightside."
+msgstr ""
+"التراخيص على الملف%s مكسورة\n"
+" رجاء مراجعة توثيق Brightside، إصلاح الخلل ثم إعادة تشغيل Brightside."
+
+#: src/brightside.c:487
+msgid "translator_credits"
+msgstr "تكريم لل_مترجمين"
+
+#: src/brightside.c:498
+msgid "Brightside"
+msgstr "Brightside"
+
+#: src/brightside.c:500 src/brightside.c:573
+msgid "Screen Corners and Edges daemon"
+msgstr ""
+
+#: src/brightside.c:579
+msgid "Screen Corners and Edges daemon active"
+msgstr ""
+
+#: src/brightside.c:1733
+msgid "Daemon already running, exiting...\n"
+msgstr ""
+
+#: src/brightside.c:1742
+msgid ""
+"Couldn't load the Glade file.\n"
+"Make sure that this daemon is properly installed."
+msgstr ""
+"لا يمكن تحميل ملف كلايد.\n"
+"تأكد من ان هذا الجنّي قد ثُبّت بشكل صحيح"
+
+#: src/brightside.glade.h:1
+msgid "Volume"
+msgstr "شدة الصوت"
+
+#: src/brightside.h:65
+#, fuzzy
+msgid "Mute volume"
+msgstr "مفتاح الإخفات"
+
+#: src/brightside.h:67
+msgid "Prevent screensaver starting"
+msgstr ""
+
+#: src/brightside.h:69
+#, fuzzy
+msgid "Start screensaver"
+msgstr "مفتاح حافظ الشاشة"
+
+#: src/brightside.h:71
+msgid "Enter DPMS standby mode"
+msgstr ""
+
+#: src/brightside.h:73
+msgid "Enter DPMS suspend mode"
+msgstr ""
+
+#: src/brightside.h:75
+msgid "Enter DPMS off mode"
+msgstr ""
+
+#: src/brightside.h:78
+msgid "Dim laptop backlight"
+msgstr ""
+
+#: src/brightside.h:81
+msgid "Custom action..."
+msgstr ""
+
+#: src/brightside-properties.c:283 src/brightside-properties.glade.h:9
+#: src/brightside.desktop.in.h:2
+msgid "Screen Corners and Edges"
+msgstr ""
+
+#: src/brightside-properties.glade.h:1 src/custom-action.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: src/brightside-properties.glade.h:2
+msgid "<small><i>Long</i></small>"
+msgstr ""
+
+#: src/brightside-properties.glade.h:3
+msgid "<small><i>Short</i></small>"
+msgstr ""
+
+#: src/brightside-properties.glade.h:4
+#, fuzzy
+msgid "<span weight=\"bold\">Screen Corners</span>"
+msgstr "<span weight=\"bold\">إعدادات الصوت</span>"
+
+#: src/brightside-properties.glade.h:5
+#, fuzzy
+msgid "<span weight=\"bold\">Screen Edges</span>"
+msgstr "<span weight=\"bold\">إعدادات الصوت</span>"
+
+#: src/brightside-properties.glade.h:6
+#, fuzzy
+msgid "Action to take while mouse is placed in corner of screen"
+msgstr "الأمرالذي سينفّذ عند نقر زر الطرد"
+
+#: src/brightside-properties.glade.h:7
+msgid "Bottom r_ight corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:8
+msgid "D_elay:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:10
+msgid "Switch to _adjacent workspace when mouse is moved to edge of screen"
+msgstr ""
+
+#: src/brightside-properties.glade.h:11
+msgid "Top _right corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:12
+msgid "When switching workspace, _wrap around edges of workspace layout"
+msgstr ""
+
+#: src/brightside-properties.glade.h:13
+msgid "_Bottom left corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:14
+msgid "_Configurable actions"
+msgstr ""
+
+#: src/brightside-properties.glade.h:15
+msgid "_Delay:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:16
+msgid "_Switch to diagonally adjacent workspace"
+msgstr ""
+
+#: src/brightside-properties.glade.h:17
+msgid "_Top left corner:"
+msgstr ""
+
+#: src/brightside.desktop.in.h:1
+#, fuzzy
+msgid "Configure screen-edge behaviour"
+msgstr "تهييئ سلوك مفاتيح الوسائط المتعددة "
+
+#: src/brightside.schemas.in.h:1
+msgid "Action enabled when mouse is in bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:2
+msgid "Action enabled when mouse is in bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:3
+msgid "Action enabled when mouse is in top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:4
+msgid "Action enabled when mouse is in top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:5
+msgid "Action to occur when mouse is in bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:6
+msgid "Action to occur when mouse is in bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:7
+msgid "Action to occur when mouse is in top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:8
+msgid "Action to occur when mouse is in top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:9
+msgid "After flip command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:10
+msgid "Bottom left corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:11
+msgid "Bottom left corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:12
+msgid "Bottom left corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:13
+msgid "Bottom left corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:14
+msgid "Bottom left corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:15
+msgid "Bottom right corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:16
+msgid "Bottom right corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:17
+msgid "Bottom right corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:18
+msgid "Bottom right corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:19
+msgid "Bottom right corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:20
+msgid "Command to execute after flipping workspace (empty string for none)"
+msgstr ""
+
+#: src/brightside.schemas.in.h:21
+msgid "Corner delay"
+msgstr ""
+
+#: src/brightside.schemas.in.h:22
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse enters bottom left corner of screen"
+msgstr "الأمرالذي سينفّذ عند نقر زر الطرد"
+
+#: src/brightside.schemas.in.h:23
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse enters bottom right corner of screen"
+msgstr "الأمرالذي سينفّذ عند نقر زر الطرد"
+
+#: src/brightside.schemas.in.h:24
+#, fuzzy
+msgid "Custom command to execute when mouse enters top left corner of screen"
+msgstr "الأمرالذي سينفّذ عند نقر زر الطرد"
+
+#: src/brightside.schemas.in.h:25
+#, fuzzy
+msgid "Custom command to execute when mouse enters top right corner of screen"
+msgstr "الأمرالذي سينفّذ عند نقر زر الطرد"
+
+#: src/brightside.schemas.in.h:26
+#, fuzzy
+msgid "Custom command to execute when mouse exits bottom left corner of screen"
+msgstr "الأمرالذي سينفّذ عند نقر زر الطرد"
+
+#: src/brightside.schemas.in.h:27
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse exits bottom right corner of screen"
+msgstr "الأمرالذي سينفّذ عند نقر زر الطرد"
+
+#: src/brightside.schemas.in.h:28
+#, fuzzy
+msgid "Custom command to execute when mouse exits top left corner of screen"
+msgstr "الأمرالذي سينفّذ عند نقر زر الطرد"
+
+#: src/brightside.schemas.in.h:29
+#, fuzzy
+msgid "Custom command to execute when mouse exits top right corner of screen"
+msgstr "الأمرالذي سينفّذ عند نقر زر الطرد"
+
+#: src/brightside.schemas.in.h:30
+msgid "Delay in milliseconds before edge flip occurs"
+msgstr ""
+
+#: src/brightside.schemas.in.h:31
+msgid "Delay in milliseconds before screen corner action occurs"
+msgstr ""
+
+#: src/brightside.schemas.in.h:32
+msgid "Edge delay"
+msgstr ""
+
+#: src/brightside.schemas.in.h:33
+msgid "Edge wrap"
+msgstr ""
+
+#: src/brightside.schemas.in.h:34
+#, fuzzy
+msgid "Enable corner flip"
+msgstr "ممكّن"
+
+#: src/brightside.schemas.in.h:35
+#, fuzzy
+msgid "Enable edge flip"
+msgstr "ممكّن"
+
+#: src/brightside.schemas.in.h:36
+msgid "Orientable workspaces"
+msgstr ""
+
+#: src/brightside.schemas.in.h:37
+msgid ""
+"Switch to diagonally adjacent workspace when mouse placed in the corner of "
+"the screen, instead of executing a configurable action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:38
+msgid ""
+"Switch to the adjacent workspace when the mouse reaches the edge of the "
+"screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:39
+msgid "Terminate custom command when mouse exits bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:40
+msgid "Terminate custom command when mouse exits bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:41
+msgid "Terminate custom command when mouse exits top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:42
+msgid "Terminate custom command when mouse exits top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:43
+msgid "Top left corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:44
+msgid "Top left corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:45
+msgid "Top left corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:46
+msgid "Top left corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:47
+msgid "Top left corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:48
+msgid "Top right corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:49
+msgid "Top right corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:50
+msgid "Top right corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:51
+msgid "Top right corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:52
+msgid "Top right corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:53
+msgid "Use PCM Volume instead of Master Volume"
+msgstr "استخدم حجم الصوت PCM عوضا عن شدة الصوت الرئيسي"
+
+#: src/brightside.schemas.in.h:54
+msgid "Whether workspace layout is orientable"
+msgstr ""
+
+#: src/brightside.schemas.in.h:55
+msgid "Wrap wround edges of workspace layout when flipping workspace"
+msgstr ""
+
+#: src/custom-action.glade.h:2
+msgid "*"
+msgstr ""
+
+#: src/custom-action.glade.h:3
+#, fuzzy
+msgid "<span weight=\"bold\">On _entering region</span>"
+msgstr "<span weight=\"bold\">إعدادات المفاتيح </span>"
+
+#: src/custom-action.glade.h:4
+#, fuzzy
+msgid "<span weight=\"bold\">On leaving region</span>"
+msgstr "<span weight=\"bold\">إعدادات الصوت</span>"
+
+#: src/custom-action.glade.h:5 src/custom-action.c:104
+msgid "Custom action"
+msgstr ""
+
+#: src/custom-action.glade.h:6
+msgid "_Run another command:"
+msgstr ""
+
+#: src/custom-action.glade.h:7
+msgid "_Terminate above application"
+msgstr ""
+
+#~ msgid ""
+#~ "Couldn't execute either command: %s\n"
+#~ "or command: %s\n"
+#~ "Verify that at least one of these commands exist."
+#~ msgstr ""
+#~ " لا يمكن تنفيذ اﻷمر: %s\n"
+#~ "و ﻻ اﻷمر: %s\n"
+#~ " تأكّد من وجود أحد اﻷمرين على الاقل "
+
+#~ msgid ""
+#~ "There was an error removing access to the multimedia keys.\n"
+#~ "Key %d couldn't be unbound."
+#~ msgstr ""
+#~ "حدث خطأ أثناء حذف مفاتيح ااوسائط المتعددة. \n"
+#~ "لم يمكن فك حَزم المفتاح %d"
+
+#~ msgid ""
+#~ "It seems that another application already has access to the multimedia "
+#~ "keys.\n"
+#~ "Key %d couldn't be bound.\n"
+#~ "Is another daemon already running ?"
+#~ msgstr ""
+#~ "يبدو ان لبرنامج آخر منفذ لمفاتيح الوسائط المتعددة لم يمكن فك حَزم المفتاح  "
+#~ "%d.\n"
+#~ "جنّي آخر بصدد التنفيذ؟"
+
+#~ msgid "Multimedia keys daemon"
+#~ msgstr "جنّي مفاتيح الوسائط المتعددة"
+
+#~ msgid "Multimedia Keys daemon active"
+#~ msgstr "جنّي مفاتيح الوسائط المتعددة نشط"
+
+#~ msgid "Volume down key"
+#~ msgstr "مفتاح خفض شدة الصوت "
+
+#~ msgid "Volume up key"
+#~ msgstr "مفتاح رفع شدة الصوت"
+
+#~ msgid "Power key"
+#~ msgstr "مفتاح التشغيل"
+
+#~ msgid "Eject key"
+#~ msgstr "مفتاح الطرد"
+
+#~ msgid "Media key"
+#~ msgstr "مفتاح الوسائط"
+
+#~ msgid "Play key"
+#~ msgstr "مفتاح البدأ (أو العرض أو بدأ العرض)"
+
+#~ msgid "Pause key"
+#~ msgstr "مفتاح الإيقاف المؤقت"
+
+#~ msgid "Stop (Audio) key"
+#~ msgstr "مفتاح الإغلاق "
+
+#~ msgid "Previous (Audio) key"
+#~ msgstr "مفتاح السابق"
+
+#~ msgid "Next (Audio) key"
+#~ msgstr "مفتاح التالي"
+
+#~ msgid "My Home key"
+#~ msgstr "مفتاح منزلي"
+
+#~ msgid "Refresh key"
+#~ msgstr "مفتاح الإنعاش"
+
+#~ msgid "Search key"
+#~ msgstr "مفتاح البحث"
+
+#~ msgid "E-Mail key"
+#~ msgstr "مفتاح البريد الإلكتروني"
+
+#~ msgid "Sleep key"
+#~ msgstr "مفتاح النوم"
+
+#~ msgid "Finance key"
+#~ msgstr "مفتاح المصارِف"
+
+#~ msgid "Help key"
+#~ msgstr "مفتاح المساعدة"
+
+#~ msgid "WWW key"
+#~ msgstr "مفتاح الواب"
+
+#~ msgid "Groups key"
+#~ msgstr "مفتاح المجموعات"
+
+#~ msgid "Calculator key"
+#~ msgstr "مفتاح الآلة الحاسبة"
+
+#~ msgid "Record key"
+#~ msgstr "مفتاح التسجيل"
+
+#~ msgid "Close Window key"
+#~ msgstr "مفتاح غلق النافذة"
+
+#~ msgid "Shade Window key"
+#~ msgstr "مفتاح حجب النافذة"
+
+#~ msgid "Brightness down key"
+#~ msgstr "مفتاح خفض الإضاءة"
+
+#~ msgid "Brightness up key"
+#~ msgstr "مفتاح رفع الإضاءة"
+
+#~ msgid "Disabled"
+#~ msgstr "معطّل"
+
+#~ msgid ""
+#~ "This key is already bound to action '%s'.\n"
+#~ "Please select another key."
+#~ msgstr ""
+#~ "هذا المفتاح محَزّم للفعل '%s'.\n"
+#~ "رجاء إختر مفتاحا آخر."
+
+#~ msgid "Description"
+#~ msgstr "الوصف"
+
+#~ msgid "Status"
+#~ msgstr "الحالة"
+
+#~ msgid "Multimedia Keys Preferences"
+#~ msgstr "تفضيلات مفاتيح الوسائط المتعددة"
+
+#~ msgid ""
+#~ "To assign a key to an action, click on a line, and press the key you want "
+#~ "to associate with it.\n"
+#~ "\"C\" cancels the capture, and \"Backspace\" disables the key shortcut."
+#~ msgstr ""
+#~ "لربط المفتاح بفعل انقر سطرا واضغط على المفتاح الذي تريد تشريك السّطر به .\n"
+#~ "\"C\" يلغي الربط، و \"Backspace\" يعطّل مفتاح الإختصار."
+
+#~ msgid "Use _PCM volume instead of Master volume"
+#~ msgstr "استخدم حجم الصوت PCM عوضا عن حجم الصوت الرئيسي"
+
+#~ msgid "Multimedia Keys"
+#~ msgstr "مفاتيح الوسائط المتعددة"
+
+#~ msgid "Brightness down key's XKeycode"
+#~ msgstr "شفرة X للمفتاح الخاص بمفتاح خفض الإضاءة "
+
+#~ msgid "Brightness down key's XKeycode, 0 to disable"
+#~ msgstr "شفرة X للمفتاح الخاص بمفتاح خفض الإضاءة، 0 للتعطيل."
+
+#~ msgid "Brightness up key's XKeycode"
+#~ msgstr "شفرة X للمفتاح الخاص بمفتاح رفع الإضاءة"
+
+#~ msgid "Brightness up key's XKeycode, 0 to disable"
+#~ msgstr "شفرة X للمفتاح الخاص بمفتاح رفع الإضاءة، 0 للتعطيل"
+
+#~ msgid "Calculator key's XKeycode"
+#~ msgstr " شفرة X للمفتاح الخاص بمفتاح الآلة الحاسبة "
+
+#~ msgid "Calculator key's XKeycode, 0 to disable"
+#~ msgstr "شفرة X للمفتاح الخاص بمفتاح الآلة الحاسبة، 0 للتعطيل"
+
+#~ msgid "Close Window key's XKeycode"
+#~ msgstr "شفرة X للمفتاح الخاص بمفتاح غلق النافذة"
+
+#~ msgid "Close Window key's XKeycode, 0 to disable"
+#~ msgstr "شفرة X للمفتاح الخاص بمفتاح غلق النافذة، 0 للتعطيل"
+
+#~ msgid "E-Mail key's XKeycode"
+#~ msgstr "شفرة X للمفتاح الخاص بمفتاح البريد الإلكتروني"
+
+#~ msgid "E-Mail key's XKeycode, 0 to disable"
+#~ msgstr "شفرة X للمفتاح الخاص بمفتاح البريد، 0 للتعطيل"
+
+#~ msgid "Eject key's XKeycode"
+#~ msgstr "شفرة X للمفتاح الخاص بمفتاح الطرد"
+
+#~ msgid "Eject key's XKeycode, 0 to disable"
+#~ msgstr "شفرة X للمفتاح الخاص بمفتاح الإخراج، 0 للتعطيل"
+
+#~ msgid "Finance key's XKeycode"
+#~ msgstr "شفرة X للمفتاح الخاص بمفتاح المصارِف"
+
+#~ msgid "Finance key's XKeycode, 0 to disable"
+#~ msgstr "شفرة X للمفتاح الخاص بمفتاح المصارِف، 0 للتعطيل"
+
+#~ msgid "Groups key's XKeycode"
+#~ msgstr "شفرة X للمفتاح الخاص بمفتاح المجموعات"
+
+#~ msgid "Groups key's XKeycode, 0 to disable"
+#~ msgstr "شفرة X للمفتاح الخاص بمفتاح المساعدة، 0 للتعطيل"
+
+#~ msgid "Help key's XKeycode"
+#~ msgstr "شفرة X للمفتاح الخاص بمفتاح المساعدة"
+
+#~ msgid "Help key's XKeycode, 0 to disable"
+#~ msgstr "شفرة X للمفتاح الخاص بمفتاح المساعدة، 0 للتعطيل"
+
+#~ msgid "Mute key's XKeycode"
+#~ msgstr "شفرة X للمفتاح الخاص بمفتاح اﻻسكات"
+
+#~ msgid "Mute key's XKeycode, 0 to disable"
+#~ msgstr " شفرة X للمفتاح الخاص بمفتاح اﻻخفات، 0 للتعطيل"
+
+#~ msgid "My Home key's XKeycode"
+#~ msgstr "شفرة X للمفتاح الخاص بمفتاح منزلي"
+
+#~ msgid "My Home key's XKeycode, 0 to disable"
+#~ msgstr "شفرة X للمفتاح الخاص بمفتاح منزلي، 0 للتعطيل"
+
+#~ msgid "Next key's XKeycode"
+#~ msgstr "شفرة X للمفتاح الخاص بمفتاح التالي"
+
+#~ msgid "Next key's XKeycode, 0 to disable"
+#~ msgstr "شفرة X للمفتاح الخاص بمفتاح التالي، 0 للتعطيل"
+
+#~ msgid "Pause key's XKeycode"
+#~ msgstr "شفرة X للمفتاح الخاص بمفتاح اﻻيقاف المؤقت"
+
+#~ msgid "Pause key's XKeycode, 0 to disable"
+#~ msgstr " شفرة X للمفتاح الخاص بمفتاح اﻻيقاف المؤقت، 0 للتعطيل"
+
+#~ msgid "Play key's XKeycode"
+#~ msgstr "شفرة X للمفتاح الخاص بمفتاح العزف"
+
+#~ msgid "Play key's XKeycode, 0 to disable"
+#~ msgstr "شفرة X للمفتاح الخاص بمفتاح العزف، 0 للتعطيل"
+
+#~ msgid "Power key's XKeycode"
+#~ msgstr "شفرة X للمفتاح الخاص بمفتاح التشغيل"
+
+#~ msgid "Power key's XKeycode, 0 to disable"
+#~ msgstr "شفرة X للمفتاح الخاص بمفتاح التشغيل، 0 للتعطيل"
+
+#~ msgid "Previous key's XKeycode"
+#~ msgstr "شفرة X للمفتاح الخاص بمفتاح السابق"
+
+#~ msgid "Previous key's XKeycode, 0 to disable"
+#~ msgstr "شفرة X للمفتاح الخاص بمفتاح السابق، 0 للتعطيل"
+
+#~ msgid "Record key's XKeycode"
+#~ msgstr "شفرة X للمفتاح الخاص بمفتاح التسجيل"
+
+#~ msgid "Record key's XKeycode, 0 to disable"
+#~ msgstr "شفرة X للمفتاح الخاص بمفتاح التسجيل، 0 للتعطيل"
+
+#~ msgid "Refresh key's XKeycode"
+#~ msgstr "شفرة X للمفتاح الخاص بمفتاح الإنعاش"
+
+#~ msgid "Refresh key's XKeycode, 0 to disable"
+#~ msgstr "شفرة X للمفتاح الخاص بمفتاح الإنعاش، 0 للتعطيل"
+
+#~ msgid "Screensaver key's XKeycode"
+#~ msgstr "شفرة X للمفتاح الخاص بمفتاح حافظ الشاشة"
+
+#~ msgid "Screensaver key's XKeycode, 0 to disable"
+#~ msgstr "شفرة X للمفتاح الخاص بمفتاح حافظ الشاشة، 0 للتعطيل"
+
+#~ msgid "Search key's XKeycode"
+#~ msgstr "شفرة X للمفتاح الخاص بمفتاح البحث"
+
+#~ msgid "Search key's XKeycode, 0 to disable"
+#~ msgstr "شفرة X للمفتاح الخاص بمفتاح البحث، 0 للتعطيل"
+
+#~ msgid "Shade Window key's XKeycode"
+#~ msgstr "شفرة X للمفتاح الخاص بمفتاح حجب النافذة"
+
+#~ msgid "Shade Window key's XKeycode, 0 to disable"
+#~ msgstr "شفرة X للمفتاح الخاص بمفتاح حجب النافذة، 0 للتعطيل"
+
+#~ msgid "Sleep key's XKeycode"
+#~ msgstr "شفرة X للمفتاح الخاص بمفتاح التعليق"
+
+#~ msgid "Sleep key's XKeycode, 0 to disable"
+#~ msgstr "شفرة X للمفتاح الخاص بمفتاح التعليق"
+
+#~ msgid "Sound file to be played when volume is changed"
+#~ msgstr "ملف الصوت الذي سيشغل إثر تغيير شدة الصوت "
+
+#~ msgid "Volume down key's XKeycode"
+#~ msgstr "شفرة X للمفتاح الخاص بمفتاح خفض شدة الصوت"
+
+#~ msgid "Volume down key's XKeycode, 0 to disable"
+#~ msgstr "شفرة X للمفتاح الخاص بمفتاح تخفيض شدة الصوت، 0 للتعطيل"
+
+#, fuzzy
+#~ msgid "Volume step"
+#~ msgstr "شدة الصوت"
+
+#~ msgid "Volume up key's XKeycode"
+#~ msgstr "شفرة X للمفتاح الخاص بمفتاح رفع شدة الصوت"
+
+#~ msgid "Volume up key's XKeycode, 0 to disable"
+#~ msgstr "شفرة X للمفتاح الخاص بمفتاح رفع حجم الصوت، 0 للتعطيل"
+
+#~ msgid "WWW key's XKeycode"
+#~ msgstr "شفرة X للمفتاح الخاص بمفتاح الواب"
+
+#~ msgid "WWW key's XKeycode, 0 to disable"
+#~ msgstr "شفرة X للمفتاح الخاص بمفتاح الواب، 0 للتعطيل"
+
+#~ msgid "Accelerator key"
+#~ msgstr "مفتاح المعجل"
+
+#~ msgid "Accelerator modifiers"
+#~ msgstr "مغيّري المعجِّل"
+
+#~ msgid "Accelerator Mode"
+#~ msgstr "نمط المعجّل"
+
+#~ msgid "The type of accelerator."
+#~ msgstr "نوع المعجّل"
+
+#~ msgid "Type a new accelerator, or press Backspace to clear"
+#~ msgstr "أكتب معجلا جديدا، أو أنقر مفتاح الرجوع Backspace للمحو"
+
+#~ msgid "Type a new accelerator"
+#~ msgstr "أكتب معجّلا جديدا"
+
+#~ msgid "_Launch the multimedia key daemon"
+#~ msgstr "_فعلّ جنّي مفتاح الوسائط المتعددة"
+
+#, fuzzy
+#~ msgid "(C) 2001, 2002 Bastien Nocera"
+#~ msgstr "(C) 2001, 2002 باستيان نُتشيرا"
+
+#~ msgid "Keys setup"
+#~ msgstr "إعداد المفاتيح"
+
+#, fuzzy
+#~ msgid "Sound setup"
+#~ msgstr "إعداد الصوت"

@@ -1,0 +1,769 @@
+# Brightside ja.po.
+# Copyright (C) 2003 Free Software Foundation, Inc.
+# This file is distributed under the same license as the Brightside package.
+# Takeshi AIHANA <aihana@gnome.gr.jp>, 2003.
+# KAMAGASAKO Masatoshi <emerald@gnome.gr.jp>, 2003
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Brightside HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-01-16 02:13+0000\n"
+"PO-Revision-Date: 2003-10-29 00:20+0900\n"
+"Last-Translator: KAMAGASAKO Masatoshi <emerald@gnome.gr.jp>\n"
+"Language-Team: Japanese <translation@gnome.gr.jp>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/brightside.c:224
+#, c-format
+msgid ""
+"Couldn't execute command: %s\n"
+"Verify that this command exists."
+msgstr ""
+"コマンドを実行できませんでした: %s\n"
+"このコマンドが存在しているか確認して下さい。"
+
+#: src/brightside.c:243
+#, c-format
+msgid ""
+"Permissions on the file %s are broken\n"
+"Please check Brightside's documentation, correct the problem and restart "
+"Brightside."
+msgstr ""
+"ファイル %s のパーミッションが壊れています。\n"
+"Brightside のドキュメントを確認し、問題を解決して Brightside を再起動して下さ"
+"い。"
+
+#: src/brightside.c:487
+msgid "translator_credits"
+msgstr ""
+"Takeshi AIHANA <aihana@gnome.gr.jp>\n"
+"KAMAGASAKO Masatoshi <emerald@gnome.gr.jp>"
+
+#: src/brightside.c:498
+msgid "Brightside"
+msgstr "Brightside"
+
+#: src/brightside.c:500 src/brightside.c:573
+msgid "Screen Corners and Edges daemon"
+msgstr ""
+
+#: src/brightside.c:579
+msgid "Screen Corners and Edges daemon active"
+msgstr ""
+
+#: src/brightside.c:1733
+msgid "Daemon already running, exiting...\n"
+msgstr ""
+
+#: src/brightside.c:1742
+msgid ""
+"Couldn't load the Glade file.\n"
+"Make sure that this daemon is properly installed."
+msgstr ""
+"Glade ファイルを読み込めませんでした。\n"
+"このデーモンが正しくインストールされているか確認して下さい。"
+
+#: src/brightside.glade.h:1
+msgid "Volume"
+msgstr "音量"
+
+#: src/brightside.h:65
+#, fuzzy
+msgid "Mute volume"
+msgstr "消音キー"
+
+#: src/brightside.h:67
+msgid "Prevent screensaver starting"
+msgstr ""
+
+#: src/brightside.h:69
+#, fuzzy
+msgid "Start screensaver"
+msgstr "スクリーンセーバ・キー"
+
+#: src/brightside.h:71
+msgid "Enter DPMS standby mode"
+msgstr ""
+
+#: src/brightside.h:73
+msgid "Enter DPMS suspend mode"
+msgstr ""
+
+#: src/brightside.h:75
+msgid "Enter DPMS off mode"
+msgstr ""
+
+#: src/brightside.h:78
+msgid "Dim laptop backlight"
+msgstr ""
+
+#: src/brightside.h:81
+msgid "Custom action..."
+msgstr ""
+
+#: src/brightside-properties.c:283 src/brightside-properties.glade.h:9
+#: src/brightside.desktop.in.h:2
+msgid "Screen Corners and Edges"
+msgstr ""
+
+#: src/brightside-properties.glade.h:1 src/custom-action.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: src/brightside-properties.glade.h:2
+msgid "<small><i>Long</i></small>"
+msgstr ""
+
+#: src/brightside-properties.glade.h:3
+msgid "<small><i>Short</i></small>"
+msgstr ""
+
+#: src/brightside-properties.glade.h:4
+#, fuzzy
+msgid "<span weight=\"bold\">Screen Corners</span>"
+msgstr "<span weight=\"bold\">サウンドの設定</span>"
+
+#: src/brightside-properties.glade.h:5
+#, fuzzy
+msgid "<span weight=\"bold\">Screen Edges</span>"
+msgstr "<span weight=\"bold\">サウンドの設定</span>"
+
+#: src/brightside-properties.glade.h:6
+#, fuzzy
+msgid "Action to take while mouse is placed in corner of screen"
+msgstr "イジェクト・ボタンが押下された際にコマンドを実行します"
+
+#: src/brightside-properties.glade.h:7
+msgid "Bottom r_ight corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:8
+msgid "D_elay:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:10
+msgid "Switch to _adjacent workspace when mouse is moved to edge of screen"
+msgstr ""
+
+#: src/brightside-properties.glade.h:11
+msgid "Top _right corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:12
+msgid "When switching workspace, _wrap around edges of workspace layout"
+msgstr ""
+
+#: src/brightside-properties.glade.h:13
+msgid "_Bottom left corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:14
+msgid "_Configurable actions"
+msgstr ""
+
+#: src/brightside-properties.glade.h:15
+msgid "_Delay:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:16
+msgid "_Switch to diagonally adjacent workspace"
+msgstr ""
+
+#: src/brightside-properties.glade.h:17
+msgid "_Top left corner:"
+msgstr ""
+
+#: src/brightside.desktop.in.h:1
+#, fuzzy
+msgid "Configure screen-edge behaviour"
+msgstr "マルチメディア・キーの動作を設定します"
+
+#: src/brightside.schemas.in.h:1
+msgid "Action enabled when mouse is in bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:2
+msgid "Action enabled when mouse is in bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:3
+msgid "Action enabled when mouse is in top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:4
+msgid "Action enabled when mouse is in top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:5
+msgid "Action to occur when mouse is in bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:6
+msgid "Action to occur when mouse is in bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:7
+msgid "Action to occur when mouse is in top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:8
+msgid "Action to occur when mouse is in top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:9
+msgid "After flip command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:10
+msgid "Bottom left corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:11
+msgid "Bottom left corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:12
+msgid "Bottom left corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:13
+msgid "Bottom left corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:14
+msgid "Bottom left corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:15
+msgid "Bottom right corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:16
+msgid "Bottom right corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:17
+msgid "Bottom right corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:18
+msgid "Bottom right corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:19
+msgid "Bottom right corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:20
+msgid "Command to execute after flipping workspace (empty string for none)"
+msgstr ""
+
+#: src/brightside.schemas.in.h:21
+msgid "Corner delay"
+msgstr ""
+
+#: src/brightside.schemas.in.h:22
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse enters bottom left corner of screen"
+msgstr "イジェクト・ボタンが押下された際にコマンドを実行します"
+
+#: src/brightside.schemas.in.h:23
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse enters bottom right corner of screen"
+msgstr "イジェクト・ボタンが押下された際にコマンドを実行します"
+
+#: src/brightside.schemas.in.h:24
+#, fuzzy
+msgid "Custom command to execute when mouse enters top left corner of screen"
+msgstr "イジェクト・ボタンが押下された際にコマンドを実行します"
+
+#: src/brightside.schemas.in.h:25
+#, fuzzy
+msgid "Custom command to execute when mouse enters top right corner of screen"
+msgstr "イジェクト・ボタンが押下された際にコマンドを実行します"
+
+#: src/brightside.schemas.in.h:26
+#, fuzzy
+msgid "Custom command to execute when mouse exits bottom left corner of screen"
+msgstr "イジェクト・ボタンが押下された際にコマンドを実行します"
+
+#: src/brightside.schemas.in.h:27
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse exits bottom right corner of screen"
+msgstr "イジェクト・ボタンが押下された際にコマンドを実行します"
+
+#: src/brightside.schemas.in.h:28
+#, fuzzy
+msgid "Custom command to execute when mouse exits top left corner of screen"
+msgstr "イジェクト・ボタンが押下された際にコマンドを実行します"
+
+#: src/brightside.schemas.in.h:29
+#, fuzzy
+msgid "Custom command to execute when mouse exits top right corner of screen"
+msgstr "イジェクト・ボタンが押下された際にコマンドを実行します"
+
+#: src/brightside.schemas.in.h:30
+msgid "Delay in milliseconds before edge flip occurs"
+msgstr ""
+
+#: src/brightside.schemas.in.h:31
+msgid "Delay in milliseconds before screen corner action occurs"
+msgstr ""
+
+#: src/brightside.schemas.in.h:32
+msgid "Edge delay"
+msgstr ""
+
+#: src/brightside.schemas.in.h:33
+msgid "Edge wrap"
+msgstr ""
+
+#: src/brightside.schemas.in.h:34
+#, fuzzy
+msgid "Enable corner flip"
+msgstr "有効"
+
+#: src/brightside.schemas.in.h:35
+#, fuzzy
+msgid "Enable edge flip"
+msgstr "有効"
+
+#: src/brightside.schemas.in.h:36
+msgid "Orientable workspaces"
+msgstr ""
+
+#: src/brightside.schemas.in.h:37
+msgid ""
+"Switch to diagonally adjacent workspace when mouse placed in the corner of "
+"the screen, instead of executing a configurable action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:38
+msgid ""
+"Switch to the adjacent workspace when the mouse reaches the edge of the "
+"screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:39
+msgid "Terminate custom command when mouse exits bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:40
+msgid "Terminate custom command when mouse exits bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:41
+msgid "Terminate custom command when mouse exits top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:42
+msgid "Terminate custom command when mouse exits top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:43
+msgid "Top left corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:44
+msgid "Top left corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:45
+msgid "Top left corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:46
+msgid "Top left corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:47
+msgid "Top left corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:48
+msgid "Top right corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:49
+msgid "Top right corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:50
+msgid "Top right corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:51
+msgid "Top right corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:52
+msgid "Top right corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:53
+msgid "Use PCM Volume instead of Master Volume"
+msgstr "主音量の代わりに PCM 音量を使用する"
+
+#: src/brightside.schemas.in.h:54
+msgid "Whether workspace layout is orientable"
+msgstr ""
+
+#: src/brightside.schemas.in.h:55
+msgid "Wrap wround edges of workspace layout when flipping workspace"
+msgstr ""
+
+#: src/custom-action.glade.h:2
+msgid "*"
+msgstr ""
+
+#: src/custom-action.glade.h:3
+#, fuzzy
+msgid "<span weight=\"bold\">On _entering region</span>"
+msgstr "<span weight=\"bold\">キーの設定</span>"
+
+#: src/custom-action.glade.h:4
+#, fuzzy
+msgid "<span weight=\"bold\">On leaving region</span>"
+msgstr "<span weight=\"bold\">サウンドの設定</span>"
+
+#: src/custom-action.glade.h:5 src/custom-action.c:104
+msgid "Custom action"
+msgstr ""
+
+#: src/custom-action.glade.h:6
+msgid "_Run another command:"
+msgstr ""
+
+#: src/custom-action.glade.h:7
+msgid "_Terminate above application"
+msgstr ""
+
+#~ msgid ""
+#~ "Couldn't execute either command: %s\n"
+#~ "or command: %s\n"
+#~ "Verify that at least one of these commands exist."
+#~ msgstr ""
+#~ "コマンド %s または %s が実行できませんでした。\n"
+#~ "少なくともどちらか一つのコマンドが存在しているか確認して下さい。"
+
+#~ msgid ""
+#~ "There was an error removing access to the multimedia keys.\n"
+#~ "Key %d couldn't be unbound."
+#~ msgstr ""
+#~ "マルチメディア・キーへのアクセス・エントリを削除する際にエラーが発生しまし"
+#~ "た。\n"
+#~ "キー %d を解放することができませんでした。"
+
+#~ msgid ""
+#~ "It seems that another application already has access to the multimedia "
+#~ "keys.\n"
+#~ "Key %d couldn't be bound.\n"
+#~ "Is another daemon already running ?"
+#~ msgstr ""
+#~ "既に他のアプリケーションがマルチメディア・キーへアクセスしているようで"
+#~ "す。\n"
+#~ "キー %d を解放することができませんでした。\n"
+#~ "もう一つデーモンが起動していませんか？"
+
+#~ msgid "Multimedia keys daemon"
+#~ msgstr "マルチメディア・キーのデーモン"
+
+#~ msgid "Multimedia Keys daemon active"
+#~ msgstr "マルチメディア・キー・デーモンの活性化"
+
+#~ msgid "Volume down key"
+#~ msgstr "音量を下げるキー"
+
+#~ msgid "Volume up key"
+#~ msgstr "音量を上げるキー"
+
+#~ msgid "Power key"
+#~ msgstr "電源キー"
+
+#~ msgid "Eject key"
+#~ msgstr "イジェクト・キー"
+
+#~ msgid "Media key"
+#~ msgstr "メディア・キー"
+
+#~ msgid "Play key"
+#~ msgstr "演奏キー"
+
+#~ msgid "Pause key"
+#~ msgstr "一時停止キー"
+
+#~ msgid "Stop (Audio) key"
+#~ msgstr "停止 (オーディオ) キー"
+
+#~ msgid "Previous (Audio) key"
+#~ msgstr "戻る (オーディオ) キー"
+
+#~ msgid "Next (Audio) key"
+#~ msgstr "進む (オーディオ) キー"
+
+#~ msgid "My Home key"
+#~ msgstr "My ホーム・キー"
+
+#~ msgid "Refresh key"
+#~ msgstr "リフレッシュ・キー"
+
+#~ msgid "Search key"
+#~ msgstr "検索キー"
+
+#~ msgid "E-Mail key"
+#~ msgstr "E-メール・キー"
+
+#~ msgid "Sleep key"
+#~ msgstr "スリープ・キー"
+
+#~ msgid "Finance key"
+#~ msgstr "家計簿キー"
+
+#~ msgid "Help key"
+#~ msgstr "ヘルプ・キー"
+
+#~ msgid "WWW key"
+#~ msgstr "WWW ウェブ・キー"
+
+#~ msgid "Groups key"
+#~ msgstr "グループ・キー"
+
+#~ msgid "Calculator key"
+#~ msgstr "電卓キー"
+
+#~ msgid "Record key"
+#~ msgstr "録音キー"
+
+#~ msgid "Close Window key"
+#~ msgstr "ウィンドウを閉じるキー"
+
+#~ msgid "Shade Window key"
+#~ msgstr "ウィンドウを巻き上げるキー"
+
+#~ msgid "Brightness down key"
+#~ msgstr "輝度を下げるキー"
+
+#~ msgid "Brightness up key"
+#~ msgstr "輝度を上げるキー"
+
+#~ msgid "Disabled"
+#~ msgstr "無効"
+
+#~ msgid ""
+#~ "This key is already bound to action '%s'.\n"
+#~ "Please select another key."
+#~ msgstr ""
+#~ "このキーは既にアクション '%s' が割り当てられています。\n"
+#~ "別のキーを選択して下さい。"
+
+#~ msgid "Description"
+#~ msgstr "説明"
+
+#~ msgid "Status"
+#~ msgstr "状態"
+
+#~ msgid "Multimedia Keys Preferences"
+#~ msgstr "マルチメディア・キーの設定"
+
+#~ msgid ""
+#~ "To assign a key to an action, click on a line, and press the key you want "
+#~ "to associate with it.\n"
+#~ "\"C\" cancels the capture, and \"Backspace\" disables the key shortcut."
+#~ msgstr ""
+#~ "キーにアクションを割り当てる場合は\n"
+#~ "アクションのエントリをクリックして、\n"
+#~ "そのアクションに関連づけるキーを押して下さい。\n"
+#~ "[BS] : キー割り当てを無効にします。\n"
+#~ " [C] : 検出を取り消します。"
+
+#~ msgid "Use _PCM volume instead of Master volume"
+#~ msgstr "主音量の代わりに PCM 音量を対象にする(_P)"
+
+#~ msgid "Multimedia Keys"
+#~ msgstr "マルチメディア・キー"
+
+#~ msgid "Brightness down key's XKeycode"
+#~ msgstr "輝度を下げるキーの XKeycode"
+
+#~ msgid "Brightness down key's XKeycode, 0 to disable"
+#~ msgstr "輝度を下げるキーの XKeycode (0: 無効)"
+
+#~ msgid "Brightness up key's XKeycode"
+#~ msgstr "輝度を上げるキーの Xkeycode"
+
+#~ msgid "Brightness up key's XKeycode, 0 to disable"
+#~ msgstr "輝度を上げるキーの XKeycode (0: 無効)"
+
+#~ msgid "Calculator key's XKeycode"
+#~ msgstr "電卓キーの Xkeycode"
+
+#~ msgid "Calculator key's XKeycode, 0 to disable"
+#~ msgstr "電卓キーの XKeycode (0: 無効)"
+
+#~ msgid "Close Window key's XKeycode"
+#~ msgstr "ウィンドウを閉じるキーの Xkeycode"
+
+#~ msgid "Close Window key's XKeycode, 0 to disable"
+#~ msgstr "ウィンドウを閉じるキーの XKeycode (0: 無効)"
+
+#~ msgid "E-Mail key's XKeycode"
+#~ msgstr "E-メール・キーの Xkeycode"
+
+#~ msgid "E-Mail key's XKeycode, 0 to disable"
+#~ msgstr "E-メール・キーの XKeycode (0: 無効)"
+
+#~ msgid "Eject key's XKeycode"
+#~ msgstr "イジェクト・キーの Xkeycode"
+
+#~ msgid "Eject key's XKeycode, 0 to disable"
+#~ msgstr "イジェクト・キーの XKeycode (0: 無効)"
+
+#~ msgid "Finance key's XKeycode"
+#~ msgstr "家計簿キーの Xkeycode"
+
+#~ msgid "Finance key's XKeycode, 0 to disable"
+#~ msgstr "家計簿キーの XKeycode (0: 無効)"
+
+#~ msgid "Groups key's XKeycode"
+#~ msgstr "グループ・キーの Xkeycode"
+
+#~ msgid "Groups key's XKeycode, 0 to disable"
+#~ msgstr "グループ・キーの XKeycode (0: 無効)"
+
+#~ msgid "Help key's XKeycode"
+#~ msgstr "ヘルプ・キーの Xkeycode"
+
+#~ msgid "Help key's XKeycode, 0 to disable"
+#~ msgstr "ヘルプ・キーの XKeycode (0: 無効)"
+
+#~ msgid "Mute key's XKeycode"
+#~ msgstr "消音キーの Xkeycode"
+
+#~ msgid "Mute key's XKeycode, 0 to disable"
+#~ msgstr "消音キーの XKeycode (0: 無効)"
+
+#~ msgid "My Home key's XKeycode"
+#~ msgstr "My ホーム・キーの Xkeycode"
+
+#~ msgid "My Home key's XKeycode, 0 to disable"
+#~ msgstr "My ホーム・キーの XKeycode (0: 無効)"
+
+#~ msgid "Next key's XKeycode"
+#~ msgstr "進むキーの Xkeycode"
+
+#~ msgid "Next key's XKeycode, 0 to disable"
+#~ msgstr "進むキーの XKeycode (0: 無効)"
+
+#~ msgid "Pause key's XKeycode"
+#~ msgstr "一時停止キーの Xkeycode"
+
+#~ msgid "Pause key's XKeycode, 0 to disable"
+#~ msgstr "一時停止キーの XKeycode (0: 無効)"
+
+#~ msgid "Play key's XKeycode"
+#~ msgstr "演奏キーの Xkeycode"
+
+#~ msgid "Play key's XKeycode, 0 to disable"
+#~ msgstr "演奏キーの XKeycode (0: 無効)"
+
+#~ msgid "Power key's XKeycode"
+#~ msgstr "電源キーの Xkeycode"
+
+#~ msgid "Power key's XKeycode, 0 to disable"
+#~ msgstr "電源キーの XKeycode (0: 無効)"
+
+#~ msgid "Previous key's XKeycode"
+#~ msgstr "戻るキーの Xkeycode"
+
+#~ msgid "Previous key's XKeycode, 0 to disable"
+#~ msgstr "戻るキーの XKeycode (0: 無効)"
+
+#~ msgid "Record key's XKeycode"
+#~ msgstr "録音キーの Xkeycode"
+
+#~ msgid "Record key's XKeycode, 0 to disable"
+#~ msgstr "録音キーの XKeycode (0: 無効)"
+
+#~ msgid "Refresh key's XKeycode"
+#~ msgstr "リフレッシュ・キーの Xkeycode"
+
+#~ msgid "Refresh key's XKeycode, 0 to disable"
+#~ msgstr "リフレッシュ・キーの XKeycode (0: 無効)"
+
+#~ msgid "Screensaver key's XKeycode"
+#~ msgstr "スクリーンセーバ・キーの Xkeycode"
+
+#~ msgid "Screensaver key's XKeycode, 0 to disable"
+#~ msgstr "スクリーンセーバ・キーの XKeycode (0: 無効)"
+
+#~ msgid "Search key's XKeycode"
+#~ msgstr "検索キーの Xkeycode"
+
+#~ msgid "Search key's XKeycode, 0 to disable"
+#~ msgstr "検索キーの XKeycode (0: 無効)"
+
+#~ msgid "Shade Window key's XKeycode"
+#~ msgstr "ウィンドウを巻き上げるキーの Xkeycode"
+
+#~ msgid "Shade Window key's XKeycode, 0 to disable"
+#~ msgstr "ウィンドウを巻き上げるキーの XKeycode (0: 無効)"
+
+#~ msgid "Sleep key's XKeycode"
+#~ msgstr "スリープ・キーの Xkeycode"
+
+#~ msgid "Sleep key's XKeycode, 0 to disable"
+#~ msgstr "スリープ・キーの XKeycode (0: 無効)"
+
+#~ msgid "Sound file to be played when volume is changed"
+#~ msgstr "音量を変更したら演奏するサウンド・ファイル"
+
+#~ msgid "Volume down key's XKeycode"
+#~ msgstr "音量を下げるキーの Xkeycode"
+
+#~ msgid "Volume down key's XKeycode, 0 to disable"
+#~ msgstr "音量を下げるキーの XKeycode (0: 無効)"
+
+#~ msgid "Volume step"
+#~ msgstr "音量の目盛"
+
+#~ msgid "Volume step as percentage of volume"
+#~ msgstr "音量の目盛 (%)"
+
+#~ msgid "Volume up key's XKeycode"
+#~ msgstr "音量を上げるキーの Xkeycode"
+
+#~ msgid "Volume up key's XKeycode, 0 to disable"
+#~ msgstr "音量を上げるキーの XKeycode (0: 無効)"
+
+#~ msgid "WWW key's XKeycode"
+#~ msgstr "WWW ウェブ・キーの Xkeycode"
+
+#~ msgid "WWW key's XKeycode, 0 to disable"
+#~ msgstr "WWW ウェブ・キーの XKeycode (0: 無効)"
+
+#~ msgid "Accelerator key"
+#~ msgstr "アクセラレータ・キー"
+
+#~ msgid "Accelerator modifiers"
+#~ msgstr "アクセラレータ修飾子"
+
+#~ msgid "Accelerator Mode"
+#~ msgstr "アクセラレータ・モード"
+
+#~ msgid "The type of accelerator."
+#~ msgstr "アクセラレータの種類です。"
+
+#~ msgid "Type a new accelerator, or press Backspace to clear"
+#~ msgstr "使用するキーを押下するか、[BS] キーで取り消して下さい"
+
+#~ msgid "Type a new accelerator"
+#~ msgstr "使用するキーを押下して下さい"
+
+#~ msgid "_Launch the multimedia key daemon"
+#~ msgstr "マルチメディア・キー・デーモンの起動(_L)"

@@ -1,0 +1,761 @@
+# Slovenian translation file for Brightside.
+# Copyright (C) 2003 Free Software Foundation, Inc.
+# This file is distributed under the same license as the Brightside package.
+# Tadej Janež <tadej_janez@email.si>, 2003.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Brightside\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-01-16 02:13+0000\n"
+"PO-Revision-Date: 2003-01-21 14:45+0100\n"
+"Last-Translator: Tadej Janež <tadej_janez@email.si>\n"
+"Language-Team: slovenian <sl@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/brightside.c:224
+#, c-format
+msgid ""
+"Couldn't execute command: %s\n"
+"Verify that this command exists."
+msgstr ""
+"Ne morem izvršiti ukaza: %s\n"
+"Preverite, če ta ukaz obstaja."
+
+#: src/brightside.c:243
+#, c-format
+msgid ""
+"Permissions on the file %s are broken\n"
+"Please check Brightside's documentation, correct the problem and restart "
+"Brightside."
+msgstr ""
+"Dovolilnice za datoteko %s so pokvarjene\n"
+"Prosim, preverite dokumantacijo Brightside, popravite problem in vnovič\n"
+"zaženite Brightside"
+
+#: src/brightside.c:487
+msgid "translator_credits"
+msgstr "Tadej Janež <tadej_janez@email.si>"
+
+#: src/brightside.c:498
+msgid "Brightside"
+msgstr "Brightside"
+
+#: src/brightside.c:500 src/brightside.c:573
+msgid "Screen Corners and Edges daemon"
+msgstr ""
+
+#: src/brightside.c:579
+msgid "Screen Corners and Edges daemon active"
+msgstr ""
+
+#: src/brightside.c:1733
+msgid "Daemon already running, exiting...\n"
+msgstr ""
+
+#: src/brightside.c:1742
+msgid ""
+"Couldn't load the Glade file.\n"
+"Make sure that this daemon is properly installed."
+msgstr ""
+"Ne morem naložiti Glade datoteke.\n"
+"Poskrbite, da je ta demon pravilno nameščen."
+
+#: src/brightside.glade.h:1
+msgid "Volume"
+msgstr "Glasnost"
+
+#: src/brightside.h:65
+#, fuzzy
+msgid "Mute volume"
+msgstr "Tipka za utišanje zvoka"
+
+#: src/brightside.h:67
+msgid "Prevent screensaver starting"
+msgstr ""
+
+#: src/brightside.h:69
+#, fuzzy
+msgid "Start screensaver"
+msgstr "Tipka za ohranjevalnik zaslona"
+
+#: src/brightside.h:71
+msgid "Enter DPMS standby mode"
+msgstr ""
+
+#: src/brightside.h:73
+msgid "Enter DPMS suspend mode"
+msgstr ""
+
+#: src/brightside.h:75
+msgid "Enter DPMS off mode"
+msgstr ""
+
+#: src/brightside.h:78
+msgid "Dim laptop backlight"
+msgstr ""
+
+#: src/brightside.h:81
+msgid "Custom action..."
+msgstr ""
+
+#: src/brightside-properties.c:283 src/brightside-properties.glade.h:9
+#: src/brightside.desktop.in.h:2
+msgid "Screen Corners and Edges"
+msgstr ""
+
+#: src/brightside-properties.glade.h:1 src/custom-action.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: src/brightside-properties.glade.h:2
+msgid "<small><i>Long</i></small>"
+msgstr ""
+
+#: src/brightside-properties.glade.h:3
+msgid "<small><i>Short</i></small>"
+msgstr ""
+
+#: src/brightside-properties.glade.h:4
+#, fuzzy
+msgid "<span weight=\"bold\">Screen Corners</span>"
+msgstr "<span weight=\"bold\">Nastavitev zvoka</span>"
+
+#: src/brightside-properties.glade.h:5
+#, fuzzy
+msgid "<span weight=\"bold\">Screen Edges</span>"
+msgstr "<span weight=\"bold\">Nastavitev zvoka</span>"
+
+#: src/brightside-properties.glade.h:6
+#, fuzzy
+msgid "Action to take while mouse is placed in corner of screen"
+msgstr "Ukaz, ki bo izvršen, ko bo pritisnjena tipka za izmet"
+
+#: src/brightside-properties.glade.h:7
+msgid "Bottom r_ight corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:8
+msgid "D_elay:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:10
+msgid "Switch to _adjacent workspace when mouse is moved to edge of screen"
+msgstr ""
+
+#: src/brightside-properties.glade.h:11
+msgid "Top _right corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:12
+msgid "When switching workspace, _wrap around edges of workspace layout"
+msgstr ""
+
+#: src/brightside-properties.glade.h:13
+msgid "_Bottom left corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:14
+msgid "_Configurable actions"
+msgstr ""
+
+#: src/brightside-properties.glade.h:15
+msgid "_Delay:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:16
+msgid "_Switch to diagonally adjacent workspace"
+msgstr ""
+
+#: src/brightside-properties.glade.h:17
+msgid "_Top left corner:"
+msgstr ""
+
+#: src/brightside.desktop.in.h:1
+#, fuzzy
+msgid "Configure screen-edge behaviour"
+msgstr "Nastavi obnašanje multimedijskih tipk"
+
+#: src/brightside.schemas.in.h:1
+msgid "Action enabled when mouse is in bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:2
+msgid "Action enabled when mouse is in bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:3
+msgid "Action enabled when mouse is in top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:4
+msgid "Action enabled when mouse is in top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:5
+msgid "Action to occur when mouse is in bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:6
+msgid "Action to occur when mouse is in bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:7
+msgid "Action to occur when mouse is in top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:8
+msgid "Action to occur when mouse is in top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:9
+msgid "After flip command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:10
+msgid "Bottom left corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:11
+msgid "Bottom left corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:12
+msgid "Bottom left corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:13
+msgid "Bottom left corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:14
+msgid "Bottom left corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:15
+msgid "Bottom right corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:16
+msgid "Bottom right corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:17
+msgid "Bottom right corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:18
+msgid "Bottom right corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:19
+msgid "Bottom right corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:20
+msgid "Command to execute after flipping workspace (empty string for none)"
+msgstr ""
+
+#: src/brightside.schemas.in.h:21
+msgid "Corner delay"
+msgstr ""
+
+#: src/brightside.schemas.in.h:22
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse enters bottom left corner of screen"
+msgstr "Ukaz, ki bo izvršen, ko bo pritisnjena tipka za izmet"
+
+#: src/brightside.schemas.in.h:23
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse enters bottom right corner of screen"
+msgstr "Ukaz, ki bo izvršen, ko bo pritisnjena tipka za izmet"
+
+#: src/brightside.schemas.in.h:24
+#, fuzzy
+msgid "Custom command to execute when mouse enters top left corner of screen"
+msgstr "Ukaz, ki bo izvršen, ko bo pritisnjena tipka za izmet"
+
+#: src/brightside.schemas.in.h:25
+#, fuzzy
+msgid "Custom command to execute when mouse enters top right corner of screen"
+msgstr "Ukaz, ki bo izvršen, ko bo pritisnjena tipka za izmet"
+
+#: src/brightside.schemas.in.h:26
+#, fuzzy
+msgid "Custom command to execute when mouse exits bottom left corner of screen"
+msgstr "Ukaz, ki bo izvršen, ko bo pritisnjena tipka za izmet"
+
+#: src/brightside.schemas.in.h:27
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse exits bottom right corner of screen"
+msgstr "Ukaz, ki bo izvršen, ko bo pritisnjena tipka za izmet"
+
+#: src/brightside.schemas.in.h:28
+#, fuzzy
+msgid "Custom command to execute when mouse exits top left corner of screen"
+msgstr "Ukaz, ki bo izvršen, ko bo pritisnjena tipka za izmet"
+
+#: src/brightside.schemas.in.h:29
+#, fuzzy
+msgid "Custom command to execute when mouse exits top right corner of screen"
+msgstr "Ukaz, ki bo izvršen, ko bo pritisnjena tipka za izmet"
+
+#: src/brightside.schemas.in.h:30
+msgid "Delay in milliseconds before edge flip occurs"
+msgstr ""
+
+#: src/brightside.schemas.in.h:31
+msgid "Delay in milliseconds before screen corner action occurs"
+msgstr ""
+
+#: src/brightside.schemas.in.h:32
+msgid "Edge delay"
+msgstr ""
+
+#: src/brightside.schemas.in.h:33
+msgid "Edge wrap"
+msgstr ""
+
+#: src/brightside.schemas.in.h:34
+#, fuzzy
+msgid "Enable corner flip"
+msgstr "Omogočeno"
+
+#: src/brightside.schemas.in.h:35
+#, fuzzy
+msgid "Enable edge flip"
+msgstr "Omogočeno"
+
+#: src/brightside.schemas.in.h:36
+msgid "Orientable workspaces"
+msgstr ""
+
+#: src/brightside.schemas.in.h:37
+msgid ""
+"Switch to diagonally adjacent workspace when mouse placed in the corner of "
+"the screen, instead of executing a configurable action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:38
+msgid ""
+"Switch to the adjacent workspace when the mouse reaches the edge of the "
+"screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:39
+msgid "Terminate custom command when mouse exits bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:40
+msgid "Terminate custom command when mouse exits bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:41
+msgid "Terminate custom command when mouse exits top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:42
+msgid "Terminate custom command when mouse exits top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:43
+msgid "Top left corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:44
+msgid "Top left corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:45
+msgid "Top left corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:46
+msgid "Top left corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:47
+msgid "Top left corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:48
+msgid "Top right corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:49
+msgid "Top right corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:50
+msgid "Top right corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:51
+msgid "Top right corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:52
+msgid "Top right corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:53
+msgid "Use PCM Volume instead of Master Volume"
+msgstr "Uporabi glasnost PCM namesto Glavne glasnosti"
+
+#: src/brightside.schemas.in.h:54
+msgid "Whether workspace layout is orientable"
+msgstr ""
+
+#: src/brightside.schemas.in.h:55
+msgid "Wrap wround edges of workspace layout when flipping workspace"
+msgstr ""
+
+#: src/custom-action.glade.h:2
+msgid "*"
+msgstr ""
+
+#: src/custom-action.glade.h:3
+#, fuzzy
+msgid "<span weight=\"bold\">On _entering region</span>"
+msgstr "<span weight=\"bold\">Nastavitev tipk </span>"
+
+#: src/custom-action.glade.h:4
+#, fuzzy
+msgid "<span weight=\"bold\">On leaving region</span>"
+msgstr "<span weight=\"bold\">Nastavitev zvoka</span>"
+
+#: src/custom-action.glade.h:5 src/custom-action.c:104
+msgid "Custom action"
+msgstr ""
+
+#: src/custom-action.glade.h:6
+msgid "_Run another command:"
+msgstr ""
+
+#: src/custom-action.glade.h:7
+msgid "_Terminate above application"
+msgstr ""
+
+#~ msgid ""
+#~ "Couldn't execute either command: %s\n"
+#~ "or command: %s\n"
+#~ "Verify that at least one of these commands exist."
+#~ msgstr ""
+#~ "Ne morem izvršiti ne ukaza: %s\n"
+#~ "ne ukaza: %s\n"
+#~ "Preverite, če vsaj eden od teh ukazov obstaja."
+
+#~ msgid ""
+#~ "There was an error removing access to the multimedia keys.\n"
+#~ "Key %d couldn't be unbound."
+#~ msgstr ""
+#~ "Prišlo je do napake pri odstranjevanju dostopa do multimedijskih tipk.\n"
+#~ "Tipka %d ni mogla biti razvezana."
+
+#~ msgid ""
+#~ "It seems that another application already has access to the multimedia "
+#~ "keys.\n"
+#~ "Key %d couldn't be bound.\n"
+#~ "Is another daemon already running ?"
+#~ msgstr ""
+#~ "Zdi se, da nek program že ima dostop do multimedijskih tipk.\n"
+#~ "Tipka %d ni mogla biti vezana.\n"
+#~ "Ali že teče kakšen drug demon?"
+
+#~ msgid "Multimedia keys daemon"
+#~ msgstr "Demon za multimedijske tipke"
+
+#~ msgid "Multimedia Keys daemon active"
+#~ msgstr "Demon za multimedijske tipke je aktiven"
+
+#~ msgid "Volume down key"
+#~ msgstr "Tipka za zmanjšanje glasnosti"
+
+#~ msgid "Volume up key"
+#~ msgstr "Tipka za povečanje glasnosti"
+
+#~ msgid "Power key"
+#~ msgstr "Tipka za vklop"
+
+#~ msgid "Eject key"
+#~ msgstr "Tipka za izmet"
+
+#~ msgid "Media key"
+#~ msgstr "Tipka za medije"
+
+#~ msgid "Play key"
+#~ msgstr "Tipka za predvajanje"
+
+#~ msgid "Pause key"
+#~ msgstr "Tipka za premor"
+
+#~ msgid "Stop (Audio) key"
+#~ msgstr "Tipka za prenehanje (glasba)"
+
+#~ msgid "Previous (Audio) key"
+#~ msgstr "Tipka za prejšnjo pesem (glasba)"
+
+#~ msgid "Next (Audio) key"
+#~ msgstr "Tipka za naslednjo pesem (glasba)"
+
+#~ msgid "My Home key"
+#~ msgstr "Tipka za Moj dom"
+
+#~ msgid "Refresh key"
+#~ msgstr "Tipka za osvežitev"
+
+#~ msgid "Search key"
+#~ msgstr "Tipka za iskanje"
+
+#~ msgid "E-Mail key"
+#~ msgstr "Tipka za e-pošto"
+
+#~ msgid "Sleep key"
+#~ msgstr "Tipka za spanje"
+
+#~ msgid "Finance key"
+#~ msgstr "Tipka za finance"
+
+#~ msgid "Help key"
+#~ msgstr "Tipka za pomoč"
+
+#~ msgid "WWW key"
+#~ msgstr "Tipka za WWW"
+
+#~ msgid "Groups key"
+#~ msgstr "Tipka za skupine"
+
+#~ msgid "Calculator key"
+#~ msgstr "Tipka za kalkulator"
+
+#~ msgid "Record key"
+#~ msgstr "Tipka za snemanje"
+
+#~ msgid "Close Window key"
+#~ msgstr "Tipka za zaprtje okna"
+
+#~ msgid "Shade Window key"
+#~ msgstr "Tipka za senčenje okna"
+
+#~ msgid "Brightness down key"
+#~ msgstr "Tipka za zmanjšanje svetilnosti"
+
+#~ msgid "Brightness up key"
+#~ msgstr "Tipka za povečanje svetilnosti"
+
+#~ msgid "Disabled"
+#~ msgstr "Onemogočeno"
+
+#~ msgid ""
+#~ "This key is already bound to action '%s'.\n"
+#~ "Please select another key."
+#~ msgstr ""
+#~ "Ta tipka je že vezana na dejanje '%s'.\n"
+#~ "Prosim, izberite drugo tipko."
+
+#~ msgid "Description"
+#~ msgstr "Opis"
+
+#~ msgid "Status"
+#~ msgstr "Stanje"
+
+#~ msgid "Multimedia Keys Preferences"
+#~ msgstr "Izbire multimedijskih tipk"
+
+#~ msgid ""
+#~ "To assign a key to an action, click on a line, and press the key you want "
+#~ "to associate with it.\n"
+#~ "\"C\" cancels the capture, and \"Backspace\" disables the key shortcut."
+#~ msgstr ""
+#~ "Za dodeljevanje naloge tipki, kliknite na vrstico in pritisnite tipko, "
+#~ "katero hočete povezati s to nalogo.\n"
+#~ "\"C\" prekliče zajem in \"brisalka\" onemogoči tipkino bližnjico."
+
+#~ msgid "Use _PCM volume instead of Master volume"
+#~ msgstr "Uporabi glasnost _PCM namesto Glavne glasnosti"
+
+#~ msgid "Multimedia Keys"
+#~ msgstr "Multimedijske tipke"
+
+#~ msgid "Brightness down key's XKeycode"
+#~ msgstr "Tipkovnična koda X za zmanjšanje svetilnosti"
+
+#~ msgid "Brightness down key's XKeycode, 0 to disable"
+#~ msgstr "Tipkovnična koda X za zmanjšanje svetilnosti, 0 za onemogočitev"
+
+#~ msgid "Brightness up key's XKeycode"
+#~ msgstr "Tipkovnična koda X za za povečanje svetilnosti"
+
+#~ msgid "Brightness up key's XKeycode, 0 to disable"
+#~ msgstr "Tipkovnična koda X za povečanje svetilnosti, 0 za onemogočitev"
+
+#~ msgid "Calculator key's XKeycode"
+#~ msgstr "Tipkovnična koda X za kalkulator"
+
+#~ msgid "Calculator key's XKeycode, 0 to disable"
+#~ msgstr "Tipkovnična koda X za kalkulator, 0 za onemogočitev"
+
+#~ msgid "Close Window key's XKeycode"
+#~ msgstr "Tipkovnična koda X za zaprtje okna"
+
+#~ msgid "Close Window key's XKeycode, 0 to disable"
+#~ msgstr "Tipkovnična koda X za zaprtje okna, 0 za onemogočitev"
+
+#~ msgid "E-Mail key's XKeycode"
+#~ msgstr "Tipkovnična koda X za e-pošto"
+
+#~ msgid "E-Mail key's XKeycode, 0 to disable"
+#~ msgstr "Tipkovnična koda X za e-pošto, 0 za onemogočitev"
+
+#~ msgid "Eject key's XKeycode"
+#~ msgstr "Tipkovnična koda X za izmet"
+
+#~ msgid "Eject key's XKeycode, 0 to disable"
+#~ msgstr "Tipkovnična koda X za izmet, 0 za onemogočitev"
+
+#~ msgid "Finance key's XKeycode"
+#~ msgstr "Tipkovnična koda X za finance"
+
+#~ msgid "Finance key's XKeycode, 0 to disable"
+#~ msgstr "Tipkovnična koda X za finance, 0 za onemogočitev"
+
+#~ msgid "Groups key's XKeycode"
+#~ msgstr "Tipkovnična koda X za skupine"
+
+#~ msgid "Groups key's XKeycode, 0 to disable"
+#~ msgstr "Tipkovnična koda X za skupine, 0 za onemogočitev"
+
+#~ msgid "Help key's XKeycode"
+#~ msgstr "Tipkovnična koda X za pomoč"
+
+#~ msgid "Help key's XKeycode, 0 to disable"
+#~ msgstr "Tipkovnična koda X za pomoč, 0 za onemogočitev"
+
+#~ msgid "Mute key's XKeycode"
+#~ msgstr "Tipkovnična koda X za utišanje zvoka"
+
+#~ msgid "Mute key's XKeycode, 0 to disable"
+#~ msgstr "Tipkovnična koda X za utišanje zvoka, 0 za onemogočitev"
+
+#~ msgid "My Home key's XKeycode"
+#~ msgstr "Tipkovnična koda X za Moj dom"
+
+#~ msgid "My Home key's XKeycode, 0 to disable"
+#~ msgstr "Tipkovnična koda X za Moj dom, 0 za onemogočitev"
+
+#~ msgid "Next key's XKeycode"
+#~ msgstr "Tipkovnična koda X za naslednjo pesem"
+
+#~ msgid "Next key's XKeycode, 0 to disable"
+#~ msgstr "Tipkovnična koda X za naslednjo pesem, 0 za onemogočitev"
+
+#~ msgid "Pause key's XKeycode"
+#~ msgstr "Tipkovnična koda X za premor"
+
+#~ msgid "Pause key's XKeycode, 0 to disable"
+#~ msgstr "Tipkovnična koda X za premor, 0 za onemogočitev"
+
+#~ msgid "Play key's XKeycode"
+#~ msgstr "Tipkovnična koda X za predvajanje"
+
+#~ msgid "Play key's XKeycode, 0 to disable"
+#~ msgstr "Tipkovnična koda X za predvajanje, 0 za onemogočitev"
+
+#~ msgid "Power key's XKeycode"
+#~ msgstr "Tipkovnična koda X za vklop"
+
+#~ msgid "Power key's XKeycode, 0 to disable"
+#~ msgstr "Tipkovnična koda X za vklop, 0 za onemogočitev"
+
+#~ msgid "Previous key's XKeycode"
+#~ msgstr "Tipkovnična koda X za naslednjo pesem"
+
+#~ msgid "Previous key's XKeycode, 0 to disable"
+#~ msgstr "Tipkovnična koda X za naslednjo pesem, 0 za onemogočitev"
+
+#~ msgid "Record key's XKeycode"
+#~ msgstr "Tipkovnična koda X za snemanje"
+
+#~ msgid "Record key's XKeycode, 0 to disable"
+#~ msgstr "Tipkovnična koda X za snemanje, 0 za onemogočitev"
+
+#~ msgid "Refresh key's XKeycode"
+#~ msgstr "Tipkovnična koda X za osvežitev"
+
+#~ msgid "Refresh key's XKeycode, 0 to disable"
+#~ msgstr "Tipkovnična koda X za osvežitev, 0 za onemogočitev"
+
+#~ msgid "Screensaver key's XKeycode"
+#~ msgstr "Tipkovnična koda X za ohranjevalnik zaslona"
+
+#~ msgid "Screensaver key's XKeycode, 0 to disable"
+#~ msgstr "Tipkovnična koda X za ohranjevalnik zaslona, 0 za onemogočitev"
+
+#~ msgid "Search key's XKeycode"
+#~ msgstr "Tipkovnična koda X za iskanje"
+
+#~ msgid "Search key's XKeycode, 0 to disable"
+#~ msgstr "Tipkovnična koda X za iskanje, 0 za onemogočitev"
+
+#~ msgid "Shade Window key's XKeycode"
+#~ msgstr "Tipkovnična koda X za senčenje okna"
+
+#~ msgid "Shade Window key's XKeycode, 0 to disable"
+#~ msgstr "Tipkovnična koda X za senčenje okna, 0 za onemogočitev"
+
+#~ msgid "Sleep key's XKeycode"
+#~ msgstr "Tipkovnična koda X za spanje"
+
+#~ msgid "Sleep key's XKeycode, 0 to disable"
+#~ msgstr "Tipkovnična koda X za spanje, 0 za onemogočitev"
+
+#~ msgid "Sound file to be played when volume is changed"
+#~ msgstr "Zvočna datoteka, ki bo zaigrana, ko bo spremenjena glasnost"
+
+#~ msgid "Volume down key's XKeycode"
+#~ msgstr "Tipkovnična koda X za zmanjšanje glasnosti"
+
+#~ msgid "Volume down key's XKeycode, 0 to disable"
+#~ msgstr "Tipkovnična koda X za zmanjšanje glasnosti, 0 za onemogočitev"
+
+#, fuzzy
+#~ msgid "Volume step"
+#~ msgstr "Glasnost"
+
+#~ msgid "Volume up key's XKeycode"
+#~ msgstr "Tipkovnična koda X za povečanje glasnosti"
+
+#~ msgid "Volume up key's XKeycode, 0 to disable"
+#~ msgstr "Tipkovnična koda X za povečanje glasnosti, 0 za onemogočitev"
+
+#~ msgid "WWW key's XKeycode"
+#~ msgstr "Tipkovnična koda X za WWW"
+
+#~ msgid "WWW key's XKeycode, 0 to disable"
+#~ msgstr "Tipkovnična koda X za WWW, 0 za onemogočitev"
+
+#~ msgid "Accelerator key"
+#~ msgstr "Pospeševalna tipka"
+
+#~ msgid "Accelerator modifiers"
+#~ msgstr "Pospeševalni spremenilniki"
+
+#~ msgid "Accelerator Mode"
+#~ msgstr "Način pospeševanja"
+
+#~ msgid "The type of accelerator."
+#~ msgstr "Vrsta pospeševalnika."
+
+#~ msgid "Type a new accelerator, or press Backspace to clear"
+#~ msgstr "Vpišite nov pospeševalnik ali pritisnite povratnico za izbris"
+
+#~ msgid "Type a new accelerator"
+#~ msgstr "Vpišite nov pospeševalnik"
+
+#~ msgid "_Launch the multimedia key daemon"
+#~ msgstr "_Zaženi demon za multimedijske tipke"

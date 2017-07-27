@@ -1,0 +1,757 @@
+# translation of Brightside.HEAD.ml.po to 
+# translation of Brightside.HEAD.ml.po to
+# translation of Brightside.HEAD.ml.po to
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# FSF-India <locale@gnu.org.in>, 2003.
+# Suresh Valiya Parambil <mvpsuresh@yahoo.com>, 2003
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Brightside.HEAD.ml\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-01-16 02:13+0000\n"
+"PO-Revision-Date: 2003-07-14 23:00-0600\n"
+"Last-Translator: Suresh Valiya Parambil <mvpsuresh@yahoo.com>\n"
+"Language-Team:  <ml@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.0\n"
+
+#: src/brightside.c:224
+#, c-format
+msgid ""
+"Couldn't execute command: %s\n"
+"Verify that this command exists."
+msgstr ""
+"%s നിര്ദ്ദേശം നടപ്പിലാക്കാന് കഴിയുന്നില്ല \n"
+"നിര്ദ്ദേശം നിലവിലുണ്ടേ എന്നു പരിശോധിക്കുക.്"
+
+#: src/brightside.c:243
+#, c-format
+msgid ""
+"Permissions on the file %s are broken\n"
+"Please check Brightside's documentation, correct the problem and restart "
+"Brightside."
+msgstr ""
+"%s രചനയുടെ അനുവാദത്തില് തകരാര്\n"
+"Brightside രേഖകള് ഉപയോഗിച്ച് പ്രശ്നം പരിഹരിച്ച് Brightside വീണ്ടും തുടങ്ങുക"
+
+#: src/brightside.c:487
+msgid "translator_credits"
+msgstr "എഫ്.എസ്.എഫ് - ഇന്ത്യ <gnu@gnu.org.in>"
+
+#: src/brightside.c:498
+msgid "Brightside"
+msgstr "എ.സി.എം.ഇ"
+
+#: src/brightside.c:500 src/brightside.c:573
+msgid "Screen Corners and Edges daemon"
+msgstr ""
+
+#: src/brightside.c:579
+msgid "Screen Corners and Edges daemon active"
+msgstr ""
+
+#: src/brightside.c:1733
+msgid "Daemon already running, exiting...\n"
+msgstr ""
+
+#: src/brightside.c:1742
+#, fuzzy
+msgid ""
+"Couldn't load the Glade file.\n"
+"Make sure that this daemon is properly installed."
+msgstr "Glade രചന തുറക്കാന് കഴിയുന്നില്ല\n"
+
+#: src/brightside.glade.h:1
+msgid "Volume"
+msgstr "ശബ്ദം"
+
+#: src/brightside.h:65
+#, fuzzy
+msgid "Mute volume"
+msgstr "നിശബ്ദ കീ"
+
+#: src/brightside.h:67
+msgid "Prevent screensaver starting"
+msgstr ""
+
+#: src/brightside.h:69
+#, fuzzy
+msgid "Start screensaver"
+msgstr "തിരശ്ശീല കീ"
+
+#: src/brightside.h:71
+msgid "Enter DPMS standby mode"
+msgstr ""
+
+#: src/brightside.h:73
+msgid "Enter DPMS suspend mode"
+msgstr ""
+
+#: src/brightside.h:75
+msgid "Enter DPMS off mode"
+msgstr ""
+
+#: src/brightside.h:78
+msgid "Dim laptop backlight"
+msgstr ""
+
+#: src/brightside.h:81
+msgid "Custom action..."
+msgstr ""
+
+#: src/brightside-properties.c:283 src/brightside-properties.glade.h:9
+#: src/brightside.desktop.in.h:2
+msgid "Screen Corners and Edges"
+msgstr ""
+
+#: src/brightside-properties.glade.h:1 src/custom-action.glade.h:1
+msgid "    "
+msgstr "   "
+
+#: src/brightside-properties.glade.h:2
+msgid "<small><i>Long</i></small>"
+msgstr ""
+
+#: src/brightside-properties.glade.h:3
+msgid "<small><i>Short</i></small>"
+msgstr ""
+
+#: src/brightside-properties.glade.h:4
+#, fuzzy
+msgid "<span weight=\"bold\">Screen Corners</span>"
+msgstr "<span weight=\"bold\">ശബ്ദ സജ്ജീകരണം</span>"
+
+#: src/brightside-properties.glade.h:5
+#, fuzzy
+msgid "<span weight=\"bold\">Screen Edges</span>"
+msgstr "<span weight=\"bold\">ശബ്ദ സജ്ജീകരണം</span>"
+
+#: src/brightside-properties.glade.h:6
+#, fuzzy
+msgid "Action to take while mouse is placed in corner of screen"
+msgstr "പുറത്താക്കല് മൊട്ടില് ക്ളിക്ക് ചെയ്യുമ്പോള് പ്രവ‍ര്ത്തിക്കേണ്ട നിര്ദ്ദേശം"
+
+#: src/brightside-properties.glade.h:7
+msgid "Bottom r_ight corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:8
+msgid "D_elay:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:10
+msgid "Switch to _adjacent workspace when mouse is moved to edge of screen"
+msgstr ""
+
+#: src/brightside-properties.glade.h:11
+msgid "Top _right corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:12
+msgid "When switching workspace, _wrap around edges of workspace layout"
+msgstr ""
+
+#: src/brightside-properties.glade.h:13
+msgid "_Bottom left corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:14
+msgid "_Configurable actions"
+msgstr ""
+
+#: src/brightside-properties.glade.h:15
+msgid "_Delay:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:16
+msgid "_Switch to diagonally adjacent workspace"
+msgstr ""
+
+#: src/brightside-properties.glade.h:17
+msgid "_Top left corner:"
+msgstr ""
+
+#: src/brightside.desktop.in.h:1
+#, fuzzy
+msgid "Configure screen-edge behaviour"
+msgstr "ബഹുമാധ്യമ കീകളുടെ സ്വഭാവങ്ങള് ചിട്ടപ്പെടുത്തുക"
+
+#: src/brightside.schemas.in.h:1
+msgid "Action enabled when mouse is in bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:2
+msgid "Action enabled when mouse is in bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:3
+msgid "Action enabled when mouse is in top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:4
+msgid "Action enabled when mouse is in top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:5
+msgid "Action to occur when mouse is in bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:6
+msgid "Action to occur when mouse is in bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:7
+msgid "Action to occur when mouse is in top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:8
+msgid "Action to occur when mouse is in top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:9
+msgid "After flip command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:10
+msgid "Bottom left corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:11
+msgid "Bottom left corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:12
+msgid "Bottom left corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:13
+msgid "Bottom left corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:14
+msgid "Bottom left corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:15
+msgid "Bottom right corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:16
+msgid "Bottom right corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:17
+msgid "Bottom right corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:18
+msgid "Bottom right corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:19
+msgid "Bottom right corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:20
+msgid "Command to execute after flipping workspace (empty string for none)"
+msgstr ""
+
+#: src/brightside.schemas.in.h:21
+msgid "Corner delay"
+msgstr ""
+
+#: src/brightside.schemas.in.h:22
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse enters bottom left corner of screen"
+msgstr "പുറത്താക്കല് മൊട്ടില് ക്ളിക്ക് ചെയ്യുമ്പോള് പ്രവ‍ര്ത്തിക്കേണ്ട നിര്ദ്ദേശം"
+
+#: src/brightside.schemas.in.h:23
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse enters bottom right corner of screen"
+msgstr "പുറത്താക്കല് മൊട്ടില് ക്ളിക്ക് ചെയ്യുമ്പോള് പ്രവ‍ര്ത്തിക്കേണ്ട നിര്ദ്ദേശം"
+
+#: src/brightside.schemas.in.h:24
+#, fuzzy
+msgid "Custom command to execute when mouse enters top left corner of screen"
+msgstr "പുറത്താക്കല് മൊട്ടില് ക്ളിക്ക് ചെയ്യുമ്പോള് പ്രവ‍ര്ത്തിക്കേണ്ട നിര്ദ്ദേശം"
+
+#: src/brightside.schemas.in.h:25
+#, fuzzy
+msgid "Custom command to execute when mouse enters top right corner of screen"
+msgstr "പുറത്താക്കല് മൊട്ടില് ക്ളിക്ക് ചെയ്യുമ്പോള് പ്രവ‍ര്ത്തിക്കേണ്ട നിര്ദ്ദേശം"
+
+#: src/brightside.schemas.in.h:26
+#, fuzzy
+msgid "Custom command to execute when mouse exits bottom left corner of screen"
+msgstr "പുറത്താക്കല് മൊട്ടില് ക്ളിക്ക് ചെയ്യുമ്പോള് പ്രവ‍ര്ത്തിക്കേണ്ട നിര്ദ്ദേശം"
+
+#: src/brightside.schemas.in.h:27
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse exits bottom right corner of screen"
+msgstr "പുറത്താക്കല് മൊട്ടില് ക്ളിക്ക് ചെയ്യുമ്പോള് പ്രവ‍ര്ത്തിക്കേണ്ട നിര്ദ്ദേശം"
+
+#: src/brightside.schemas.in.h:28
+#, fuzzy
+msgid "Custom command to execute when mouse exits top left corner of screen"
+msgstr "പുറത്താക്കല് മൊട്ടില് ക്ളിക്ക് ചെയ്യുമ്പോള് പ്രവ‍ര്ത്തിക്കേണ്ട നിര്ദ്ദേശം"
+
+#: src/brightside.schemas.in.h:29
+#, fuzzy
+msgid "Custom command to execute when mouse exits top right corner of screen"
+msgstr "പുറത്താക്കല് മൊട്ടില് ക്ളിക്ക് ചെയ്യുമ്പോള് പ്രവ‍ര്ത്തിക്കേണ്ട നിര്ദ്ദേശം"
+
+#: src/brightside.schemas.in.h:30
+msgid "Delay in milliseconds before edge flip occurs"
+msgstr ""
+
+#: src/brightside.schemas.in.h:31
+msgid "Delay in milliseconds before screen corner action occurs"
+msgstr ""
+
+#: src/brightside.schemas.in.h:32
+msgid "Edge delay"
+msgstr ""
+
+#: src/brightside.schemas.in.h:33
+msgid "Edge wrap"
+msgstr ""
+
+#: src/brightside.schemas.in.h:34
+#, fuzzy
+msgid "Enable corner flip"
+msgstr "പ്രാപ്യം"
+
+#: src/brightside.schemas.in.h:35
+#, fuzzy
+msgid "Enable edge flip"
+msgstr "പ്രാപ്യം"
+
+#: src/brightside.schemas.in.h:36
+msgid "Orientable workspaces"
+msgstr ""
+
+#: src/brightside.schemas.in.h:37
+msgid ""
+"Switch to diagonally adjacent workspace when mouse placed in the corner of "
+"the screen, instead of executing a configurable action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:38
+msgid ""
+"Switch to the adjacent workspace when the mouse reaches the edge of the "
+"screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:39
+msgid "Terminate custom command when mouse exits bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:40
+msgid "Terminate custom command when mouse exits bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:41
+msgid "Terminate custom command when mouse exits top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:42
+msgid "Terminate custom command when mouse exits top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:43
+msgid "Top left corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:44
+msgid "Top left corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:45
+msgid "Top left corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:46
+msgid "Top left corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:47
+msgid "Top left corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:48
+msgid "Top right corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:49
+msgid "Top right corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:50
+msgid "Top right corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:51
+msgid "Top right corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:52
+msgid "Top right corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:53
+msgid "Use PCM Volume instead of Master Volume"
+msgstr "പ്രധമ ശബ്ദത്തിനു പകരം PCM ശബ്ദം ഉപയോഗിക്കുക"
+
+#: src/brightside.schemas.in.h:54
+msgid "Whether workspace layout is orientable"
+msgstr ""
+
+#: src/brightside.schemas.in.h:55
+msgid "Wrap wround edges of workspace layout when flipping workspace"
+msgstr ""
+
+#: src/custom-action.glade.h:2
+msgid "*"
+msgstr ""
+
+#: src/custom-action.glade.h:3
+#, fuzzy
+msgid "<span weight=\"bold\">On _entering region</span>"
+msgstr "<span weight=\"bold\">കീ സജ്ജീകരണം</span>"
+
+#: src/custom-action.glade.h:4
+#, fuzzy
+msgid "<span weight=\"bold\">On leaving region</span>"
+msgstr "<span weight=\"bold\">ശബ്ദ സജ്ജീകരണം</span>"
+
+#: src/custom-action.glade.h:5 src/custom-action.c:104
+msgid "Custom action"
+msgstr ""
+
+#: src/custom-action.glade.h:6
+msgid "_Run another command:"
+msgstr ""
+
+#: src/custom-action.glade.h:7
+msgid "_Terminate above application"
+msgstr ""
+
+#~ msgid ""
+#~ "Couldn't execute either command: %s\n"
+#~ "or command: %s\n"
+#~ "Verify that at least one of these commands exist."
+#~ msgstr ""
+#~ "രണ്ടു നിര്ദ്ദേശങ്ങളും (%s,%s) നടപ്പിലാക്കാന് കഴിയുന്നില്ല \n"
+#~ "ഒരു നിര്ദ്ദേശമെങ്കിലും നിലവിലുണ്ടേ എന്നു പരിശോധിക്കുക."
+
+#~ msgid "Multimedia keys daemon"
+#~ msgstr "ബഹുമാധ്യമ ചാവികളുടെ ഡീമന്"
+
+#~ msgid "Multimedia Keys daemon active"
+#~ msgstr "ബഹുമാധ്യമ ചാവികളുടെ ഡീമന് സജീവം"
+
+#~ msgid "Volume down key"
+#~ msgstr "ശബ്ദം കുറയ്‌ക്കുന്ന കീ"
+
+#~ msgid "Volume up key"
+#~ msgstr "ശബ്ദം കൂട്ടുന്ന കീ"
+
+#~ msgid "Power key"
+#~ msgstr "പവര് കീ "
+
+#~ msgid "Eject key"
+#~ msgstr "പുറന്തള്ളല് കീ"
+
+#~ msgid "Media key"
+#~ msgstr "മാധ്യമ കീ"
+
+#~ msgid "Play key"
+#~ msgstr "പ്രവ‌ര്ത്തന കീ"
+
+#~ msgid "Pause key"
+#~ msgstr "ഇടവേള കീ"
+
+#~ msgid "Stop (Audio) key"
+#~ msgstr "നിര്ത്തു (ശബ്ദം) കീ"
+
+#~ msgid "Previous (Audio) key"
+#~ msgstr "പിന്നോട്ട് (ശബ്ദം) കീ"
+
+#~ msgid "Next (Audio) key"
+#~ msgstr "മുന്നോട്ട് (ശബ്ദം) കീ"
+
+#~ msgid "My Home key"
+#~ msgstr "എന്റെ ശേഖര കീ"
+
+#~ msgid "Refresh key"
+#~ msgstr "പുതുക്കുല് കീ"
+
+#~ msgid "Search key"
+#~ msgstr "തെരച്ചില് കീ"
+
+#~ msgid "E-Mail key"
+#~ msgstr "ഇ-തപാല് കീ"
+
+#~ msgid "Sleep key"
+#~ msgstr "ഉറക്കം കീ"
+
+#~ msgid "Finance key"
+#~ msgstr "സാമ്പത്തിക കീ"
+
+#~ msgid "Help key"
+#~ msgstr "സഹായ കീ"
+
+#~ msgid "WWW key"
+#~ msgstr "WWW കീ"
+
+#~ msgid "Groups key"
+#~ msgstr "കൂട്ട കീ"
+
+#~ msgid "Calculator key"
+#~ msgstr "ഗണനി കീ"
+
+#~ msgid "Record key"
+#~ msgstr "ആലേഖന കീ"
+
+#~ msgid "Close Window key"
+#~ msgstr "ജാലകം അടയ്‍ക്കല് കീ"
+
+#~ msgid "Shade Window key"
+#~ msgstr "നിഴല് ജാലക കീ"
+
+#~ msgid "Brightness down key"
+#~ msgstr "തിളക്കം കുറയ്‌ക്കല് കീ"
+
+#~ msgid "Brightness up key"
+#~ msgstr "തിളക്കം കൂട്ടല് കീ"
+
+#~ msgid "Disabled"
+#~ msgstr "അപ്രാപ്യം"
+
+#, fuzzy
+#~ msgid ""
+#~ "This key is already bound to action '%s'.\n"
+#~ "Please select another key."
+#~ msgstr ""
+#~ "ഈ കീ '%s' എന്ന പ്രവര്ത്തനവുമായി ബന്ധപ്പെട്ടിരിക്കുന്നു\n"
+#~ "മറ്റൊരു കീ തെരഞ്ഞെടുത്താലും"
+
+#~ msgid "Description"
+#~ msgstr "വിവരണം"
+
+#~ msgid "Status"
+#~ msgstr "അവസ്ഥ"
+
+#~ msgid "Multimedia Keys Preferences"
+#~ msgstr "ബഹുമാധ്യമ കീകളുടെ മുന്ഗണനകള്"
+
+#~ msgid "Use _PCM volume instead of Master volume"
+#~ msgstr "പ്രധമ ശബ്ദത്തിനു പകരം PCM ശബ്ദം ഉപയോഗിക്കുക"
+
+#~ msgid "Multimedia Keys"
+#~ msgstr "ബഹുമാധ്യമം കീകള്"
+
+#~ msgid "Brightness down key's XKeycode"
+#~ msgstr "തിളക്കം കുറയ്‌ക്കല് കീ Xകീ കോട്"
+
+#~ msgid "Brightness down key's XKeycode, 0 to disable"
+#~ msgstr "തിളക്കം കുറയ്‌ക്കല് കീ X കീ-കോട്, 0 to disable"
+
+#~ msgid "Brightness up key's XKeycode"
+#~ msgstr "തിളക്കം കൂട്ടല് കീ Xകീ കോട്"
+
+#, fuzzy
+#~ msgid "Brightness up key's XKeycode, 0 to disable"
+#~ msgstr "തിളക്കം കൂട്ടല് കീ XKeycode, 0 to disable"
+
+#~ msgid "Calculator key's XKeycode"
+#~ msgstr "ഗണനി കീ Xകീ കോട്"
+
+#, fuzzy
+#~ msgid "Calculator key's XKeycode, 0 to disable"
+#~ msgstr "ഗണനി കീ XKeycode, 0 to disable"
+
+#~ msgid "Close Window key's XKeycode"
+#~ msgstr "ജാലകം അടയ്‍ക്്കാനുള്ള കീ യുടെ Xകീ കോട്"
+
+#, fuzzy
+#~ msgid "Close Window key's XKeycode, 0 to disable"
+#~ msgstr "ജാലകം അടയ്‍ക്്കാനുള്ള കീ യുടെ Xകീ കോട്, 0 to disable"
+
+#~ msgid "E-Mail key's XKeycode"
+#~ msgstr "ഇ-തപാല് കീ യുടെ Xകീ കോട്"
+
+#~ msgid "E-Mail key's XKeycode, 0 to disable"
+#~ msgstr "ഇ-തപാല് കീ യുടെ Xകീ കോട് 0 to disable"
+
+#~ msgid "Eject key's XKeycode"
+#~ msgstr "പുറന്തള്ളല് കീയുടെ Xകീ കോട് "
+
+#, fuzzy
+#~ msgid "Eject key's XKeycode, 0 to disable"
+#~ msgstr "പുറന്തള്ളല് കീയുടെ Xകീ കോട് , 0 to disable"
+
+#~ msgid "Finance key's XKeycode"
+#~ msgstr "സാമ്പത്തിക കീയുടെ Xകീ കോട് "
+
+#~ msgid "Finance key's XKeycode, 0 to disable"
+#~ msgstr "സാമ്പത്തിക കീയുടെ Xകീ കോട് , 0 to disable"
+
+#~ msgid "Groups key's XKeycode"
+#~ msgstr "കൂട്ട കീയുടെ Xകീ കോട് "
+
+#, fuzzy
+#~ msgid "Groups key's XKeycode, 0 to disable"
+#~ msgstr "കൂട്ട കീയുടെ Xകീ കോട് , 0 to disable"
+
+#~ msgid "Help key's XKeycode"
+#~ msgstr "സഹായ കീയുടെ Xകീ കോട്"
+
+#, fuzzy
+#~ msgid "Help key's XKeycode, 0 to disable"
+#~ msgstr "സഹായ കീയുടെ Xകീ കോട് , 0 to disable"
+
+#~ msgid "Mute key's XKeycode"
+#~ msgstr "നിശബ്ദ കീയുടെ Xകീ കോട് "
+
+#, fuzzy
+#~ msgid "Mute key's XKeycode, 0 to disable"
+#~ msgstr "നിശബ്ദ കീയുടെ Xകീ കോട് , 0 to disable"
+
+#~ msgid "My Home key's XKeycode"
+#~ msgstr "എന്റെ ആസ്ഥാന കീയുടെ X കീ കോട്"
+
+#, fuzzy
+#~ msgid "My Home key's XKeycode, 0 to disable"
+#~ msgstr "എന്റെ ആസ്ഥാന കീയുടെ X കീ കോട് , 0 to disable"
+
+#~ msgid "Next key's XKeycode"
+#~ msgstr "മുന്നോട്ട് കീയുടെ X കീ കോട് "
+
+#, fuzzy
+#~ msgid "Next key's XKeycode, 0 to disable"
+#~ msgstr "മുന്നോട്ട് കീയുടെ X കീ കോട് , 0 to disable"
+
+#~ msgid "Pause key's XKeycode"
+#~ msgstr "ഇടവേള കീയുടെ X കീ കോട് "
+
+#, fuzzy
+#~ msgid "Pause key's XKeycode, 0 to disable"
+#~ msgstr "ഇടവേള കീയുടെ X കീ കോട് , 0 to disable"
+
+#~ msgid "Play key's XKeycode"
+#~ msgstr "പ്രവ‌ര്ത്തന കീയുടെ X കീ കോട്"
+
+#~ msgid "Play key's XKeycode, 0 to disable"
+#~ msgstr "പ്രവ‌ര്ത്തന കീയുടെ X കീ കോട് , 0 to disable"
+
+#, fuzzy
+#~ msgid "Power key's XKeycode"
+#~ msgstr "പവര് കീയുടെ X കീ കോട് "
+
+#, fuzzy
+#~ msgid "Power key's XKeycode, 0 to disable"
+#~ msgstr "പവര് കീയുടെ X കീ കോട് , 0 to disable"
+
+#~ msgid "Previous key's XKeycode"
+#~ msgstr "പിന്നോട്ട് കീയുടെ X കീ കോട് "
+
+#, fuzzy
+#~ msgid "Previous key's XKeycode, 0 to disable"
+#~ msgstr "പിന്നോട്ട് കീയുടെ X കീ കോട് , 0 to disable"
+
+#~ msgid "Record key's XKeycode"
+#~ msgstr "ആലേഖന കീയുടെ X കീ കോട് "
+
+#, fuzzy
+#~ msgid "Record key's XKeycode, 0 to disable"
+#~ msgstr "ആലേഖന കീയുടെ X കീ കോട് , 0 to disable"
+
+#~ msgid "Refresh key's XKeycode"
+#~ msgstr "പുതുക്കുല് കീയുടെ X കീ കോട് "
+
+#, fuzzy
+#~ msgid "Refresh key's XKeycode, 0 to disable"
+#~ msgstr "പുതുക്കുല് കീയുടെ X കീ കോട് , 0 to disable"
+
+#~ msgid "Screensaver key's XKeycode"
+#~ msgstr "തിരശ്ശീല കീയുടെ X കീ കോട് "
+
+#, fuzzy
+#~ msgid "Screensaver key's XKeycode, 0 to disable"
+#~ msgstr "തിരശ്ശീല കീയുടെ X കീ കോട് , 0 to disable"
+
+#~ msgid "Search key's XKeycode"
+#~ msgstr "തെരച്ചില് കീയുടെ X കീ കോട് "
+
+#, fuzzy
+#~ msgid "Search key's XKeycode, 0 to disable"
+#~ msgstr "തെരച്ചില് കീയുടെ X കീ കോട് , 0 to disable"
+
+#, fuzzy
+#~ msgid "Shade Window key's XKeycode"
+#~ msgstr "ഷേഡ് ജാലകം കീയുടെ X കീ കോട് "
+
+#, fuzzy
+#~ msgid "Shade Window key's XKeycode, 0 to disable"
+#~ msgstr "ഷേഡ് ജാലകം കീയുടെ X കീ കോട് , 0 to disable"
+
+#~ msgid "Sleep key's XKeycode"
+#~ msgstr "ഉറക്കം കീയുടെ X കീ കോട് "
+
+#, fuzzy
+#~ msgid "Sleep key's XKeycode, 0 to disable"
+#~ msgstr "ഉറക്കം കീയുടെ X കീ കോട് , 0 to disable"
+
+#, fuzzy
+#~ msgid "Sound file to be played when volume is changed"
+#~ msgstr "ശബ്ദം  മാറ്റുമ്പോള് ഉപയോഗിക്കേണ്ട പാട്ട്/സ്്വരം്"
+
+#~ msgid "Volume down key's XKeycode"
+#~ msgstr "ശബ്ദം കുറയ്‌ക്കുന്ന കീയുടെ X കീ കോട്"
+
+#, fuzzy
+#~ msgid "Volume down key's XKeycode, 0 to disable"
+#~ msgstr "ശബ്ദം കുറയ്‌ക്കുന്ന കീയുടെ X കീ കോട് , 0 to disable"
+
+#, fuzzy
+#~ msgid "Volume step"
+#~ msgstr "ശബ്ദം"
+
+#~ msgid "Volume up key's XKeycode"
+#~ msgstr "ശബ്ദം കൂട്ടുന്ന കീയുടെ X കീ കോട് "
+
+#, fuzzy
+#~ msgid "Volume up key's XKeycode, 0 to disable"
+#~ msgstr "ശബ്ദം കൂട്ടുന്ന കീയുടെ X കീ കോട് , 0 to disable"
+
+#~ msgid "WWW key's XKeycode"
+#~ msgstr "www- കീയുടെ X കീ കോട് "
+
+#~ msgid "WWW key's XKeycode, 0 to disable"
+#~ msgstr "www- കീയുടെ X കീ കോട് , 0 to disable"
+
+#~ msgid "Accelerator key"
+#~ msgstr "വേഗവ‌‌ര്ദ്ധിനി കീ"
+
+#~ msgid "Accelerator modifiers"
+#~ msgstr "വേഗവ‌ര്ദ്ധിനി രൂപാന്തരകങ്ങള്‍"
+
+#~ msgid "Accelerator Mode"
+#~ msgstr "വേഗവ‌ര്ദ്ധിനി രീതി"
+
+#~ msgid "The type of accelerator."
+#~ msgstr "വേഗവ‌ര്ദ്ധിനിയുടെ തരം"
+
+#~ msgid "Type a new accelerator, or press Backspace to clear"
+#~ msgstr "പുതിയ വേഗവ‌ര്ദ്ധിനി കീ നല്‍കുക, അല്ലെങ്കില്‍ Backspace അമ‌ര്‍ത്തി ശൂന്യമാക്കുക"
+
+#~ msgid "Type a new accelerator"
+#~ msgstr "പുതിയ വേഗവ‌ര്ദ്ധിനി നല്‍കുക"

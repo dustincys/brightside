@@ -1,0 +1,763 @@
+# translation of sk.po to Slovak
+# translation of Brightside.sk.po to Slovak
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# Stanislav Visnovsky <visnovsky@kde.org>, 2003
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: sk\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-01-16 02:13+0000\n"
+"PO-Revision-Date: 2003-05-07 08:21+0200\n"
+"Last-Translator: Stanislav Visnovsky <visnovsky@kde.org>\n"
+"Language-Team: Slovak <sk-i18n@linux.sk>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.2beta2\n"
+
+#: src/brightside.c:224
+#, c-format
+msgid ""
+"Couldn't execute command: %s\n"
+"Verify that this command exists."
+msgstr ""
+"Nepodarilo sa vykonať príkaz: %s\n"
+"Overte, že tento príkaz existuje."
+
+#: src/brightside.c:243
+#, c-format
+msgid ""
+"Permissions on the file %s are broken\n"
+"Please check Brightside's documentation, correct the problem and restart "
+"Brightside."
+msgstr ""
+"Práva pre súbor %s sú poškodené.\n"
+"Prosím, prečítajte si dokumentáciu k Brightside, opravte problém a "
+"Brightside reštartujte."
+
+#: src/brightside.c:487
+msgid "translator_credits"
+msgstr "Stanislav Višňovský"
+
+#: src/brightside.c:498
+msgid "Brightside"
+msgstr "Brightside"
+
+#: src/brightside.c:500 src/brightside.c:573
+msgid "Screen Corners and Edges daemon"
+msgstr ""
+
+#: src/brightside.c:579
+msgid "Screen Corners and Edges daemon active"
+msgstr ""
+
+#: src/brightside.c:1733
+msgid "Daemon already running, exiting...\n"
+msgstr ""
+
+#: src/brightside.c:1742
+msgid ""
+"Couldn't load the Glade file.\n"
+"Make sure that this daemon is properly installed."
+msgstr ""
+"Nepodarilo sa načítať súbor Glade.\n"
+"Overte, že je démon správne nainštalovaný."
+
+#: src/brightside.glade.h:1
+msgid "Volume"
+msgstr "Hlasitosť"
+
+#: src/brightside.h:65
+#, fuzzy
+msgid "Mute volume"
+msgstr "Kláves Potichu"
+
+#: src/brightside.h:67
+msgid "Prevent screensaver starting"
+msgstr ""
+
+#: src/brightside.h:69
+#, fuzzy
+msgid "Start screensaver"
+msgstr "Kláves Šetrič obrazovky"
+
+#: src/brightside.h:71
+msgid "Enter DPMS standby mode"
+msgstr ""
+
+#: src/brightside.h:73
+msgid "Enter DPMS suspend mode"
+msgstr ""
+
+#: src/brightside.h:75
+msgid "Enter DPMS off mode"
+msgstr ""
+
+#: src/brightside.h:78
+msgid "Dim laptop backlight"
+msgstr ""
+
+#: src/brightside.h:81
+msgid "Custom action..."
+msgstr ""
+
+#: src/brightside-properties.c:283 src/brightside-properties.glade.h:9
+#: src/brightside.desktop.in.h:2
+msgid "Screen Corners and Edges"
+msgstr ""
+
+#: src/brightside-properties.glade.h:1 src/custom-action.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: src/brightside-properties.glade.h:2
+msgid "<small><i>Long</i></small>"
+msgstr ""
+
+#: src/brightside-properties.glade.h:3
+msgid "<small><i>Short</i></small>"
+msgstr ""
+
+#: src/brightside-properties.glade.h:4
+#, fuzzy
+msgid "<span weight=\"bold\">Screen Corners</span>"
+msgstr "<span weight=\"bold\">Nastavenie zvuku</span>"
+
+#: src/brightside-properties.glade.h:5
+#, fuzzy
+msgid "<span weight=\"bold\">Screen Edges</span>"
+msgstr "<span weight=\"bold\">Nastavenie zvuku</span>"
+
+#: src/brightside-properties.glade.h:6
+#, fuzzy
+msgid "Action to take while mouse is placed in corner of screen"
+msgstr "Príkaz spúšťaný pri stlačení Vysunúť"
+
+#: src/brightside-properties.glade.h:7
+msgid "Bottom r_ight corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:8
+msgid "D_elay:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:10
+msgid "Switch to _adjacent workspace when mouse is moved to edge of screen"
+msgstr ""
+
+#: src/brightside-properties.glade.h:11
+msgid "Top _right corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:12
+msgid "When switching workspace, _wrap around edges of workspace layout"
+msgstr ""
+
+#: src/brightside-properties.glade.h:13
+msgid "_Bottom left corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:14
+msgid "_Configurable actions"
+msgstr ""
+
+#: src/brightside-properties.glade.h:15
+msgid "_Delay:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:16
+msgid "_Switch to diagonally adjacent workspace"
+msgstr ""
+
+#: src/brightside-properties.glade.h:17
+msgid "_Top left corner:"
+msgstr ""
+
+#: src/brightside.desktop.in.h:1
+#, fuzzy
+msgid "Configure screen-edge behaviour"
+msgstr "Nastavenie chovania multimediálnych kláves"
+
+#: src/brightside.schemas.in.h:1
+msgid "Action enabled when mouse is in bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:2
+msgid "Action enabled when mouse is in bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:3
+msgid "Action enabled when mouse is in top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:4
+msgid "Action enabled when mouse is in top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:5
+msgid "Action to occur when mouse is in bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:6
+msgid "Action to occur when mouse is in bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:7
+msgid "Action to occur when mouse is in top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:8
+msgid "Action to occur when mouse is in top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:9
+msgid "After flip command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:10
+msgid "Bottom left corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:11
+msgid "Bottom left corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:12
+msgid "Bottom left corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:13
+msgid "Bottom left corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:14
+msgid "Bottom left corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:15
+msgid "Bottom right corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:16
+msgid "Bottom right corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:17
+msgid "Bottom right corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:18
+msgid "Bottom right corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:19
+msgid "Bottom right corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:20
+msgid "Command to execute after flipping workspace (empty string for none)"
+msgstr ""
+
+#: src/brightside.schemas.in.h:21
+msgid "Corner delay"
+msgstr ""
+
+#: src/brightside.schemas.in.h:22
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse enters bottom left corner of screen"
+msgstr "Príkaz spúšťaný pri stlačení Vysunúť"
+
+#: src/brightside.schemas.in.h:23
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse enters bottom right corner of screen"
+msgstr "Príkaz spúšťaný pri stlačení Vysunúť"
+
+#: src/brightside.schemas.in.h:24
+#, fuzzy
+msgid "Custom command to execute when mouse enters top left corner of screen"
+msgstr "Príkaz spúšťaný pri stlačení Vysunúť"
+
+#: src/brightside.schemas.in.h:25
+#, fuzzy
+msgid "Custom command to execute when mouse enters top right corner of screen"
+msgstr "Príkaz spúšťaný pri stlačení Vysunúť"
+
+#: src/brightside.schemas.in.h:26
+#, fuzzy
+msgid "Custom command to execute when mouse exits bottom left corner of screen"
+msgstr "Príkaz spúšťaný pri stlačení Vysunúť"
+
+#: src/brightside.schemas.in.h:27
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse exits bottom right corner of screen"
+msgstr "Príkaz spúšťaný pri stlačení Vysunúť"
+
+#: src/brightside.schemas.in.h:28
+#, fuzzy
+msgid "Custom command to execute when mouse exits top left corner of screen"
+msgstr "Príkaz spúšťaný pri stlačení Vysunúť"
+
+#: src/brightside.schemas.in.h:29
+#, fuzzy
+msgid "Custom command to execute when mouse exits top right corner of screen"
+msgstr "Príkaz spúšťaný pri stlačení Vysunúť"
+
+#: src/brightside.schemas.in.h:30
+msgid "Delay in milliseconds before edge flip occurs"
+msgstr ""
+
+#: src/brightside.schemas.in.h:31
+msgid "Delay in milliseconds before screen corner action occurs"
+msgstr ""
+
+#: src/brightside.schemas.in.h:32
+msgid "Edge delay"
+msgstr ""
+
+#: src/brightside.schemas.in.h:33
+msgid "Edge wrap"
+msgstr ""
+
+#: src/brightside.schemas.in.h:34
+#, fuzzy
+msgid "Enable corner flip"
+msgstr "Zapnuté"
+
+#: src/brightside.schemas.in.h:35
+#, fuzzy
+msgid "Enable edge flip"
+msgstr "Zapnuté"
+
+#: src/brightside.schemas.in.h:36
+msgid "Orientable workspaces"
+msgstr ""
+
+#: src/brightside.schemas.in.h:37
+msgid ""
+"Switch to diagonally adjacent workspace when mouse placed in the corner of "
+"the screen, instead of executing a configurable action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:38
+msgid ""
+"Switch to the adjacent workspace when the mouse reaches the edge of the "
+"screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:39
+msgid "Terminate custom command when mouse exits bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:40
+msgid "Terminate custom command when mouse exits bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:41
+msgid "Terminate custom command when mouse exits top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:42
+msgid "Terminate custom command when mouse exits top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:43
+msgid "Top left corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:44
+msgid "Top left corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:45
+msgid "Top left corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:46
+msgid "Top left corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:47
+msgid "Top left corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:48
+msgid "Top right corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:49
+msgid "Top right corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:50
+msgid "Top right corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:51
+msgid "Top right corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:52
+msgid "Top right corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:53
+msgid "Use PCM Volume instead of Master Volume"
+msgstr "Použiť hlasitosť PCM a nie celkovú hlasitosť"
+
+#: src/brightside.schemas.in.h:54
+msgid "Whether workspace layout is orientable"
+msgstr ""
+
+#: src/brightside.schemas.in.h:55
+msgid "Wrap wround edges of workspace layout when flipping workspace"
+msgstr ""
+
+#: src/custom-action.glade.h:2
+msgid "*"
+msgstr ""
+
+#: src/custom-action.glade.h:3
+#, fuzzy
+msgid "<span weight=\"bold\">On _entering region</span>"
+msgstr "<span weight=\"bold\">Nastavenie kláves</span>"
+
+#: src/custom-action.glade.h:4
+#, fuzzy
+msgid "<span weight=\"bold\">On leaving region</span>"
+msgstr "<span weight=\"bold\">Nastavenie zvuku</span>"
+
+#: src/custom-action.glade.h:5 src/custom-action.c:104
+msgid "Custom action"
+msgstr ""
+
+#: src/custom-action.glade.h:6
+msgid "_Run another command:"
+msgstr ""
+
+#: src/custom-action.glade.h:7
+msgid "_Terminate above application"
+msgstr ""
+
+#~ msgid ""
+#~ "Couldn't execute either command: %s\n"
+#~ "or command: %s\n"
+#~ "Verify that at least one of these commands exist."
+#~ msgstr ""
+#~ "Nepodarilo sa vykonať príkaz: %s\n"
+#~ "ani príkaz: %s\n"
+#~ "Overte, že aspoň jeden z nich existuje."
+
+#~ msgid ""
+#~ "There was an error removing access to the multimedia keys.\n"
+#~ "Key %d couldn't be unbound."
+#~ msgstr ""
+#~ "Pri odstraňovaní prístupu k multimediálnym kľúčom nastala chyba.\n"
+#~ "Kláves %d nie je možné uvoľniť."
+
+#~ msgid ""
+#~ "It seems that another application already has access to the multimedia "
+#~ "keys.\n"
+#~ "Key %d couldn't be bound.\n"
+#~ "Is another daemon already running ?"
+#~ msgstr ""
+#~ "Vyzerá to, že multimediálne klávesy už používa iná aplikácia.\n"
+#~ "Kláves %d nie je možné nastaviť.\n"
+#~ "Nebeží už iný démon?"
+
+#~ msgid "Multimedia keys daemon"
+#~ msgstr "Démon multimediálnych kľúčov"
+
+#~ msgid "Multimedia Keys daemon active"
+#~ msgstr "Démon multimediálnych kľúčov aktívny"
+
+#~ msgid "Volume down key"
+#~ msgstr "Kláves Znížiť hlasitosť"
+
+#~ msgid "Volume up key"
+#~ msgstr "Kláves Zvýšiť hlasitosť"
+
+#~ msgid "Power key"
+#~ msgstr "Kláves Zapnúť"
+
+#~ msgid "Eject key"
+#~ msgstr "Kláves Vysunúť"
+
+#~ msgid "Media key"
+#~ msgstr "Kláves Médium"
+
+#~ msgid "Play key"
+#~ msgstr "Kláves Hrať"
+
+#~ msgid "Pause key"
+#~ msgstr "Kláves Pauza"
+
+#~ msgid "Stop (Audio) key"
+#~ msgstr "Kláves Zastaviť (zvuk)"
+
+#~ msgid "Previous (Audio) key"
+#~ msgstr "Kláves Predchádzajúci (zvuk)"
+
+#~ msgid "Next (Audio) key"
+#~ msgstr "Kláves Nasledujúci (zvuk)"
+
+#~ msgid "My Home key"
+#~ msgstr "Kláves Môj domov"
+
+#~ msgid "Refresh key"
+#~ msgstr "Kláves Aktualizovať"
+
+#~ msgid "Search key"
+#~ msgstr "Kláves Hľadať"
+
+#~ msgid "E-Mail key"
+#~ msgstr "Kláves E-mail"
+
+#~ msgid "Sleep key"
+#~ msgstr "Kláves Uspať"
+
+#~ msgid "Finance key"
+#~ msgstr "Kláves Financie"
+
+#~ msgid "Help key"
+#~ msgstr "Kláves Pomocník"
+
+#~ msgid "WWW key"
+#~ msgstr "Kláves WWW"
+
+#~ msgid "Groups key"
+#~ msgstr "Kláves Skupiny"
+
+#~ msgid "Calculator key"
+#~ msgstr "Kláves Kalkulačka"
+
+#~ msgid "Record key"
+#~ msgstr "Kláves Nahrávať"
+
+#~ msgid "Close Window key"
+#~ msgstr "Kláves Zavrieť okno"
+
+#~ msgid "Shade Window key"
+#~ msgstr "Kláves Zabaliť okno"
+
+#~ msgid "Brightness down key"
+#~ msgstr "Kláves Znížiť jas"
+
+#~ msgid "Brightness up key"
+#~ msgstr "Kláves Zvýšiť jas"
+
+#~ msgid "Disabled"
+#~ msgstr "Vypnuté"
+
+#~ msgid ""
+#~ "This key is already bound to action '%s'.\n"
+#~ "Please select another key."
+#~ msgstr ""
+#~ "Tento kláves je už využívaný pre akciu '%s'.\n"
+#~ "Prosím, vyberte iný."
+
+#~ msgid "Description"
+#~ msgstr "Popis"
+
+#~ msgid "Status"
+#~ msgstr "Stav"
+
+#~ msgid "Multimedia Keys Preferences"
+#~ msgstr "Nastavenie multimediálnych kláves"
+
+#~ msgid ""
+#~ "To assign a key to an action, click on a line, and press the key you want "
+#~ "to associate with it.\n"
+#~ "\"C\" cancels the capture, and \"Backspace\" disables the key shortcut."
+#~ msgstr ""
+#~ "Ak chcete priradiť kláves akcii, kliknite na riadok a potom stlačte "
+#~ "kláves, ktorý chcete priradiť.\n"
+#~ "\"C\" zruší zachytenie a \"Backspace\" vypne klávesovú skratku."
+
+#~ msgid "Use _PCM volume instead of Master volume"
+#~ msgstr "Použiť hlasitosť _PCM a nie celkovú hlasitosť"
+
+#~ msgid "Multimedia Keys"
+#~ msgstr "Multimediálne klávesy"
+
+#~ msgid "Brightness down key's XKeycode"
+#~ msgstr "XKeycode pre kláves Znížiť jas"
+
+#~ msgid "Brightness down key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode pre kláves Znížiť jas, alebo 0 pre vypnutie"
+
+#~ msgid "Brightness up key's XKeycode"
+#~ msgstr "XKeycode pre kláves Zvýšiť jas"
+
+#~ msgid "Brightness up key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode pre kláves Zvýšiť jas, alebo 0 pre vypnutie"
+
+#~ msgid "Calculator key's XKeycode"
+#~ msgstr "XKeycode pre kláves Kalkulačka"
+
+#~ msgid "Calculator key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode pre kláves Kalkulačka, alebo 0 pre vypnutie"
+
+#~ msgid "Close Window key's XKeycode"
+#~ msgstr "XKeycode pre kláves Zavrieť okno"
+
+#~ msgid "Close Window key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode pre kláves Zavrieť okno, alebo 0 pre vypnutie"
+
+#~ msgid "E-Mail key's XKeycode"
+#~ msgstr "XKeycode pre kláves E-mail"
+
+#~ msgid "E-Mail key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode pre kláves E-mail, alebo 0 pre vypnutie"
+
+#~ msgid "Eject key's XKeycode"
+#~ msgstr "XKeycode pre kláves Vysunúť"
+
+#~ msgid "Eject key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode pre kláves Vysunúť, alebo 0 pre vypnutie"
+
+#~ msgid "Finance key's XKeycode"
+#~ msgstr "XKeycode pre kláves Financie"
+
+#~ msgid "Finance key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode pre kláves Financie, alebo 0 pre vypnutie"
+
+#~ msgid "Groups key's XKeycode"
+#~ msgstr "XKeycode pre kláves Skupiny"
+
+#~ msgid "Groups key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode pre kláves Skupiny, alebo 0 pre vypnutie"
+
+#~ msgid "Help key's XKeycode"
+#~ msgstr "XKeycode pre kláves Pomocník"
+
+#~ msgid "Help key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode pre kláves Pomocník, alebo 0 pre vypnutie"
+
+#~ msgid "Mute key's XKeycode"
+#~ msgstr "XKeycode pre kláves Potichu"
+
+#~ msgid "Mute key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode pre kláves Potichu, alebo 0 pre vypnutie"
+
+#~ msgid "My Home key's XKeycode"
+#~ msgstr "XKeycode pre kláves Môj domov"
+
+#~ msgid "My Home key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode pre kláves Môj domov, alebo 0 pre vypnutie"
+
+#~ msgid "Next key's XKeycode"
+#~ msgstr "XKeycode pre kláves Nasledujúci"
+
+#~ msgid "Next key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode pre kláves Nasledujúci, alebo 0 pre vypnutie"
+
+#~ msgid "Pause key's XKeycode"
+#~ msgstr "XKeycode pre kláves Pauza"
+
+#~ msgid "Pause key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode pre kláves Pauza, alebo 0 pre vypnutie"
+
+#~ msgid "Play key's XKeycode"
+#~ msgstr "XKeycode pre kláves Hrať"
+
+#~ msgid "Play key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode pre kláves Hrať, alebo 0 pre vypnutie"
+
+#~ msgid "Power key's XKeycode"
+#~ msgstr "XKeycode pre kláves Vypnúť"
+
+#~ msgid "Power key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode pre kláves Vypnúť, alebo 0 pre vypnutie"
+
+#~ msgid "Previous key's XKeycode"
+#~ msgstr "XKeycode pre kláves Predchádzajúci"
+
+#~ msgid "Previous key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode pre kláves Predchádzajúci, alebo 0 pre vypnutie"
+
+#~ msgid "Record key's XKeycode"
+#~ msgstr "XKeycode pre kláves Nahrávať"
+
+#~ msgid "Record key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode pre kláves Nahrávať, alebo 0 pre vypnutie"
+
+#~ msgid "Refresh key's XKeycode"
+#~ msgstr "XKeycode pre kláves Aktualizovať"
+
+#~ msgid "Refresh key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode pre kláves Aktualizovať, alebo 0 pre vypnutie"
+
+#~ msgid "Screensaver key's XKeycode"
+#~ msgstr "XKeycode pre kláves Šetrič obrazovky"
+
+#~ msgid "Screensaver key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode pre kláves Šetrič obrazovky, alebo 0 pre vypnutie"
+
+#~ msgid "Search key's XKeycode"
+#~ msgstr "XKeycode pre kláves Nájsť"
+
+#~ msgid "Search key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode pre kláves Nájsť, alebo 0 pre vypnutie"
+
+#~ msgid "Shade Window key's XKeycode"
+#~ msgstr "XKeycode pre kláves Zabaliť okno"
+
+#~ msgid "Shade Window key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode pre kláves Zabaliť okno, alebo 0 pre vypnutie"
+
+#~ msgid "Sleep key's XKeycode"
+#~ msgstr "XKeycode pre kláves Uspať"
+
+#~ msgid "Sleep key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode pre kláves Uspať, alebo 0 pre vypnutie"
+
+#~ msgid "Sound file to be played when volume is changed"
+#~ msgstr "Zvukový súbor prehraný pri zmene hlasitosti"
+
+#~ msgid "Volume down key's XKeycode"
+#~ msgstr "XKeycode pre kláves Znížiť hlasitosť"
+
+#~ msgid "Volume down key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode pre kláves Znížiť hlasitosť, alebo 0 pre vypnutie"
+
+#, fuzzy
+#~ msgid "Volume step"
+#~ msgstr "Hlasitosť"
+
+#~ msgid "Volume up key's XKeycode"
+#~ msgstr "XKeycode pre kláves Zvýšiť hlasitosť, alebo 0 pre vypnutie"
+
+#~ msgid "Volume up key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode pre kláves Zvýšiť hlasitosť"
+
+#~ msgid "WWW key's XKeycode"
+#~ msgstr "XKeycode pre kláves WWW"
+
+#~ msgid "WWW key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode pre kláves WWW, alebo 0 pre vypnutie"
+
+#~ msgid "Accelerator key"
+#~ msgstr "Kláves akcelerátora"
+
+#~ msgid "Accelerator modifiers"
+#~ msgstr "Modifikátory akcelerátora"
+
+#~ msgid "Accelerator Mode"
+#~ msgstr "Režim akcelerátorov"
+
+#~ msgid "The type of accelerator."
+#~ msgstr "Typ akcelerátora."
+
+#~ msgid "Type a new accelerator, or press Backspace to clear"
+#~ msgstr "Stlačte nový akcelerátor alebo ho vyčistite stlačením Backspace"
+
+#~ msgid "Type a new accelerator"
+#~ msgstr "Stlačte nový akcelerátor"
+
+#~ msgid "_Launch the multimedia key daemon"
+#~ msgstr "_Spustiť démona multimediálnych kláves"

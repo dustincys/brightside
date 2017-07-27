@@ -1,0 +1,762 @@
+# translation of Brightside.HEAD.po to mongolian
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# Sanlig Badral <badral@chinggis.com>, 2003
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Brightside.HEAD.mn\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-01-16 02:13+0000\n"
+"PO-Revision-Date: 2003-03-12 18:56+0100\n"
+"Last-Translator: Sanlig Badral <badral@chinggis.com>\n"
+"Language-Team: Mongolian <mn@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 0.9.6\n"
+
+#: src/brightside.c:224
+#, c-format
+msgid ""
+"Couldn't execute command: %s\n"
+"Verify that this command exists."
+msgstr ""
+"»%s« тушаал биелсэнгүй:\n"
+"Ийм тушаал байгаа эсэхийг нягтлана уу."
+
+#: src/brightside.c:243
+#, c-format
+msgid ""
+"Permissions on the file %s are broken\n"
+"Please check Brightside's documentation, correct the problem and restart "
+"Brightside."
+msgstr ""
+"%s файлын хандалт эрх алдаатай байна\n"
+"Та Brightside-баримтыг нягтлан харж асуудлыг шийдээд Brightside -г дахин "
+"шинээр эхлүүлнэ үү."
+
+#: src/brightside.c:487
+msgid "translator_credits"
+msgstr "Санлигийн Бадрал <badral@chinnis.com>"
+
+#: src/brightside.c:498
+msgid "Brightside"
+msgstr "Brightside"
+
+#: src/brightside.c:500 src/brightside.c:573
+msgid "Screen Corners and Edges daemon"
+msgstr ""
+
+#: src/brightside.c:579
+msgid "Screen Corners and Edges daemon active"
+msgstr ""
+
+#: src/brightside.c:1733
+msgid "Daemon already running, exiting...\n"
+msgstr ""
+
+#: src/brightside.c:1742
+msgid ""
+"Couldn't load the Glade file.\n"
+"Make sure that this daemon is properly installed."
+msgstr ""
+"Glade-файлыг ачаалж чадсангүй.\n"
+"Энэ ар программ зөв суусан эсэхийг шалгана уу."
+
+#: src/brightside.glade.h:1
+msgid "Volume"
+msgstr "Чанга"
+
+#: src/brightside.h:65
+#, fuzzy
+msgid "Mute volume"
+msgstr "Дуугүй-товчилуур"
+
+#: src/brightside.h:67
+msgid "Prevent screensaver starting"
+msgstr ""
+
+#: src/brightside.h:69
+#, fuzzy
+msgid "Start screensaver"
+msgstr "Дэлгэц гамнах-товчилуур"
+
+#: src/brightside.h:71
+msgid "Enter DPMS standby mode"
+msgstr ""
+
+#: src/brightside.h:73
+msgid "Enter DPMS suspend mode"
+msgstr ""
+
+#: src/brightside.h:75
+msgid "Enter DPMS off mode"
+msgstr ""
+
+#: src/brightside.h:78
+msgid "Dim laptop backlight"
+msgstr ""
+
+#: src/brightside.h:81
+msgid "Custom action..."
+msgstr ""
+
+#: src/brightside-properties.c:283 src/brightside-properties.glade.h:9
+#: src/brightside.desktop.in.h:2
+msgid "Screen Corners and Edges"
+msgstr ""
+
+#: src/brightside-properties.glade.h:1 src/custom-action.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: src/brightside-properties.glade.h:2
+msgid "<small><i>Long</i></small>"
+msgstr ""
+
+#: src/brightside-properties.glade.h:3
+msgid "<small><i>Short</i></small>"
+msgstr ""
+
+#: src/brightside-properties.glade.h:4
+#, fuzzy
+msgid "<span weight=\"bold\">Screen Corners</span>"
+msgstr "<span weight=\"bold\">Аудио-тохируулга</span>"
+
+#: src/brightside-properties.glade.h:5
+#, fuzzy
+msgid "<span weight=\"bold\">Screen Edges</span>"
+msgstr "<span weight=\"bold\">Аудио-тохируулга</span>"
+
+#: src/brightside-properties.glade.h:6
+#, fuzzy
+msgid "Action to take while mouse is placed in corner of screen"
+msgstr "Түлхэх (Eject) товчилуур дарснаар тушаал гүйцэтгэх"
+
+#: src/brightside-properties.glade.h:7
+msgid "Bottom r_ight corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:8
+msgid "D_elay:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:10
+msgid "Switch to _adjacent workspace when mouse is moved to edge of screen"
+msgstr ""
+
+#: src/brightside-properties.glade.h:11
+msgid "Top _right corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:12
+msgid "When switching workspace, _wrap around edges of workspace layout"
+msgstr ""
+
+#: src/brightside-properties.glade.h:13
+msgid "_Bottom left corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:14
+msgid "_Configurable actions"
+msgstr ""
+
+#: src/brightside-properties.glade.h:15
+msgid "_Delay:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:16
+msgid "_Switch to diagonally adjacent workspace"
+msgstr ""
+
+#: src/brightside-properties.glade.h:17
+msgid "_Top left corner:"
+msgstr ""
+
+#: src/brightside.desktop.in.h:1
+#, fuzzy
+msgid "Configure screen-edge behaviour"
+msgstr "Мультимедиа товчилуурын харьцааг тогтоох"
+
+#: src/brightside.schemas.in.h:1
+msgid "Action enabled when mouse is in bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:2
+msgid "Action enabled when mouse is in bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:3
+msgid "Action enabled when mouse is in top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:4
+msgid "Action enabled when mouse is in top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:5
+msgid "Action to occur when mouse is in bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:6
+msgid "Action to occur when mouse is in bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:7
+msgid "Action to occur when mouse is in top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:8
+msgid "Action to occur when mouse is in top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:9
+msgid "After flip command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:10
+msgid "Bottom left corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:11
+msgid "Bottom left corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:12
+msgid "Bottom left corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:13
+msgid "Bottom left corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:14
+msgid "Bottom left corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:15
+msgid "Bottom right corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:16
+msgid "Bottom right corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:17
+msgid "Bottom right corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:18
+msgid "Bottom right corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:19
+msgid "Bottom right corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:20
+msgid "Command to execute after flipping workspace (empty string for none)"
+msgstr ""
+
+#: src/brightside.schemas.in.h:21
+msgid "Corner delay"
+msgstr ""
+
+#: src/brightside.schemas.in.h:22
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse enters bottom left corner of screen"
+msgstr "Түлхэх (Eject) товчилуур дарснаар тушаал гүйцэтгэх"
+
+#: src/brightside.schemas.in.h:23
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse enters bottom right corner of screen"
+msgstr "Түлхэх (Eject) товчилуур дарснаар тушаал гүйцэтгэх"
+
+#: src/brightside.schemas.in.h:24
+#, fuzzy
+msgid "Custom command to execute when mouse enters top left corner of screen"
+msgstr "Түлхэх (Eject) товчилуур дарснаар тушаал гүйцэтгэх"
+
+#: src/brightside.schemas.in.h:25
+#, fuzzy
+msgid "Custom command to execute when mouse enters top right corner of screen"
+msgstr "Түлхэх (Eject) товчилуур дарснаар тушаал гүйцэтгэх"
+
+#: src/brightside.schemas.in.h:26
+#, fuzzy
+msgid "Custom command to execute when mouse exits bottom left corner of screen"
+msgstr "Түлхэх (Eject) товчилуур дарснаар тушаал гүйцэтгэх"
+
+#: src/brightside.schemas.in.h:27
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse exits bottom right corner of screen"
+msgstr "Түлхэх (Eject) товчилуур дарснаар тушаал гүйцэтгэх"
+
+#: src/brightside.schemas.in.h:28
+#, fuzzy
+msgid "Custom command to execute when mouse exits top left corner of screen"
+msgstr "Түлхэх (Eject) товчилуур дарснаар тушаал гүйцэтгэх"
+
+#: src/brightside.schemas.in.h:29
+#, fuzzy
+msgid "Custom command to execute when mouse exits top right corner of screen"
+msgstr "Түлхэх (Eject) товчилуур дарснаар тушаал гүйцэтгэх"
+
+#: src/brightside.schemas.in.h:30
+msgid "Delay in milliseconds before edge flip occurs"
+msgstr ""
+
+#: src/brightside.schemas.in.h:31
+msgid "Delay in milliseconds before screen corner action occurs"
+msgstr ""
+
+#: src/brightside.schemas.in.h:32
+msgid "Edge delay"
+msgstr ""
+
+#: src/brightside.schemas.in.h:33
+msgid "Edge wrap"
+msgstr ""
+
+#: src/brightside.schemas.in.h:34
+#, fuzzy
+msgid "Enable corner flip"
+msgstr "Идэвхижүүлэх"
+
+#: src/brightside.schemas.in.h:35
+#, fuzzy
+msgid "Enable edge flip"
+msgstr "Идэвхижүүлэх"
+
+#: src/brightside.schemas.in.h:36
+msgid "Orientable workspaces"
+msgstr ""
+
+#: src/brightside.schemas.in.h:37
+msgid ""
+"Switch to diagonally adjacent workspace when mouse placed in the corner of "
+"the screen, instead of executing a configurable action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:38
+msgid ""
+"Switch to the adjacent workspace when the mouse reaches the edge of the "
+"screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:39
+msgid "Terminate custom command when mouse exits bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:40
+msgid "Terminate custom command when mouse exits bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:41
+msgid "Terminate custom command when mouse exits top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:42
+msgid "Terminate custom command when mouse exits top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:43
+msgid "Top left corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:44
+msgid "Top left corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:45
+msgid "Top left corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:46
+msgid "Top left corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:47
+msgid "Top left corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:48
+msgid "Top right corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:49
+msgid "Top right corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:50
+msgid "Top right corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:51
+msgid "Top right corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:52
+msgid "Top right corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:53
+msgid "Use PCM Volume instead of Master Volume"
+msgstr "PCM- г үндсэн чангаруулагчийн оронд хэрэглэх"
+
+#: src/brightside.schemas.in.h:54
+msgid "Whether workspace layout is orientable"
+msgstr ""
+
+#: src/brightside.schemas.in.h:55
+msgid "Wrap wround edges of workspace layout when flipping workspace"
+msgstr ""
+
+#: src/custom-action.glade.h:2
+msgid "*"
+msgstr ""
+
+#: src/custom-action.glade.h:3
+#, fuzzy
+msgid "<span weight=\"bold\">On _entering region</span>"
+msgstr "<span weight=\"bold\">Товчилуур тохируулга </span>"
+
+#: src/custom-action.glade.h:4
+#, fuzzy
+msgid "<span weight=\"bold\">On leaving region</span>"
+msgstr "<span weight=\"bold\">Аудио-тохируулга</span>"
+
+#: src/custom-action.glade.h:5 src/custom-action.c:104
+msgid "Custom action"
+msgstr ""
+
+#: src/custom-action.glade.h:6
+msgid "_Run another command:"
+msgstr ""
+
+#: src/custom-action.glade.h:7
+msgid "_Terminate above application"
+msgstr ""
+
+#~ msgid ""
+#~ "Couldn't execute either command: %s\n"
+#~ "or command: %s\n"
+#~ "Verify that at least one of these commands exist."
+#~ msgstr ""
+#~ "»%s« тушаалыг ч »%s« тушаалыг ч биелүүлж чадсангүй.\n"
+#~ "Энэ тушаалуудыг ядаж нэг нь байгаа эсэхийг шалгана уу."
+
+#~ msgid ""
+#~ "There was an error removing access to the multimedia keys.\n"
+#~ "Key %d couldn't be unbound."
+#~ msgstr ""
+#~ "Мультимедиа-товчилуурын хандалтыг устгаж нэгэн алдаа гарлаа.\n"
+#~ "%d товчилуур устахгүй байна."
+
+#~ msgid ""
+#~ "It seems that another application already has access to the multimedia "
+#~ "keys.\n"
+#~ "Key %d couldn't be bound.\n"
+#~ "Is another daemon already running ?"
+#~ msgstr ""
+#~ "Энэ өөр х.программ мультимедиа-товчилууруудад хандсан юм шиг харагдаж "
+#~ "байна.\n"
+#~ "%d товчилуур зөвшөөрөгдөхгүй байна.\n"
+#~ "Өөр ар программ ажиллаж байгаа юу?"
+
+#~ msgid "Multimedia keys daemon"
+#~ msgstr "Мультимедиа-товчилуурууд ар программ"
+
+#~ msgid "Multimedia Keys daemon active"
+#~ msgstr "Мультимедиа-товчилуурууд ар программ идэвхитэй"
+
+#~ msgid "Volume down key"
+#~ msgstr "Чангалагч-товчилуур"
+
+#~ msgid "Volume up key"
+#~ msgstr "Суллагч-товчилуур"
+
+#~ msgid "Power key"
+#~ msgstr "Асаах-товчилуур"
+
+#~ msgid "Eject key"
+#~ msgstr "Түлхэх товчилуур"
+
+#~ msgid "Media key"
+#~ msgstr "Медиен -товчилуур"
+
+#~ msgid "Play key"
+#~ msgstr "Тоглуулагч-товчилуур"
+
+#~ msgid "Pause key"
+#~ msgstr "Түр зогсолт-товчилуур"
+
+#~ msgid "Stop (Audio) key"
+#~ msgstr "Зогсоох-товчилуур (Аудио)"
+
+#~ msgid "Previous (Audio) key"
+#~ msgstr "Өмнөх-товчилуур (Аудио)"
+
+#~ msgid "Next (Audio) key"
+#~ msgstr "Дараах-товчилуур (Аудио)"
+
+#~ msgid "My Home key"
+#~ msgstr "Хувийн лавлах-товчилуур"
+
+#~ msgid "Refresh key"
+#~ msgstr "Сэргээгч товчилуур"
+
+#~ msgid "Search key"
+#~ msgstr "Хайх-товчилуур"
+
+#~ msgid "E-Mail key"
+#~ msgstr "Э-Захиа-товчилуур"
+
+#~ msgid "Sleep key"
+#~ msgstr "Унтуулах-товчилуур"
+
+#~ msgid "Finance key"
+#~ msgstr "Санхүү-товчилуур"
+
+#~ msgid "Help key"
+#~ msgstr "Тусламж-товчилуур"
+
+#~ msgid "WWW key"
+#~ msgstr "Интернэт-товчилуур"
+
+#~ msgid "Groups key"
+#~ msgstr "Групп-товчилуур"
+
+#~ msgid "Calculator key"
+#~ msgstr "Тооны машин-товчилуур"
+
+#~ msgid "Record key"
+#~ msgstr "Бичлэгийн товчилуур"
+
+#~ msgid "Close Window key"
+#~ msgstr "Цонх хаах товчилуур"
+
+#~ msgid "Shade Window key"
+#~ msgstr "Цонх сүүдэрлүүлэх товчилуур"
+
+#~ msgid "Brightness down key"
+#~ msgstr "Харлуулагч товчилуур"
+
+#~ msgid "Brightness up key"
+#~ msgstr "Цайруулагч товчилуур"
+
+#~ msgid "Disabled"
+#~ msgstr "Хаах"
+
+#~ msgid ""
+#~ "This key is already bound to action '%s'.\n"
+#~ "Please select another key."
+#~ msgstr ""
+#~ "Энэ товч хэдийнэ '%s' үйлдэлд хэрэглэгдсэн.\n"
+#~ "Өөр товчилуур сонгоно уу."
+
+#~ msgid "Description"
+#~ msgstr "Тодорхойлолт"
+
+#~ msgid "Status"
+#~ msgstr "Төлөв"
+
+#~ msgid "Multimedia Keys Preferences"
+#~ msgstr "Медиа товчилуурын тохируулга"
+
+#~ msgid ""
+#~ "To assign a key to an action, click on a line, and press the key you want "
+#~ "to associate with it.\n"
+#~ "\"C\" cancels the capture, and \"Backspace\" disables the key shortcut."
+#~ msgstr ""
+#~ "Та товчилуурыг үйлдэлтэй холбохдоо мөрөн дээр товшилоод дараа нь холбохыг "
+#~ "хүссэн товчилуур дээрээ дарна уу.\n"
+#~ "\"C\" шивээсийг авах ба \"Backspace\" товчилуурын хураангуйг устгана."
+
+#~ msgid "Use _PCM volume instead of Master volume"
+#~ msgstr "_PCM- г үндсэн чангаруулагчийн оронд хэрэглэх"
+
+#~ msgid "Multimedia Keys"
+#~ msgstr "Мультимедиа товчилуурууд"
+
+#~ msgid "Brightness down key's XKeycode"
+#~ msgstr "Харлуулагч товчилуурын XKeycode "
+
+#~ msgid "Brightness down key's XKeycode, 0 to disable"
+#~ msgstr "Харлуулагч товчилуурын XKeycode 0 бол хаах"
+
+#~ msgid "Brightness up key's XKeycode"
+#~ msgstr "Цайруулагч товчилуурын XKeycode"
+
+#~ msgid "Brightness up key's XKeycode, 0 to disable"
+#~ msgstr "Цайруулагч товчилуурын XKeycode 0 бол хаах"
+
+#~ msgid "Calculator key's XKeycode"
+#~ msgstr "Тооны машин товчилуурын XKeycode"
+
+#~ msgid "Calculator key's XKeycode, 0 to disable"
+#~ msgstr "Тооны машин товчилуурын XKeycode 0 бол хаах"
+
+#~ msgid "Close Window key's XKeycode"
+#~ msgstr "Цонх хаах товчилуурын XKeycode"
+
+#~ msgid "Close Window key's XKeycode, 0 to disable"
+#~ msgstr "Цонх хаах товчилуурын XKeycode 0 бол хаах"
+
+#~ msgid "E-Mail key's XKeycode"
+#~ msgstr "Э-захиа товчилуурын XKeycode"
+
+#~ msgid "E-Mail key's XKeycode, 0 to disable"
+#~ msgstr "Э-захиа товчилуурын XKeycode 0 бол хаах"
+
+#~ msgid "Eject key's XKeycode"
+#~ msgstr "Түлхэх товчилуурын XKeycode"
+
+#~ msgid "Eject key's XKeycode, 0 to disable"
+#~ msgstr "Түлхэх товчилуурын XKeycode 0 бол хаах"
+
+#~ msgid "Finance key's XKeycode"
+#~ msgstr "Санхүү товчилуурын XKeycode"
+
+#~ msgid "Finance key's XKeycode, 0 to disable"
+#~ msgstr "Санхүү товчилуурын XKeycode 0 бол хаах"
+
+#~ msgid "Groups key's XKeycode"
+#~ msgstr "Групп товчилуурын XKeycode"
+
+#~ msgid "Groups key's XKeycode, 0 to disable"
+#~ msgstr "Групп товчилуурын XKeycode 0 бол хаах"
+
+#~ msgid "Help key's XKeycode"
+#~ msgstr "Тусламж товчилуурын XKeycode"
+
+#~ msgid "Help key's XKeycode, 0 to disable"
+#~ msgstr "Тусламж товчилуурын XKeycode 0 бол хаах"
+
+#~ msgid "Mute key's XKeycode"
+#~ msgstr "Дуугүй товчилуурын XKeycode"
+
+#~ msgid "Mute key's XKeycode, 0 to disable"
+#~ msgstr "Дуугүй товчилуурын XKeycode 0 бол хаах"
+
+#~ msgid "My Home key's XKeycode"
+#~ msgstr "Хувийн лавлах товчилуурын XKeycode"
+
+#~ msgid "My Home key's XKeycode, 0 to disable"
+#~ msgstr "Хувийн лавлах товчилуурын XKeycode 0 бол хаах"
+
+#~ msgid "Next key's XKeycode"
+#~ msgstr "Дараах товчилуурын XKeycode"
+
+#~ msgid "Next key's XKeycode, 0 to disable"
+#~ msgstr "Дараах товчилуурын XKeycode 0 бол хаах"
+
+#~ msgid "Pause key's XKeycode"
+#~ msgstr "Түр зогсолт товчилуурын XKeycode"
+
+#~ msgid "Pause key's XKeycode, 0 to disable"
+#~ msgstr "Түр зогсолт товчилуурын XKeycode 0 бол хаах"
+
+#~ msgid "Play key's XKeycode"
+#~ msgstr "Тоглуулагч товчилуурын XKeycode"
+
+#~ msgid "Play key's XKeycode, 0 to disable"
+#~ msgstr "Тоглуулагч товчилуурын XKeycode"
+
+#~ msgid "Power key's XKeycode"
+#~ msgstr "Асаагч товчилуурын XKeycode"
+
+#~ msgid "Power key's XKeycode, 0 to disable"
+#~ msgstr "Асаагч товчилуурын XKeycode бол хаах"
+
+#~ msgid "Previous key's XKeycode"
+#~ msgstr "Өмнөх товчилуурын XKeycode"
+
+#~ msgid "Previous key's XKeycode, 0 to disable"
+#~ msgstr "Өмнөх товчилуурын XKeycode 0 бол хаах"
+
+#~ msgid "Record key's XKeycode"
+#~ msgstr "Бичлэг товчилуурын XKeycode"
+
+#~ msgid "Record key's XKeycode, 0 to disable"
+#~ msgstr "Бичлэг товчилуурын XKeycode 0 бол хаах"
+
+#~ msgid "Refresh key's XKeycode"
+#~ msgstr "Сэргээгч товчилуурын XKeycode"
+
+#~ msgid "Refresh key's XKeycode, 0 to disable"
+#~ msgstr "Сэргээгч товчилуурын XKeycode 0 бол хаах"
+
+#~ msgid "Screensaver key's XKeycode"
+#~ msgstr "Дэлгэц гамгах товчилуурын XKeycode"
+
+#~ msgid "Screensaver key's XKeycode, 0 to disable"
+#~ msgstr "Дэлгэц гамгах товчилуурын XKeycode 0 бол хаах"
+
+#~ msgid "Search key's XKeycode"
+#~ msgstr "Хайх товчилуурын XKeycode"
+
+#~ msgid "Search key's XKeycode, 0 to disable"
+#~ msgstr "Хайх товчилуурын XKeycode 0 бол хаах"
+
+#~ msgid "Shade Window key's XKeycode"
+#~ msgstr "Цонх сүүдэрлүүлэх товчилуурын XKeycode"
+
+#~ msgid "Shade Window key's XKeycode, 0 to disable"
+#~ msgstr "Цонх сүүдэрлүүлэх товчилуурын XKeycode 0 бол хаах"
+
+#~ msgid "Sleep key's XKeycode"
+#~ msgstr "Унтуулагч товчилуурын XKeycode"
+
+#~ msgid "Sleep key's XKeycode, 0 to disable"
+#~ msgstr "Унтуулагч товчилуурын XKeycode 0 бол хаах"
+
+#~ msgid "Sound file to be played when volume is changed"
+#~ msgstr "Чанга өөрчилөгдөх үед тоглуулах дууны файл "
+
+#~ msgid "Volume down key's XKeycode"
+#~ msgstr "Зөөлрүүлэгч товчилуурын XKeycode"
+
+#~ msgid "Volume down key's XKeycode, 0 to disable"
+#~ msgstr "Суллагч товчилуурын XKeycode 0 бол хаах"
+
+#, fuzzy
+#~ msgid "Volume step"
+#~ msgstr "Чанга"
+
+#~ msgid "Volume up key's XKeycode"
+#~ msgstr "Суллагч товчилуурын XKeycode"
+
+#~ msgid "Volume up key's XKeycode, 0 to disable"
+#~ msgstr "Чангалагч товчилуурын XKeycode 0 бол хаах"
+
+#~ msgid "WWW key's XKeycode"
+#~ msgstr "Интернэт товчилуурын XKeycode"
+
+#~ msgid "WWW key's XKeycode, 0 to disable"
+#~ msgstr "Интернэт товчилуурын XKeycode 0 бол хаах"
+
+#~ msgid "Accelerator key"
+#~ msgstr "Хурдасгагч-товчилуур"
+
+#~ msgid "Accelerator modifiers"
+#~ msgstr "Хурдасгагч сэлгүүр"
+
+#~ msgid "Accelerator Mode"
+#~ msgstr "Хурдасгагч горим"
+
+#~ msgid "The type of accelerator."
+#~ msgstr "Хурдасгагчийн төрөл"
+
+#~ msgid "Type a new accelerator, or press Backspace to clear"
+#~ msgstr "Шинэ хурдасгагч өгнө үү, эсвэл цэвэрлэхдээ Backspace -ыг дарна"
+
+#~ msgid "Type a new accelerator"
+#~ msgstr "Шинэ хурдасгагч оруулна уу"
+
+#~ msgid "_Launch the multimedia key daemon"
+#~ msgstr "Мультимедиа товчилуурын ар программ _эхлүүлэх"

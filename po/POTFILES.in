@@ -1,0 +1,9 @@
+src/brightside.c
+src/brightside.glade
+src/brightside.h
+src/brightside-properties.c
+src/brightside-properties.glade
+src/brightside.desktop.in
+src/brightside.schemas.in
+src/custom-action.glade
+src/custom-action.c

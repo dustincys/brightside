@@ -1,0 +1,790 @@
+# Vietnamese Translation for Brightside.
+# Copyright (C) 2002 Free Software Foundation, Inc.
+# T.M.Thanh <tmthanh@linuxmail.org>, 2002 - 2003
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Brightside-vi\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-01-16 02:13+0000\n"
+"PO-Revision-Date: 2003-09-13 10:23+0700\n"
+"Last-Translator: Trinh Minh Thanh <tmthanh@yahoo.com>\n"
+"Language-Team: Vietnamese <gnomevi-list@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/brightside.c:224
+#, c-format
+msgid ""
+"Couldn't execute command: %s\n"
+"Verify that this command exists."
+msgstr ""
+"Không thể thực thi lệnh: %s\n"
+"Kiểm tra xem lệnh này có tồn tại không."
+
+#: src/brightside.c:243
+#, c-format
+msgid ""
+"Permissions on the file %s are broken\n"
+"Please check Brightside's documentation, correct the problem and restart "
+"Brightside."
+msgstr ""
+"Sự cho phép với tập tin %s bị hỏng\n"
+"Hãy kiểm tra tài liệu Brightside, hiệu chỉnh trục trặc và khởi động lại "
+"Brightside."
+
+#: src/brightside.c:487
+msgid "translator_credits"
+msgstr "đóng góp dịch thuật"
+
+#: src/brightside.c:498
+msgid "Brightside"
+msgstr "Brightside"
+
+#: src/brightside.c:500 src/brightside.c:573
+msgid "Screen Corners and Edges daemon"
+msgstr ""
+
+#: src/brightside.c:579
+msgid "Screen Corners and Edges daemon active"
+msgstr ""
+
+#: src/brightside.c:1733
+msgid "Daemon already running, exiting...\n"
+msgstr ""
+
+#: src/brightside.c:1742
+msgid ""
+"Couldn't load the Glade file.\n"
+"Make sure that this daemon is properly installed."
+msgstr ""
+"Không thể nạp tập tin Glade.\n"
+"Hãy đảm bảo là daemon này được cài đặt đúng."
+
+#: src/brightside.glade.h:1
+msgid "Volume"
+msgstr "Âm Lượng"
+
+#: src/brightside.h:65
+#, fuzzy
+msgid "Mute volume"
+msgstr "Phím Tắt Tiếng"
+
+#: src/brightside.h:67
+msgid "Prevent screensaver starting"
+msgstr ""
+
+#: src/brightside.h:69
+#, fuzzy
+msgid "Start screensaver"
+msgstr "Phím Trình Bảo Vệ Màn Hình"
+
+#: src/brightside.h:71
+msgid "Enter DPMS standby mode"
+msgstr ""
+
+#: src/brightside.h:73
+msgid "Enter DPMS suspend mode"
+msgstr ""
+
+#: src/brightside.h:75
+msgid "Enter DPMS off mode"
+msgstr ""
+
+#: src/brightside.h:78
+msgid "Dim laptop backlight"
+msgstr ""
+
+#: src/brightside.h:81
+msgid "Custom action..."
+msgstr ""
+
+#: src/brightside-properties.c:283 src/brightside-properties.glade.h:9
+#: src/brightside.desktop.in.h:2
+msgid "Screen Corners and Edges"
+msgstr ""
+
+#: src/brightside-properties.glade.h:1 src/custom-action.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: src/brightside-properties.glade.h:2
+msgid "<small><i>Long</i></small>"
+msgstr ""
+
+#: src/brightside-properties.glade.h:3
+msgid "<small><i>Short</i></small>"
+msgstr ""
+
+#: src/brightside-properties.glade.h:4
+#, fuzzy
+msgid "<span weight=\"bold\">Screen Corners</span>"
+msgstr "<span weight=\"bold\">Thiết Lập Âm Thanh</span>"
+
+#: src/brightside-properties.glade.h:5
+#, fuzzy
+msgid "<span weight=\"bold\">Screen Edges</span>"
+msgstr "<span weight=\"bold\">Thiết Lập Âm Thanh</span>"
+
+#: src/brightside-properties.glade.h:6
+#, fuzzy
+msgid "Action to take while mouse is placed in corner of screen"
+msgstr "Lệnh thực thi khi nhấn nút Nhả Ra"
+
+#: src/brightside-properties.glade.h:7
+msgid "Bottom r_ight corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:8
+msgid "D_elay:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:10
+msgid "Switch to _adjacent workspace when mouse is moved to edge of screen"
+msgstr ""
+
+#: src/brightside-properties.glade.h:11
+msgid "Top _right corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:12
+msgid "When switching workspace, _wrap around edges of workspace layout"
+msgstr ""
+
+#: src/brightside-properties.glade.h:13
+msgid "_Bottom left corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:14
+msgid "_Configurable actions"
+msgstr ""
+
+#: src/brightside-properties.glade.h:15
+msgid "_Delay:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:16
+msgid "_Switch to diagonally adjacent workspace"
+msgstr ""
+
+#: src/brightside-properties.glade.h:17
+msgid "_Top left corner:"
+msgstr ""
+
+#: src/brightside.desktop.in.h:1
+#, fuzzy
+msgid "Configure screen-edge behaviour"
+msgstr "Cấu hình ứng xử phím đa phương tiện"
+
+#: src/brightside.schemas.in.h:1
+msgid "Action enabled when mouse is in bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:2
+msgid "Action enabled when mouse is in bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:3
+msgid "Action enabled when mouse is in top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:4
+msgid "Action enabled when mouse is in top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:5
+msgid "Action to occur when mouse is in bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:6
+msgid "Action to occur when mouse is in bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:7
+msgid "Action to occur when mouse is in top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:8
+msgid "Action to occur when mouse is in top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:9
+msgid "After flip command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:10
+msgid "Bottom left corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:11
+msgid "Bottom left corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:12
+msgid "Bottom left corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:13
+msgid "Bottom left corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:14
+msgid "Bottom left corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:15
+msgid "Bottom right corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:16
+msgid "Bottom right corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:17
+msgid "Bottom right corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:18
+msgid "Bottom right corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:19
+msgid "Bottom right corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:20
+msgid "Command to execute after flipping workspace (empty string for none)"
+msgstr ""
+
+#: src/brightside.schemas.in.h:21
+msgid "Corner delay"
+msgstr ""
+
+#: src/brightside.schemas.in.h:22
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse enters bottom left corner of screen"
+msgstr "Lệnh thực thi khi nhấn nút Nhả Ra"
+
+#: src/brightside.schemas.in.h:23
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse enters bottom right corner of screen"
+msgstr "Lệnh thực thi khi nhấn nút Nhả Ra"
+
+#: src/brightside.schemas.in.h:24
+#, fuzzy
+msgid "Custom command to execute when mouse enters top left corner of screen"
+msgstr "Lệnh thực thi khi nhấn nút Nhả Ra"
+
+#: src/brightside.schemas.in.h:25
+#, fuzzy
+msgid "Custom command to execute when mouse enters top right corner of screen"
+msgstr "Lệnh thực thi khi nhấn nút Nhả Ra"
+
+#: src/brightside.schemas.in.h:26
+#, fuzzy
+msgid "Custom command to execute when mouse exits bottom left corner of screen"
+msgstr "Lệnh thực thi khi nhấn nút Nhả Ra"
+
+#: src/brightside.schemas.in.h:27
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse exits bottom right corner of screen"
+msgstr "Lệnh thực thi khi nhấn nút Nhả Ra"
+
+#: src/brightside.schemas.in.h:28
+#, fuzzy
+msgid "Custom command to execute when mouse exits top left corner of screen"
+msgstr "Lệnh thực thi khi nhấn nút Nhả Ra"
+
+#: src/brightside.schemas.in.h:29
+#, fuzzy
+msgid "Custom command to execute when mouse exits top right corner of screen"
+msgstr "Lệnh thực thi khi nhấn nút Nhả Ra"
+
+#: src/brightside.schemas.in.h:30
+msgid "Delay in milliseconds before edge flip occurs"
+msgstr ""
+
+#: src/brightside.schemas.in.h:31
+msgid "Delay in milliseconds before screen corner action occurs"
+msgstr ""
+
+#: src/brightside.schemas.in.h:32
+msgid "Edge delay"
+msgstr ""
+
+#: src/brightside.schemas.in.h:33
+msgid "Edge wrap"
+msgstr ""
+
+#: src/brightside.schemas.in.h:34
+#, fuzzy
+msgid "Enable corner flip"
+msgstr "Bật chạy"
+
+#: src/brightside.schemas.in.h:35
+#, fuzzy
+msgid "Enable edge flip"
+msgstr "Bật chạy"
+
+#: src/brightside.schemas.in.h:36
+msgid "Orientable workspaces"
+msgstr ""
+
+#: src/brightside.schemas.in.h:37
+msgid ""
+"Switch to diagonally adjacent workspace when mouse placed in the corner of "
+"the screen, instead of executing a configurable action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:38
+msgid ""
+"Switch to the adjacent workspace when the mouse reaches the edge of the "
+"screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:39
+msgid "Terminate custom command when mouse exits bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:40
+msgid "Terminate custom command when mouse exits bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:41
+msgid "Terminate custom command when mouse exits top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:42
+msgid "Terminate custom command when mouse exits top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:43
+msgid "Top left corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:44
+msgid "Top left corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:45
+msgid "Top left corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:46
+msgid "Top left corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:47
+msgid "Top left corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:48
+msgid "Top right corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:49
+msgid "Top right corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:50
+msgid "Top right corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:51
+msgid "Top right corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:52
+msgid "Top right corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:53
+msgid "Use PCM Volume instead of Master Volume"
+msgstr "Dùng Âm Lượng PCM thay cho Âm Lượng CHÍNH"
+
+#: src/brightside.schemas.in.h:54
+msgid "Whether workspace layout is orientable"
+msgstr ""
+
+#: src/brightside.schemas.in.h:55
+msgid "Wrap wround edges of workspace layout when flipping workspace"
+msgstr ""
+
+#: src/custom-action.glade.h:2
+msgid "*"
+msgstr ""
+
+#: src/custom-action.glade.h:3
+#, fuzzy
+msgid "<span weight=\"bold\">On _entering region</span>"
+msgstr "<span weight=\"bold\">Thiết Lập Phím</span>"
+
+#: src/custom-action.glade.h:4
+#, fuzzy
+msgid "<span weight=\"bold\">On leaving region</span>"
+msgstr "<span weight=\"bold\">Thiết Lập Âm Thanh</span>"
+
+#: src/custom-action.glade.h:5 src/custom-action.c:104
+msgid "Custom action"
+msgstr ""
+
+#: src/custom-action.glade.h:6
+msgid "_Run another command:"
+msgstr ""
+
+#: src/custom-action.glade.h:7
+msgid "_Terminate above application"
+msgstr ""
+
+#~ msgid ""
+#~ "Couldn't execute either command: %s\n"
+#~ "or command: %s\n"
+#~ "Verify that at least one of these commands exist."
+#~ msgstr ""
+#~ "Không thể thực thi lệnh: %s\n"
+#~ "hay lệnh: %s\n"
+#~ "Kiểm tra xem một trong các lệnh đó có tồn tại không."
+
+#~ msgid ""
+#~ "There was an error removing access to the multimedia keys.\n"
+#~ "Key %d couldn't be unbound."
+#~ msgstr ""
+#~ "Có lỗi khi gỡ bỏ truy cập tới các phím đa phương tiện.\n"
+#~ "Không thể giải phóng phím %d."
+
+#~ msgid ""
+#~ "It seems that another application already has access to the multimedia "
+#~ "keys.\n"
+#~ "Key %d couldn't be bound.\n"
+#~ "Is another daemon already running ?"
+#~ msgstr ""
+#~ "Có vẻ như một ứng dụng khác đã truy cập các phím đa phương tiện.\n"
+#~ "Không thể giải phóng phím %d.\n"
+#~ "Có phải một daemon khác đang chạy rồi phải không ?"
+
+#~ msgid "Multimedia keys daemon"
+#~ msgstr "Daemon phím đa phương tiện"
+
+#~ msgid "Multimedia Keys daemon active"
+#~ msgstr "Daemon Phím Đa Phương Tiện hoạt động"
+
+#~ msgid "Volume down key"
+#~ msgstr "Phím Giảm Âm Lượng"
+
+#~ msgid "Volume up key"
+#~ msgstr "Phím Tăng Âm Lượng"
+
+#~ msgid "Power key"
+#~ msgstr "Phím Năng Lượng"
+
+#~ msgid "Eject key"
+#~ msgstr "Phím Nhả Ra"
+
+#~ msgid "Media key"
+#~ msgstr "Phím Phương Tiện"
+
+#~ msgid "Play key"
+#~ msgstr "Phím Chơi"
+
+#~ msgid "Pause key"
+#~ msgstr "Phím Tạm Dừng"
+
+#~ msgid "Stop (Audio) key"
+#~ msgstr "Phím Dừng (Audio)"
+
+#~ msgid "Previous (Audio) key"
+#~ msgstr "Phím Trước (Audio)"
+
+#~ msgid "Next (Audio) key"
+#~ msgstr "Phím Tiếp Theo (Audio)"
+
+#~ msgid "My Home key"
+#~ msgstr "Phím My Home"
+
+#~ msgid "Refresh key"
+#~ msgstr "Phím Làm Tươi Lại"
+
+#~ msgid "Search key"
+#~ msgstr "Phím Tìm Kiếm"
+
+#~ msgid "E-Mail key"
+#~ msgstr "Phím E-Mail"
+
+#~ msgid "Sleep key"
+#~ msgstr "Phím Ngủ"
+
+#~ msgid "Finance key"
+#~ msgstr "Phím Tài Chính"
+
+#~ msgid "Help key"
+#~ msgstr "Phím Trợ Giúp"
+
+#~ msgid "WWW key"
+#~ msgstr "Phím WWW"
+
+#~ msgid "Groups key"
+#~ msgstr "Phím Nhóm"
+
+#~ msgid "Calculator key"
+#~ msgstr "Phím trình Bàn Tính"
+
+#~ msgid "Record key"
+#~ msgstr "Phím Ghi"
+
+#~ msgid "Close Window key"
+#~ msgstr "Phím Đóng Cửa Sổ"
+
+#~ msgid "Shade Window key"
+#~ msgstr "Phím Tạo Bóng Cửa Sổ"
+
+#~ msgid "Brightness down key"
+#~ msgstr "Phím Giảm Độ Sáng"
+
+#~ msgid "Brightness up key"
+#~ msgstr "Phím Tăng Độ Sáng"
+
+#~ msgid "Disabled"
+#~ msgstr "Tắt"
+
+#~ msgid ""
+#~ "This key is already bound to action '%s'.\n"
+#~ "Please select another key."
+#~ msgstr ""
+#~ "Phím này để bật hành động '%s' rồi.\n"
+#~ "Hãy chọn phím khác."
+
+#~ msgid "Description"
+#~ msgstr "Mô tả"
+
+#~ msgid "Status"
+#~ msgstr "Trạng thái"
+
+#~ msgid "Multimedia Keys Preferences"
+#~ msgstr "Tùy Thích Các Phím Đa Phương Tiện"
+
+#~ msgid ""
+#~ "To assign a key to an action, click on a line, and press the key you want "
+#~ "to associate with it.\n"
+#~ "\"C\" cancels the capture, and \"Backspace\" disables the key shortcut."
+#~ msgstr ""
+#~ "Để ấn định một phím cho một hành động, hãy nhấn lên dòng và nhấn phím bạn "
+#~ "muốn liên tác với nó.\n"
+#~ "\"C\" để bỏ qua capture và \"Backspace\" để tắt phím tắt."
+
+#~ msgid "Use _PCM volume instead of Master volume"
+#~ msgstr "Hãy dùng âm lượng _PCM thay cho âm lượng CHÍNH"
+
+#~ msgid "Multimedia Keys"
+#~ msgstr "Phím Đa Phương Tiện"
+
+#~ msgid "Brightness down key's XKeycode"
+#~ msgstr "XKeycode của phím giảm độ sáng"
+
+#~ msgid "Brightness down key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode của phím giảm độ sáng, 0 là tắt"
+
+#~ msgid "Brightness up key's XKeycode"
+#~ msgstr "XKeycode của phím tăng độ sáng"
+
+#~ msgid "Brightness up key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode của phím tăng độ sáng, 0 là tắt"
+
+#~ msgid "Calculator key's XKeycode"
+#~ msgstr "XKeycode của phím trình bàn tính"
+
+#~ msgid "Calculator key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode của phím trình bàn tính, 0 là tắt chức năng"
+
+#~ msgid "Close Window key's XKeycode"
+#~ msgstr "XKeycode của phím Đóng Cửa Sổ"
+
+#~ msgid "Close Window key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode của phím Đóng Cửa Sổ, 0 là tắt"
+
+#~ msgid "E-Mail key's XKeycode"
+#~ msgstr "XKeycode của phím E-Mail"
+
+#~ msgid "E-Mail key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode của phím E-Mail, 0 là tắt chức năng"
+
+#~ msgid "Eject key's XKeycode"
+#~ msgstr "XKeycode của phím Nhả Ra"
+
+#~ msgid "Eject key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode của phím Nhả Ra, 0 là tắt"
+
+#~ msgid "Finance key's XKeycode"
+#~ msgstr "XKeycode của phím Tài Chính"
+
+#~ msgid "Finance key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode của phím Tài Chính, 0 là tắt chức năng"
+
+#~ msgid "Groups key's XKeycode"
+#~ msgstr "XKeycode của phím Nhóm"
+
+#~ msgid "Groups key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode của phím Nhóm, 0 là tắt chức năng"
+
+#~ msgid "Help key's XKeycode"
+#~ msgstr "XKeycode của phím Trợ Giúp"
+
+#~ msgid "Help key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode của phím Trợ Giúp, 0 là tắt chức năng"
+
+#~ msgid "Mute key's XKeycode"
+#~ msgstr "XKeycode của phím Tắt Tiếng"
+
+#~ msgid "Mute key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode của phím Tắt Tiếng, 0 là tắt chức năng"
+
+#~ msgid "My Home key's XKeycode"
+#~ msgstr "XKeycode của phím Nhà Tôi (My Home)"
+
+#~ msgid "My Home key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode của phím Nhà Tôi (My Home), 0 là tắt chức năng"
+
+#~ msgid "Next key's XKeycode"
+#~ msgstr "XKeycode của phím Tiếp Theo"
+
+#~ msgid "Next key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode của phím Tiếp Theo, 0 là tắt"
+
+#~ msgid "Pause key's XKeycode"
+#~ msgstr "XKeycode của phím Tạm Dừng"
+
+#~ msgid "Pause key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode của phím Tạm Dừng, 0 là tắt chức năng"
+
+#~ msgid "Play key's XKeycode"
+#~ msgstr "XKeycode của phím Chơi"
+
+#~ msgid "Play key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode của phím Chơi, 0 là tắt chức năng"
+
+#~ msgid "Power key's XKeycode"
+#~ msgstr "XKeycode của phím Năng Lượng"
+
+#~ msgid "Power key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode của phím Năng Lượng, 0 là tắt chức năng"
+
+#~ msgid "Previous key's XKeycode"
+#~ msgstr "XKeycode của phím Trước"
+
+#~ msgid "Previous key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode của phím Trước, 0 là tắt chức năng"
+
+#~ msgid "Record key's XKeycode"
+#~ msgstr "XKeycode của phím Ghi"
+
+#~ msgid "Record key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode của phím Ghi, 0 là tắt chức năng"
+
+#~ msgid "Refresh key's XKeycode"
+#~ msgstr "XKeycode của phím Làm Tươi Lại"
+
+#~ msgid "Refresh key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode của phím Làm Tươi Lại, 0 là tắt chức năng"
+
+#~ msgid "Screensaver key's XKeycode"
+#~ msgstr "XKeycode của phím Trình Bảo Vệ Màn Hình"
+
+#~ msgid "Screensaver key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode của phím Trình Bảo Vệ Màn Hình, 0 là tắt chức năng"
+
+#~ msgid "Search key's XKeycode"
+#~ msgstr "XKeycode của phím Tìm Kiếm"
+
+#~ msgid "Search key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode của phím Tìm Kiếm, 0 là tắt chức năng"
+
+#~ msgid "Shade Window key's XKeycode"
+#~ msgstr "XKeycode của phím Tạo Bóng Cửa Sổ"
+
+#~ msgid "Shade Window key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode của phím Tạo Bóng Cửa Sổ, 0 là tắt"
+
+#~ msgid "Sleep key's XKeycode"
+#~ msgstr "XKeycode của phím Ngủ"
+
+#~ msgid "Sleep key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode của phím Ngủ, 0 là tắt chức năng"
+
+#~ msgid "Sound file to be played when volume is changed"
+#~ msgstr "Tập tin âm thanh được chơi khi âm lượng thay đổi"
+
+#~ msgid "Volume down key's XKeycode"
+#~ msgstr "XKeycode của phím Giảm Âm Lượng"
+
+#~ msgid "Volume down key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode của phím Giảm Âm Lượng, 0 là tắt"
+
+#, fuzzy
+#~ msgid "Volume step"
+#~ msgstr "Âm Lượng"
+
+#~ msgid "Volume up key's XKeycode"
+#~ msgstr "XKeycode của phím Tăng Âm Lượng"
+
+#~ msgid "Volume up key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode của phím Tăng Âm Lượng, 0 để tắt"
+
+#~ msgid "WWW key's XKeycode"
+#~ msgstr "XKeycode của phím WWW"
+
+#~ msgid "WWW key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode của phím WWW, 0 là tắt chức năng"
+
+#~ msgid "Accelerator key"
+#~ msgstr "Phím nóng"
+
+#~ msgid "Accelerator modifiers"
+#~ msgstr "Phím biến đổi nóng"
+
+#~ msgid "Accelerator Mode"
+#~ msgstr "Chế độ phím nóng"
+
+#~ msgid "The type of accelerator."
+#~ msgstr "Kiểu phím nóng."
+
+#~ msgid "Type a new accelerator, or press Backspace to clear"
+#~ msgstr "Kiểu phím nóng mới, hoặc nhấn Backspace (phím lùi) để xóa sạch"
+
+#~ msgid "Type a new accelerator"
+#~ msgstr "Kiểu phím nóng mới"
+
+#~ msgid "_Launch the multimedia key daemon"
+#~ msgstr "Chạy daemon ph_ím đa phương tiện"
+
+#~ msgid "(C) 2001, 2002 Bastien Nocera"
+#~ msgstr "(C) 2001, 2002 Bastien Nocera"
+
+#~ msgid "Keys setup"
+#~ msgstr "Thiết lập các phím"
+
+#~ msgid "Sound setup"
+#~ msgstr "Thiết lập âm thanh"
+
+#~ msgid ""
+#~ "Your system has no sound support, or Brightside was compiled without any "
+#~ "sound support\n"
+#~ "Brightside will now exit"
+#~ msgstr ""
+#~ "Hệ thống của bạn không hỗ trợ âm thanh, hoặc Brightside đã được biên dịch "
+#~ "không có hỗ trợ âm thanh\n"
+#~ "Brightside sẽ thoát ra bây giờ"
+
+#~ msgid "Keycode value"
+#~ msgstr "Giá trị mã phím"
+
+#~ msgid ""
+#~ "Permissions on the files /dev/fb0 and/or /dev/pmu are broken.\n"
+#~ "Please check Brightside's documentation, correct the problem and restart "
+#~ "Brightside."
+#~ msgstr ""
+#~ "Sự cho phép với tập tin /dev/fb0 và /dev/pmu bị hỏng\n"
+#~ "Hãy kiểm tra tài liệu Brightside, chỉnh lý trục trặc và khởi động lại "
+#~ "Brightside."

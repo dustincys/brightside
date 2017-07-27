@@ -1,0 +1,767 @@
+# Serbian translation of Brightside
+# Courtesy of Prevod.org team (http://www.prevod.org/) -- 2003.
+# 
+# This file is distributed under the same license as the Brightside package.
+# 
+# Maintainer: Danilo Šegan <dsegan@gmx.net>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Brightside\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-01-16 02:13+0000\n"
+"PO-Revision-Date: 2003-10-04 01:32+0200\n"
+"Last-Translator:  Danilo Šegan <danilo@prevod.org>\n"
+"Language-Team: Serbian (sr) <serbiangnome-lista@nongnu.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3;    plural=n%10==1 && n%100!=11 ? 0 :    n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+#: src/brightside.c:224
+#, c-format
+msgid ""
+"Couldn't execute command: %s\n"
+"Verify that this command exists."
+msgstr ""
+"Ne može izvršiti naredbu „%s“\n"
+"Proverite da li ova naredba postoji."
+
+#: src/brightside.c:243
+#, c-format
+msgid ""
+"Permissions on the file %s are broken\n"
+"Please check Brightside's documentation, correct the problem and restart "
+"Brightside."
+msgstr ""
+"Dozvole na datoteci %s su neispravne\n"
+"Proverite dokumentaciju Brightside-a, ispravite problem i ponovo pokrenite "
+"Brightside."
+
+#: src/brightside.c:487
+msgid "translator_credits"
+msgstr ""
+"Danilo Šegan <danilo@prevod.org>\n"
+"Bojan Živanović <bojanz@panet.co.yu>"
+
+#: src/brightside.c:498
+msgid "Brightside"
+msgstr "Brightside"
+
+#: src/brightside.c:500 src/brightside.c:573
+msgid "Screen Corners and Edges daemon"
+msgstr ""
+
+#: src/brightside.c:579
+msgid "Screen Corners and Edges daemon active"
+msgstr ""
+
+#: src/brightside.c:1733
+msgid "Daemon already running, exiting...\n"
+msgstr ""
+
+#: src/brightside.c:1742
+msgid ""
+"Couldn't load the Glade file.\n"
+"Make sure that this daemon is properly installed."
+msgstr ""
+"Ne može učitati Glade datoteku.\n"
+"Proverite da li je uslužni program odgovarajuće pokrenut."
+
+#: src/brightside.glade.h:1
+msgid "Volume"
+msgstr "Jačina zvuka"
+
+#: src/brightside.h:65
+#, fuzzy
+msgid "Mute volume"
+msgstr "Ugasi zvuk"
+
+#: src/brightside.h:67
+msgid "Prevent screensaver starting"
+msgstr ""
+
+#: src/brightside.h:69
+#, fuzzy
+msgid "Start screensaver"
+msgstr "Taster za čuvanje ekrana"
+
+#: src/brightside.h:71
+msgid "Enter DPMS standby mode"
+msgstr ""
+
+#: src/brightside.h:73
+msgid "Enter DPMS suspend mode"
+msgstr ""
+
+#: src/brightside.h:75
+msgid "Enter DPMS off mode"
+msgstr ""
+
+#: src/brightside.h:78
+msgid "Dim laptop backlight"
+msgstr ""
+
+#: src/brightside.h:81
+msgid "Custom action..."
+msgstr ""
+
+#: src/brightside-properties.c:283 src/brightside-properties.glade.h:9
+#: src/brightside.desktop.in.h:2
+msgid "Screen Corners and Edges"
+msgstr ""
+
+#: src/brightside-properties.glade.h:1 src/custom-action.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: src/brightside-properties.glade.h:2
+msgid "<small><i>Long</i></small>"
+msgstr ""
+
+#: src/brightside-properties.glade.h:3
+msgid "<small><i>Short</i></small>"
+msgstr ""
+
+#: src/brightside-properties.glade.h:4
+#, fuzzy
+msgid "<span weight=\"bold\">Screen Corners</span>"
+msgstr "<span weight=\"bold\">Podešavanje zvuka</span>"
+
+#: src/brightside-properties.glade.h:5
+#, fuzzy
+msgid "<span weight=\"bold\">Screen Edges</span>"
+msgstr "<span weight=\"bold\">Podešavanje zvuka</span>"
+
+#: src/brightside-properties.glade.h:6
+#, fuzzy
+msgid "Action to take while mouse is placed in corner of screen"
+msgstr "Naredba za izvršenje po pritisku na taster za izbacivanje"
+
+#: src/brightside-properties.glade.h:7
+msgid "Bottom r_ight corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:8
+msgid "D_elay:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:10
+msgid "Switch to _adjacent workspace when mouse is moved to edge of screen"
+msgstr ""
+
+#: src/brightside-properties.glade.h:11
+msgid "Top _right corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:12
+msgid "When switching workspace, _wrap around edges of workspace layout"
+msgstr ""
+
+#: src/brightside-properties.glade.h:13
+msgid "_Bottom left corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:14
+msgid "_Configurable actions"
+msgstr ""
+
+#: src/brightside-properties.glade.h:15
+msgid "_Delay:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:16
+msgid "_Switch to diagonally adjacent workspace"
+msgstr ""
+
+#: src/brightside-properties.glade.h:17
+msgid "_Top left corner:"
+msgstr ""
+
+#: src/brightside.desktop.in.h:1
+#, fuzzy
+msgid "Configure screen-edge behaviour"
+msgstr "Postavi ponašanje tastera za multimediju"
+
+#: src/brightside.schemas.in.h:1
+msgid "Action enabled when mouse is in bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:2
+msgid "Action enabled when mouse is in bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:3
+msgid "Action enabled when mouse is in top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:4
+msgid "Action enabled when mouse is in top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:5
+msgid "Action to occur when mouse is in bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:6
+msgid "Action to occur when mouse is in bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:7
+msgid "Action to occur when mouse is in top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:8
+msgid "Action to occur when mouse is in top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:9
+msgid "After flip command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:10
+msgid "Bottom left corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:11
+msgid "Bottom left corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:12
+msgid "Bottom left corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:13
+msgid "Bottom left corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:14
+msgid "Bottom left corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:15
+msgid "Bottom right corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:16
+msgid "Bottom right corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:17
+msgid "Bottom right corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:18
+msgid "Bottom right corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:19
+msgid "Bottom right corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:20
+msgid "Command to execute after flipping workspace (empty string for none)"
+msgstr ""
+
+#: src/brightside.schemas.in.h:21
+msgid "Corner delay"
+msgstr ""
+
+#: src/brightside.schemas.in.h:22
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse enters bottom left corner of screen"
+msgstr "Naredba za izvršenje po pritisku na taster za izbacivanje"
+
+#: src/brightside.schemas.in.h:23
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse enters bottom right corner of screen"
+msgstr "Naredba za izvršenje po pritisku na taster za izbacivanje"
+
+#: src/brightside.schemas.in.h:24
+#, fuzzy
+msgid "Custom command to execute when mouse enters top left corner of screen"
+msgstr "Naredba za izvršenje po pritisku na taster za izbacivanje"
+
+#: src/brightside.schemas.in.h:25
+#, fuzzy
+msgid "Custom command to execute when mouse enters top right corner of screen"
+msgstr "Naredba za izvršenje po pritisku na taster za izbacivanje"
+
+#: src/brightside.schemas.in.h:26
+#, fuzzy
+msgid "Custom command to execute when mouse exits bottom left corner of screen"
+msgstr "Naredba za izvršenje po pritisku na taster za izbacivanje"
+
+#: src/brightside.schemas.in.h:27
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse exits bottom right corner of screen"
+msgstr "Naredba za izvršenje po pritisku na taster za izbacivanje"
+
+#: src/brightside.schemas.in.h:28
+#, fuzzy
+msgid "Custom command to execute when mouse exits top left corner of screen"
+msgstr "Naredba za izvršenje po pritisku na taster za izbacivanje"
+
+#: src/brightside.schemas.in.h:29
+#, fuzzy
+msgid "Custom command to execute when mouse exits top right corner of screen"
+msgstr "Naredba za izvršenje po pritisku na taster za izbacivanje"
+
+#: src/brightside.schemas.in.h:30
+msgid "Delay in milliseconds before edge flip occurs"
+msgstr ""
+
+#: src/brightside.schemas.in.h:31
+msgid "Delay in milliseconds before screen corner action occurs"
+msgstr ""
+
+#: src/brightside.schemas.in.h:32
+msgid "Edge delay"
+msgstr ""
+
+#: src/brightside.schemas.in.h:33
+msgid "Edge wrap"
+msgstr ""
+
+#: src/brightside.schemas.in.h:34
+#, fuzzy
+msgid "Enable corner flip"
+msgstr "Uključeno"
+
+#: src/brightside.schemas.in.h:35
+#, fuzzy
+msgid "Enable edge flip"
+msgstr "Uključeno"
+
+#: src/brightside.schemas.in.h:36
+msgid "Orientable workspaces"
+msgstr ""
+
+#: src/brightside.schemas.in.h:37
+msgid ""
+"Switch to diagonally adjacent workspace when mouse placed in the corner of "
+"the screen, instead of executing a configurable action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:38
+msgid ""
+"Switch to the adjacent workspace when the mouse reaches the edge of the "
+"screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:39
+msgid "Terminate custom command when mouse exits bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:40
+msgid "Terminate custom command when mouse exits bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:41
+msgid "Terminate custom command when mouse exits top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:42
+msgid "Terminate custom command when mouse exits top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:43
+msgid "Top left corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:44
+msgid "Top left corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:45
+msgid "Top left corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:46
+msgid "Top left corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:47
+msgid "Top left corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:48
+msgid "Top right corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:49
+msgid "Top right corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:50
+msgid "Top right corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:51
+msgid "Top right corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:52
+msgid "Top right corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:53
+msgid "Use PCM Volume instead of Master Volume"
+msgstr "Koristi PCM jačinu zvuka umesto glavne jačine"
+
+#: src/brightside.schemas.in.h:54
+msgid "Whether workspace layout is orientable"
+msgstr ""
+
+#: src/brightside.schemas.in.h:55
+msgid "Wrap wround edges of workspace layout when flipping workspace"
+msgstr ""
+
+#: src/custom-action.glade.h:2
+msgid "*"
+msgstr ""
+
+#: src/custom-action.glade.h:3
+#, fuzzy
+msgid "<span weight=\"bold\">On _entering region</span>"
+msgstr "<span weight=\"bold\">Podešavanje tastera </span>"
+
+#: src/custom-action.glade.h:4
+#, fuzzy
+msgid "<span weight=\"bold\">On leaving region</span>"
+msgstr "<span weight=\"bold\">Podešavanje zvuka</span>"
+
+#: src/custom-action.glade.h:5 src/custom-action.c:104
+msgid "Custom action"
+msgstr ""
+
+#: src/custom-action.glade.h:6
+msgid "_Run another command:"
+msgstr ""
+
+#: src/custom-action.glade.h:7
+msgid "_Terminate above application"
+msgstr ""
+
+#~ msgid ""
+#~ "Couldn't execute either command: %s\n"
+#~ "or command: %s\n"
+#~ "Verify that at least one of these commands exist."
+#~ msgstr ""
+#~ "Ne može izvršiti ni naredbu „%s“\n"
+#~ "ni naredbu „%s“\n"
+#~ "Proverite da li bar jedna od ovih naredbi postoji."
+
+#~ msgid ""
+#~ "There was an error removing access to the multimedia keys.\n"
+#~ "Key %d couldn't be unbound."
+#~ msgstr ""
+#~ "Došlo je do greške pri uklanjanju pristupa tasterima za multimediju.\n"
+#~ "Taster %d je ostao vezan."
+
+#~ msgid ""
+#~ "It seems that another application already has access to the multimedia "
+#~ "keys.\n"
+#~ "Key %d couldn't be bound.\n"
+#~ "Is another daemon already running ?"
+#~ msgstr ""
+#~ "Čini se da drugi program već ima pristup tasterima za multimediju.\n"
+#~ "Tasteru %d se ne može dodeliti značenje.\n"
+#~ "Da nije već pokrenut jedan uslužni program?"
+
+#~ msgid "Multimedia keys daemon"
+#~ msgstr "Uslužni program za tastere za multimediju"
+
+#~ msgid "Multimedia Keys daemon active"
+#~ msgstr "Uslužni program za tastere za multimediju je aktivan"
+
+#~ msgid "Volume down key"
+#~ msgstr "Taster za utišavanje"
+
+#~ msgid "Volume up key"
+#~ msgstr "Taster za pojačavanje"
+
+#~ msgid "Power key"
+#~ msgstr "Taster za gašenje"
+
+# Ne mora biti samo CD i samo fioka; ovako je nešto opštije
+#~ msgid "Eject key"
+#~ msgstr "Taster za izbacivanje diska"
+
+#~ msgid "Media key"
+#~ msgstr "Medija taster"
+
+#~ msgid "Play key"
+#~ msgstr "Taster za puštanje"
+
+#~ msgid "Pause key"
+#~ msgstr "Taster za pauzu"
+
+#~ msgid "Stop (Audio) key"
+#~ msgstr "Taster za zaustavljanje (zvuka)"
+
+#~ msgid "Previous (Audio) key"
+#~ msgstr "Taster za prethodni (zvuk)"
+
+#~ msgid "Next (Audio) key"
+#~ msgstr "Taster za sledeći (zvuk)"
+
+#~ msgid "My Home key"
+#~ msgstr "Moja početna tačka"
+
+#~ msgid "Refresh key"
+#~ msgstr "Taster za osveženje"
+
+#~ msgid "Search key"
+#~ msgstr "Taster za pretragu"
+
+#~ msgid "E-Mail key"
+#~ msgstr "Taster za e-poštu"
+
+#~ msgid "Sleep key"
+#~ msgstr "Taster za uspavljivanje računara"
+
+#~ msgid "Finance key"
+#~ msgstr "Taster za finansije"
+
+#~ msgid "Help key"
+#~ msgstr "Taster za pomoć"
+
+#~ msgid "WWW key"
+#~ msgstr "Taster za veb"
+
+#~ msgid "Groups key"
+#~ msgstr "Taster za grupe"
+
+#~ msgid "Calculator key"
+#~ msgstr "Taster za kalkulator"
+
+#~ msgid "Record key"
+#~ msgstr "Taster za snimanje"
+
+#~ msgid "Close Window key"
+#~ msgstr "Taster za zatvaranje prozora"
+
+#~ msgid "Shade Window key"
+#~ msgstr "Taster za sklapanje prozora"
+
+#~ msgid "Brightness down key"
+#~ msgstr "Taster za smanjenje osvetljenja"
+
+#~ msgid "Brightness up key"
+#~ msgstr "Taster za povećanje osvetljenja"
+
+#~ msgid "Disabled"
+#~ msgstr "Isključeno"
+
+#~ msgid ""
+#~ "This key is already bound to action '%s'.\n"
+#~ "Please select another key."
+#~ msgstr ""
+#~ "Ovom tasteru je već dodeljena akcija „%s“.\n"
+#~ "Izaberiti neki drugi taster."
+
+#~ msgid "Description"
+#~ msgstr "Opis"
+
+#~ msgid "Status"
+#~ msgstr "Stanje"
+
+#~ msgid "Multimedia Keys Preferences"
+#~ msgstr "Podešavanja tastera za multimediju"
+
+#~ msgid ""
+#~ "To assign a key to an action, click on a line, and press the key you want "
+#~ "to associate with it.\n"
+#~ "\"C\" cancels the capture, and \"Backspace\" disables the key shortcut."
+#~ msgstr ""
+#~ "Da biste tasteru dodelili značenje, kliknite na liniju, i pritisnite "
+#~ "taster kome želite da dodelite njeno značenje.\n"
+#~ "„C“ otkazuje dodelu, a „Bekspejs“ onemogućava prečicu."
+
+#~ msgid "Use _PCM volume instead of Master volume"
+#~ msgstr "Koristi _PCM jačinu, umesto glavne jačine zvuka"
+
+#~ msgid "Multimedia Keys"
+#~ msgstr "Tasteri za multimediju"
+
+#~ msgid "Brightness down key's XKeycode"
+#~ msgstr "Kod tastera za smanjenje osvetljenosti"
+
+#~ msgid "Brightness down key's XKeycode, 0 to disable"
+#~ msgstr "Kod tastera za smanjenje osvetljenosti, 0 da isključite"
+
+#~ msgid "Brightness up key's XKeycode"
+#~ msgstr "Kod tastera za povećanje osvetljenosti"
+
+#~ msgid "Brightness up key's XKeycode, 0 to disable"
+#~ msgstr "Kod tastera za povećanje osvetljenosti, 0 da isključite"
+
+#~ msgid "Calculator key's XKeycode"
+#~ msgstr "Kod tastera za kalkulator"
+
+#~ msgid "Calculator key's XKeycode, 0 to disable"
+#~ msgstr "Kod tastera za kalkulator, 0 da isključite"
+
+#~ msgid "Close Window key's XKeycode"
+#~ msgstr "Kod tastera za zatvaranje prozora"
+
+#~ msgid "Close Window key's XKeycode, 0 to disable"
+#~ msgstr "Kod tastera za zatvaranje prozora, 0 da isključite"
+
+#~ msgid "E-Mail key's XKeycode"
+#~ msgstr "Kod tastera za e-poštu"
+
+#~ msgid "E-Mail key's XKeycode, 0 to disable"
+#~ msgstr "Kod tastera za e-poštu, 0 da isključite"
+
+#~ msgid "Eject key's XKeycode"
+#~ msgstr "Kod tastera za izbacivanje diska"
+
+#~ msgid "Eject key's XKeycode, 0 to disable"
+#~ msgstr "Kod tastera za izbacivanje diska, 0 da isključite"
+
+#~ msgid "Finance key's XKeycode"
+#~ msgstr "Kod tastera za finansije"
+
+#~ msgid "Finance key's XKeycode, 0 to disable"
+#~ msgstr "Kod tastera za finansije, 0 da isključite"
+
+#~ msgid "Groups key's XKeycode"
+#~ msgstr "Kod tastera za grupe"
+
+#~ msgid "Groups key's XKeycode, 0 to disable"
+#~ msgstr "Kod tastera za grupe, 0 da isključite"
+
+#~ msgid "Help key's XKeycode"
+#~ msgstr "Kod tastera za pomoć"
+
+#~ msgid "Help key's XKeycode, 0 to disable"
+#~ msgstr "Kod tastera za pomoć, 0 da isključite"
+
+#~ msgid "Mute key's XKeycode"
+#~ msgstr "Kod tastera za utišavanje zvuka"
+
+#~ msgid "Mute key's XKeycode, 0 to disable"
+#~ msgstr "Kod tastera za utišavanje zvuka, 0 da isključite"
+
+#~ msgid "My Home key's XKeycode"
+#~ msgstr "Kod tastera za moju polaznu tačku"
+
+#~ msgid "My Home key's XKeycode, 0 to disable"
+#~ msgstr "Kod tastera za moju polaznu tačku, 0 da isključite"
+
+#~ msgid "Next key's XKeycode"
+#~ msgstr "Kod sledećeg tastera"
+
+#~ msgid "Next key's XKeycode, 0 to disable"
+#~ msgstr "Kod sledećeg tastera, 0 da isključite"
+
+#~ msgid "Pause key's XKeycode"
+#~ msgstr "Kod tastera za pauzu"
+
+#~ msgid "Pause key's XKeycode, 0 to disable"
+#~ msgstr "Kod tastera za pauzu, 0 da isključite"
+
+#~ msgid "Play key's XKeycode"
+#~ msgstr "Kod tastera za puštanje"
+
+#~ msgid "Play key's XKeycode, 0 to disable"
+#~ msgstr "Kod tastera za puštanje, 0 da isključite"
+
+#~ msgid "Power key's XKeycode"
+#~ msgstr "Kod tastera za gašenje kompjutera"
+
+#~ msgid "Power key's XKeycode, 0 to disable"
+#~ msgstr "Kod tastera za gašenje kompjutera, 0 da isključite"
+
+#~ msgid "Previous key's XKeycode"
+#~ msgstr "Kod predhodnog tastera"
+
+#~ msgid "Previous key's XKeycode, 0 to disable"
+#~ msgstr "Kod predhodnog tastera, 0 da isključite"
+
+#~ msgid "Record key's XKeycode"
+#~ msgstr "Kod tastera za snimanje"
+
+#~ msgid "Record key's XKeycode, 0 to disable"
+#~ msgstr "Kod tastera za snimanje, 0 da isključite"
+
+#~ msgid "Refresh key's XKeycode"
+#~ msgstr "Kod tastera za osveženje"
+
+#~ msgid "Refresh key's XKeycode, 0 to disable"
+#~ msgstr "Kod tastera za osveženje, 0 da isključite"
+
+#~ msgid "Screensaver key's XKeycode"
+#~ msgstr "Kod tastera za čuvanje ekrana"
+
+#~ msgid "Screensaver key's XKeycode, 0 to disable"
+#~ msgstr "Kod tastera za čuvanje ekrana, 0 da isključite"
+
+#~ msgid "Search key's XKeycode"
+#~ msgstr "Kod tastera za pretragu"
+
+#~ msgid "Search key's XKeycode, 0 to disable"
+#~ msgstr "Kod tastera za pretragu, 0 da isključite"
+
+#~ msgid "Shade Window key's XKeycode"
+#~ msgstr "Kod tastera za sklapanje prozora"
+
+#~ msgid "Shade Window key's XKeycode, 0 to disable"
+#~ msgstr "Kod tastera za sklapanje prozora, 0 da isključite"
+
+#~ msgid "Sleep key's XKeycode"
+#~ msgstr "Kod tastera za uspavljivanje kompjutera"
+
+#~ msgid "Sleep key's XKeycode, 0 to disable"
+#~ msgstr "Kod tastera za uspavljivanje kompjutera, 0 da isključite"
+
+#~ msgid "Sound file to be played when volume is changed"
+#~ msgstr "Zvuk za puštanje pri promeni jačine zvuka"
+
+#~ msgid "Volume down key's XKeycode"
+#~ msgstr "Kod tastera za smanjivanje glasnoće"
+
+#~ msgid "Volume down key's XKeycode, 0 to disable"
+#~ msgstr "Kod tastera za smanjivanje glasnoće, 0 da isključite"
+
+#~ msgid "Volume step"
+#~ msgstr "Korak jačine zvuka"
+
+#~ msgid "Volume step as percentage of volume"
+#~ msgstr "Korak jačine zvuka kao procenat jačine"
+
+#~ msgid "Volume up key's XKeycode"
+#~ msgstr "Kod tastera za pojačavanje glasnoće"
+
+#~ msgid "Volume up key's XKeycode, 0 to disable"
+#~ msgstr "Kod tastera za pojačavanje glasnoće, 0 da isključite"
+
+#~ msgid "WWW key's XKeycode"
+#~ msgstr "Kod tastera za veb"
+
+#~ msgid "WWW key's XKeycode, 0 to disable"
+#~ msgstr "Kod tastera za veb, 0 da isključite"
+
+#~ msgid "Accelerator key"
+#~ msgstr "Taster prečice"
+
+#~ msgid "Accelerator modifiers"
+#~ msgstr "Izmenjivači prečice"
+
+#~ msgid "Accelerator Mode"
+#~ msgstr "Vrsta prečice"
+
+#~ msgid "The type of accelerator."
+#~ msgstr "Vrsta prečice."
+
+#~ msgid "Type a new accelerator, or press Backspace to clear"
+#~ msgstr "Izaberite novu prečicu, ili pritisnite Bekspejs za poništenje"
+
+#~ msgid "Type a new accelerator"
+#~ msgstr "Unesite novu prečicu"

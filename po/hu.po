@@ -1,0 +1,764 @@
+# Brightside Hungarian translation.
+# Copyright (C) 2002 Péter Mátó
+# This file is distributed under the same license as the Brightside package.
+# Péter Mátó <atya@andrews.hu>, 2002.
+# Andras Timar <timar@gnome.hu>, 2003.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Brightside CVS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-01-16 02:13+0000\n"
+"PO-Revision-Date: 2003-07-07 15:07+0200\n"
+"Last-Translator: Andras Timar <timar@gnome.hu>\n"
+"Language-Team: Hungarian <hu@gnome.hu>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/brightside.c:224
+#, c-format
+msgid ""
+"Couldn't execute command: %s\n"
+"Verify that this command exists."
+msgstr ""
+"A következő parancsot nem lehet végrehajtani: %s\n"
+"Ellenőrizd, hogy a parancs létezik-e."
+
+#: src/brightside.c:243
+#, c-format
+msgid ""
+"Permissions on the file %s are broken\n"
+"Please check Brightside's documentation, correct the problem and restart "
+"Brightside."
+msgstr ""
+"A jogosultságok nem megfelelőek a következő fájlon: %s\n"
+"Tanulmányozd az Brightside leírását, javítsd ki a hibát, és indítsd újra az "
+"Brightside-t."
+
+#: src/brightside.c:487
+msgid "translator_credits"
+msgstr ""
+"Mátó Péter <atya@andrews.hu>\n"
+"Tímár András <timar@gnome.hu>"
+
+#: src/brightside.c:498
+msgid "Brightside"
+msgstr "Brightside"
+
+#: src/brightside.c:500 src/brightside.c:573
+msgid "Screen Corners and Edges daemon"
+msgstr ""
+
+#: src/brightside.c:579
+msgid "Screen Corners and Edges daemon active"
+msgstr ""
+
+#: src/brightside.c:1733
+msgid "Daemon already running, exiting...\n"
+msgstr ""
+
+#: src/brightside.c:1742
+msgid ""
+"Couldn't load the Glade file.\n"
+"Make sure that this daemon is properly installed."
+msgstr ""
+"A Glade fájlt nem lehet betölteni.\n"
+"Ellenőrizd, hogy a démon helyesen van-e telepítve."
+
+#: src/brightside.glade.h:1
+msgid "Volume"
+msgstr "Hangerő"
+
+#: src/brightside.h:65
+#, fuzzy
+msgid "Mute volume"
+msgstr "Némítás billentyű"
+
+#: src/brightside.h:67
+msgid "Prevent screensaver starting"
+msgstr ""
+
+#: src/brightside.h:69
+#, fuzzy
+msgid "Start screensaver"
+msgstr "Képernyővédő billentyű"
+
+#: src/brightside.h:71
+msgid "Enter DPMS standby mode"
+msgstr ""
+
+#: src/brightside.h:73
+msgid "Enter DPMS suspend mode"
+msgstr ""
+
+#: src/brightside.h:75
+msgid "Enter DPMS off mode"
+msgstr ""
+
+#: src/brightside.h:78
+msgid "Dim laptop backlight"
+msgstr ""
+
+#: src/brightside.h:81
+msgid "Custom action..."
+msgstr ""
+
+#: src/brightside-properties.c:283 src/brightside-properties.glade.h:9
+#: src/brightside.desktop.in.h:2
+msgid "Screen Corners and Edges"
+msgstr ""
+
+#: src/brightside-properties.glade.h:1 src/custom-action.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: src/brightside-properties.glade.h:2
+msgid "<small><i>Long</i></small>"
+msgstr ""
+
+#: src/brightside-properties.glade.h:3
+msgid "<small><i>Short</i></small>"
+msgstr ""
+
+#: src/brightside-properties.glade.h:4
+#, fuzzy
+msgid "<span weight=\"bold\">Screen Corners</span>"
+msgstr "<span weight=\"bold\">Hangbeállítások</span>"
+
+#: src/brightside-properties.glade.h:5
+#, fuzzy
+msgid "<span weight=\"bold\">Screen Edges</span>"
+msgstr "<span weight=\"bold\">Hangbeállítások</span>"
+
+#: src/brightside-properties.glade.h:6
+#, fuzzy
+msgid "Action to take while mouse is placed in corner of screen"
+msgstr "A Média kiadása billentyű megnyomásakor végrehajtandó parancs"
+
+#: src/brightside-properties.glade.h:7
+msgid "Bottom r_ight corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:8
+msgid "D_elay:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:10
+msgid "Switch to _adjacent workspace when mouse is moved to edge of screen"
+msgstr ""
+
+#: src/brightside-properties.glade.h:11
+msgid "Top _right corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:12
+msgid "When switching workspace, _wrap around edges of workspace layout"
+msgstr ""
+
+#: src/brightside-properties.glade.h:13
+msgid "_Bottom left corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:14
+msgid "_Configurable actions"
+msgstr ""
+
+#: src/brightside-properties.glade.h:15
+msgid "_Delay:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:16
+msgid "_Switch to diagonally adjacent workspace"
+msgstr ""
+
+#: src/brightside-properties.glade.h:17
+msgid "_Top left corner:"
+msgstr ""
+
+#: src/brightside.desktop.in.h:1
+#, fuzzy
+msgid "Configure screen-edge behaviour"
+msgstr "Multimédia billentyűk viselkedésének beállításai"
+
+#: src/brightside.schemas.in.h:1
+msgid "Action enabled when mouse is in bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:2
+msgid "Action enabled when mouse is in bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:3
+msgid "Action enabled when mouse is in top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:4
+msgid "Action enabled when mouse is in top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:5
+msgid "Action to occur when mouse is in bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:6
+msgid "Action to occur when mouse is in bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:7
+msgid "Action to occur when mouse is in top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:8
+msgid "Action to occur when mouse is in top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:9
+msgid "After flip command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:10
+msgid "Bottom left corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:11
+msgid "Bottom left corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:12
+msgid "Bottom left corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:13
+msgid "Bottom left corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:14
+msgid "Bottom left corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:15
+msgid "Bottom right corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:16
+msgid "Bottom right corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:17
+msgid "Bottom right corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:18
+msgid "Bottom right corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:19
+msgid "Bottom right corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:20
+msgid "Command to execute after flipping workspace (empty string for none)"
+msgstr ""
+
+#: src/brightside.schemas.in.h:21
+msgid "Corner delay"
+msgstr ""
+
+#: src/brightside.schemas.in.h:22
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse enters bottom left corner of screen"
+msgstr "A Média kiadása billentyű megnyomásakor végrehajtandó parancs"
+
+#: src/brightside.schemas.in.h:23
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse enters bottom right corner of screen"
+msgstr "A Média kiadása billentyű megnyomásakor végrehajtandó parancs"
+
+#: src/brightside.schemas.in.h:24
+#, fuzzy
+msgid "Custom command to execute when mouse enters top left corner of screen"
+msgstr "A Média kiadása billentyű megnyomásakor végrehajtandó parancs"
+
+#: src/brightside.schemas.in.h:25
+#, fuzzy
+msgid "Custom command to execute when mouse enters top right corner of screen"
+msgstr "A Média kiadása billentyű megnyomásakor végrehajtandó parancs"
+
+#: src/brightside.schemas.in.h:26
+#, fuzzy
+msgid "Custom command to execute when mouse exits bottom left corner of screen"
+msgstr "A Média kiadása billentyű megnyomásakor végrehajtandó parancs"
+
+#: src/brightside.schemas.in.h:27
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse exits bottom right corner of screen"
+msgstr "A Média kiadása billentyű megnyomásakor végrehajtandó parancs"
+
+#: src/brightside.schemas.in.h:28
+#, fuzzy
+msgid "Custom command to execute when mouse exits top left corner of screen"
+msgstr "A Média kiadása billentyű megnyomásakor végrehajtandó parancs"
+
+#: src/brightside.schemas.in.h:29
+#, fuzzy
+msgid "Custom command to execute when mouse exits top right corner of screen"
+msgstr "A Média kiadása billentyű megnyomásakor végrehajtandó parancs"
+
+#: src/brightside.schemas.in.h:30
+msgid "Delay in milliseconds before edge flip occurs"
+msgstr ""
+
+#: src/brightside.schemas.in.h:31
+msgid "Delay in milliseconds before screen corner action occurs"
+msgstr ""
+
+#: src/brightside.schemas.in.h:32
+msgid "Edge delay"
+msgstr ""
+
+#: src/brightside.schemas.in.h:33
+msgid "Edge wrap"
+msgstr ""
+
+#: src/brightside.schemas.in.h:34
+#, fuzzy
+msgid "Enable corner flip"
+msgstr "Engedélyezve"
+
+#: src/brightside.schemas.in.h:35
+#, fuzzy
+msgid "Enable edge flip"
+msgstr "Engedélyezve"
+
+#: src/brightside.schemas.in.h:36
+msgid "Orientable workspaces"
+msgstr ""
+
+#: src/brightside.schemas.in.h:37
+msgid ""
+"Switch to diagonally adjacent workspace when mouse placed in the corner of "
+"the screen, instead of executing a configurable action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:38
+msgid ""
+"Switch to the adjacent workspace when the mouse reaches the edge of the "
+"screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:39
+msgid "Terminate custom command when mouse exits bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:40
+msgid "Terminate custom command when mouse exits bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:41
+msgid "Terminate custom command when mouse exits top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:42
+msgid "Terminate custom command when mouse exits top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:43
+msgid "Top left corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:44
+msgid "Top left corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:45
+msgid "Top left corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:46
+msgid "Top left corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:47
+msgid "Top left corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:48
+msgid "Top right corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:49
+msgid "Top right corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:50
+msgid "Top right corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:51
+msgid "Top right corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:52
+msgid "Top right corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:53
+msgid "Use PCM Volume instead of Master Volume"
+msgstr "A PCM hangerő használata a Mester hangerő helyett"
+
+#: src/brightside.schemas.in.h:54
+msgid "Whether workspace layout is orientable"
+msgstr ""
+
+#: src/brightside.schemas.in.h:55
+msgid "Wrap wround edges of workspace layout when flipping workspace"
+msgstr ""
+
+#: src/custom-action.glade.h:2
+msgid "*"
+msgstr ""
+
+#: src/custom-action.glade.h:3
+#, fuzzy
+msgid "<span weight=\"bold\">On _entering region</span>"
+msgstr "<span weight=\"bold\">Billentyűbeállítások</span>"
+
+#: src/custom-action.glade.h:4
+#, fuzzy
+msgid "<span weight=\"bold\">On leaving region</span>"
+msgstr "<span weight=\"bold\">Hangbeállítások</span>"
+
+#: src/custom-action.glade.h:5 src/custom-action.c:104
+msgid "Custom action"
+msgstr ""
+
+#: src/custom-action.glade.h:6
+msgid "_Run another command:"
+msgstr ""
+
+#: src/custom-action.glade.h:7
+msgid "_Terminate above application"
+msgstr ""
+
+#~ msgid ""
+#~ "Couldn't execute either command: %s\n"
+#~ "or command: %s\n"
+#~ "Verify that at least one of these commands exist."
+#~ msgstr ""
+#~ "Sem a %s,\n"
+#~ "sem a %s parancsot nem sikerült végrehajtani. Ellenőrizd, hogy legalább "
+#~ "az egyik parancs létezik-e."
+
+#~ msgid ""
+#~ "There was an error removing access to the multimedia keys.\n"
+#~ "Key %d couldn't be unbound."
+#~ msgstr ""
+#~ "Hiba történt a multimédia billentyűkhöz való hozzáférés megszüntetése "
+#~ "közben.\n"
+#~ "A %d billentyűt nem lehet felszabadítani."
+
+#~ msgid ""
+#~ "It seems that another application already has access to the multimedia "
+#~ "keys.\n"
+#~ "Key %d couldn't be bound.\n"
+#~ "Is another daemon already running ?"
+#~ msgstr ""
+#~ "Feltehetőleg egy másik alkalmazás használja a multimédia billentyűket.\n"
+#~ "A %d billentyűt nem sikerült kötni.\n"
+#~ "Már fut egy másik démon?"
+
+#~ msgid "Multimedia keys daemon"
+#~ msgstr "Multimédia billentyűzet démon"
+
+#~ msgid "Multimedia Keys daemon active"
+#~ msgstr "Multimédia billentyűzet démon aktív"
+
+#~ msgid "Volume down key"
+#~ msgstr "Halkítás billentyű"
+
+#~ msgid "Volume up key"
+#~ msgstr "Hangosítás billentyű"
+
+#~ msgid "Power key"
+#~ msgstr "Főkapcsoló billentyű"
+
+#~ msgid "Eject key"
+#~ msgstr "Média kiadása billentyű"
+
+#~ msgid "Media key"
+#~ msgstr "Média billentyű"
+
+#~ msgid "Play key"
+#~ msgstr "Lejátszás billentyű"
+
+#~ msgid "Pause key"
+#~ msgstr "Szünet billentyű"
+
+#~ msgid "Stop (Audio) key"
+#~ msgstr "Állj (Hang) billentyű"
+
+#~ msgid "Previous (Audio) key"
+#~ msgstr "Következő (Hang) billentyű"
+
+#~ msgid "Next (Audio) key"
+#~ msgstr "Előző (Hang) billentyű"
+
+#~ msgid "My Home key"
+#~ msgstr "Saját gép billentyű"
+
+#~ msgid "Refresh key"
+#~ msgstr "Frissítés billentyű"
+
+#~ msgid "Search key"
+#~ msgstr "Keresés billentyű"
+
+#~ msgid "E-Mail key"
+#~ msgstr "E-mail billentyű"
+
+#~ msgid "Sleep key"
+#~ msgstr "Elalvás billentyű"
+
+#~ msgid "Finance key"
+#~ msgstr "Pénzügyek billentyű"
+
+#~ msgid "Help key"
+#~ msgstr "Súgó billentyű"
+
+#~ msgid "WWW key"
+#~ msgstr "WWW billentyű"
+
+#~ msgid "Groups key"
+#~ msgstr "Csoportok billentyű"
+
+#~ msgid "Calculator key"
+#~ msgstr "Számológép billentyű"
+
+#~ msgid "Record key"
+#~ msgstr "Rögzítés billentyű"
+
+#~ msgid "Close Window key"
+#~ msgstr "Ablak bezárása billentyű"
+
+#~ msgid "Shade Window key"
+#~ msgstr "Ablak felgördítése billentyű"
+
+#~ msgid "Brightness down key"
+#~ msgstr "Fényerő csökkentése billentyű"
+
+#~ msgid "Brightness up key"
+#~ msgstr "Fényerő növelése billentyű"
+
+#~ msgid "Disabled"
+#~ msgstr "Tiltva"
+
+#~ msgid ""
+#~ "This key is already bound to action '%s'.\n"
+#~ "Please select another key."
+#~ msgstr ""
+#~ "Ez a billentyű már hozzá van kötve a(z) '%s' művelethez.\n"
+#~ "Válassz másik billentyűt."
+
+#~ msgid "Description"
+#~ msgstr "Leírás"
+
+#~ msgid "Status"
+#~ msgstr "Állapot"
+
+#~ msgid "Multimedia Keys Preferences"
+#~ msgstr "Multimédia billentyűk tulajdonságai"
+
+#~ msgid ""
+#~ "To assign a key to an action, click on a line, and press the key you want "
+#~ "to associate with it.\n"
+#~ "\"C\" cancels the capture, and \"Backspace\" disables the key shortcut."
+#~ msgstr ""
+#~ "Egy művelet billentyűhöz kötéséhez kattints egy sorra, majd nyomd le az "
+#~ "ehhez kötni kívánt billentyűt.\n"
+#~ "A \"C\" megszakítja a bevitelt, a \"Backspace\" letiltja a billentyűt."
+
+#~ msgid "Use _PCM volume instead of Master volume"
+#~ msgstr "A _PCM hangerő használata a Mester hangerő helyett"
+
+#~ msgid "Multimedia Keys"
+#~ msgstr "Multimédia billentyűk"
+
+#~ msgid "Brightness down key's XKeycode"
+#~ msgstr "Fényerő csökkentés billentyű XKeycode-ja"
+
+#~ msgid "Brightness down key's XKeycode, 0 to disable"
+#~ msgstr "Fényerő csökkentés billentyű XKeycode-ja, a tiltáshoz 0"
+
+#~ msgid "Brightness up key's XKeycode"
+#~ msgstr "Fényerő növelés billentyű XKeycode-ja"
+
+#~ msgid "Brightness up key's XKeycode, 0 to disable"
+#~ msgstr "Fényerő növelés billentyű XKeycode-ja, a tiltáshoz 0"
+
+#~ msgid "Calculator key's XKeycode"
+#~ msgstr "Számológép billentyű XKeycode-ja"
+
+#~ msgid "Calculator key's XKeycode, 0 to disable"
+#~ msgstr "Számológép billentyű XKeycode-ja, a tiltáshoz 0"
+
+#~ msgid "Close Window key's XKeycode"
+#~ msgstr "Ablak bezárása billentyű XKeycode-ja"
+
+#~ msgid "Close Window key's XKeycode, 0 to disable"
+#~ msgstr "Ablak bezárása billentyű XKeycode-ja, a tiltáshoz 0"
+
+#~ msgid "E-Mail key's XKeycode"
+#~ msgstr "E-mail billentyű XKeycode-ja"
+
+#~ msgid "E-Mail key's XKeycode, 0 to disable"
+#~ msgstr "E-mail billentyű XKeycode-ja, a tiltáshoz 0"
+
+#~ msgid "Eject key's XKeycode"
+#~ msgstr "Média kiadása billentyű XKeycode-ja"
+
+#~ msgid "Eject key's XKeycode, 0 to disable"
+#~ msgstr "Média kiadása billentyű XKeycode-ja, a tiltáshoz 0"
+
+#~ msgid "Finance key's XKeycode"
+#~ msgstr "Pénzügyek billentyű Xkeycode-ja"
+
+#~ msgid "Finance key's XKeycode, 0 to disable"
+#~ msgstr "Pénzügyek billentyű Xkeycode-je, a tiltáshoz 0"
+
+#~ msgid "Groups key's XKeycode"
+#~ msgstr "Csoportok billentyű XKeycode-ja"
+
+#~ msgid "Groups key's XKeycode, 0 to disable"
+#~ msgstr "Csoportok billentyű XKeycode-ja, a tiltáshoz 0"
+
+#~ msgid "Help key's XKeycode"
+#~ msgstr "Súgó billentyű XKeycode-ja"
+
+#~ msgid "Help key's XKeycode, 0 to disable"
+#~ msgstr "Súgó billentyű XKeycode-ja, a tiltáshoz 0"
+
+#~ msgid "Mute key's XKeycode"
+#~ msgstr "Némítás billentyű XKeycode-ja"
+
+#~ msgid "Mute key's XKeycode, 0 to disable"
+#~ msgstr "Némítás billentyű XKeycode-ja, a tiltáshoz 0"
+
+#~ msgid "My Home key's XKeycode"
+#~ msgstr "Saját gép billentyű XKeycode-ja"
+
+#~ msgid "My Home key's XKeycode, 0 to disable"
+#~ msgstr "Saját gép billentyű XKeycode-ja, a tiltáshoz 0"
+
+#~ msgid "Next key's XKeycode"
+#~ msgstr "Következő billentyű XKeycode-ja"
+
+#~ msgid "Next key's XKeycode, 0 to disable"
+#~ msgstr "Következő billentyű XKeycode-ja, a tiltáshoz 0"
+
+#~ msgid "Pause key's XKeycode"
+#~ msgstr "Szünet billentyű XKeycode-ja"
+
+#~ msgid "Pause key's XKeycode, 0 to disable"
+#~ msgstr "Szünet billentyű XKeycode-ja, a tiltáshoz 0"
+
+#~ msgid "Play key's XKeycode"
+#~ msgstr "Lejátszás billentyű XKeycode-ja"
+
+#~ msgid "Play key's XKeycode, 0 to disable"
+#~ msgstr "Lejátszás billentyű XKeycode-ja, a tiltáshoz 0"
+
+#~ msgid "Power key's XKeycode"
+#~ msgstr "Főkapcsoló billentyű XKeycode-ja"
+
+#~ msgid "Power key's XKeycode, 0 to disable"
+#~ msgstr "Főkapcsoló billentyű XKeycode-ja, a tiltáshoz 0"
+
+#~ msgid "Previous key's XKeycode"
+#~ msgstr "Előző billentyű XKeycode-ja"
+
+#~ msgid "Previous key's XKeycode, 0 to disable"
+#~ msgstr "Előző billentyű XKeycode-ja, a tiltáshoz 0"
+
+#~ msgid "Record key's XKeycode"
+#~ msgstr "Rögzítés billentyű XKeycode-ja"
+
+#~ msgid "Record key's XKeycode, 0 to disable"
+#~ msgstr "Rögzítés billentyű XKeycode-ja, a tiltáshoz 0"
+
+#~ msgid "Refresh key's XKeycode"
+#~ msgstr "Frissítés billentyű XKeycode-ja"
+
+#~ msgid "Refresh key's XKeycode, 0 to disable"
+#~ msgstr "Frissítés billentyű XKeycode-ja, a tiltáshoz 0"
+
+#~ msgid "Screensaver key's XKeycode"
+#~ msgstr "Képernyővédő billentyű XKeycode-ja"
+
+#~ msgid "Screensaver key's XKeycode, 0 to disable"
+#~ msgstr "Képernyővédő billentyű XKeycode-ja, a tiltáshoz 0"
+
+#~ msgid "Search key's XKeycode"
+#~ msgstr "Keresés billentyű XKeycode-ja"
+
+#~ msgid "Search key's XKeycode, 0 to disable"
+#~ msgstr "Keresés billentyű XKeycode-ja, a tiltáshoz 0"
+
+#~ msgid "Shade Window key's XKeycode"
+#~ msgstr "Ablak felgördítése billentyű XKeycode-ja"
+
+#~ msgid "Shade Window key's XKeycode, 0 to disable"
+#~ msgstr "Ablak felgördítése billentyű XKeycode-ja, a tiltáshoz 0"
+
+#~ msgid "Sleep key's XKeycode"
+#~ msgstr "Elalvás billentyű XKeycode-ja"
+
+#~ msgid "Sleep key's XKeycode, 0 to disable"
+#~ msgstr "Elalvás billentyű XKeycode-ja, a tiltáshoz 0"
+
+#~ msgid "Sound file to be played when volume is changed"
+#~ msgstr "Lejátszandó hangfájl a hangerő változtatásakor"
+
+#~ msgid "Volume down key's XKeycode"
+#~ msgstr "Halkítás billentyű XKeycode-ja"
+
+#~ msgid "Volume down key's XKeycode, 0 to disable"
+#~ msgstr "Halkítás billentyű XKeycode-ja, a tiltáshoz 0"
+
+#, fuzzy
+#~ msgid "Volume step"
+#~ msgstr "Hangerő"
+
+#~ msgid "Volume up key's XKeycode"
+#~ msgstr "Hangosítás billentyű XKeycode-ja"
+
+#~ msgid "Volume up key's XKeycode, 0 to disable"
+#~ msgstr "Hangosítás billentyű XKeycode-ja, a tiltáshoz 0"
+
+#~ msgid "WWW key's XKeycode"
+#~ msgstr "WWW billentyű XKeycode-ja"
+
+#~ msgid "WWW key's XKeycode, 0 to disable"
+#~ msgstr "WWW billentyű XKeycode-ja, a tiltáshoz 0"
+
+#~ msgid "Accelerator key"
+#~ msgstr "Gyorsbillentyű"
+
+#~ msgid "Accelerator modifiers"
+#~ msgstr "Gyorsbillentyű-módosítók"
+
+#~ msgid "Accelerator Mode"
+#~ msgstr "Gyorsbillentyű mód"
+
+#~ msgid "The type of accelerator."
+#~ msgstr "A gyorsbillentyű típusa"
+
+#~ msgid "Type a new accelerator, or press Backspace to clear"
+#~ msgstr ""
+#~ "Nyomd le az új gyorsbillentyűt, vagy nyomd meg a Backspace billentyűt a "
+#~ "törléshez."
+
+#~ msgid "Type a new accelerator"
+#~ msgstr "Új gyorsbillentyű megadása"

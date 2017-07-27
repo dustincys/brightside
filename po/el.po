@@ -1,0 +1,775 @@
+# Brightside.
+# Copyright (C) Free Software Foundation, 2002,2003
+# This file is distributed under the same license as the PACKAGE package.
+# Kostas Papadimas <pkst@gmx.net>, 2003
+# kostas: 105 messages, 05Jan2003, updated translation
+# kostas: 111 messages, 24Jan2003, updated translation
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Brightside VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-01-16 02:13+0000\n"
+"PO-Revision-Date: 2003-04-06 13:00+0300\n"
+"Last-Translator: Kostas Papadimas <pkst@gmx.net>\n"
+"Language-Team: Greek <nls@tux.hellug.gr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 0.9.6\n"
+
+#: src/brightside.c:224
+#, c-format
+msgid ""
+"Couldn't execute command: %s\n"
+"Verify that this command exists."
+msgstr ""
+"Αδυναμία εκτέλεσης εντολής: %s\n"
+"Βεβαιωθείτε ότι η εντολή υπάρχει."
+
+#: src/brightside.c:243
+#, c-format
+msgid ""
+"Permissions on the file %s are broken\n"
+"Please check Brightside's documentation, correct the problem and restart "
+"Brightside."
+msgstr ""
+"Τα δικαιώματα στο αρχείο %s είναι κατεστραμμένα\n"
+"Ελέξτε την τεκμηρίωση του Brightside. διορθώστε το πρόβλημα και "
+"επανεκκινήστε το Brightside."
+
+#: src/brightside.c:487
+msgid "translator_credits"
+msgstr "Κώστας Παπαδήμας <pkst@gmx.net>"
+
+#: src/brightside.c:498
+msgid "Brightside"
+msgstr "Brightside"
+
+#: src/brightside.c:500 src/brightside.c:573
+msgid "Screen Corners and Edges daemon"
+msgstr ""
+
+#: src/brightside.c:579
+msgid "Screen Corners and Edges daemon active"
+msgstr ""
+
+#: src/brightside.c:1733
+msgid "Daemon already running, exiting...\n"
+msgstr ""
+
+#: src/brightside.c:1742
+msgid ""
+"Couldn't load the Glade file.\n"
+"Make sure that this daemon is properly installed."
+msgstr ""
+"Αδυναμία φόρτωσης του αρχείου Glade.\n"
+"Βεβαιωθείτε ότι ο daemon έχει εγκατασταθεί σωστά."
+
+#: src/brightside.glade.h:1
+msgid "Volume"
+msgstr "Ένταση"
+
+#: src/brightside.h:65
+#, fuzzy
+msgid "Mute volume"
+msgstr "Πλήκτρο διακοπής ήχου"
+
+#: src/brightside.h:67
+msgid "Prevent screensaver starting"
+msgstr ""
+
+#: src/brightside.h:69
+#, fuzzy
+msgid "Start screensaver"
+msgstr "Πλήκτρο Προφύλαξης Οθόνης"
+
+#: src/brightside.h:71
+msgid "Enter DPMS standby mode"
+msgstr ""
+
+#: src/brightside.h:73
+msgid "Enter DPMS suspend mode"
+msgstr ""
+
+#: src/brightside.h:75
+msgid "Enter DPMS off mode"
+msgstr ""
+
+#: src/brightside.h:78
+msgid "Dim laptop backlight"
+msgstr ""
+
+#: src/brightside.h:81
+msgid "Custom action..."
+msgstr ""
+
+#: src/brightside-properties.c:283 src/brightside-properties.glade.h:9
+#: src/brightside.desktop.in.h:2
+msgid "Screen Corners and Edges"
+msgstr ""
+
+#: src/brightside-properties.glade.h:1 src/custom-action.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: src/brightside-properties.glade.h:2
+msgid "<small><i>Long</i></small>"
+msgstr ""
+
+#: src/brightside-properties.glade.h:3
+msgid "<small><i>Short</i></small>"
+msgstr ""
+
+#: src/brightside-properties.glade.h:4
+#, fuzzy
+msgid "<span weight=\"bold\">Screen Corners</span>"
+msgstr "<span weight=\"bold\">Ρύθμιση Ήχου</span>"
+
+#: src/brightside-properties.glade.h:5
+#, fuzzy
+msgid "<span weight=\"bold\">Screen Edges</span>"
+msgstr "<span weight=\"bold\">Ρύθμιση Ήχου</span>"
+
+#: src/brightside-properties.glade.h:6
+#, fuzzy
+msgid "Action to take while mouse is placed in corner of screen"
+msgstr "Εντολή προς εκτέλεση όταν πατηθεί το πλήκτρο εξαγωγής"
+
+#: src/brightside-properties.glade.h:7
+msgid "Bottom r_ight corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:8
+msgid "D_elay:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:10
+msgid "Switch to _adjacent workspace when mouse is moved to edge of screen"
+msgstr ""
+
+#: src/brightside-properties.glade.h:11
+msgid "Top _right corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:12
+msgid "When switching workspace, _wrap around edges of workspace layout"
+msgstr ""
+
+#: src/brightside-properties.glade.h:13
+msgid "_Bottom left corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:14
+msgid "_Configurable actions"
+msgstr ""
+
+#: src/brightside-properties.glade.h:15
+msgid "_Delay:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:16
+msgid "_Switch to diagonally adjacent workspace"
+msgstr ""
+
+#: src/brightside-properties.glade.h:17
+msgid "_Top left corner:"
+msgstr ""
+
+#: src/brightside.desktop.in.h:1
+#, fuzzy
+msgid "Configure screen-edge behaviour"
+msgstr "Ρύθμιση της συμπεριφοράς των πλήκτρων πολυμέσων"
+
+#: src/brightside.schemas.in.h:1
+msgid "Action enabled when mouse is in bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:2
+msgid "Action enabled when mouse is in bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:3
+msgid "Action enabled when mouse is in top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:4
+msgid "Action enabled when mouse is in top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:5
+msgid "Action to occur when mouse is in bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:6
+msgid "Action to occur when mouse is in bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:7
+msgid "Action to occur when mouse is in top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:8
+msgid "Action to occur when mouse is in top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:9
+msgid "After flip command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:10
+msgid "Bottom left corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:11
+msgid "Bottom left corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:12
+msgid "Bottom left corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:13
+msgid "Bottom left corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:14
+msgid "Bottom left corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:15
+msgid "Bottom right corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:16
+msgid "Bottom right corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:17
+msgid "Bottom right corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:18
+msgid "Bottom right corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:19
+msgid "Bottom right corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:20
+msgid "Command to execute after flipping workspace (empty string for none)"
+msgstr ""
+
+#: src/brightside.schemas.in.h:21
+msgid "Corner delay"
+msgstr ""
+
+#: src/brightside.schemas.in.h:22
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse enters bottom left corner of screen"
+msgstr "Εντολή προς εκτέλεση όταν πατηθεί το πλήκτρο εξαγωγής"
+
+#: src/brightside.schemas.in.h:23
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse enters bottom right corner of screen"
+msgstr "Εντολή προς εκτέλεση όταν πατηθεί το πλήκτρο εξαγωγής"
+
+#: src/brightside.schemas.in.h:24
+#, fuzzy
+msgid "Custom command to execute when mouse enters top left corner of screen"
+msgstr "Εντολή προς εκτέλεση όταν πατηθεί το πλήκτρο εξαγωγής"
+
+#: src/brightside.schemas.in.h:25
+#, fuzzy
+msgid "Custom command to execute when mouse enters top right corner of screen"
+msgstr "Εντολή προς εκτέλεση όταν πατηθεί το πλήκτρο εξαγωγής"
+
+#: src/brightside.schemas.in.h:26
+#, fuzzy
+msgid "Custom command to execute when mouse exits bottom left corner of screen"
+msgstr "Εντολή προς εκτέλεση όταν πατηθεί το πλήκτρο εξαγωγής"
+
+#: src/brightside.schemas.in.h:27
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse exits bottom right corner of screen"
+msgstr "Εντολή προς εκτέλεση όταν πατηθεί το πλήκτρο εξαγωγής"
+
+#: src/brightside.schemas.in.h:28
+#, fuzzy
+msgid "Custom command to execute when mouse exits top left corner of screen"
+msgstr "Εντολή προς εκτέλεση όταν πατηθεί το πλήκτρο εξαγωγής"
+
+#: src/brightside.schemas.in.h:29
+#, fuzzy
+msgid "Custom command to execute when mouse exits top right corner of screen"
+msgstr "Εντολή προς εκτέλεση όταν πατηθεί το πλήκτρο εξαγωγής"
+
+#: src/brightside.schemas.in.h:30
+msgid "Delay in milliseconds before edge flip occurs"
+msgstr ""
+
+#: src/brightside.schemas.in.h:31
+msgid "Delay in milliseconds before screen corner action occurs"
+msgstr ""
+
+#: src/brightside.schemas.in.h:32
+msgid "Edge delay"
+msgstr ""
+
+#: src/brightside.schemas.in.h:33
+msgid "Edge wrap"
+msgstr ""
+
+#: src/brightside.schemas.in.h:34
+#, fuzzy
+msgid "Enable corner flip"
+msgstr "Ενεργό"
+
+#: src/brightside.schemas.in.h:35
+#, fuzzy
+msgid "Enable edge flip"
+msgstr "Ενεργό"
+
+#: src/brightside.schemas.in.h:36
+msgid "Orientable workspaces"
+msgstr ""
+
+#: src/brightside.schemas.in.h:37
+msgid ""
+"Switch to diagonally adjacent workspace when mouse placed in the corner of "
+"the screen, instead of executing a configurable action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:38
+msgid ""
+"Switch to the adjacent workspace when the mouse reaches the edge of the "
+"screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:39
+msgid "Terminate custom command when mouse exits bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:40
+msgid "Terminate custom command when mouse exits bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:41
+msgid "Terminate custom command when mouse exits top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:42
+msgid "Terminate custom command when mouse exits top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:43
+msgid "Top left corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:44
+msgid "Top left corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:45
+msgid "Top left corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:46
+msgid "Top left corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:47
+msgid "Top left corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:48
+msgid "Top right corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:49
+msgid "Top right corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:50
+msgid "Top right corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:51
+msgid "Top right corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:52
+msgid "Top right corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:53
+msgid "Use PCM Volume instead of Master Volume"
+msgstr "Χρήση έντασης PCM αντί για Master Volume"
+
+#: src/brightside.schemas.in.h:54
+msgid "Whether workspace layout is orientable"
+msgstr ""
+
+#: src/brightside.schemas.in.h:55
+msgid "Wrap wround edges of workspace layout when flipping workspace"
+msgstr ""
+
+#: src/custom-action.glade.h:2
+msgid "*"
+msgstr ""
+
+#: src/custom-action.glade.h:3
+#, fuzzy
+msgid "<span weight=\"bold\">On _entering region</span>"
+msgstr "<span weight=\"bold\">Ρύθμιση πλήκτρων </span>"
+
+#: src/custom-action.glade.h:4
+#, fuzzy
+msgid "<span weight=\"bold\">On leaving region</span>"
+msgstr "<span weight=\"bold\">Ρύθμιση Ήχου</span>"
+
+#: src/custom-action.glade.h:5 src/custom-action.c:104
+msgid "Custom action"
+msgstr ""
+
+#: src/custom-action.glade.h:6
+msgid "_Run another command:"
+msgstr ""
+
+#: src/custom-action.glade.h:7
+msgid "_Terminate above application"
+msgstr ""
+
+#~ msgid ""
+#~ "Couldn't execute either command: %s\n"
+#~ "or command: %s\n"
+#~ "Verify that at least one of these commands exist."
+#~ msgstr ""
+#~ "Δεν είναι δυνατή η εκτέλεση είτε της εντολής: %s\n"
+#~ "ή της εντολής: %s\n"
+#~ "Βεβαιωθείτε ότι τουλάχιστον μια από τις εντολές υπάρχει"
+
+#~ msgid ""
+#~ "There was an error removing access to the multimedia keys.\n"
+#~ "Key %d couldn't be unbound."
+#~ msgstr ""
+#~ "Σφάλμα απομάκρυνσης πρόσβασης στα πλήκτρα πολυμέσων.\n"
+#~ "Το πλήκτρο %d δεν μπορεί να αποδεσμευθεί."
+
+#~ msgid ""
+#~ "It seems that another application already has access to the multimedia "
+#~ "keys.\n"
+#~ "Key %d couldn't be bound.\n"
+#~ "Is another daemon already running ?"
+#~ msgstr ""
+#~ "Φαίνεται ότι καποια άλλη εφαρμογή έχει πρόσβαση στα πλήκτρα πολυμέσων.\n"
+#~ "Το πλήκτρο %d δεν μπορεί να δεσμευτεί.\n"
+#~ "Μήπως εκτελείται η άλλος daemon  ?"
+
+#~ msgid "Multimedia keys daemon"
+#~ msgstr "Daemon πλήκτρων πολυμέσων"
+
+#~ msgid "Multimedia Keys daemon active"
+#~ msgstr "Ενεργός daemon πλήκτρων πολυμέσων"
+
+#~ msgid "Volume down key"
+#~ msgstr "Πλήκτρο μείωσης έντασης"
+
+#~ msgid "Volume up key"
+#~ msgstr "Πλήκτρο αύξησης έντασης"
+
+#~ msgid "Power key"
+#~ msgstr "Πλήκτρο Power"
+
+#~ msgid "Eject key"
+#~ msgstr "Πλήκτρο εξαγωγής"
+
+#~ msgid "Media key"
+#~ msgstr "Πλήκτρο Media"
+
+#~ msgid "Play key"
+#~ msgstr "Πλήκτρο αναπαραγωγής"
+
+#~ msgid "Pause key"
+#~ msgstr "Πλήκτρο παύσης"
+
+#~ msgid "Stop (Audio) key"
+#~ msgstr "Πλήκτρο Διακοπής (Audio)"
+
+#~ msgid "Previous (Audio) key"
+#~ msgstr "Πλήκτρο προηγουμένου (Audio)"
+
+#~ msgid "Next (Audio) key"
+#~ msgstr "Πλήκτρο επόμενου (Audio)"
+
+#~ msgid "My Home key"
+#~ msgstr "Αρχικό μου πλήκτρο"
+
+#~ msgid "Refresh key"
+#~ msgstr "Πλήκτρο ανανέωσης"
+
+#~ msgid "Search key"
+#~ msgstr "Πλήκτρο εύρεσης "
+
+#~ msgid "E-Mail key"
+#~ msgstr "Πλήκτρο E-Mail"
+
+#~ msgid "Sleep key"
+#~ msgstr "Πλήκτρο Sleep"
+
+#~ msgid "Finance key"
+#~ msgstr "Πλήκτρο Finance "
+
+#~ msgid "Help key"
+#~ msgstr "Πλήκτρο Βοήθειας"
+
+#~ msgid "WWW key"
+#~ msgstr "Πλήκτρο WWW"
+
+#~ msgid "Groups key"
+#~ msgstr "Πλήκτρο ομάδων"
+
+#~ msgid "Calculator key"
+#~ msgstr "Πλήκτρο αριθμομηχανής"
+
+#~ msgid "Record key"
+#~ msgstr "Πλήκτρο ηχογράφησης"
+
+#~ msgid "Close Window key"
+#~ msgstr "Πλήκτρο κλεισίματος παραθύρου"
+
+#~ msgid "Shade Window key"
+#~ msgstr "Πλήκτρο σκίασης παραθύρου"
+
+#~ msgid "Brightness down key"
+#~ msgstr "Πλήκτρο μείωσης φωτεινότητας"
+
+#~ msgid "Brightness up key"
+#~ msgstr "Πλήκτρο αύξησης φωτεινότητας"
+
+#~ msgid "Disabled"
+#~ msgstr "Ανενεργό"
+
+#~ msgid ""
+#~ "This key is already bound to action '%s'.\n"
+#~ "Please select another key."
+#~ msgstr ""
+#~ "Αυτό το πλήκτρο είναι ήδη συνδεδεμένο με την ενέργεια '%s'..\n"
+#~ "Επιλέξτε ένα άλλο πλήκτρο."
+
+#~ msgid "Description"
+#~ msgstr "Περιγραφή"
+
+#~ msgid "Status"
+#~ msgstr "Κατάσταση"
+
+#~ msgid "Multimedia Keys Preferences"
+#~ msgstr "Προτιμήσεις πλήκτρων πολυμέσων"
+
+#~ msgid ""
+#~ "To assign a key to an action, click on a line, and press the key you want "
+#~ "to associate with it.\n"
+#~ "\"C\" cancels the capture, and \"Backspace\" disables the key shortcut."
+#~ msgstr ""
+#~ "Για να ορίσετε σε ένα πλήκτρο μια λειτουργία, καντε κλικ σε μια γραμμή "
+#~ "και πιέστε το πλήκτρο που θέλετε να συσχετίσετε μαζί.\n"
+#~ "Το \"C\" ακυρώνει την σύλληψη και το \"Backspace\" απενεργοποιεί την "
+#~ "συντόμευση πλήκτρου."
+
+#~ msgid "Use _PCM volume instead of Master volume"
+#~ msgstr "Χρήση έντασης _PCM αντί για Master volume"
+
+#~ msgid "Multimedia Keys"
+#~ msgstr "Πλήκτρα πολυμέσων"
+
+#~ msgid "Brightness down key's XKeycode"
+#~ msgstr " XKeycode πλήκτρου μείωσης φωτεινότητας"
+
+#~ msgid "Brightness down key's XKeycode, 0 to disable"
+#~ msgstr " XKeycode πλήκτρου μείωσης φωτεινότητας, 0 για απενεργοποίηση"
+
+#~ msgid "Brightness up key's XKeycode"
+#~ msgstr " XKeycode πλήκτρου αύξησης φωτεινότητας"
+
+#~ msgid "Brightness up key's XKeycode, 0 to disable"
+#~ msgstr " XKeycode πλήκτρου αύξησης φωτεινότητας, 0 για απενεργοποίηση"
+
+#~ msgid "Calculator key's XKeycode"
+#~ msgstr " XKeycode πλήκτρου αριθμομηχανής"
+
+#~ msgid "Calculator key's XKeycode, 0 to disable"
+#~ msgstr " XKeycode πλήκτρου αριθμομηχανής , 0 για απενεργοποίηση"
+
+#~ msgid "Close Window key's XKeycode"
+#~ msgstr "XKeycode πλήκτρου κλεισίματος"
+
+#~ msgid "Close Window key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode πλήκτρου κλεισίματος, 0 για απενεργοποίηση"
+
+#~ msgid "E-Mail key's XKeycode"
+#~ msgstr "XKeycode πλήκτρου E-Mail"
+
+#~ msgid "E-Mail key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode πλήκτρου E-Mail, 0 για απενεργοποίηση"
+
+#~ msgid "Eject key's XKeycode"
+#~ msgstr "XKeycode πλήκτρου Εξαγωγής"
+
+#~ msgid "Eject key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode πλήκτρου Εξαγωγής, 0 για απενεργοποίηση"
+
+#~ msgid "Finance key's XKeycode"
+#~ msgstr "XKeycode πλήκτρου Οικονομικών"
+
+#~ msgid "Finance key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode πλήκτρου Οικονομικών, 0 για απενεργοποίηση"
+
+#~ msgid "Groups key's XKeycode"
+#~ msgstr "XKeycode πλήκτρου ομάδων"
+
+#~ msgid "Groups key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode πλήκτρου ομάδων, 0 για απενεργοποίηση"
+
+#~ msgid "Help key's XKeycode"
+#~ msgstr "XKeycode πλήκτρου Βοήθειας"
+
+#~ msgid "Help key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode πλήκτρου βοήθειας, 0 για απενεργοποίηση"
+
+#~ msgid "Mute key's XKeycode"
+#~ msgstr "XKeycode πλήκτρου σιωπής"
+
+#~ msgid "Mute key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode πλήκτρου σιωπής, 0 για απενεργοποίηση"
+
+#~ msgid "My Home key's XKeycode"
+#~ msgstr "XKeycode αρχικού μου πλήκτρου"
+
+#~ msgid "My Home key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode αρχικού μου πλήκτρου, 0 για απενεργοποίηση"
+
+#~ msgid "Next key's XKeycode"
+#~ msgstr "XKeycode πλήκτρου επομένου"
+
+#~ msgid "Next key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode πλήκτρου επομένου, 0 για απενεργοποίηση"
+
+#~ msgid "Pause key's XKeycode"
+#~ msgstr "XKeycode πλήκτρου παύσης"
+
+#~ msgid "Pause key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode πλήκτρου παύσης, 0 για απενεργοποίηση"
+
+#~ msgid "Play key's XKeycode"
+#~ msgstr "XKeycode πλήκτρου αναπαραγωγής"
+
+#~ msgid "Play key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode πλήκτρου αναπαραγωγής, 0 για απενεργοποίηση"
+
+#~ msgid "Power key's XKeycode"
+#~ msgstr "XKeycode πλήκτρου Power "
+
+#~ msgid "Power key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode πλήκτρου Power, 0 για απενεργοποίηση "
+
+#~ msgid "Previous key's XKeycode"
+#~ msgstr "XKeycode πλήκτρου προηγούμενου"
+
+#~ msgid "Previous key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode πλήκτρου προηγούμενου, 0 για απενεργοποίηση"
+
+#~ msgid "Record key's XKeycode"
+#~ msgstr "XKeycode πλήκτρου εγγραφής"
+
+#~ msgid "Record key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode πλήκτρου εγγραφής, 0 για απενεργοποίηση "
+
+#~ msgid "Refresh key's XKeycode"
+#~ msgstr "XKeycode πλήκτρου ανανέωσης"
+
+#~ msgid "Refresh key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode πλήκτρου ανανέωσης, 0 για απενεργοποίηση "
+
+#~ msgid "Screensaver key's XKeycode"
+#~ msgstr "XKeycode πλήκτρου προφύλαξης οθόνης"
+
+#~ msgid "Screensaver key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode πλήκτρου προφύλαξης οθόνης, 0 για απενεργοποίηση"
+
+#~ msgid "Search key's XKeycode"
+#~ msgstr "XKeycode πλήκτρου αναζήτησης"
+
+#~ msgid "Search key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode πλήκτρου αναζήτησης, 0 για απενεργοποίηση"
+
+#~ msgid "Shade Window key's XKeycode"
+#~ msgstr "XKeycode πλήκτρου σκίασης παραθύρου"
+
+#~ msgid "Shade Window key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode πλήκτρου σκίασης παραθύρου, 0 για απενεργοποίηση"
+
+#~ msgid "Sleep key's XKeycode"
+#~ msgstr "XKeycode πλήκτρου Sleep"
+
+#~ msgid "Sleep key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode πλήκτρου Sleep, 0 για απενεργοποίηση"
+
+#~ msgid "Sound file to be played when volume is changed"
+#~ msgstr "Αρχείο ήχου που θα εκτελείται όταν αλλάζει η ένταση"
+
+#~ msgid "Volume down key's XKeycode"
+#~ msgstr "XKeycode πλήκτρου μείωσης έντασης"
+
+#~ msgid "Volume down key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode πλήκτρου μείωσης έντασης, 0 για απενεργοποίηση"
+
+#, fuzzy
+#~ msgid "Volume step"
+#~ msgstr "Ένταση"
+
+#~ msgid "Volume up key's XKeycode"
+#~ msgstr "XKeycode πλήκτρου αύξησης έντασης"
+
+#~ msgid "Volume up key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode πλήκτρου αύξησης έντασης, 0 για απενεργοποίηση"
+
+#~ msgid "WWW key's XKeycode"
+#~ msgstr "XKeycode πλήκτρου WWW"
+
+#~ msgid "WWW key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode πλήκτρου WWW, 0 για απενεργοποίηση"
+
+#~ msgid "Accelerator key"
+#~ msgstr "Πλήκτρο συντόμευσης"
+
+#~ msgid "Accelerator modifiers"
+#~ msgstr "Μετατροπείς συντόμευσης"
+
+#~ msgid "Accelerator Mode"
+#~ msgstr "Λειτουργία συντόμευσης"
+
+#~ msgid "The type of accelerator."
+#~ msgstr "Το είδος της συντόμευσης."
+
+#~ msgid "Type a new accelerator, or press Backspace to clear"
+#~ msgstr ""
+#~ "Πληκτρολογήστε μια νέα συντόμευση, ή πιέστε το  Backspace για εκκαθάριση"
+
+#~ msgid "Type a new accelerator"
+#~ msgstr "Πληκτρολογήστε μια νέα συντόμευση"
+
+#~ msgid "_Launch the multimedia key daemon"
+#~ msgstr "_Εκκίνηση του daemon πλήκτρου πολυμέσων"
+
+#~ msgid "(C) 2001, 2002 Bastien Nocera"
+#~ msgstr "(C) 2001, 2002 Bastien Nocera"
+
+#~ msgid "Keys setup"
+#~ msgstr "Ορισμός πλήκτρων"
+
+#~ msgid "Sound setup"
+#~ msgstr "Ορισμός ήχου"

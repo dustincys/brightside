@@ -1,0 +1,765 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Brightside HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-01-16 02:13+0000\n"
+"PO-Revision-Date: 2003-02-06 10:27+0700\n"
+"Last-Translator: Mohammad DAMT <mdamt@bisnisweb.com>\n"
+"Language-Team: Indonesia <id@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/brightside.c:224
+#, c-format
+msgid ""
+"Couldn't execute command: %s\n"
+"Verify that this command exists."
+msgstr ""
+"Tidak dapat menjalankan program: %s\n"
+"Silakan cek dulu apakah programnya ada atau tidak."
+
+#: src/brightside.c:243
+#, c-format
+msgid ""
+"Permissions on the file %s are broken\n"
+"Please check Brightside's documentation, correct the problem and restart "
+"Brightside."
+msgstr ""
+"Permission pada file %s tidak benar\n"
+"Silakan cek dulu dokumentasi Brightside, perbaiki masalahnya lalu restart "
+"Brightside lagi."
+
+#: src/brightside.c:487
+msgid "translator_credits"
+msgstr "Mohammad DAMT <mdamt@bisnisweb.com>"
+
+#: src/brightside.c:498
+msgid "Brightside"
+msgstr "Brightside"
+
+#: src/brightside.c:500 src/brightside.c:573
+msgid "Screen Corners and Edges daemon"
+msgstr ""
+
+#: src/brightside.c:579
+msgid "Screen Corners and Edges daemon active"
+msgstr ""
+
+#: src/brightside.c:1733
+msgid "Daemon already running, exiting...\n"
+msgstr ""
+
+#: src/brightside.c:1742
+msgid ""
+"Couldn't load the Glade file.\n"
+"Make sure that this daemon is properly installed."
+msgstr ""
+"Tidak dapat membuka file Glade.\n"
+"Silakan periksa dulu apakah daemon sudah diinstall dengan benar atau belum."
+
+#: src/brightside.glade.h:1
+msgid "Volume"
+msgstr "Volume"
+
+#: src/brightside.h:65
+#, fuzzy
+msgid "Mute volume"
+msgstr "Tombol mute"
+
+#: src/brightside.h:67
+msgid "Prevent screensaver starting"
+msgstr ""
+
+#: src/brightside.h:69
+#, fuzzy
+msgid "Start screensaver"
+msgstr "tombol screen saver"
+
+#: src/brightside.h:71
+msgid "Enter DPMS standby mode"
+msgstr ""
+
+#: src/brightside.h:73
+msgid "Enter DPMS suspend mode"
+msgstr ""
+
+#: src/brightside.h:75
+msgid "Enter DPMS off mode"
+msgstr ""
+
+#: src/brightside.h:78
+msgid "Dim laptop backlight"
+msgstr ""
+
+#: src/brightside.h:81
+msgid "Custom action..."
+msgstr ""
+
+#: src/brightside-properties.c:283 src/brightside-properties.glade.h:9
+#: src/brightside.desktop.in.h:2
+msgid "Screen Corners and Edges"
+msgstr ""
+
+#: src/brightside-properties.glade.h:1 src/custom-action.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: src/brightside-properties.glade.h:2
+msgid "<small><i>Long</i></small>"
+msgstr ""
+
+#: src/brightside-properties.glade.h:3
+msgid "<small><i>Short</i></small>"
+msgstr ""
+
+#: src/brightside-properties.glade.h:4
+#, fuzzy
+msgid "<span weight=\"bold\">Screen Corners</span>"
+msgstr "<span weight=\"bold\">Setel suara</span>"
+
+#: src/brightside-properties.glade.h:5
+#, fuzzy
+msgid "<span weight=\"bold\">Screen Edges</span>"
+msgstr "<span weight=\"bold\">Setel suara</span>"
+
+#: src/brightside-properties.glade.h:6
+#, fuzzy
+msgid "Action to take while mouse is placed in corner of screen"
+msgstr "Program yang dijalankan saat tombol Eject ditekan"
+
+#: src/brightside-properties.glade.h:7
+msgid "Bottom r_ight corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:8
+msgid "D_elay:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:10
+msgid "Switch to _adjacent workspace when mouse is moved to edge of screen"
+msgstr ""
+
+#: src/brightside-properties.glade.h:11
+msgid "Top _right corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:12
+msgid "When switching workspace, _wrap around edges of workspace layout"
+msgstr ""
+
+#: src/brightside-properties.glade.h:13
+msgid "_Bottom left corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:14
+msgid "_Configurable actions"
+msgstr ""
+
+#: src/brightside-properties.glade.h:15
+msgid "_Delay:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:16
+msgid "_Switch to diagonally adjacent workspace"
+msgstr ""
+
+#: src/brightside-properties.glade.h:17
+msgid "_Top left corner:"
+msgstr ""
+
+#: src/brightside.desktop.in.h:1
+#, fuzzy
+msgid "Configure screen-edge behaviour"
+msgstr "Konfigurasikan tombol multimedia"
+
+#: src/brightside.schemas.in.h:1
+msgid "Action enabled when mouse is in bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:2
+msgid "Action enabled when mouse is in bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:3
+msgid "Action enabled when mouse is in top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:4
+msgid "Action enabled when mouse is in top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:5
+msgid "Action to occur when mouse is in bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:6
+msgid "Action to occur when mouse is in bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:7
+msgid "Action to occur when mouse is in top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:8
+msgid "Action to occur when mouse is in top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:9
+msgid "After flip command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:10
+msgid "Bottom left corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:11
+msgid "Bottom left corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:12
+msgid "Bottom left corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:13
+msgid "Bottom left corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:14
+msgid "Bottom left corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:15
+msgid "Bottom right corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:16
+msgid "Bottom right corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:17
+msgid "Bottom right corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:18
+msgid "Bottom right corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:19
+msgid "Bottom right corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:20
+msgid "Command to execute after flipping workspace (empty string for none)"
+msgstr ""
+
+#: src/brightside.schemas.in.h:21
+msgid "Corner delay"
+msgstr ""
+
+#: src/brightside.schemas.in.h:22
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse enters bottom left corner of screen"
+msgstr "Program yang dijalankan saat tombol Eject ditekan"
+
+#: src/brightside.schemas.in.h:23
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse enters bottom right corner of screen"
+msgstr "Program yang dijalankan saat tombol Eject ditekan"
+
+#: src/brightside.schemas.in.h:24
+#, fuzzy
+msgid "Custom command to execute when mouse enters top left corner of screen"
+msgstr "Program yang dijalankan saat tombol Eject ditekan"
+
+#: src/brightside.schemas.in.h:25
+#, fuzzy
+msgid "Custom command to execute when mouse enters top right corner of screen"
+msgstr "Program yang dijalankan saat tombol Eject ditekan"
+
+#: src/brightside.schemas.in.h:26
+#, fuzzy
+msgid "Custom command to execute when mouse exits bottom left corner of screen"
+msgstr "Program yang dijalankan saat tombol Eject ditekan"
+
+#: src/brightside.schemas.in.h:27
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse exits bottom right corner of screen"
+msgstr "Program yang dijalankan saat tombol Eject ditekan"
+
+#: src/brightside.schemas.in.h:28
+#, fuzzy
+msgid "Custom command to execute when mouse exits top left corner of screen"
+msgstr "Program yang dijalankan saat tombol Eject ditekan"
+
+#: src/brightside.schemas.in.h:29
+#, fuzzy
+msgid "Custom command to execute when mouse exits top right corner of screen"
+msgstr "Program yang dijalankan saat tombol Eject ditekan"
+
+#: src/brightside.schemas.in.h:30
+msgid "Delay in milliseconds before edge flip occurs"
+msgstr ""
+
+#: src/brightside.schemas.in.h:31
+msgid "Delay in milliseconds before screen corner action occurs"
+msgstr ""
+
+#: src/brightside.schemas.in.h:32
+msgid "Edge delay"
+msgstr ""
+
+#: src/brightside.schemas.in.h:33
+msgid "Edge wrap"
+msgstr ""
+
+#: src/brightside.schemas.in.h:34
+#, fuzzy
+msgid "Enable corner flip"
+msgstr "aktif"
+
+#: src/brightside.schemas.in.h:35
+#, fuzzy
+msgid "Enable edge flip"
+msgstr "aktif"
+
+#: src/brightside.schemas.in.h:36
+msgid "Orientable workspaces"
+msgstr ""
+
+#: src/brightside.schemas.in.h:37
+msgid ""
+"Switch to diagonally adjacent workspace when mouse placed in the corner of "
+"the screen, instead of executing a configurable action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:38
+msgid ""
+"Switch to the adjacent workspace when the mouse reaches the edge of the "
+"screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:39
+msgid "Terminate custom command when mouse exits bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:40
+msgid "Terminate custom command when mouse exits bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:41
+msgid "Terminate custom command when mouse exits top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:42
+msgid "Terminate custom command when mouse exits top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:43
+msgid "Top left corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:44
+msgid "Top left corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:45
+msgid "Top left corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:46
+msgid "Top left corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:47
+msgid "Top left corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:48
+msgid "Top right corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:49
+msgid "Top right corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:50
+msgid "Top right corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:51
+msgid "Top right corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:52
+msgid "Top right corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:53
+msgid "Use PCM Volume instead of Master Volume"
+msgstr "Gunakan volume PCM, jangan volume master"
+
+#: src/brightside.schemas.in.h:54
+msgid "Whether workspace layout is orientable"
+msgstr ""
+
+#: src/brightside.schemas.in.h:55
+msgid "Wrap wround edges of workspace layout when flipping workspace"
+msgstr ""
+
+#: src/custom-action.glade.h:2
+msgid "*"
+msgstr ""
+
+#: src/custom-action.glade.h:3
+#, fuzzy
+msgid "<span weight=\"bold\">On _entering region</span>"
+msgstr "<span weight\"bold\">Setel tombol</span>"
+
+#: src/custom-action.glade.h:4
+#, fuzzy
+msgid "<span weight=\"bold\">On leaving region</span>"
+msgstr "<span weight=\"bold\">Setel suara</span>"
+
+#: src/custom-action.glade.h:5 src/custom-action.c:104
+msgid "Custom action"
+msgstr ""
+
+#: src/custom-action.glade.h:6
+msgid "_Run another command:"
+msgstr ""
+
+#: src/custom-action.glade.h:7
+msgid "_Terminate above application"
+msgstr ""
+
+#~ msgid ""
+#~ "Couldn't execute either command: %s\n"
+#~ "or command: %s\n"
+#~ "Verify that at least one of these commands exist."
+#~ msgstr ""
+#~ "Tidak dapat menjalankan program: %s\n"
+#~ "atau program: %s\n"
+#~ "Silakan cek dulu apakah program tersebut ada atau tidak. Salah satu harus "
+#~ "ada."
+
+#~ msgid ""
+#~ "There was an error removing access to the multimedia keys.\n"
+#~ "Key %d couldn't be unbound."
+#~ msgstr ""
+#~ "Ada error saat melepas akses ke tombol-tombol multimedia.\n"
+#~ "Tombol %d tidak bisa dilepas."
+
+#~ msgid ""
+#~ "It seems that another application already has access to the multimedia "
+#~ "keys.\n"
+#~ "Key %d couldn't be bound.\n"
+#~ "Is another daemon already running ?"
+#~ msgstr ""
+#~ "Sepertinya ada aplikasi lain yang memblokir akses ke tombol-tombol "
+#~ "multimedia.\n"
+#~ "Tombol %d tidak dapat dilepas.\n"
+#~ "Apakah ada daemon lain yang sedang berjalan?"
+
+#~ msgid "Multimedia keys daemon"
+#~ msgstr "Daemon tombol multimedia"
+
+#~ msgid "Multimedia Keys daemon active"
+#~ msgstr "Daemon tombol multimedia sedang aktif"
+
+#~ msgid "Volume down key"
+#~ msgstr "tombol pengecil suara"
+
+#~ msgid "Volume up key"
+#~ msgstr "tombol pembesar suara"
+
+#~ msgid "Power key"
+#~ msgstr "tombol power"
+
+#~ msgid "Eject key"
+#~ msgstr "tombol eject"
+
+#~ msgid "Media key"
+#~ msgstr "tombol media"
+
+#~ msgid "Play key"
+#~ msgstr "tombol play"
+
+#~ msgid "Pause key"
+#~ msgstr "tombol pause"
+
+#~ msgid "Stop (Audio) key"
+#~ msgstr "tombol stop untuk audio"
+
+#~ msgid "Previous (Audio) key"
+#~ msgstr "tombol `previous` untuk audio"
+
+#~ msgid "Next (Audio) key"
+#~ msgstr "tombol `berikut` untuk audio"
+
+#~ msgid "My Home key"
+#~ msgstr "tombol Home"
+
+#~ msgid "Refresh key"
+#~ msgstr "tombol refresh"
+
+#~ msgid "Search key"
+#~ msgstr "tombol cari"
+
+#~ msgid "E-Mail key"
+#~ msgstr "tombol E-mail"
+
+#~ msgid "Sleep key"
+#~ msgstr "tombol Sleep"
+
+#~ msgid "Finance key"
+#~ msgstr "tombol Finance"
+
+#~ msgid "Help key"
+#~ msgstr "Tombol Bantuan"
+
+#~ msgid "WWW key"
+#~ msgstr "tombol WWW"
+
+#~ msgid "Groups key"
+#~ msgstr "tombol Group"
+
+#~ msgid "Calculator key"
+#~ msgstr "tombol Kalkulator"
+
+#~ msgid "Record key"
+#~ msgstr "tombol Rekam"
+
+#~ msgid "Close Window key"
+#~ msgstr "Tombol Tutup window"
+
+#~ msgid "Shade Window key"
+#~ msgstr "tombol untuk menyembunyikan window"
+
+#~ msgid "Brightness down key"
+#~ msgstr "tombol untuk atur terang/gelap layar"
+
+#~ msgid "Brightness up key"
+#~ msgstr "tombol penambah terang"
+
+#~ msgid "Disabled"
+#~ msgstr "tidak aktif"
+
+#, fuzzy
+#~ msgid ""
+#~ "This key is already bound to action '%s'.\n"
+#~ "Please select another key."
+#~ msgstr ""
+#~ "Tombol ini sudah dipakai untuk keperluan lain.\n"
+#~ "silakan pilih tombol lain."
+
+#~ msgid "Description"
+#~ msgstr "Keterangan"
+
+#~ msgid "Status"
+#~ msgstr "Status"
+
+#~ msgid "Multimedia Keys Preferences"
+#~ msgstr "Setel tombol multimedia"
+
+#~ msgid ""
+#~ "To assign a key to an action, click on a line, and press the key you want "
+#~ "to associate with it.\n"
+#~ "\"C\" cancels the capture, and \"Backspace\" disables the key shortcut."
+#~ msgstr ""
+#~ "Untuk mengeset suatu tombol, silakan klik pada baris yangs sesuai, dan "
+#~ "tekan tombol yang mau dipakai untuk keperluan itu.\n"
+#~ "tekan \"C\" untuk membatalkan deteksi tombol, atau tekan \"Backspace\" "
+#~ "untuk menonaktifkan tombol."
+
+#~ msgid "Use _PCM volume instead of Master volume"
+#~ msgstr "Gunakan volume _PCM, jangan pakai volume master"
+
+#~ msgid "Multimedia Keys"
+#~ msgstr "Tombol-tombol multimedia"
+
+#~ msgid "Brightness down key's XKeycode"
+#~ msgstr "Kode XKeycode tombol penggelap layar"
+
+#~ msgid "Brightness down key's XKeycode, 0 to disable"
+#~ msgstr "Kode XKeycode tombol penggelap layar, 0 untuk menonaktifkan"
+
+#~ msgid "Brightness up key's XKeycode"
+#~ msgstr "Kode XKeycode tombol penerang layar"
+
+#~ msgid "Brightness up key's XKeycode, 0 to disable"
+#~ msgstr "Kode XKeycode tombol penerang layar, 0 untuk menonaktifkan"
+
+#~ msgid "Calculator key's XKeycode"
+#~ msgstr "Kode XKeycode tombol Kalkulator"
+
+#~ msgid "Calculator key's XKeycode, 0 to disable"
+#~ msgstr "Kode XKeycode tombol Kalkulator, 0 untuk menonaktifkan"
+
+#~ msgid "Close Window key's XKeycode"
+#~ msgstr "Kode XKeycode tombol tutup window"
+
+#~ msgid "Close Window key's XKeycode, 0 to disable"
+#~ msgstr "Kode XKeycode tombol tutup window, 0 untuk menonaktifkan"
+
+#~ msgid "E-Mail key's XKeycode"
+#~ msgstr "Kode XKeycode tombol Email"
+
+#~ msgid "E-Mail key's XKeycode, 0 to disable"
+#~ msgstr "Kode XKeycode tombol Email, 0 untuk menonaktifkan"
+
+#~ msgid "Eject key's XKeycode"
+#~ msgstr "Kode XKeycode tombol Eject"
+
+#~ msgid "Eject key's XKeycode, 0 to disable"
+#~ msgstr "Kode XKeycode tombol Eject, 0 untuk menonaktifkan"
+
+#~ msgid "Finance key's XKeycode"
+#~ msgstr "Kode XKeycode tombol Finance"
+
+#~ msgid "Finance key's XKeycode, 0 to disable"
+#~ msgstr "Kode XKeycode tombol Finance, 0 untuk menonaktifkan"
+
+#~ msgid "Groups key's XKeycode"
+#~ msgstr "Kode XKeycode tombol Groups"
+
+#~ msgid "Groups key's XKeycode, 0 to disable"
+#~ msgstr "Kode XKeycode tombol Groups, 0 untuk menonaktifkan"
+
+#~ msgid "Help key's XKeycode"
+#~ msgstr "Kode XKeycode tombol Help"
+
+#~ msgid "Help key's XKeycode, 0 to disable"
+#~ msgstr "Kode XKeycode tombol Help, 0 untuk menonaktifkan"
+
+#~ msgid "Mute key's XKeycode"
+#~ msgstr "Kode XKeycode tombol Mute"
+
+#~ msgid "Mute key's XKeycode, 0 to disable"
+#~ msgstr "Kode XKeycode tombol Mute, 0 untuk menonaktifkan"
+
+#~ msgid "My Home key's XKeycode"
+#~ msgstr "Kode XKeycode tombol My Home"
+
+#~ msgid "My Home key's XKeycode, 0 to disable"
+#~ msgstr "Kode XKeycode tombol My Home, 0 untuk menonaktifkan"
+
+#~ msgid "Next key's XKeycode"
+#~ msgstr "Kode XKeycode tombol Next"
+
+#~ msgid "Next key's XKeycode, 0 to disable"
+#~ msgstr "Kode XKeycode tombol Next, 0 untuk menonaktifkan"
+
+#~ msgid "Pause key's XKeycode"
+#~ msgstr "Kode XKeycode tombol Pause"
+
+#~ msgid "Pause key's XKeycode, 0 to disable"
+#~ msgstr "Kode XKeycode tombol Pause, 0 untuk menonaktifkan"
+
+#~ msgid "Play key's XKeycode"
+#~ msgstr "Kode XKeycode tombol Play"
+
+#~ msgid "Play key's XKeycode, 0 to disable"
+#~ msgstr "Kode XKeycode tombol Play, 0 untuk menonaktifkan"
+
+#~ msgid "Power key's XKeycode"
+#~ msgstr "Kode XKeycode tombol Power"
+
+#~ msgid "Power key's XKeycode, 0 to disable"
+#~ msgstr "Kode XKeycode tombol Power, 0 untuk menonaktifkan"
+
+#~ msgid "Previous key's XKeycode"
+#~ msgstr "Kode XKeycode tombol Previous"
+
+#~ msgid "Previous key's XKeycode, 0 to disable"
+#~ msgstr "Kode XKeycode tombol Previous, 0 untuk menonaktifkan"
+
+#~ msgid "Record key's XKeycode"
+#~ msgstr "Kode XKeycode tombol Rekam"
+
+#~ msgid "Record key's XKeycode, 0 to disable"
+#~ msgstr "Kode XKeycode tombol Rekam, 0 untuk menonaktifkan"
+
+#~ msgid "Refresh key's XKeycode"
+#~ msgstr "Kode XKeycode tombol Refresh"
+
+#~ msgid "Refresh key's XKeycode, 0 to disable"
+#~ msgstr "Kode XKeycode tombol Refresh, 0 untuk menonaktifkan"
+
+#~ msgid "Screensaver key's XKeycode"
+#~ msgstr "Kode XKeycode tombol Screensaver"
+
+#~ msgid "Screensaver key's XKeycode, 0 to disable"
+#~ msgstr "Kode XKeycode tombol Screensaver, 0 untuk menonaktifkan"
+
+#~ msgid "Search key's XKeycode"
+#~ msgstr "Kode XKeycode tombol Cari"
+
+#~ msgid "Search key's XKeycode, 0 to disable"
+#~ msgstr "Kode XKeycode tombol Cari, 0 untuk menonaktifkan"
+
+#~ msgid "Shade Window key's XKeycode"
+#~ msgstr "Kode XKeycode tombol sembunyikan window"
+
+#~ msgid "Shade Window key's XKeycode, 0 to disable"
+#~ msgstr "Kode XKeycode tombol sembunyikan window, 0 untuk menonaktifkan"
+
+#~ msgid "Sleep key's XKeycode"
+#~ msgstr "Kode XKeycode tombol Sleep"
+
+#~ msgid "Sleep key's XKeycode, 0 to disable"
+#~ msgstr "Kode XKeycode tombol Sleep, 0 untuk menonaktifkan"
+
+#~ msgid "Sound file to be played when volume is changed"
+#~ msgstr "File suara yang dimainkan saat volume dirubah"
+
+#~ msgid "Volume down key's XKeycode"
+#~ msgstr "Kode XKeycode tombol pengecil volume"
+
+#~ msgid "Volume down key's XKeycode, 0 to disable"
+#~ msgstr "Kode XKeycode tombol pengecil suara, 0 untuk menonaktifkan"
+
+#, fuzzy
+#~ msgid "Volume step"
+#~ msgstr "Volume"
+
+#~ msgid "Volume up key's XKeycode"
+#~ msgstr "Kode XKeycode tombol pembesar suara"
+
+#~ msgid "Volume up key's XKeycode, 0 to disable"
+#~ msgstr "Kode XKeycode tombol pembesar suara, 0 untuk menonaktifkan"
+
+#~ msgid "WWW key's XKeycode"
+#~ msgstr "Kode XKeycode tombol WWW"
+
+#~ msgid "WWW key's XKeycode, 0 to disable"
+#~ msgstr "Kode XKeycode tombol WWW, 0 untuk menonaktifkan"
+
+#~ msgid "Accelerator key"
+#~ msgstr "Tombol jalan pintas"
+
+#~ msgid "Accelerator modifiers"
+#~ msgstr "Tombol kombinasi lain"
+
+#~ msgid "Accelerator Mode"
+#~ msgstr "Mode jalan pintas"
+
+#~ msgid "The type of accelerator."
+#~ msgstr "Jenis jalan pintas"
+
+#~ msgid "Type a new accelerator, or press Backspace to clear"
+#~ msgstr "Ketik tombol untuk jalan pintas, atau tekan Backspace untuk mereset"
+
+#~ msgid "Type a new accelerator"
+#~ msgstr "Silakan ketik tombol untuk jalan pintas"
+
+#~ msgid "_Launch the multimedia key daemon"
+#~ msgstr "Ja_lankan daemon tombol multimedia"

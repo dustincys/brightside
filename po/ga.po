@@ -1,0 +1,724 @@
+# Irish Translation of Brightside
+# Copyright (C) 2003, Free Software Foundation, INC
+# This file is distributed under the same license as the Brightside package.
+# Paul Duffy <dubhthach@frink.nuigalway.ie>, 2003.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Brightside HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-01-16 02:13+0000\n"
+"PO-Revision-Date: 2003-08-29 09:42+0100\n"
+"Last-Translator: Paul Duffy <dubhthach@frink.nuigalway.ie>\n"
+"Language-Team: Irish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/brightside.c:224
+#, c-format
+msgid ""
+"Couldn't execute command: %s\n"
+"Verify that this command exists."
+msgstr ""
+"Theip ag rith an órdú: %s\n"
+"Fioraigh go bhfuil órdú mar sin an."
+
+#: src/brightside.c:243
+#, c-format
+msgid ""
+"Permissions on the file %s are broken\n"
+"Please check Brightside's documentation, correct the problem and restart "
+"Brightside."
+msgstr ""
+"Tá na cead atá ag comhad %s briste\n"
+"Feach ar an dóicméad atá ag Brightside, socraigh an feadbh agus áth-thosaigh "
+"Brightside. "
+
+#: src/brightside.c:487
+msgid "translator_credits"
+msgstr "Pól Ó Dubhthaigh (dubhthach@frink.nuigalway.ie)"
+
+#: src/brightside.c:498
+msgid "Brightside"
+msgstr "Brightside"
+
+#: src/brightside.c:500 src/brightside.c:573
+msgid "Screen Corners and Edges daemon"
+msgstr ""
+
+#: src/brightside.c:579
+msgid "Screen Corners and Edges daemon active"
+msgstr ""
+
+#: src/brightside.c:1733
+msgid "Daemon already running, exiting...\n"
+msgstr ""
+
+#: src/brightside.c:1742
+msgid ""
+"Couldn't load the Glade file.\n"
+"Make sure that this daemon is properly installed."
+msgstr ""
+"Theip ag lódáil an comhad Glade.\n"
+"Feach go bhfuil an deamhan insealbhach."
+
+#: src/brightside.glade.h:1
+msgid "Volume"
+msgstr "Toirt"
+
+#: src/brightside.h:65
+#, fuzzy
+msgid "Mute volume"
+msgstr "cnaipe Balbhán"
+
+#: src/brightside.h:67
+msgid "Prevent screensaver starting"
+msgstr ""
+
+#: src/brightside.h:69
+#, fuzzy
+msgid "Start screensaver"
+msgstr "cnaipe an spáráil-scáileán"
+
+#: src/brightside.h:71
+msgid "Enter DPMS standby mode"
+msgstr ""
+
+#: src/brightside.h:73
+msgid "Enter DPMS suspend mode"
+msgstr ""
+
+#: src/brightside.h:75
+msgid "Enter DPMS off mode"
+msgstr ""
+
+#: src/brightside.h:78
+msgid "Dim laptop backlight"
+msgstr ""
+
+#: src/brightside.h:81
+msgid "Custom action..."
+msgstr ""
+
+#: src/brightside-properties.c:283 src/brightside-properties.glade.h:9
+#: src/brightside.desktop.in.h:2
+msgid "Screen Corners and Edges"
+msgstr ""
+
+#: src/brightside-properties.glade.h:1 src/custom-action.glade.h:1
+msgid "    "
+msgstr "     "
+
+#: src/brightside-properties.glade.h:2
+msgid "<small><i>Long</i></small>"
+msgstr ""
+
+#: src/brightside-properties.glade.h:3
+msgid "<small><i>Short</i></small>"
+msgstr ""
+
+#: src/brightside-properties.glade.h:4
+#, fuzzy
+msgid "<span weight=\"bold\">Screen Corners</span>"
+msgstr "<span weight=\"bold\">Socrú an Glóir</span>"
+
+#: src/brightside-properties.glade.h:5
+#, fuzzy
+msgid "<span weight=\"bold\">Screen Edges</span>"
+msgstr "<span weight=\"bold\">Socrú an Glóir</span>"
+
+#: src/brightside-properties.glade.h:6
+#, fuzzy
+msgid "Action to take while mouse is placed in corner of screen"
+msgstr "Ordú chun rith nuair a bhuail an cnaipe Díchuir"
+
+#: src/brightside-properties.glade.h:7
+msgid "Bottom r_ight corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:8
+msgid "D_elay:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:10
+msgid "Switch to _adjacent workspace when mouse is moved to edge of screen"
+msgstr ""
+
+#: src/brightside-properties.glade.h:11
+msgid "Top _right corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:12
+msgid "When switching workspace, _wrap around edges of workspace layout"
+msgstr ""
+
+#: src/brightside-properties.glade.h:13
+msgid "_Bottom left corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:14
+msgid "_Configurable actions"
+msgstr ""
+
+#: src/brightside-properties.glade.h:15
+msgid "_Delay:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:16
+msgid "_Switch to diagonally adjacent workspace"
+msgstr ""
+
+#: src/brightside-properties.glade.h:17
+msgid "_Top left corner:"
+msgstr ""
+
+#: src/brightside.desktop.in.h:1
+#, fuzzy
+msgid "Configure screen-edge behaviour"
+msgstr "Socrú an gothaí atá ag na cnaipe Ilmheánach"
+
+#: src/brightside.schemas.in.h:1
+msgid "Action enabled when mouse is in bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:2
+msgid "Action enabled when mouse is in bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:3
+msgid "Action enabled when mouse is in top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:4
+msgid "Action enabled when mouse is in top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:5
+msgid "Action to occur when mouse is in bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:6
+msgid "Action to occur when mouse is in bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:7
+msgid "Action to occur when mouse is in top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:8
+msgid "Action to occur when mouse is in top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:9
+msgid "After flip command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:10
+msgid "Bottom left corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:11
+msgid "Bottom left corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:12
+msgid "Bottom left corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:13
+msgid "Bottom left corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:14
+msgid "Bottom left corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:15
+msgid "Bottom right corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:16
+msgid "Bottom right corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:17
+msgid "Bottom right corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:18
+msgid "Bottom right corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:19
+msgid "Bottom right corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:20
+msgid "Command to execute after flipping workspace (empty string for none)"
+msgstr ""
+
+#: src/brightside.schemas.in.h:21
+msgid "Corner delay"
+msgstr ""
+
+#: src/brightside.schemas.in.h:22
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse enters bottom left corner of screen"
+msgstr "Ordú chun rith nuair a bhuail an cnaipe Díchuir"
+
+#: src/brightside.schemas.in.h:23
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse enters bottom right corner of screen"
+msgstr "Ordú chun rith nuair a bhuail an cnaipe Díchuir"
+
+#: src/brightside.schemas.in.h:24
+#, fuzzy
+msgid "Custom command to execute when mouse enters top left corner of screen"
+msgstr "Ordú chun rith nuair a bhuail an cnaipe Díchuir"
+
+#: src/brightside.schemas.in.h:25
+#, fuzzy
+msgid "Custom command to execute when mouse enters top right corner of screen"
+msgstr "Ordú chun rith nuair a bhuail an cnaipe Díchuir"
+
+#: src/brightside.schemas.in.h:26
+#, fuzzy
+msgid "Custom command to execute when mouse exits bottom left corner of screen"
+msgstr "Ordú chun rith nuair a bhuail an cnaipe Díchuir"
+
+#: src/brightside.schemas.in.h:27
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse exits bottom right corner of screen"
+msgstr "Ordú chun rith nuair a bhuail an cnaipe Díchuir"
+
+#: src/brightside.schemas.in.h:28
+#, fuzzy
+msgid "Custom command to execute when mouse exits top left corner of screen"
+msgstr "Ordú chun rith nuair a bhuail an cnaipe Díchuir"
+
+#: src/brightside.schemas.in.h:29
+#, fuzzy
+msgid "Custom command to execute when mouse exits top right corner of screen"
+msgstr "Ordú chun rith nuair a bhuail an cnaipe Díchuir"
+
+#: src/brightside.schemas.in.h:30
+msgid "Delay in milliseconds before edge flip occurs"
+msgstr ""
+
+#: src/brightside.schemas.in.h:31
+msgid "Delay in milliseconds before screen corner action occurs"
+msgstr ""
+
+#: src/brightside.schemas.in.h:32
+msgid "Edge delay"
+msgstr ""
+
+#: src/brightside.schemas.in.h:33
+msgid "Edge wrap"
+msgstr ""
+
+#: src/brightside.schemas.in.h:34
+#, fuzzy
+msgid "Enable corner flip"
+msgstr "Cumasach"
+
+#: src/brightside.schemas.in.h:35
+#, fuzzy
+msgid "Enable edge flip"
+msgstr "Cumasach"
+
+#: src/brightside.schemas.in.h:36
+msgid "Orientable workspaces"
+msgstr ""
+
+#: src/brightside.schemas.in.h:37
+msgid ""
+"Switch to diagonally adjacent workspace when mouse placed in the corner of "
+"the screen, instead of executing a configurable action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:38
+msgid ""
+"Switch to the adjacent workspace when the mouse reaches the edge of the "
+"screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:39
+msgid "Terminate custom command when mouse exits bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:40
+msgid "Terminate custom command when mouse exits bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:41
+msgid "Terminate custom command when mouse exits top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:42
+msgid "Terminate custom command when mouse exits top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:43
+msgid "Top left corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:44
+msgid "Top left corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:45
+msgid "Top left corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:46
+msgid "Top left corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:47
+msgid "Top left corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:48
+msgid "Top right corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:49
+msgid "Top right corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:50
+msgid "Top right corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:51
+msgid "Top right corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:52
+msgid "Top right corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:53
+msgid "Use PCM Volume instead of Master Volume"
+msgstr "Baint trial as toirt PCM in ionad do an toirt Máistir"
+
+#: src/brightside.schemas.in.h:54
+msgid "Whether workspace layout is orientable"
+msgstr ""
+
+#: src/brightside.schemas.in.h:55
+msgid "Wrap wround edges of workspace layout when flipping workspace"
+msgstr ""
+
+#: src/custom-action.glade.h:2
+msgid "*"
+msgstr ""
+
+#: src/custom-action.glade.h:3
+#, fuzzy
+msgid "<span weight=\"bold\">On _entering region</span>"
+msgstr "<span weight=\"bold\">Socrú na Cnaipe </span>"
+
+#: src/custom-action.glade.h:4
+#, fuzzy
+msgid "<span weight=\"bold\">On leaving region</span>"
+msgstr "<span weight=\"bold\">Socrú an Glóir</span>"
+
+#: src/custom-action.glade.h:5 src/custom-action.c:104
+msgid "Custom action"
+msgstr ""
+
+#: src/custom-action.glade.h:6
+msgid "_Run another command:"
+msgstr ""
+
+#: src/custom-action.glade.h:7
+msgid "_Terminate above application"
+msgstr ""
+
+#~ msgid ""
+#~ "Couldn't execute either command: %s\n"
+#~ "or command: %s\n"
+#~ "Verify that at least one of these commands exist."
+#~ msgstr ""
+#~ "Theip ag rith ceachtar do ná órdú seo: %s\n"
+#~ "nó órdú: %s\n"
+#~ "Fioraigh go bhfuil ceann de na órdú seo fíor."
+
+#~ msgid ""
+#~ "There was an error removing access to the multimedia keys.\n"
+#~ "Key %d couldn't be unbound."
+#~ msgstr ""
+#~ "Bhí feadbh ag cealaigh an rochtain atá ag na cnaipe ilmheánach.\n"
+#~ "Theip ag cealaigh na ceangailte atá ag Cnaipe %d"
+
+#~ msgid "Multimedia keys daemon"
+#~ msgstr "Deamhan le haighaidh na cnaipe Ilmheánach"
+
+#~ msgid "Multimedia Keys daemon active"
+#~ msgstr "Tá an Deamhan le haighaidh na cnaipe Ilmheánach ag rith"
+
+#~ msgid "Volume down key"
+#~ msgstr "cnaipe chun ísligh an Toirt"
+
+#~ msgid "Volume up key"
+#~ msgstr "cnaipe chun éirigh an Toirt"
+
+#~ msgid "Power key"
+#~ msgstr "cnaipe Cumhachta"
+
+#~ msgid "Eject key"
+#~ msgstr "cnaipe Díchuir"
+
+#~ msgid "Media key"
+#~ msgstr "cnaipe an Meán"
+
+#~ msgid "Play key"
+#~ msgstr "cnaipe Imearas"
+
+#~ msgid "Pause key"
+#~ msgstr "cnaipe Sos"
+
+#~ msgid "My Home key"
+#~ msgstr "cnaipe le haighaidh Mó Bhaile"
+
+#~ msgid "Refresh key"
+#~ msgstr "cnaipe chun Úraigh"
+
+#~ msgid "Search key"
+#~ msgstr "cnaipe Cuardach"
+
+#~ msgid "E-Mail key"
+#~ msgstr "cnaipe R-Phoist"
+
+#~ msgid "Sleep key"
+#~ msgstr "cnaipe Codlata"
+
+#~ msgid "Finance key"
+#~ msgstr "cnaipe Airgeadas"
+
+#~ msgid "Help key"
+#~ msgstr "cnaipe Cabhair"
+
+#~ msgid "WWW key"
+#~ msgstr "cnaipe WWW"
+
+#~ msgid "Groups key"
+#~ msgstr "cnaipe Grupaí"
+
+#~ msgid "Calculator key"
+#~ msgstr "cnaipe an Áireamhán"
+
+#~ msgid "Record key"
+#~ msgstr "cnaipe Taifead"
+
+#~ msgid "Close Window key"
+#~ msgstr "cnaipe do \"Dún an Fhuinneog\""
+
+#~ msgid "Shade Window key"
+#~ msgstr "cnaipe chun Fhuinneog a Scáthaigh"
+
+#~ msgid "Brightness down key"
+#~ msgstr "cnaipe chun ísligh an Loinnir"
+
+#~ msgid "Brightness up key"
+#~ msgstr "cnaipe chun éirigh an Loinnir"
+
+#~ msgid "Disabled"
+#~ msgstr "Míchumasach"
+
+#~ msgid "Description"
+#~ msgstr "Cuir Síos"
+
+#~ msgid "Status"
+#~ msgstr "Stádas"
+
+#~ msgid "Multimedia Keys Preferences"
+#~ msgstr "Na tosaíocht atá ag na cnaipe Ilmheánach"
+
+#~ msgid "Use _PCM volume instead of Master volume"
+#~ msgstr "Baint trial as toirt _PCM in ionad do an toirt Máistir"
+
+#~ msgid "Multimedia Keys"
+#~ msgstr "Na cnaipe Ilmheánach"
+
+#~ msgid "Brightness down key's XKeycode"
+#~ msgstr "XCódcnaipe do cnaipe chun ísligh an Loinnir"
+
+#~ msgid "Brightness down key's XKeycode, 0 to disable"
+#~ msgstr "XCódcnaipe do cnaipe chun ísligh an Loinnir, 0 chun míchumasach"
+
+#~ msgid "Brightness up key's XKeycode"
+#~ msgstr "XCódcnaipe do cnaipe chun éirigh an Loinnir"
+
+#~ msgid "Brightness up key's XKeycode, 0 to disable"
+#~ msgstr "XCódcnaipe do cnaipe chun éirigh an Loinnir, 0 chun míchumasach"
+
+#~ msgid "Calculator key's XKeycode"
+#~ msgstr "XCódcnaipe do cnaipe an Áireamhán"
+
+#~ msgid "Calculator key's XKeycode, 0 to disable"
+#~ msgstr "XCódcnaipe do cnaipe an Áireamhán, 0 chun míchumasach"
+
+#~ msgid "Close Window key's XKeycode"
+#~ msgstr "XCódcnaipe do cnaipe \"Dún an Fhuinneog\""
+
+#~ msgid "Close Window key's XKeycode, 0 to disable"
+#~ msgstr "XCódcnaipe do cnaipe \"Dún an Fhuinneog\", 0 chun míchumasach"
+
+#~ msgid "E-Mail key's XKeycode"
+#~ msgstr "XCódcnaipe do cnaipe R-Phoist"
+
+#~ msgid "E-Mail key's XKeycode, 0 to disable"
+#~ msgstr "XCódcnaipe do cnaipe R-Phoist, 0 chun míchumasach"
+
+#~ msgid "Eject key's XKeycode"
+#~ msgstr "XCódcnaipe do cnaipe Díchuir"
+
+#~ msgid "Eject key's XKeycode, 0 to disable"
+#~ msgstr "XCódcnaipe do cnaipe Díchuir, 0 chun míchumasach"
+
+#~ msgid "Finance key's XKeycode"
+#~ msgstr "XCódcnaipe do cnaipe Airgeadas"
+
+#~ msgid "Finance key's XKeycode, 0 to disable"
+#~ msgstr "XCódcnaipe do cnaipe Airgeadas, 0 chun míchumasach"
+
+#~ msgid "Groups key's XKeycode"
+#~ msgstr "XCódcnaipe do cnaipe Grupaí"
+
+#~ msgid "Groups key's XKeycode, 0 to disable"
+#~ msgstr "XCódcnaipe do cnaipe Grupaí, 0 chun míchumasach"
+
+#~ msgid "Help key's XKeycode"
+#~ msgstr "XCódcnaipe do cnaipe Cabhair"
+
+#~ msgid "Help key's XKeycode, 0 to disable"
+#~ msgstr "XCódcnaipe do cnaipe Cabhair, 0 chun míchumasach"
+
+#~ msgid "Mute key's XKeycode"
+#~ msgstr "XCódcnaipe do cnaipe Balbhán"
+
+#~ msgid "Mute key's XKeycode, 0 to disable"
+#~ msgstr "XCódcnaipe do cnaipe Balbhán, 0 chun míchumasach"
+
+#~ msgid "My Home key's XKeycode"
+#~ msgstr "XCódcnaipe do cnaipe \"Mó Bhaile\""
+
+#~ msgid "My Home key's XKeycode, 0 to disable"
+#~ msgstr "XCódcnaipe do cnaipe \"Mó Bhaile\", 0 chun míchumasach"
+
+#~ msgid "Next key's XKeycode"
+#~ msgstr "XCódcnaipe do cnaipe \"dul chun tosaigh\""
+
+#~ msgid "Next key's XKeycode, 0 to disable"
+#~ msgstr "XCódcnaipe do cnaipe \"dul chun tosaigh\", 0 chun míchumasach"
+
+#~ msgid "Pause key's XKeycode"
+#~ msgstr "XCódcnaipe do cnaipe Sos"
+
+#~ msgid "Pause key's XKeycode, 0 to disable"
+#~ msgstr "XCódcnaipe do cnaipe Sos, 0 chun míchumasach"
+
+#~ msgid "Play key's XKeycode"
+#~ msgstr "XCódcnaipe do cnaipe Imeartas"
+
+#~ msgid "Play key's XKeycode, 0 to disable"
+#~ msgstr "XCódcnaipe do cnaipe Imeartas, 0 chun míchumasach"
+
+#~ msgid "Power key's XKeycode"
+#~ msgstr "XCódcnaipe do cnaipe Cumhacht"
+
+#~ msgid "Power key's XKeycode, 0 to disable"
+#~ msgstr "XCódcnaipe do cnaipe Cumhachta, 0 chun míchumasach"
+
+#~ msgid "Previous key's XKeycode"
+#~ msgstr "XCódcnaipe do cnaipe chun dul ar ais"
+
+#~ msgid "Previous key's XKeycode, 0 to disable"
+#~ msgstr "XCódcnaipe do cnaipe chun dul ar ais, 0 chun míchumasach"
+
+#~ msgid "Record key's XKeycode"
+#~ msgstr "XCódcnaipe do cnaipe Taifead"
+
+#~ msgid "Record key's XKeycode, 0 to disable"
+#~ msgstr "XCódcnaipe do cnaipe Taifead, 0 chun míchumasach"
+
+#~ msgid "Refresh key's XKeycode"
+#~ msgstr "XCódcnaipe do an cnaipe chun Úraigh"
+
+#~ msgid "Refresh key's XKeycode, 0 to disable"
+#~ msgstr "XCódcnaipe do an cnaipe chun Úraigh, 0 chun míchumasach"
+
+#~ msgid "Screensaver key's XKeycode"
+#~ msgstr "XCódcnaipe do cnaipe an spáráil-scáileán"
+
+#~ msgid "Screensaver key's XKeycode, 0 to disable"
+#~ msgstr "XCódcnaipe do cnaipe an spáráil-scáileán, 0 chun míchumasach"
+
+#~ msgid "Search key's XKeycode"
+#~ msgstr "XCódcnaipe do cnaipe Cuardach"
+
+#~ msgid "Search key's XKeycode, 0 to disable"
+#~ msgstr "XCódcnaipe do cnaipe Cuardach, 0 chun míchumasach"
+
+#~ msgid "Shade Window key's XKeycode"
+#~ msgstr "XCódcnaipe do cnaipe chun na fhuinneoga a scáthaigh"
+
+#~ msgid "Shade Window key's XKeycode, 0 to disable"
+#~ msgstr ""
+#~ "XCódcnaipe do cnaipe chun na fhuinneoga a scáthaigh, 0 chun míchumasach"
+
+#~ msgid "Sleep key's XKeycode"
+#~ msgstr "XCódcnaipe do cnaipe Codlata"
+
+#~ msgid "Sleep key's XKeycode, 0 to disable"
+#~ msgstr "XCódcnaipe do cnaipe Codlata, 0 chun míchumasach"
+
+#~ msgid "Sound file to be played when volume is changed"
+#~ msgstr "Comhad fuaime a senim nuair a athrú an Toirt"
+
+#~ msgid "Volume down key's XKeycode"
+#~ msgstr "XCódcnaipe do cnaipe chun ísligh an Toirt"
+
+#~ msgid "Volume down key's XKeycode, 0 to disable"
+#~ msgstr "XCódcnaipe do cnaipe chun ísligh an Toirt, 0 chun míchumasach"
+
+#, fuzzy
+#~ msgid "Volume step"
+#~ msgstr "Toirt"
+
+#~ msgid "Volume up key's XKeycode"
+#~ msgstr "XCódcnaipe do cnaipe chun éirigh an Toirt"
+
+#~ msgid "Volume up key's XKeycode, 0 to disable"
+#~ msgstr "XCódcnaipe do cnaipe chun éirigh an Toirt, 0 chun míchumasach"
+
+#~ msgid "WWW key's XKeycode"
+#~ msgstr "XCódcnaipe do cnaipe WWW"
+
+#~ msgid "WWW key's XKeycode, 0 to disable"
+#~ msgstr "XCódcnaipe do cnaipe, 0 chun míchumasach"
+
+#~ msgid "Accelerator key"
+#~ msgstr "cnaipe Luasaire"
+
+#~ msgid "Accelerator modifiers"
+#~ msgstr "Rudaí a modhnaigh an Luasaire"
+
+#~ msgid "Accelerator Mode"
+#~ msgstr "Modh Luasaire"
+
+#~ msgid "The type of accelerator."
+#~ msgstr "Saghas an luasaire"
+
+#~ msgid "Type a new accelerator, or press Backspace to clear"
+#~ msgstr "Clóscríobh luasaire nua, nó bhuail Clúspais chun glanáil"
+
+#~ msgid "Type a new accelerator"
+#~ msgstr "Clóscríobh luasaire nua"

@@ -1,0 +1,765 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Brightside\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-01-16 02:13+0000\n"
+"PO-Revision-Date: 2003-03-02 15:09--100\n"
+"Last-Translator: Samuel Jon Gunnarsson <sammi@techattack.nu>\n"
+"Language-Team: Icelandic <gnome@techattack.nu>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/brightside.c:224
+#, c-format
+msgid ""
+"Couldn't execute command: %s\n"
+"Verify that this command exists."
+msgstr ""
+"Ekki tókst að ræsa skipun: %s\n"
+"Athugaðu hvort að þessi skipun sé til."
+
+#: src/brightside.c:243
+#, c-format
+msgid ""
+"Permissions on the file %s are broken\n"
+"Please check Brightside's documentation, correct the problem and restart "
+"Brightside."
+msgstr ""
+"Skráarréttindi fyrir skránna %s er vitlaus\n"
+"Vinsamlegast ráðfærðu þig við hjálpargögn Brightside. Lagfærðu villuna og "
+"endurræstu Brightside."
+
+#: src/brightside.c:487
+msgid "translator_credits"
+msgstr "Samúel Jón Gunnarsson <sammi@techattack.nu>"
+
+#: src/brightside.c:498
+msgid "Brightside"
+msgstr "Brightside"
+
+#: src/brightside.c:500 src/brightside.c:573
+msgid "Screen Corners and Edges daemon"
+msgstr ""
+
+#: src/brightside.c:579
+msgid "Screen Corners and Edges daemon active"
+msgstr ""
+
+#: src/brightside.c:1733
+msgid "Daemon already running, exiting...\n"
+msgstr ""
+
+#: src/brightside.c:1742
+msgid ""
+"Couldn't load the Glade file.\n"
+"Make sure that this daemon is properly installed."
+msgstr ""
+"Ekki tókst að hlaða inn Glade skrá.\n"
+"Fullvissaðu þig um að þessi púki hafi verið rétt innsettur."
+
+#: src/brightside.glade.h:1
+msgid "Volume"
+msgstr "Hljóðstyrkur"
+
+#: src/brightside.h:65
+#, fuzzy
+msgid "Mute volume"
+msgstr "Þagnarhnappurinn"
+
+#: src/brightside.h:67
+msgid "Prevent screensaver starting"
+msgstr ""
+
+#: src/brightside.h:69
+#, fuzzy
+msgid "Start screensaver"
+msgstr "Skjásvæfuhnappurinn"
+
+#: src/brightside.h:71
+msgid "Enter DPMS standby mode"
+msgstr ""
+
+#: src/brightside.h:73
+msgid "Enter DPMS suspend mode"
+msgstr ""
+
+#: src/brightside.h:75
+msgid "Enter DPMS off mode"
+msgstr ""
+
+#: src/brightside.h:78
+msgid "Dim laptop backlight"
+msgstr ""
+
+#: src/brightside.h:81
+msgid "Custom action..."
+msgstr ""
+
+#: src/brightside-properties.c:283 src/brightside-properties.glade.h:9
+#: src/brightside.desktop.in.h:2
+msgid "Screen Corners and Edges"
+msgstr ""
+
+#: src/brightside-properties.glade.h:1 src/custom-action.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: src/brightside-properties.glade.h:2
+msgid "<small><i>Long</i></small>"
+msgstr ""
+
+#: src/brightside-properties.glade.h:3
+msgid "<small><i>Short</i></small>"
+msgstr ""
+
+#: src/brightside-properties.glade.h:4
+#, fuzzy
+msgid "<span weight=\"bold\">Screen Corners</span>"
+msgstr "<span weight=\"bold\">Hljóðuppsetning</span>"
+
+#: src/brightside-properties.glade.h:5
+#, fuzzy
+msgid "<span weight=\"bold\">Screen Edges</span>"
+msgstr "<span weight=\"bold\">Hljóðuppsetning</span>"
+
+#: src/brightside-properties.glade.h:6
+#, fuzzy
+msgid "Action to take while mouse is placed in corner of screen"
+msgstr "Skipun sem á að framkvæma þegar að þrýst er á ýta út (eject) hnappinn"
+
+#: src/brightside-properties.glade.h:7
+msgid "Bottom r_ight corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:8
+msgid "D_elay:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:10
+msgid "Switch to _adjacent workspace when mouse is moved to edge of screen"
+msgstr ""
+
+#: src/brightside-properties.glade.h:11
+msgid "Top _right corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:12
+msgid "When switching workspace, _wrap around edges of workspace layout"
+msgstr ""
+
+#: src/brightside-properties.glade.h:13
+msgid "_Bottom left corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:14
+msgid "_Configurable actions"
+msgstr ""
+
+#: src/brightside-properties.glade.h:15
+msgid "_Delay:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:16
+msgid "_Switch to diagonally adjacent workspace"
+msgstr ""
+
+#: src/brightside-properties.glade.h:17
+msgid "_Top left corner:"
+msgstr ""
+
+#: src/brightside.desktop.in.h:1
+#, fuzzy
+msgid "Configure screen-edge behaviour"
+msgstr "Stilla af hegðun margmiðlunarhnappa"
+
+#: src/brightside.schemas.in.h:1
+msgid "Action enabled when mouse is in bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:2
+msgid "Action enabled when mouse is in bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:3
+msgid "Action enabled when mouse is in top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:4
+msgid "Action enabled when mouse is in top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:5
+msgid "Action to occur when mouse is in bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:6
+msgid "Action to occur when mouse is in bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:7
+msgid "Action to occur when mouse is in top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:8
+msgid "Action to occur when mouse is in top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:9
+msgid "After flip command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:10
+msgid "Bottom left corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:11
+msgid "Bottom left corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:12
+msgid "Bottom left corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:13
+msgid "Bottom left corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:14
+msgid "Bottom left corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:15
+msgid "Bottom right corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:16
+msgid "Bottom right corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:17
+msgid "Bottom right corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:18
+msgid "Bottom right corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:19
+msgid "Bottom right corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:20
+msgid "Command to execute after flipping workspace (empty string for none)"
+msgstr ""
+
+#: src/brightside.schemas.in.h:21
+msgid "Corner delay"
+msgstr ""
+
+#: src/brightside.schemas.in.h:22
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse enters bottom left corner of screen"
+msgstr "Skipun sem á að framkvæma þegar að þrýst er á ýta út (eject) hnappinn"
+
+#: src/brightside.schemas.in.h:23
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse enters bottom right corner of screen"
+msgstr "Skipun sem á að framkvæma þegar að þrýst er á ýta út (eject) hnappinn"
+
+#: src/brightside.schemas.in.h:24
+#, fuzzy
+msgid "Custom command to execute when mouse enters top left corner of screen"
+msgstr "Skipun sem á að framkvæma þegar að þrýst er á ýta út (eject) hnappinn"
+
+#: src/brightside.schemas.in.h:25
+#, fuzzy
+msgid "Custom command to execute when mouse enters top right corner of screen"
+msgstr "Skipun sem á að framkvæma þegar að þrýst er á ýta út (eject) hnappinn"
+
+#: src/brightside.schemas.in.h:26
+#, fuzzy
+msgid "Custom command to execute when mouse exits bottom left corner of screen"
+msgstr "Skipun sem á að framkvæma þegar að þrýst er á ýta út (eject) hnappinn"
+
+#: src/brightside.schemas.in.h:27
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse exits bottom right corner of screen"
+msgstr "Skipun sem á að framkvæma þegar að þrýst er á ýta út (eject) hnappinn"
+
+#: src/brightside.schemas.in.h:28
+#, fuzzy
+msgid "Custom command to execute when mouse exits top left corner of screen"
+msgstr "Skipun sem á að framkvæma þegar að þrýst er á ýta út (eject) hnappinn"
+
+#: src/brightside.schemas.in.h:29
+#, fuzzy
+msgid "Custom command to execute when mouse exits top right corner of screen"
+msgstr "Skipun sem á að framkvæma þegar að þrýst er á ýta út (eject) hnappinn"
+
+#: src/brightside.schemas.in.h:30
+msgid "Delay in milliseconds before edge flip occurs"
+msgstr ""
+
+#: src/brightside.schemas.in.h:31
+msgid "Delay in milliseconds before screen corner action occurs"
+msgstr ""
+
+#: src/brightside.schemas.in.h:32
+msgid "Edge delay"
+msgstr ""
+
+#: src/brightside.schemas.in.h:33
+msgid "Edge wrap"
+msgstr ""
+
+#: src/brightside.schemas.in.h:34
+#, fuzzy
+msgid "Enable corner flip"
+msgstr "Virkur"
+
+#: src/brightside.schemas.in.h:35
+#, fuzzy
+msgid "Enable edge flip"
+msgstr "Virkur"
+
+#: src/brightside.schemas.in.h:36
+msgid "Orientable workspaces"
+msgstr ""
+
+#: src/brightside.schemas.in.h:37
+msgid ""
+"Switch to diagonally adjacent workspace when mouse placed in the corner of "
+"the screen, instead of executing a configurable action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:38
+msgid ""
+"Switch to the adjacent workspace when the mouse reaches the edge of the "
+"screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:39
+msgid "Terminate custom command when mouse exits bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:40
+msgid "Terminate custom command when mouse exits bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:41
+msgid "Terminate custom command when mouse exits top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:42
+msgid "Terminate custom command when mouse exits top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:43
+msgid "Top left corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:44
+msgid "Top left corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:45
+msgid "Top left corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:46
+msgid "Top left corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:47
+msgid "Top left corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:48
+msgid "Top right corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:49
+msgid "Top right corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:50
+msgid "Top right corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:51
+msgid "Top right corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:52
+msgid "Top right corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:53
+msgid "Use PCM Volume instead of Master Volume"
+msgstr "Nota PCM hljóðstyrk í staðin fyrir Master hljóðstyrk"
+
+#: src/brightside.schemas.in.h:54
+msgid "Whether workspace layout is orientable"
+msgstr ""
+
+#: src/brightside.schemas.in.h:55
+msgid "Wrap wround edges of workspace layout when flipping workspace"
+msgstr ""
+
+#: src/custom-action.glade.h:2
+msgid "*"
+msgstr ""
+
+#: src/custom-action.glade.h:3
+#, fuzzy
+msgid "<span weight=\"bold\">On _entering region</span>"
+msgstr "<span weight=\"bold\">Hnappauppsetning </span>"
+
+#: src/custom-action.glade.h:4
+#, fuzzy
+msgid "<span weight=\"bold\">On leaving region</span>"
+msgstr "<span weight=\"bold\">Hljóðuppsetning</span>"
+
+#: src/custom-action.glade.h:5 src/custom-action.c:104
+msgid "Custom action"
+msgstr ""
+
+#: src/custom-action.glade.h:6
+msgid "_Run another command:"
+msgstr ""
+
+#: src/custom-action.glade.h:7
+msgid "_Terminate above application"
+msgstr ""
+
+#~ msgid ""
+#~ "Couldn't execute either command: %s\n"
+#~ "or command: %s\n"
+#~ "Verify that at least one of these commands exist."
+#~ msgstr ""
+#~ "Tókst hvorki að ræsa skipun: %s\n"
+#~ "né skipun: %s\n"
+#~ "Athugaðu hvort að minnsta kosti ein af þessum skipunum sé til."
+
+#~ msgid ""
+#~ "There was an error removing access to the multimedia keys.\n"
+#~ "Key %d couldn't be unbound."
+#~ msgstr ""
+#~ "Ekki tókst að fjarlægja aðgang að margmiðlunarhnöppum.\n"
+#~ "Ekki tókst að fjarlægja bindingu við hnapp %d."
+
+#~ msgid ""
+#~ "It seems that another application already has access to the multimedia "
+#~ "keys.\n"
+#~ "Key %d couldn't be bound.\n"
+#~ "Is another daemon already running ?"
+#~ msgstr ""
+#~ "Það lítur út fyrir að annað forrit hafi nú þegar aðgang að "
+#~ "margmiðlunarhnöppunum.\n"
+#~ "Hnappur %d fannst ekki.\n"
+#~ "Er annar púki nú þegar í gangi ?"
+
+#~ msgid "Multimedia keys daemon"
+#~ msgstr "Margmiðlunarhnappa púkin"
+
+#~ msgid "Multimedia Keys daemon active"
+#~ msgstr "Margmiðlunarhnappa púkin er virkur"
+
+#~ msgid "Volume down key"
+#~ msgstr "Hljóðstyrkur niður hnappurinn"
+
+#~ msgid "Volume up key"
+#~ msgstr "Hljóðstyrkur upp hnappurinn"
+
+#~ msgid "Power key"
+#~ msgstr "Straumhnappurinn"
+
+#~ msgid "Eject key"
+#~ msgstr "Ýta út hnappurinn"
+
+#~ msgid "Media key"
+#~ msgstr "Margmiðlunarhnappurinn"
+
+#~ msgid "Play key"
+#~ msgstr "Afspilunarhnappurinn"
+
+#~ msgid "Pause key"
+#~ msgstr "Biðhnappurinn (pause)"
+
+#~ msgid "Stop (Audio) key"
+#~ msgstr "Stopphnappurinn (Hljóð)"
+
+#~ msgid "Previous (Audio) key"
+#~ msgstr "Fyrrihnappurinn (Hljóð)"
+
+#~ msgid "Next (Audio) key"
+#~ msgstr "Næsthnappurinn (Hljóð)"
+
+#~ msgid "My Home key"
+#~ msgstr "Heimhnappurinn"
+
+#~ msgid "Refresh key"
+#~ msgstr "Endurnýjunarhnappurinn"
+
+#~ msgid "Search key"
+#~ msgstr "Leitarhnappurinn"
+
+#~ msgid "E-Mail key"
+#~ msgstr "Tölvupóstshnappurinn"
+
+#~ msgid "Sleep key"
+#~ msgstr "Svefnhnappurinn"
+
+#~ msgid "Finance key"
+#~ msgstr "Fjárhagshnappurinn"
+
+#~ msgid "Help key"
+#~ msgstr "Hjálparhnappurinn"
+
+#~ msgid "WWW key"
+#~ msgstr "WWWhnappurinn"
+
+#~ msgid "Groups key"
+#~ msgstr "Hópahnappurinn"
+
+#~ msgid "Calculator key"
+#~ msgstr "Vasareiknihnappurinn"
+
+#~ msgid "Record key"
+#~ msgstr "Upptökuhnappurinn"
+
+#~ msgid "Close Window key"
+#~ msgstr "Loka glugga hnappurinn"
+
+#~ msgid "Shade Window key"
+#~ msgstr "Skyggja glugga hnappurinn"
+
+#~ msgid "Brightness down key"
+#~ msgstr "Lækka birtustig hnappurinn"
+
+#~ msgid "Brightness up key"
+#~ msgstr "Hækka birtustig hnappurinn"
+
+#~ msgid "Disabled"
+#~ msgstr "Óvirkur"
+
+#, fuzzy
+#~ msgid ""
+#~ "This key is already bound to action '%s'.\n"
+#~ "Please select another key."
+#~ msgstr ""
+#~ "Þessi hnappur er nú þegar bundin aðgerð.\n"
+#~ "Vinsamlegast veldu aðra hnappasamsetningu."
+
+#~ msgid "Description"
+#~ msgstr "Lýsing"
+
+#~ msgid "Status"
+#~ msgstr "Staða"
+
+#~ msgid "Multimedia Keys Preferences"
+#~ msgstr "Stilla margmiðlunarhnappa"
+
+#~ msgid ""
+#~ "To assign a key to an action, click on a line, and press the key you want "
+#~ "to associate with it.\n"
+#~ "\"C\" cancels the capture, and \"Backspace\" disables the key shortcut."
+#~ msgstr ""
+#~ "Hnappaútdeiling: Klikkaðu þá á línu sem þú vilt breyta, þrýstu svo á þá "
+#~ "hnappa sem þú vilt tengja þessari aðgerð.\n"
+#~ "\"C\" hættir við þessa agðerð, og \"Backspace\" afvirkjar þennan "
+#~ "flýtihnapp."
+
+#~ msgid "Use _PCM volume instead of Master volume"
+#~ msgstr "Nota _PCM hljóðstyrk í staðin fyrir Master hljóðstyrk"
+
+#~ msgid "Multimedia Keys"
+#~ msgstr "Margmiðlunarhnappar"
+
+#~ msgid "Brightness down key's XKeycode"
+#~ msgstr "XKeykóði lækka birtustigshnappsins"
+
+#~ msgid "Brightness down key's XKeycode, 0 to disable"
+#~ msgstr "XKeykóði lækka birtustigshnappsins, 0 til að afvirkja"
+
+#~ msgid "Brightness up key's XKeycode"
+#~ msgstr "XKeykóði hækka birtustigshnappsins"
+
+#~ msgid "Brightness up key's XKeycode, 0 to disable"
+#~ msgstr "XKeykóði hækka birtustigshnappsins, 0 til að afvirkja"
+
+#~ msgid "Calculator key's XKeycode"
+#~ msgstr "XKeykóði vasareiknihnappsins"
+
+#~ msgid "Calculator key's XKeycode, 0 to disable"
+#~ msgstr "XKeykóði vasareiknihnappsins, 0 til að afvirkja"
+
+#~ msgid "Close Window key's XKeycode"
+#~ msgstr "XKeykóði loka gluggahnappsins"
+
+#~ msgid "Close Window key's XKeycode, 0 to disable"
+#~ msgstr "XKeykóði loka gluggahnappsins, 0 til að afvirkja "
+
+#~ msgid "E-Mail key's XKeycode"
+#~ msgstr "XKeykóði tölvupósthnappsins"
+
+#~ msgid "E-Mail key's XKeycode, 0 to disable"
+#~ msgstr "XKeykóði tölvupósthnappsins, 0 til að afvirkja"
+
+#~ msgid "Eject key's XKeycode"
+#~ msgstr "XKeykóði ýta úthnappsins"
+
+#~ msgid "Eject key's XKeycode, 0 to disable"
+#~ msgstr "XKeykóði ýta úthnappsins, 0 til að afvirkja"
+
+#~ msgid "Finance key's XKeycode"
+#~ msgstr "XKeykóði fjárhagshnappsins"
+
+#~ msgid "Finance key's XKeycode, 0 to disable"
+#~ msgstr "XKeykóði fjárhagshnappsins, 0 til að afvirkja"
+
+#~ msgid "Groups key's XKeycode"
+#~ msgstr "XKeykóði hópahnappsins"
+
+#~ msgid "Groups key's XKeycode, 0 to disable"
+#~ msgstr "XKeykóði hópahnappsins, 0 til að afvirkja"
+
+#~ msgid "Help key's XKeycode"
+#~ msgstr "XKeykóði hjálparhnappsins"
+
+#~ msgid "Help key's XKeycode, 0 to disable"
+#~ msgstr "XKeykóði hjálparhnappsins, 0 til að afvirkja"
+
+#~ msgid "Mute key's XKeycode"
+#~ msgstr "XKeykóði þagnarhnappsins"
+
+#~ msgid "Mute key's XKeycode, 0 to disable"
+#~ msgstr "XKeykóði þagnarhnappsins, 0 til að afvirkja"
+
+#~ msgid "My Home key's XKeycode"
+#~ msgstr "XKeykóði heimhnappsins"
+
+#~ msgid "My Home key's XKeycode, 0 to disable"
+#~ msgstr "XKeykóði heimhnappsins, 0 til að afvirkja"
+
+#~ msgid "Next key's XKeycode"
+#~ msgstr "XKeykóði næsthnappsins"
+
+#~ msgid "Next key's XKeycode, 0 to disable"
+#~ msgstr "XKeykóði næsthnappsins, 0 til að  afvirkja"
+
+#~ msgid "Pause key's XKeycode"
+#~ msgstr "XKeykóði biðhnappsins"
+
+#~ msgid "Pause key's XKeycode, 0 to disable"
+#~ msgstr "XKeykóði biðhnappsins, 0 til að afvirkja"
+
+#~ msgid "Play key's XKeycode"
+#~ msgstr "XKeykóði afspilunarhnapps"
+
+#~ msgid "Play key's XKeycode, 0 to disable"
+#~ msgstr "XKeykóði afspilunarhnapps, 0 til að afvirkja"
+
+#~ msgid "Power key's XKeycode"
+#~ msgstr "XKeykóði straumhnappsins"
+
+#~ msgid "Power key's XKeycode, 0 to disable"
+#~ msgstr "XKeykóði straumhnappsins, 0 til að afvirkja"
+
+#~ msgid "Previous key's XKeycode"
+#~ msgstr "XKeykóði fyrrihnappsins"
+
+#~ msgid "Previous key's XKeycode, 0 to disable"
+#~ msgstr "XKeykóði fyrrihnappsins, 0 til að afvirkja"
+
+#~ msgid "Record key's XKeycode"
+#~ msgstr "XKeykóði upptökunhnappsins"
+
+#~ msgid "Record key's XKeycode, 0 to disable"
+#~ msgstr "XKeykóði upptökuhnappsins, 0 til að afvirkja"
+
+#~ msgid "Refresh key's XKeycode"
+#~ msgstr "XKeykóði endurnýjunarhnappsins"
+
+#~ msgid "Refresh key's XKeycode, 0 to disable"
+#~ msgstr "XKeykóði endurnýjunarhnappsins, 0 til að afvirkja"
+
+#~ msgid "Screensaver key's XKeycode"
+#~ msgstr "XKeykóði skjásvæfuhnappsins"
+
+#~ msgid "Screensaver key's XKeycode, 0 to disable"
+#~ msgstr "XKeykóði skjásvæfuhnappsins, 0 til að afvirkja"
+
+#~ msgid "Search key's XKeycode"
+#~ msgstr "XKeykóði leitarhnappsins"
+
+#~ msgid "Search key's XKeycode, 0 to disable"
+#~ msgstr "XKeykóði leitarhnappsins, 0 til að afvirkja"
+
+#~ msgid "Shade Window key's XKeycode"
+#~ msgstr "XKeykóði skyggjahnappsins"
+
+#~ msgid "Shade Window key's XKeycode, 0 to disable"
+#~ msgstr "XKeykóði skyggjahnappsins, 0 til að afvirkja"
+
+#~ msgid "Sleep key's XKeycode"
+#~ msgstr "XKeykóði svefnhnappsins"
+
+#~ msgid "Sleep key's XKeycode, 0 to disable"
+#~ msgstr "XKeykóði svefnhnappsins, 0 til að afvirkja"
+
+#~ msgid "Sound file to be played when volume is changed"
+#~ msgstr "Hljóðskrá sem á að spila þegar hljóðstyrk er breytt"
+
+#~ msgid "Volume down key's XKeycode"
+#~ msgstr "XKeykóði lækka hljóðstyrkhnappsins"
+
+#~ msgid "Volume down key's XKeycode, 0 to disable"
+#~ msgstr "XKeykóði lækka hljóðstyrkhnappsins, 0 til að afvirkja"
+
+#, fuzzy
+#~ msgid "Volume step"
+#~ msgstr "Hljóðstyrkur"
+
+#~ msgid "Volume up key's XKeycode"
+#~ msgstr "XKeykóði hækka hljóðstyrkhnappsins"
+
+#~ msgid "Volume up key's XKeycode, 0 to disable"
+#~ msgstr "XKeykóði hækka hljóðstyrkhnappsins, 0 til að afvirkja"
+
+#~ msgid "WWW key's XKeycode"
+#~ msgstr "XKeykóði WWWhnappsins"
+
+#~ msgid "WWW key's XKeycode, 0 to disable"
+#~ msgstr "XKeykóði WWWhnappsins, 0 til að avirkja"
+
+#~ msgid "Accelerator key"
+#~ msgstr "Hröðunarhnappur"
+
+#~ msgid "Accelerator modifiers"
+#~ msgstr "Hröðunarbreytar"
+
+#~ msgid "Accelerator Mode"
+#~ msgstr "Hröðunargerð"
+
+#~ msgid "The type of accelerator."
+#~ msgstr "Gerð hröðunar"
+
+#~ msgid "Type a new accelerator, or press Backspace to clear"
+#~ msgstr ""
+#~ "Sláðu inn nýjan hröðunarhnapp eða sláðu inn Backspace til að hreinsa"
+
+#~ msgid "Type a new accelerator"
+#~ msgstr "Sláðu inn nýjan hröðunarhnapp"
+
+#~ msgid "_Launch the multimedia key daemon"
+#~ msgstr "_Ræsa margmiðlunarhnappa púkan"

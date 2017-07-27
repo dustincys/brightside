@@ -1,0 +1,586 @@
+<gconfschemafile>
+    <schemalist>    
+
+      <schema>
+        <key>/schemas/apps/brightside/corner_delay</key>
+        <applyto>/apps/brightside/corner_delay</applyto>
+        <owner>brightside</owner>
+        <type>int</type>
+        <default>500</default>
+        <locale name="C">
+          <short>Corner delay</short>
+          <long>Delay in milliseconds before screen corner action occurs</long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/brightside/edge_delay</key>
+        <applyto>/apps/brightside/edge_delay</applyto>
+        <owner>brightside</owner>
+        <type>int</type>
+        <default>500</default>
+        <locale name="C">
+          <short>Edge delay</short>
+          <long>Delay in milliseconds before edge flip occurs</long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/brightside/edge_wrap</key>
+        <applyto>/apps/brightside/edge_wrap</applyto>
+        <owner>brightside</owner>
+        <type>bool</type>
+        <default>false</default>
+        <locale name="C">
+          <short>Edge wrap</short>
+          <long>Wrap wround edges of workspace layout when flipping workspace</long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/brightside/corner_flip</key>
+        <applyto>/apps/brightside/corner_flip</applyto>
+        <owner>brightside</owner>
+        <type>bool</type>
+        <default>false</default>
+        <locale name="C">
+          <short>Enable corner flip</short>
+          <long>Switch to diagonally adjacent workspace when mouse placed in the corner of the screen, instead of executing a configurable action</long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/brightside/enable_edge_flip</key>
+        <applyto>/apps/brightside/enable_edge_flip</applyto>
+        <owner>brightside</owner>
+        <type>bool</type>
+        <default>false</default>
+        <locale name="C">
+          <short>Enable edge flip</short>
+          <long>Switch to the adjacent workspace when the mouse reaches the edge of the screen</long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/brightside/after_flip_command</key>
+        <applyto>/apps/brightside/after_flip_command</applyto>
+        <owner>brightside</owner>
+        <type>string</type>
+        <default></default>
+        <locale name="C">
+          <short>After flip command</short>
+          <long>Command to execute after flipping workspace (empty string for none)</long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/brightside/use_pcm</key>
+	<applyto>/apps/brightside/use_pcm</applyto>
+	<owner>brightside</owner>
+	<type>bool</type>
+	<default>false</default>
+	<locale name="C">
+	  <short>Use PCM Volume instead of Master Volume</short>
+	  <long>Use PCM Volume instead of Master Volume</long>
+	</locale>
+
+	<locale name="ar">
+	  <short>استخدم حجم الصوت PCM عوضا عن شدة الصوت الرئيسي</short>
+	  <long>استخدم حجم الصوت PCM عوضا عن شدة الصوت الرئيسي</long>
+	</locale>
+
+	<locale name="az">
+	  <short>Əsas səs yerinə PCM səsini işlət</short>
+	  <long>Əsas səs yerinə PCM səsini işlət</long>
+	</locale>
+
+	<locale name="be">
+	  <short>Код XKeycode клявішы выкарыстаньня гучнасьці канала PCM замест асноўнага</short>
+	  <long>Код XKeycode клявішы выкарыстаньня гучнасьці канала PCM замест асноўнага</long>
+	</locale>
+
+	<locale name="bg">
+	  <short>Използвай PCM вместо основна сила на звука</short>
+	  <long>Използвай PCM вместо основна сила на звука</long>
+	</locale>
+
+	<locale name="bn">
+	  <short>মাস্টার শব্দমাত্রার (Volume) পরিবর্তে পিসিএম শব্দমাত্রা ব্যবহার করা হোক</short>
+	  <long>মাস্টার শব্দমাত্রার (Volume) পরিবর্তে পিসিএম শব্দমাত্রা ব্যবহার করা হোক</long>
+	</locale>
+
+	<locale name="ca">
+	  <short>Usa el volum PCM en comptes del volum mestre</short>
+	  <long>Usa el volum PCM en comptes del volum mestre</long>
+	</locale>
+
+	<locale name="cs">
+	  <short>Použít hlasitost PCM místo hlavní (master) hlasitosti</short>
+	  <long>Použít hlasitost PCM místo hlavní (master) hlasitosti</long>
+	</locale>
+
+	<locale name="cy">
+	  <short>Defnyddio uchder PCM yn lee y Prif Uchder</short>
+	  <long>Defnyddio uchder PCM yn lee y Prif Uchder</long>
+	</locale>
+
+	<locale name="da">
+	  <short>Benyt PCM-lydstyrke i stedet for hovedlydstyrke</short>
+	  <long>Benyt PCM-lydstyrke i stedet for hovedlydstyrke</long>
+	</locale>
+
+	<locale name="de">
+	  <short>PCM- statt Haupt-Lautstärke verwenden</short>
+	  <long>PCM- statt Haupt-Lautstärke verwenden</long>
+	</locale>
+
+	<locale name="el">
+	  <short>Χρήση έντασης PCM αντί για Master Volume</short>
+	  <long>Χρήση έντασης PCM αντί για Master Volume</long>
+	</locale>
+
+	<locale name="es">
+	  <short>Utilizar el volumen PCM en lugar del principal</short>
+	  <long>Utilizar el volumen PCM en lugar del principal</long>
+	</locale>
+
+	<locale name="eu">
+	  <short>Bolumen nagusia ordez PCM bolumena erabili</short>
+	  <long>Bolumen nagusia ordez PCM bolumena erabili</long>
+	</locale>
+
+	<locale name="fa">
+	  <short>استفاده از حجم PCM به جای حجم اصلی</short>
+	  <long>استفاده از حجم PCM به جای حجم اصلی</long>
+	</locale>
+
+	<locale name="fi">
+	  <short>Käytä PCM-äänenvoimakkuutta yleisen äänenvoimakkuuden sijaan</short>
+	  <long>Käytä PCM-äänenvoimakkuutta yleisen äänenvoimakkuuden sijaan</long>
+	</locale>
+
+	<locale name="fr">
+	  <short>Utiliser le volume PCM à la place du volume principal</short>
+	  <long>Utiliser le volume PCM à la place du volume principal</long>
+	</locale>
+
+	<locale name="ga">
+	  <short>Baint trial as toirt PCM in ionad do an toirt Máistir</short>
+	  <long>Baint trial as toirt PCM in ionad do an toirt Máistir</long>
+	</locale>
+
+	<locale name="he">
+	  <short>השתמש ב PCM במקום עוצמה מרכזית</short>
+	  <long>השתמש ב PCM במקום עוצמה מרכזית</long>
+	</locale>
+
+	<locale name="hu">
+	  <short>A PCM hangerő használata a Mester hangerő helyett</short>
+	  <long>A PCM hangerő használata a Mester hangerő helyett</long>
+	</locale>
+
+	<locale name="id">
+	  <short>Gunakan volume PCM, jangan volume master</short>
+	  <long>Gunakan volume PCM, jangan volume master</long>
+	</locale>
+
+	<locale name="is">
+	  <short>Nota PCM hljóðstyrk í staðin fyrir Master hljóðstyrk</short>
+	  <long>Nota PCM hljóðstyrk í staðin fyrir Master hljóðstyrk</long>
+	</locale>
+
+	<locale name="it">
+	  <short>Utilizzare il volume PCM invece del volume generale</short>
+	  <long>Utilizzare il volume PCM invece del volume generale</long>
+	</locale>
+
+	<locale name="ja">
+	  <short>主音量の代わりに PCM 音量を使用する</short>
+	  <long>主音量の代わりに PCM 音量を使用する</long>
+	</locale>
+
+	<locale name="ko">
+	  <short>기본 소리크기대신 PCM 소리크기를 씁니다</short>
+	  <long>기본 소리크기대신 PCM 소리크기를 씁니다</long>
+	</locale>
+
+	<locale name="li">
+	  <short>PCM Volume in plaats van Master volume gebroeke</short>
+	  <long>PCM Volume in plaats van Master volume gebroeke</long>
+	</locale>
+
+	<locale name="lt">
+	  <short>Reguliuoti PCM garso kanalą vietoj pagrindinio kanalo.</short>
+	  <long>Reguliuoti PCM garso kanalą vietoj pagrindinio kanalo.</long>
+	</locale>
+
+	<locale name="lv">
+	  <short>Lietot PCM skaļumu Master (galvenā) skaļuma vietā</short>
+	  <long>Lietot PCM skaļumu Master (galvenā) skaļuma vietā</long>
+	</locale>
+
+	<locale name="mk">
+	  <short>Користи PCM звук наместо Главен звук</short>
+	  <long>Користи PCM звук наместо Главен звук</long>
+	</locale>
+
+	<locale name="ml">
+	  <short>പ്രധമ ശബ്ദത്തിനു പകരം PCM ശബ്ദം ഉപയോഗിക്കുക</short>
+	  <long>പ്രധമ ശബ്ദത്തിനു പകരം PCM ശബ്ദം ഉപയോഗിക്കുക</long>
+	</locale>
+
+	<locale name="mn">
+	  <short>PCM- г үндсэн чангаруулагчийн оронд хэрэглэх</short>
+	  <long>PCM- г үндсэн чангаруулагчийн оронд хэрэглэх</long>
+	</locale>
+
+	<locale name="ms">
+	  <short>Guna Volum PCM selain drpd Volum induk</short>
+	  <long>Guna Volum PCM selain drpd Volum induk</long>
+	</locale>
+
+	<locale name="nl">
+	  <short>PCM-volume gebruiken in plaats van het algemene volume</short>
+	  <long>PCM-volume gebruiken in plaats van het algemene volume</long>
+	</locale>
+
+	<locale name="no">
+	  <short>Bruk PCM-volum i steden for hovedvolum</short>
+	  <long>Bruk PCM-volum i steden for hovedvolum</long>
+	</locale>
+
+	<locale name="pl">
+	  <short>Regulacja głośności PCM zamiast globalnej</short>
+	  <long>Regulacja głośności PCM zamiast globalnej</long>
+	</locale>
+
+	<locale name="pt">
+	  <short>Utilizar Volume PCM em vez do Volume Principal</short>
+	  <long>Utilizar Volume PCM em vez do Volume Principal</long>
+	</locale>
+
+	<locale name="pt_BR">
+	  <short>Usar o Volume PCM ao invés do Volume Master</short>
+	  <long>Usar o Volume PCM ao invés do Volume Master</long>
+	</locale>
+
+	<locale name="ro">
+	  <short>Utilizează volumul PCM în locul volumului Master</short>
+	  <long>Utilizează volumul PCM în locul volumului Master</long>
+	</locale>
+
+	<locale name="ru">
+	  <short>Код XKeycode клавиши для использования уровня громкости канала PCM, а не основного</short>
+	  <long>Код XKeycode клавиши для использования уровня громкости канала PCM, а не основного</long>
+	</locale>
+
+	<locale name="sk">
+	  <short>Použiť hlasitosť PCM a nie celkovú hlasitosť</short>
+	  <long>Použiť hlasitosť PCM a nie celkovú hlasitosť</long>
+	</locale>
+
+	<locale name="sl">
+	  <short>Uporabi glasnost PCM namesto Glavne glasnosti</short>
+	  <long>Uporabi glasnost PCM namesto Glavne glasnosti</long>
+	</locale>
+
+	<locale name="sq">
+	  <short>Përdor volumin PCM në vend të Master Volume</short>
+	  <long>Përdor volumin PCM në vend të Master Volume</long>
+	</locale>
+
+	<locale name="sr">
+	  <short>Користи PCM јачину звука уместо главне јачине</short>
+	  <long>Користи PCM јачину звука уместо главне јачине</long>
+	</locale>
+
+	<locale name="sr@Latn">
+	  <short>Koristi PCM jačinu zvuka umesto glavne jačine</short>
+	  <long>Koristi PCM jačinu zvuka umesto glavne jačine</long>
+	</locale>
+
+	<locale name="sv">
+	  <short>Använd PCM-volym istället för huvudvolymen</short>
+	  <long>Använd PCM-volym istället för huvudvolymen</long>
+	</locale>
+
+	<locale name="tr">
+	  <short>Ana ses yerine PCM sesi kullan</short>
+	  <long>Ana ses yerine PCM sesi kullan</long>
+	</locale>
+
+	<locale name="uk">
+	  <short>Використовувати рівень кучності каналу ІКМ, а не основного</short>
+	  <long>Використовувати рівень кучності каналу ІКМ, а не основного</long>
+	</locale>
+
+	<locale name="vi">
+	  <short>Dùng Âm Lượng PCM thay cho Âm Lượng CHÍNH</short>
+	  <long>Dùng Âm Lượng PCM thay cho Âm Lượng CHÍNH</long>
+	</locale>
+
+	<locale name="zh_CN">
+	  <short>使用 PCM 音量而不用主音量</short>
+	  <long>使用 PCM 音量而不用主音量</long>
+	</locale>
+
+	<locale name="zh_TW">
+	  <short>使用 PCM 音量而不用主音量</short>
+	  <long>使用 PCM 音量而不用主音量</long>
+	</locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/brightside/orientable_workspaces</key>
+	<applyto>/apps/brightside/orientable_workspaces</applyto>
+	<owner>brightside</owner>
+	<type>bool</type>
+	<default>true</default>
+	<locale name="C">
+	  <short>Orientable workspaces</short>
+	  <long>Whether workspace layout is orientable</long>
+	</locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/brightside/nw_enabled</key>
+        <applyto>/apps/brightside/nw_enabled</applyto>
+        <owner>brightside</owner>
+        <type>bool</type>
+        <default>false</default>
+        <locale name="C">
+          <short>Top left corner enabled</short>
+          <long>Action enabled when mouse is in top left corner of screen</long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/brightside/nw_action</key>
+        <applyto>/apps/brightside/nw_action</applyto>
+        <owner>brightside</owner>
+        <type>string</type>
+        <default>mute</default>
+        <locale name="C">
+          <short>Top left corner action</short>
+          <long>Action to occur when mouse is in top left corner of screen</long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/brightside/nw_custom_in</key>
+        <applyto>/apps/brightside/nw_custom_in</applyto>
+        <owner>brightside</owner>
+        <type>string</type>
+        <default></default>
+        <locale name="C">
+          <short>Top left corner entry custom command</short>
+          <long>Custom command to execute when mouse enters top left corner of screen</long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/brightside/nw_custom_out</key>
+        <applyto>/apps/brightside/nw_custom_out</applyto>
+        <owner>brightside</owner>
+        <type>string</type>
+        <default></default>
+        <locale name="C">
+          <short>Top left corner exit custom command</short>
+          <long>Custom command to execute when mouse exits top left corner of screen</long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/brightside/nw_custom_kill</key>
+        <applyto>/apps/brightside/nw_custom_kill</applyto>
+        <owner>brightside</owner>
+        <type>bool</type>
+        <default>false</default>
+        <locale name="C">
+          <short>Top left corner kill custom command</short>
+          <long>Terminate custom command when mouse exits top left corner of screen</long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/brightside/sw_enabled</key>
+        <applyto>/apps/brightside/sw_enabled</applyto>
+        <owner>brightside</owner>
+        <type>bool</type>
+        <default>false</default>
+        <locale name="C">
+          <short>Bottom left corner enabled</short>
+          <long>Action enabled when mouse is in bottom left corner of screen</long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/brightside/sw_action</key>
+        <applyto>/apps/brightside/sw_action</applyto>
+        <owner>brightside</owner>
+        <type>string</type>
+        <default>noscreensaver</default>
+        <locale name="C">
+          <short>Bottom left corner action</short>
+          <long>Action to occur when mouse is in bottom left corner of screen</long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/brightside/sw_custom_in</key>
+        <applyto>/apps/brightside/sw_custom_in</applyto>
+        <owner>brightside</owner>
+        <type>string</type>
+        <default></default>
+        <locale name="C">
+          <short>Bottom left corner entry custom command</short>
+          <long>Custom command to execute when mouse enters bottom left corner of screen</long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/brightside/sw_custom_out</key>
+        <applyto>/apps/brightside/sw_custom_out</applyto>
+        <owner>brightside</owner>
+        <type>string</type>
+        <default></default>
+        <locale name="C">
+          <short>Bottom left corner exit custom command</short>
+          <long>Custom command to execute when mouse exits bottom left corner of screen</long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/brightside/sw_custom_kill</key>
+        <applyto>/apps/brightside/sw_custom_kill</applyto>
+        <owner>brightside</owner>
+        <type>bool</type>
+        <default>false</default>
+        <locale name="C">
+          <short>Bottom left corner kill custom command</short>
+          <long>Terminate custom command when mouse exits bottom left corner of screen</long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/brightside/ne_enabled</key>
+        <applyto>/apps/brightside/ne_enabled</applyto>
+        <owner>brightside</owner>
+        <type>bool</type>
+        <default>false</default>
+        <locale name="C">
+          <short>Top right corner enabled</short>
+          <long>Action enabled when mouse is in top right corner of screen</long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/brightside/ne_action</key>
+        <applyto>/apps/brightside/ne_action</applyto>
+        <owner>brightside</owner>
+        <type>string</type>
+        <default>screensaver</default>
+        <locale name="C">
+          <short>Top right corner action</short>
+          <long>Action to occur when mouse is in top right corner of screen</long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/brightside/ne_custom_in</key>
+        <applyto>/apps/brightside/ne_custom_in</applyto>
+        <owner>brightside</owner>
+        <type>string</type>
+        <default></default>
+        <locale name="C">
+          <short>Top right corner entry custom command</short>
+          <long>Custom command to execute when mouse enters top right corner of screen</long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/brightside/ne_custom_out</key>
+        <applyto>/apps/brightside/ne_custom_out</applyto>
+        <owner>brightside</owner>
+        <type>string</type>
+        <default></default>
+        <locale name="C">
+          <short>Top right corner exit custom command</short>
+          <long>Custom command to execute when mouse exits top right corner of screen</long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/brightside/ne_custom_kill</key>
+        <applyto>/apps/brightside/ne_custom_kill</applyto>
+        <owner>brightside</owner>
+        <type>bool</type>
+        <default>false</default>
+        <locale name="C">
+          <short>Top right corner kill custom command</short>
+          <long>Terminate custom command when mouse exits top right corner of screen</long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/brightside/se_enabled</key>
+        <applyto>/apps/brightside/se_enabled</applyto>
+        <owner>brightside</owner>
+        <type>bool</type>
+        <default>false</default>
+        <locale name="C">
+          <short>Bottom right corner enabled</short>
+          <long>Action enabled when mouse is in bottom right corner of screen</long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/brightside/se_action</key>
+        <applyto>/apps/brightside/se_action</applyto>
+        <owner>brightside</owner>
+        <type>string</type>
+        <default>standby</default>
+        <locale name="C">
+          <short>Bottom right corner action</short>
+          <long>Action to occur when mouse is in bottom right corner of screen</long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/brightside/se_custom_in</key>
+        <applyto>/apps/brightside/se_custom_in</applyto>
+        <owner>brightside</owner>
+        <type>string</type>
+        <default></default>
+        <locale name="C">
+          <short>Bottom right corner entry custom command</short>
+          <long>Custom command to execute when mouse enters bottom right corner of screen</long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/brightside/se_custom_out</key>
+        <applyto>/apps/brightside/se_custom_out</applyto>
+        <owner>brightside</owner>
+        <type>string</type>
+        <default></default>
+        <locale name="C">
+          <short>Bottom right corner exit custom command</short>
+          <long>Custom command to execute when mouse exits bottom right corner of screen</long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/brightside/se_custom_kill</key>
+        <applyto>/apps/brightside/se_custom_kill</applyto>
+        <owner>brightside</owner>
+        <type>bool</type>
+        <default>false</default>
+        <locale name="C">
+          <short>Bottom right corner kill custom command</short>
+          <long>Terminate custom command when mouse exits bottom right corner of screen</long>
+        </locale>
+      </schema>
+
+  </schemalist>
+</gconfschemafile>

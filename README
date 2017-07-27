@@ -1,0 +1,198 @@
+                               BRIGHTSIDE 1.4.0
+
+Brightside Renders Into Gnome Helpful Things Such as are In Other Desktop 
+Environments
+
+This is Brightside, a small tool to do what Metacity doesn't: it reacts in 
+appropriate and configurable ways when the mouse pointer strays into the 
+corners or edges of the screen.
+
+Edge flipping has only been tested with Metacity.
+
+Current actions are:
+- Fade out volume (uses the OSS mixer by default, then ALSA; the ALSA code 
+  doesn't work too well)
+- Prevent screensaver starting (implemented by running 
+  xscreensaver-command -deactivate every 30 seconds)
+- Start screensaver and lock screen (using xscreensaver-command -lock)
+- Enter DPMS standby mode (using xset dpms force standby)
+- Enter DPMS suspend mode
+- Enter DPMS off mode
+- Dim laptop backlight (kernel 2.4.18-rc2-benh minimum, PowerBooks only)
+- Custom action
+
+This URL contains more information:
+http://lists.debian.org/debian-powerpc/2002/debian-powerpc-200204/msg00615.html
+
+Short ... Long means 100-1500ms, in 10ms increments. This is what the Keyboard 
+capplet does, so there's probably a deep and meaningful HIG reason behind it.
+
+Once edge resistance has been overcome, edge flipping will be instant until a 
+period of twice the edge flipping delay time elapses without an edge flip 
+occurring. From then on, the delay for edge resistance will increase at unit 
+rate until it attains its original value. Thus one may easily flip two adjacent 
+edges in turn, or even multiple opposite edges, provided the edge delay and 
+mouse velocity and acceleration are set to suitable values. (This also makes
+accidental edge flips significantly less annoying, as one is not stuck on the
+new workspace.) One can tell when the first timeout has occurred as the popup
+pager will be re-hidden.
+
+The mouse pointer is tracked by polling its position every ( d ÷ 5 ) ms, where
+d is the minimum of the two delay values and the resultant value is clamped to
+between 20 and 200ms. I realise that this is woefully inefficient, but it does
+not lead to significant resource usage on my system. I may someday implement
+tracking the mouse properly, with one-pixel transparent screen-edge windows.
+
+The Brightside icon is based on the Monitor icon from the beautiful Amaranth 
+svg Gnome icon theme by Michael Doches. It was edited using Inkscape 0.36.
+
+An incredible amount of code was lifted directly from Acme, the multimedia 
+keys daemon by Bastien Nocera. 
+
+New in version
+--------------
+
+1.4.0:
+- bugfixes (see ChangeLog)
+
+1.3.2:
+- bugfix, tray icon now optional at configure time (use Sessions capplet to 
+  remove from session)
+
+1.3.1:
+- some additions: --pager option, pager lives on mouseover, pager obeys mouse
+  wheel
+
+1.3.0:
+- decided, in the great and honourable tradition of Gnome applications, to 
+  make this the first release version
+
+Requirements
+------------
+
+- the gnome2 libraries and libwnck
+- gob2, if you intend to hack on the volume control and fbdev stuff.
+- -devel/-dev packages if you want to compile on RPM/Debain based binary 
+  distributions
+- a good C compiler - if you find any faults in the code, send me the patch!
+- a window manager that brings along the window being moved when told to
+  switch workspace. This does not include Metacity version <= 2.6.3.
+  The relevant patch to Metacity is in my Portage overlay at 
+  http://catmur.co.uk/gentoo/overlay/x11-wm/metacity/files
+- a session manager
+- a freedesktop.org compatible notification area (a.k.a system tray)
+
+Installation
+------------
+
+1) ./configure
+2) make
+3) make install
+4) for brightness and volume control: make sure you have read and write 
+   permissions on /dev/pmu and /dev/mixer
+5) run brightside or brightside-preferences, or visit Desktop Preferences ->
+   Screen Corners and Edges - brightside will add itself to your session.
+Voila !
+
+Hidden Stuff
+------------
+
+/apps/brightside/after_flip_command will be run after each flip. Use it to 
+make a funny noise, or something.
+
+/apps/brightside/orientable_workspaces controls whether the workspace layout
+is an orientable manifold. Turn it off for some very weird effects.
+
+Run `brightside --pager' to make brightside present its pager. (Implemented with
+highly hackish and inappropriate X named clipboard IPC.) I use the hidden `bind
+key to command' feature in Metacity to bind this to Ctrl+Alt+Space for easy 
+workspace switching.
+
+Hacking
+-------
+
+0) Delete all but: AUTHORS ChangeLog configure.ac brightside.spec.in 
+      Makefile.am NEWS README src/*.{c,h,svg,png,glade,am} 
+      src/brightside.desktop.in src/brightside.schemas.in 
+      po/*.po po/ChangeLog po/POTFILES.* ebuild/ doc/
+1) intltoolize --copy
+2) automake-1.7 --add-missing --copy
+3) aclocal-1.7
+4) cp /usr/share/automake-1.7/config.guess /usr/share/automake-1.7/config.sub .
+5) autoheader
+6) cp /usr/share/gettext/ABOUT-NLS .
+7) automake (tell me if you get it to work with unsermake)
+8) autoconf-2.58
+9) See Installation
+
+You MUST delete po/brightside.pot and make update-po in po/ if you change any
+localisable strings (anything in the .glade files and brightside.schemas.in, 
+the lines starting _ in brightside.desktop.in, and strings wrapped _(...) in 
+.c and .h files).
+
+The Makefile has two extra targets; srcdist and edigest:
+
+`make srcdist' will make distclean and then pack the whole lot into a .tar.bz2
+suitable for source distribution. 
+The current directory MUST NOT be <package>.<version>.
+
+`make edigest' will make srcdist and then generate a digest for the created
+tarball.
+
+FAQ
+---
+
+Q: I'm not seeing the popup window when I change the brightness; what's wrong ?
+A: There are 2 things to check:
+	1) at least a 2.4.18-rc2-benh kernel.
+	2) that the permissions on /dev/fb0 and /dev/pmu make it readable and
+	   writable for the users that want to use Brightside.
+
+Bugs
+----
+
+- Powerbook backlight dimming is totally untested
+- Sometimes the top menu item in a list (the Mute item) will appear greyed out.
+  This does not affect the functionality of the application as it regains its 
+  appearance when the mouse is moved over it. This is probably a GTK bug; I've
+  seen it in a few other applications that make the sensitivity of a list 
+  control depend on the value of another control.
+- The ALSA mixer is buggy: it unmutes to 2% less than the previous volume, and
+  fails to notice the volume being changed elsewhere. I've rewritten the code
+  to use the OSS mixer by default.
+- Each time Brightside starts, the first time the pager is shown it will 
+  flicker in the wrong place. Someone please tell me how to get a Gtk widget
+  to layout itself without mapping it to the display...
+- Some people have reported schema troubles - "Expected 'int' got 'float'" and
+  the like. This appears to be a result of the schema not being installed 
+  properly. If this happens to you then the quick fix is to run:
+  	gconftool-2 -t int -s /apps/brightside/edge_delay 500
+  for each key that is reported broken. I'm still trying to work out why this 
+  happens in the first place.
+
+Thanks
+------
+
+Thanks to Bastien Nocera for Acme, the multimedia keys daemon this project is 
+a rip-off of.
+Thanks to Havoc Pennington for Metacity, for libwnck, and for making both
+just lacking in features enough to force me to learn Xlib.
+
+License
+-------
+
+GNU General Public License, version 2 or later, for everything in this package.
+
+Links
+-----
+
+OSS Mixer documentation:
+http://www.opensound.com/pguide/mixer.html
+
+ALSA 0.5.x Mixer documentation:
+http://www.alsa-project.org/alsa-doc/alsa-lib-old/mixer.html
+
+ALSA 0.9.x mixer "documentation":
+http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/alsa/alsa-utils/amixer/amixer.c
+http://www.alsa-project.org/alsa-doc/alsa-lib/mixer_8c.html
+

@@ -1,0 +1,758 @@
+# Young-Ho, Cha <ganadist@mizi.com>, 2002,2003.
+# Changwoo Ryu <cwryu@debian.org>, 2003
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: AC_PACKAGE_NAME AC_PACKAGE_VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-01-16 02:13+0000\n"
+"PO-Revision-Date: 2003-05-09 01:44+0900\n"
+"Last-Translator: Changwoo Ryu <cwryu@debian.org>\n"
+"Language-Team: GTP Korean <gnome-kr-translation@gnome.or.kr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/brightside.c:224
+#, c-format
+msgid ""
+"Couldn't execute command: %s\n"
+"Verify that this command exists."
+msgstr ""
+"명령을 실행할 수 없습니다: %s\n"
+"명령이 있는지 확인해보십시오."
+
+#: src/brightside.c:243
+#, c-format
+msgid ""
+"Permissions on the file %s are broken\n"
+"Please check Brightside's documentation, correct the problem and restart "
+"Brightside."
+msgstr ""
+"파일 %s의 허가권이 없습니다\n"
+"Brightside의 문서를 참고해서 문제부분을 해결한 다음 Brightside를 다시 시작하"
+"십시오."
+
+#: src/brightside.c:487
+msgid "translator_credits"
+msgstr ""
+"차영호 <ganadist@mizi.com>, 2002\n"
+"류창우 <cwryu@debian.org>, 2003"
+
+#: src/brightside.c:498
+msgid "Brightside"
+msgstr "Brightside"
+
+#: src/brightside.c:500 src/brightside.c:573
+msgid "Screen Corners and Edges daemon"
+msgstr ""
+
+#: src/brightside.c:579
+msgid "Screen Corners and Edges daemon active"
+msgstr ""
+
+#: src/brightside.c:1733
+msgid "Daemon already running, exiting...\n"
+msgstr ""
+
+#: src/brightside.c:1742
+msgid ""
+"Couldn't load the Glade file.\n"
+"Make sure that this daemon is properly installed."
+msgstr ""
+"Glade 파일을 읽을 수 없습니다.\n"
+"데몬이 제대로 설치되어 있는지 확인하십시오."
+
+#: src/brightside.glade.h:1
+msgid "Volume"
+msgstr "소리 크기"
+
+#: src/brightside.h:65
+#, fuzzy
+msgid "Mute volume"
+msgstr "소리 끔"
+
+#: src/brightside.h:67
+msgid "Prevent screensaver starting"
+msgstr ""
+
+#: src/brightside.h:69
+#, fuzzy
+msgid "Start screensaver"
+msgstr "화면보호기 글쇠"
+
+#: src/brightside.h:71
+msgid "Enter DPMS standby mode"
+msgstr ""
+
+#: src/brightside.h:73
+msgid "Enter DPMS suspend mode"
+msgstr ""
+
+#: src/brightside.h:75
+msgid "Enter DPMS off mode"
+msgstr ""
+
+#: src/brightside.h:78
+msgid "Dim laptop backlight"
+msgstr ""
+
+#: src/brightside.h:81
+msgid "Custom action..."
+msgstr ""
+
+#: src/brightside-properties.c:283 src/brightside-properties.glade.h:9
+#: src/brightside.desktop.in.h:2
+msgid "Screen Corners and Edges"
+msgstr ""
+
+#: src/brightside-properties.glade.h:1 src/custom-action.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: src/brightside-properties.glade.h:2
+msgid "<small><i>Long</i></small>"
+msgstr ""
+
+#: src/brightside-properties.glade.h:3
+msgid "<small><i>Short</i></small>"
+msgstr ""
+
+#: src/brightside-properties.glade.h:4
+#, fuzzy
+msgid "<span weight=\"bold\">Screen Corners</span>"
+msgstr "<span weight=\"bold\">소리 설정</span>"
+
+#: src/brightside-properties.glade.h:5
+#, fuzzy
+msgid "<span weight=\"bold\">Screen Edges</span>"
+msgstr "<span weight=\"bold\">소리 설정</span>"
+
+#: src/brightside-properties.glade.h:6
+#, fuzzy
+msgid "Action to take while mouse is placed in corner of screen"
+msgstr "Eject 글쇠를 눌렀을 때 실행할 명령"
+
+#: src/brightside-properties.glade.h:7
+msgid "Bottom r_ight corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:8
+msgid "D_elay:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:10
+msgid "Switch to _adjacent workspace when mouse is moved to edge of screen"
+msgstr ""
+
+#: src/brightside-properties.glade.h:11
+msgid "Top _right corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:12
+msgid "When switching workspace, _wrap around edges of workspace layout"
+msgstr ""
+
+#: src/brightside-properties.glade.h:13
+msgid "_Bottom left corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:14
+msgid "_Configurable actions"
+msgstr ""
+
+#: src/brightside-properties.glade.h:15
+msgid "_Delay:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:16
+msgid "_Switch to diagonally adjacent workspace"
+msgstr ""
+
+#: src/brightside-properties.glade.h:17
+msgid "_Top left corner:"
+msgstr ""
+
+#: src/brightside.desktop.in.h:1
+#, fuzzy
+msgid "Configure screen-edge behaviour"
+msgstr "멀티미디어 글쇠 설정을 합니다"
+
+#: src/brightside.schemas.in.h:1
+msgid "Action enabled when mouse is in bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:2
+msgid "Action enabled when mouse is in bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:3
+msgid "Action enabled when mouse is in top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:4
+msgid "Action enabled when mouse is in top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:5
+msgid "Action to occur when mouse is in bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:6
+msgid "Action to occur when mouse is in bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:7
+msgid "Action to occur when mouse is in top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:8
+msgid "Action to occur when mouse is in top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:9
+msgid "After flip command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:10
+msgid "Bottom left corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:11
+msgid "Bottom left corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:12
+msgid "Bottom left corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:13
+msgid "Bottom left corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:14
+msgid "Bottom left corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:15
+msgid "Bottom right corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:16
+msgid "Bottom right corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:17
+msgid "Bottom right corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:18
+msgid "Bottom right corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:19
+msgid "Bottom right corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:20
+msgid "Command to execute after flipping workspace (empty string for none)"
+msgstr ""
+
+#: src/brightside.schemas.in.h:21
+msgid "Corner delay"
+msgstr ""
+
+#: src/brightside.schemas.in.h:22
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse enters bottom left corner of screen"
+msgstr "Eject 글쇠를 눌렀을 때 실행할 명령"
+
+#: src/brightside.schemas.in.h:23
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse enters bottom right corner of screen"
+msgstr "Eject 글쇠를 눌렀을 때 실행할 명령"
+
+#: src/brightside.schemas.in.h:24
+#, fuzzy
+msgid "Custom command to execute when mouse enters top left corner of screen"
+msgstr "Eject 글쇠를 눌렀을 때 실행할 명령"
+
+#: src/brightside.schemas.in.h:25
+#, fuzzy
+msgid "Custom command to execute when mouse enters top right corner of screen"
+msgstr "Eject 글쇠를 눌렀을 때 실행할 명령"
+
+#: src/brightside.schemas.in.h:26
+#, fuzzy
+msgid "Custom command to execute when mouse exits bottom left corner of screen"
+msgstr "Eject 글쇠를 눌렀을 때 실행할 명령"
+
+#: src/brightside.schemas.in.h:27
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse exits bottom right corner of screen"
+msgstr "Eject 글쇠를 눌렀을 때 실행할 명령"
+
+#: src/brightside.schemas.in.h:28
+#, fuzzy
+msgid "Custom command to execute when mouse exits top left corner of screen"
+msgstr "Eject 글쇠를 눌렀을 때 실행할 명령"
+
+#: src/brightside.schemas.in.h:29
+#, fuzzy
+msgid "Custom command to execute when mouse exits top right corner of screen"
+msgstr "Eject 글쇠를 눌렀을 때 실행할 명령"
+
+#: src/brightside.schemas.in.h:30
+msgid "Delay in milliseconds before edge flip occurs"
+msgstr ""
+
+#: src/brightside.schemas.in.h:31
+msgid "Delay in milliseconds before screen corner action occurs"
+msgstr ""
+
+#: src/brightside.schemas.in.h:32
+msgid "Edge delay"
+msgstr ""
+
+#: src/brightside.schemas.in.h:33
+msgid "Edge wrap"
+msgstr ""
+
+#: src/brightside.schemas.in.h:34
+#, fuzzy
+msgid "Enable corner flip"
+msgstr "쓰기"
+
+#: src/brightside.schemas.in.h:35
+#, fuzzy
+msgid "Enable edge flip"
+msgstr "쓰기"
+
+#: src/brightside.schemas.in.h:36
+msgid "Orientable workspaces"
+msgstr ""
+
+#: src/brightside.schemas.in.h:37
+msgid ""
+"Switch to diagonally adjacent workspace when mouse placed in the corner of "
+"the screen, instead of executing a configurable action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:38
+msgid ""
+"Switch to the adjacent workspace when the mouse reaches the edge of the "
+"screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:39
+msgid "Terminate custom command when mouse exits bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:40
+msgid "Terminate custom command when mouse exits bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:41
+msgid "Terminate custom command when mouse exits top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:42
+msgid "Terminate custom command when mouse exits top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:43
+msgid "Top left corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:44
+msgid "Top left corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:45
+msgid "Top left corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:46
+msgid "Top left corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:47
+msgid "Top left corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:48
+msgid "Top right corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:49
+msgid "Top right corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:50
+msgid "Top right corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:51
+msgid "Top right corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:52
+msgid "Top right corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:53
+msgid "Use PCM Volume instead of Master Volume"
+msgstr "기본 소리크기대신 PCM 소리크기를 씁니다"
+
+#: src/brightside.schemas.in.h:54
+msgid "Whether workspace layout is orientable"
+msgstr ""
+
+#: src/brightside.schemas.in.h:55
+msgid "Wrap wround edges of workspace layout when flipping workspace"
+msgstr ""
+
+#: src/custom-action.glade.h:2
+msgid "*"
+msgstr ""
+
+#: src/custom-action.glade.h:3
+#, fuzzy
+msgid "<span weight=\"bold\">On _entering region</span>"
+msgstr "<span weight=\"bold\">글쇠 설정 </span>"
+
+#: src/custom-action.glade.h:4
+#, fuzzy
+msgid "<span weight=\"bold\">On leaving region</span>"
+msgstr "<span weight=\"bold\">소리 설정</span>"
+
+#: src/custom-action.glade.h:5 src/custom-action.c:104
+msgid "Custom action"
+msgstr ""
+
+#: src/custom-action.glade.h:6
+msgid "_Run another command:"
+msgstr ""
+
+#: src/custom-action.glade.h:7
+msgid "_Terminate above application"
+msgstr ""
+
+#~ msgid ""
+#~ "Couldn't execute either command: %s\n"
+#~ "or command: %s\n"
+#~ "Verify that at least one of these commands exist."
+#~ msgstr ""
+#~ "명령 :%s\n"
+#~ "또는 명령 :%s\n"
+#~ "(을)를 실행할 수 없습니다. 적어도 하나의 명령이 있는지 확인하십시오."
+
+#~ msgid ""
+#~ "There was an error removing access to the multimedia keys.\n"
+#~ "Key %d couldn't be unbound."
+#~ msgstr ""
+#~ "멀티미디어 글쇠의 등록을 지우는데 오류가 생겼습니다.\n"
+#~ "%d 글쇠를 지울 수 없습니다."
+
+#~ msgid ""
+#~ "It seems that another application already has access to the multimedia "
+#~ "keys.\n"
+#~ "Key %d couldn't be bound.\n"
+#~ "Is another daemon already running ?"
+#~ msgstr ""
+#~ "멀티미디어 글쇠가 다른 프로그램에서 쓰고 있습니다.\n"
+#~ "%d 글쇠를 등록할 수 없습니다.\n"
+#~ "다른 데몬이 떠있습니까?"
+
+#~ msgid "Multimedia keys daemon"
+#~ msgstr "멀티미디어 글쇠 데몬"
+
+#~ msgid "Multimedia Keys daemon active"
+#~ msgstr "멀티미디어 글쇠 데몬 시작"
+
+#~ msgid "Volume down key"
+#~ msgstr "소리 낮춤 글쇠"
+
+#~ msgid "Volume up key"
+#~ msgstr "소리 높임 글쇠"
+
+#~ msgid "Power key"
+#~ msgstr "전원 글쇠"
+
+#~ msgid "Eject key"
+#~ msgstr "꺼내기 글쇠"
+
+#~ msgid "Media key"
+#~ msgstr "미디어 글쇠"
+
+#~ msgid "Play key"
+#~ msgstr "연주 글쇠"
+
+#~ msgid "Pause key"
+#~ msgstr "잠시 멈춤 글쇠"
+
+#~ msgid "Stop (Audio) key"
+#~ msgstr "오디오 멈춤 글쇠"
+
+#~ msgid "Previous (Audio) key"
+#~ msgstr "이전 오디오 글쇠"
+
+#~ msgid "Next (Audio) key"
+#~ msgstr "다음 오디오 글쇠"
+
+#~ msgid "My Home key"
+#~ msgstr "내 폴더 글쇠"
+
+#~ msgid "Refresh key"
+#~ msgstr "리프레쉬 글쇠"
+
+#~ msgid "Search key"
+#~ msgstr "찾기 글쇠"
+
+#~ msgid "E-Mail key"
+#~ msgstr "메일 글쇠"
+
+#~ msgid "Sleep key"
+#~ msgstr "슬립 글쇠"
+
+#~ msgid "Finance key"
+#~ msgstr "가계부 글쇠"
+
+#~ msgid "Help key"
+#~ msgstr "도움말 글쇠"
+
+#~ msgid "WWW key"
+#~ msgstr "WWW 글쇠"
+
+#~ msgid "Groups key"
+#~ msgstr "그놈 새소식 글쇠"
+
+#~ msgid "Calculator key"
+#~ msgstr "계산기 글쇠"
+
+#~ msgid "Record key"
+#~ msgstr "녹음 글쇠"
+
+#~ msgid "Close Window key"
+#~ msgstr "창 닫기 글쇠"
+
+#~ msgid "Shade Window key"
+#~ msgstr "창 말기 글쇠"
+
+#~ msgid "Brightness down key"
+#~ msgstr "밝기 낮춤 글쇠"
+
+#~ msgid "Brightness up key"
+#~ msgstr "밝기 높임 글쇠"
+
+#~ msgid "Disabled"
+#~ msgstr "쓰지 않기"
+
+#~ msgid ""
+#~ "This key is already bound to action '%s'.\n"
+#~ "Please select another key."
+#~ msgstr ""
+#~ "이 글쇠는 이미 '%s' 액션에 등록되어 있습니다.\n"
+#~ "다른 글쇠를 골라주세요."
+
+#~ msgid "Description"
+#~ msgstr "설명"
+
+#~ msgid "Status"
+#~ msgstr "상태"
+
+#~ msgid "Multimedia Keys Preferences"
+#~ msgstr "멀티미디어 글쇠 기본 설정"
+
+#~ msgid ""
+#~ "To assign a key to an action, click on a line, and press the key you want "
+#~ "to associate with it.\n"
+#~ "\"C\" cancels the capture, and \"Backspace\" disables the key shortcut."
+#~ msgstr ""
+#~ "글쇠를 등록하려면, 마우스 버튼을 누르고 등록할 글쇠를 누르십시오.\n"
+#~ "\"C\"를 누르면 등록을 하지 않게 되고, \"백스페이스\"글쇠를 누르면 글쇠 등"
+#~ "록이 해제됩니다."
+
+#~ msgid "Use _PCM volume instead of Master volume"
+#~ msgstr "기본 소리크기 대신 PCM 소리크기를 씁니다(_P)"
+
+#~ msgid "Multimedia Keys"
+#~ msgstr "멀티미디어 글쇠"
+
+#~ msgid "Brightness down key's XKeycode"
+#~ msgstr "밝기 낮춤 글쇠의 X글쇠코드"
+
+#~ msgid "Brightness down key's XKeycode, 0 to disable"
+#~ msgstr "밝기 낮춤 글쇠의 X글쇠코드, 0이면 사용 않음"
+
+#~ msgid "Brightness up key's XKeycode"
+#~ msgstr "밝기 높임 글쇠의 X글쇠코드"
+
+#~ msgid "Brightness up key's XKeycode, 0 to disable"
+#~ msgstr "밝기 높임 글쇠의 X글쇠코드, 0이면 사용 않음"
+
+#~ msgid "Calculator key's XKeycode"
+#~ msgstr "계산기 글쇠의 X글쇠코드"
+
+#~ msgid "Calculator key's XKeycode, 0 to disable"
+#~ msgstr "계산기 길쇠의 X글쇠코드, 0이면 사용 않음"
+
+#~ msgid "Close Window key's XKeycode"
+#~ msgstr "창 닫기 글쇠의 X글쇠코드"
+
+#~ msgid "Close Window key's XKeycode, 0 to disable"
+#~ msgstr "창 닫기 글쇠의 X글쇠코드, 0이면 사용 않음"
+
+#~ msgid "E-Mail key's XKeycode"
+#~ msgstr "메일 글쇠의 X글쇠코드"
+
+#~ msgid "E-Mail key's XKeycode, 0 to disable"
+#~ msgstr "메일 글쇠의 X글쇠코드, 0이면 사용 않음"
+
+#~ msgid "Eject key's XKeycode"
+#~ msgstr "꺼내기 글쇠의 X글쇠코드"
+
+#~ msgid "Eject key's XKeycode, 0 to disable"
+#~ msgstr "꺼내기 글쇠의 X글쇠코드, 0이면 사용 않음"
+
+#~ msgid "Finance key's XKeycode"
+#~ msgstr "가계부 글쇠의 X글쇠코드"
+
+#~ msgid "Finance key's XKeycode, 0 to disable"
+#~ msgstr "가계부 글쇠의 X글쇠코드, 0이면 사용 않음"
+
+#~ msgid "Groups key's XKeycode"
+#~ msgstr "그놈 새소식의 X글쇠코드"
+
+#~ msgid "Groups key's XKeycode, 0 to disable"
+#~ msgstr "그놈 새소식의 X글쇠코드, 0이면 사용 않음"
+
+#~ msgid "Help key's XKeycode"
+#~ msgstr "도움말 글쇠의 X글쇠코드"
+
+#~ msgid "Help key's XKeycode, 0 to disable"
+#~ msgstr "도움말 글쇠의 X글쇠코드, 0이면 사용 않음"
+
+#~ msgid "Mute key's XKeycode"
+#~ msgstr "소리 끔 글쇠의 X글쇠코드"
+
+#~ msgid "Mute key's XKeycode, 0 to disable"
+#~ msgstr "소리 끔 글쇠의 X글쇠코드, 0이면 사용 않음"
+
+#~ msgid "My Home key's XKeycode"
+#~ msgstr "내 폴더 글쇠의 X글쇠코드"
+
+#~ msgid "My Home key's XKeycode, 0 to disable"
+#~ msgstr "내 폴더 글쇠의 X글쇠코드, 0이면 사용 않음"
+
+#~ msgid "Next key's XKeycode"
+#~ msgstr "다음 오디오 글쇠의 X글쇠코드"
+
+#~ msgid "Next key's XKeycode, 0 to disable"
+#~ msgstr "다음 오디오 X글쇠코드, 0이면 사용 않음"
+
+#~ msgid "Pause key's XKeycode"
+#~ msgstr "잠시 멈춤 글쇠의 X글쇠코드"
+
+#~ msgid "Pause key's XKeycode, 0 to disable"
+#~ msgstr "잠시 멈춤 글쇠의 X글쇠코드, 0이면 사용 않음"
+
+#~ msgid "Play key's XKeycode"
+#~ msgstr "연주 글쇠의 X글쇠코드"
+
+#~ msgid "Play key's XKeycode, 0 to disable"
+#~ msgstr "연주 글쇠의 X글쇠코드, 0이면 사용 않음"
+
+#~ msgid "Power key's XKeycode"
+#~ msgstr "전원 글쇠의 X글쇠코드"
+
+#~ msgid "Power key's XKeycode, 0 to disable"
+#~ msgstr "전원 글쇠의 X글쇠코드, 0이면 사용 않음"
+
+#~ msgid "Previous key's XKeycode"
+#~ msgstr "이전 오디오 글쇠의 X글쇠코드"
+
+#~ msgid "Previous key's XKeycode, 0 to disable"
+#~ msgstr "이전 오디오 글쇠의 X글쇠코드, 0이면 사용 않음"
+
+#~ msgid "Record key's XKeycode"
+#~ msgstr "녹음 글쇠의 X글쇠코드"
+
+#~ msgid "Record key's XKeycode, 0 to disable"
+#~ msgstr "녹음 글쇠의 X글쇠코드, 0이면 사용 않음"
+
+#~ msgid "Refresh key's XKeycode"
+#~ msgstr "리프레쉬 글쇠의 X글쇠코드"
+
+#~ msgid "Refresh key's XKeycode, 0 to disable"
+#~ msgstr "리프레쉬 글쇠의 X글쇠코드, 0이면 사용 않음"
+
+#~ msgid "Screensaver key's XKeycode"
+#~ msgstr "화면보호기 글쇠의 X글쇠코드"
+
+#~ msgid "Screensaver key's XKeycode, 0 to disable"
+#~ msgstr "화면보호기 글쇠의 X글쇠코드, 0이면 사용 않음"
+
+#~ msgid "Search key's XKeycode"
+#~ msgstr "찾기 글쇠의 X글쇠코드"
+
+#~ msgid "Search key's XKeycode, 0 to disable"
+#~ msgstr "찾기 글쇠의 X글쇠코드, 0이면 사용 않음"
+
+#~ msgid "Shade Window key's XKeycode"
+#~ msgstr "창 말기 글쇠의 X글쇠코드"
+
+#~ msgid "Shade Window key's XKeycode, 0 to disable"
+#~ msgstr "창 말기 글쇠의 X글쇠코드, 0이면 사용 않음"
+
+#~ msgid "Sleep key's XKeycode"
+#~ msgstr "슬립 글쇠의 X글쇠코드"
+
+#~ msgid "Sleep key's XKeycode, 0 to disable"
+#~ msgstr "슬립 글쇠의 X글쇠코드, 0이면 사용 않음"
+
+#~ msgid "Sound file to be played when volume is changed"
+#~ msgstr "소리 크기가 변할 때 연주될 소리 파일"
+
+#~ msgid "Volume down key's XKeycode"
+#~ msgstr "소리 낮춤 글쇠의 X글쇠코드"
+
+#~ msgid "Volume down key's XKeycode, 0 to disable"
+#~ msgstr "소리 낮춤 글쇠의 X글쇠코드, 0이면 사용 않음"
+
+#, fuzzy
+#~ msgid "Volume step"
+#~ msgstr "소리 크기"
+
+#~ msgid "Volume up key's XKeycode"
+#~ msgstr "소리 높임 글쇠의 X글쇠코드"
+
+#~ msgid "Volume up key's XKeycode, 0 to disable"
+#~ msgstr "소리 높임 글쇠의 X글쇠코드, 0이면 사용 않음"
+
+#~ msgid "WWW key's XKeycode"
+#~ msgstr "WWW 글쇠의 X글쇠코드"
+
+#~ msgid "WWW key's XKeycode, 0 to disable"
+#~ msgstr "WWW 글쇠의 X글쇠코드, 0이면 사용 않음"
+
+#~ msgid "Accelerator key"
+#~ msgstr "바로가기 글쇠"
+
+#~ msgid "Accelerator modifiers"
+#~ msgstr "바로가기 변경자"
+
+#~ msgid "Accelerator Mode"
+#~ msgstr "바로가기 모드"
+
+#~ msgid "The type of accelerator."
+#~ msgstr "바로가기의 형식"
+
+#~ msgid "Type a new accelerator, or press Backspace to clear"
+#~ msgstr "새 바로가기 글쇠를 넣으십시오, 백스페이스를 누르면 취소됩니다"
+
+#~ msgid "Type a new accelerator"
+#~ msgstr "새 바로가기 글쇠를 넣으십시오"

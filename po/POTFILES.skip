@@ -1,0 +1,4 @@
+src/eggtrayicon.c
+src/gconf-property-editor.c
+src/preview-file-selection.c
+

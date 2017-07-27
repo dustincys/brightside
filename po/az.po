@@ -1,0 +1,776 @@
+# Brightside.HEAD.az.po faylının Azərbaycan Dilinə tərcüməsi
+# Brightside faylının Azərbaycan dilinə tərcüməsi.
+# Copyright (C) 2003 Mətin Əmirov
+# This file is distributed under the same license as the Brightside package.
+# Mətin Əmirov <metin@karegen.com>, 2003.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Brightside.HEAD.az\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-01-16 02:13+0000\n"
+"PO-Revision-Date: 2003-10-13 11:05+0300\n"
+"Last-Translator: Mətin Əmirov <metin@karegen.com>\n"
+"Language-Team: Azərbaycan Dili <gnome@azətt.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.0.1\n"
+
+#: src/brightside.c:224
+#, c-format
+msgid ""
+"Couldn't execute command: %s\n"
+"Verify that this command exists."
+msgstr ""
+"%s əmrini verə bilmədim.\n"
+"Əmrin olub olmadığını yoxlayın."
+
+#: src/brightside.c:243
+#, c-format
+msgid ""
+"Permissions on the file %s are broken\n"
+"Please check Brightside's documentation, correct the problem and restart "
+"Brightside."
+msgstr ""
+"%s faylının səlahiyyətləri qırıqdır.\n"
+"Xahiş edirik Brightside'nin sənədlərinə baxın, problemi düzəldin və "
+"Brightside-ni yenidən başladın."
+
+#: src/brightside.c:487
+msgid "translator_credits"
+msgstr ""
+"Vasif İsmailoğlu <linuxaz@azerimail.net>\n"
+"Mətin Əmirov <metin@karegen.com>"
+
+#: src/brightside.c:498
+msgid "Brightside"
+msgstr "Brightside"
+
+#: src/brightside.c:500 src/brightside.c:573
+msgid "Screen Corners and Edges daemon"
+msgstr ""
+
+#: src/brightside.c:579
+msgid "Screen Corners and Edges daemon active"
+msgstr ""
+
+#: src/brightside.c:1733
+msgid "Daemon already running, exiting...\n"
+msgstr ""
+
+#: src/brightside.c:1742
+msgid ""
+"Couldn't load the Glade file.\n"
+"Make sure that this daemon is properly installed."
+msgstr ""
+"Glade faylı yüklənə bilmədi.\n"
+"Demonun düzgün quraşdırıldığından emin olun."
+
+#: src/brightside.glade.h:1
+msgid "Volume"
+msgstr "Səs Həcmi"
+
+#: src/brightside.h:65
+#, fuzzy
+msgid "Mute volume"
+msgstr "Səsi kəsmə düyməsi"
+
+#: src/brightside.h:67
+msgid "Prevent screensaver starting"
+msgstr ""
+
+#: src/brightside.h:69
+#, fuzzy
+msgid "Start screensaver"
+msgstr "Ekran Qoruyucu düyməsi"
+
+#: src/brightside.h:71
+msgid "Enter DPMS standby mode"
+msgstr ""
+
+#: src/brightside.h:73
+msgid "Enter DPMS suspend mode"
+msgstr ""
+
+#: src/brightside.h:75
+msgid "Enter DPMS off mode"
+msgstr ""
+
+#: src/brightside.h:78
+msgid "Dim laptop backlight"
+msgstr ""
+
+#: src/brightside.h:81
+msgid "Custom action..."
+msgstr ""
+
+#: src/brightside-properties.c:283 src/brightside-properties.glade.h:9
+#: src/brightside.desktop.in.h:2
+msgid "Screen Corners and Edges"
+msgstr ""
+
+#: src/brightside-properties.glade.h:1 src/custom-action.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: src/brightside-properties.glade.h:2
+msgid "<small><i>Long</i></small>"
+msgstr ""
+
+#: src/brightside-properties.glade.h:3
+msgid "<small><i>Short</i></small>"
+msgstr ""
+
+#: src/brightside-properties.glade.h:4
+#, fuzzy
+msgid "<span weight=\"bold\">Screen Corners</span>"
+msgstr "<span weight=\"bold\">Səsin Quraşdırılması</span>"
+
+#: src/brightside-properties.glade.h:5
+#, fuzzy
+msgid "<span weight=\"bold\">Screen Edges</span>"
+msgstr "<span weight=\"bold\">Səsin Quraşdırılması</span>"
+
+#: src/brightside-properties.glade.h:6
+#, fuzzy
+msgid "Action to take while mouse is placed in corner of screen"
+msgstr "Çıxart düyməsi basılanda yerinə gətiriləcək əmr"
+
+#: src/brightside-properties.glade.h:7
+msgid "Bottom r_ight corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:8
+msgid "D_elay:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:10
+msgid "Switch to _adjacent workspace when mouse is moved to edge of screen"
+msgstr ""
+
+#: src/brightside-properties.glade.h:11
+msgid "Top _right corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:12
+msgid "When switching workspace, _wrap around edges of workspace layout"
+msgstr ""
+
+#: src/brightside-properties.glade.h:13
+msgid "_Bottom left corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:14
+msgid "_Configurable actions"
+msgstr ""
+
+#: src/brightside-properties.glade.h:15
+msgid "_Delay:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:16
+msgid "_Switch to diagonally adjacent workspace"
+msgstr ""
+
+#: src/brightside-properties.glade.h:17
+msgid "_Top left corner:"
+msgstr ""
+
+#: src/brightside.desktop.in.h:1
+#, fuzzy
+msgid "Configure screen-edge behaviour"
+msgstr "Multimedya düymələrinin davranışlarını quraşdır"
+
+#: src/brightside.schemas.in.h:1
+msgid "Action enabled when mouse is in bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:2
+msgid "Action enabled when mouse is in bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:3
+msgid "Action enabled when mouse is in top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:4
+msgid "Action enabled when mouse is in top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:5
+msgid "Action to occur when mouse is in bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:6
+msgid "Action to occur when mouse is in bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:7
+msgid "Action to occur when mouse is in top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:8
+msgid "Action to occur when mouse is in top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:9
+msgid "After flip command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:10
+msgid "Bottom left corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:11
+msgid "Bottom left corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:12
+msgid "Bottom left corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:13
+msgid "Bottom left corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:14
+msgid "Bottom left corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:15
+msgid "Bottom right corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:16
+msgid "Bottom right corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:17
+msgid "Bottom right corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:18
+msgid "Bottom right corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:19
+msgid "Bottom right corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:20
+msgid "Command to execute after flipping workspace (empty string for none)"
+msgstr ""
+
+#: src/brightside.schemas.in.h:21
+msgid "Corner delay"
+msgstr ""
+
+#: src/brightside.schemas.in.h:22
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse enters bottom left corner of screen"
+msgstr "Çıxart düyməsi basılanda yerinə gətiriləcək əmr"
+
+#: src/brightside.schemas.in.h:23
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse enters bottom right corner of screen"
+msgstr "Çıxart düyməsi basılanda yerinə gətiriləcək əmr"
+
+#: src/brightside.schemas.in.h:24
+#, fuzzy
+msgid "Custom command to execute when mouse enters top left corner of screen"
+msgstr "Çıxart düyməsi basılanda yerinə gətiriləcək əmr"
+
+#: src/brightside.schemas.in.h:25
+#, fuzzy
+msgid "Custom command to execute when mouse enters top right corner of screen"
+msgstr "Çıxart düyməsi basılanda yerinə gətiriləcək əmr"
+
+#: src/brightside.schemas.in.h:26
+#, fuzzy
+msgid "Custom command to execute when mouse exits bottom left corner of screen"
+msgstr "Çıxart düyməsi basılanda yerinə gətiriləcək əmr"
+
+#: src/brightside.schemas.in.h:27
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse exits bottom right corner of screen"
+msgstr "Çıxart düyməsi basılanda yerinə gətiriləcək əmr"
+
+#: src/brightside.schemas.in.h:28
+#, fuzzy
+msgid "Custom command to execute when mouse exits top left corner of screen"
+msgstr "Çıxart düyməsi basılanda yerinə gətiriləcək əmr"
+
+#: src/brightside.schemas.in.h:29
+#, fuzzy
+msgid "Custom command to execute when mouse exits top right corner of screen"
+msgstr "Çıxart düyməsi basılanda yerinə gətiriləcək əmr"
+
+#: src/brightside.schemas.in.h:30
+msgid "Delay in milliseconds before edge flip occurs"
+msgstr ""
+
+#: src/brightside.schemas.in.h:31
+msgid "Delay in milliseconds before screen corner action occurs"
+msgstr ""
+
+#: src/brightside.schemas.in.h:32
+msgid "Edge delay"
+msgstr ""
+
+#: src/brightside.schemas.in.h:33
+msgid "Edge wrap"
+msgstr ""
+
+#: src/brightside.schemas.in.h:34
+#, fuzzy
+msgid "Enable corner flip"
+msgstr "Fəal"
+
+#: src/brightside.schemas.in.h:35
+#, fuzzy
+msgid "Enable edge flip"
+msgstr "Fəal"
+
+#: src/brightside.schemas.in.h:36
+msgid "Orientable workspaces"
+msgstr ""
+
+#: src/brightside.schemas.in.h:37
+msgid ""
+"Switch to diagonally adjacent workspace when mouse placed in the corner of "
+"the screen, instead of executing a configurable action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:38
+msgid ""
+"Switch to the adjacent workspace when the mouse reaches the edge of the "
+"screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:39
+msgid "Terminate custom command when mouse exits bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:40
+msgid "Terminate custom command when mouse exits bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:41
+msgid "Terminate custom command when mouse exits top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:42
+msgid "Terminate custom command when mouse exits top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:43
+msgid "Top left corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:44
+msgid "Top left corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:45
+msgid "Top left corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:46
+msgid "Top left corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:47
+msgid "Top left corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:48
+msgid "Top right corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:49
+msgid "Top right corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:50
+msgid "Top right corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:51
+msgid "Top right corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:52
+msgid "Top right corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:53
+msgid "Use PCM Volume instead of Master Volume"
+msgstr "Əsas səs yerinə PCM səsini işlət"
+
+#: src/brightside.schemas.in.h:54
+msgid "Whether workspace layout is orientable"
+msgstr ""
+
+#: src/brightside.schemas.in.h:55
+msgid "Wrap wround edges of workspace layout when flipping workspace"
+msgstr ""
+
+#: src/custom-action.glade.h:2
+msgid "*"
+msgstr ""
+
+#: src/custom-action.glade.h:3
+#, fuzzy
+msgid "<span weight=\"bold\">On _entering region</span>"
+msgstr "<span weight=\"bold\">Düymələrin Quraşdırılması </span>"
+
+#: src/custom-action.glade.h:4
+#, fuzzy
+msgid "<span weight=\"bold\">On leaving region</span>"
+msgstr "<span weight=\"bold\">Səsin Quraşdırılması</span>"
+
+#: src/custom-action.glade.h:5 src/custom-action.c:104
+msgid "Custom action"
+msgstr ""
+
+#: src/custom-action.glade.h:6
+msgid "_Run another command:"
+msgstr ""
+
+#: src/custom-action.glade.h:7
+msgid "_Terminate above application"
+msgstr ""
+
+#~ msgid ""
+#~ "Couldn't execute either command: %s\n"
+#~ "or command: %s\n"
+#~ "Verify that at least one of these commands exist."
+#~ msgstr ""
+#~ "%s və %s əmrlərindən birisini verə bilmədim.\n"
+#~ "Əmrlərdən ən az birinin olub olmadığını yoxlayın."
+
+#~ msgid ""
+#~ "There was an error removing access to the multimedia keys.\n"
+#~ "Key %d couldn't be unbound."
+#~ msgstr ""
+#~ "Multimedya düymələrinə olan yetişməni silərkən xəta yarandı.\n"
+#~ "%d düyməsi ayrıla bilmədi."
+
+#~ msgid ""
+#~ "It seems that another application already has access to the multimedia "
+#~ "keys.\n"
+#~ "Key %d couldn't be bound.\n"
+#~ "Is another daemon already running ?"
+#~ msgstr ""
+#~ "Görünüşə görə başqa proqram multimedya düymələrini işlədir.\n"
+#~ "%d düyməsi tapıla bilmədi.\n"
+#~ "Başqa demon işləyir?"
+
+#~ msgid "Multimedia keys daemon"
+#~ msgstr "Multimedya düymələri demonu"
+
+#~ msgid "Multimedia Keys daemon active"
+#~ msgstr "Multimedya Düymələri demonu fəaldır"
+
+#~ msgid "Volume down key"
+#~ msgstr "Səsi alçaltma düyməsi"
+
+#~ msgid "Volume up key"
+#~ msgstr "Səsi açma düyməsi"
+
+#~ msgid "Power key"
+#~ msgstr "Güc düyməsi"
+
+#~ msgid "Eject key"
+#~ msgstr "CD çıxartma düyməsi"
+
+#~ msgid "Media key"
+#~ msgstr "Mediya düyməsi"
+
+#~ msgid "Play key"
+#~ msgstr "Çalma düyməsi"
+
+#~ msgid "Pause key"
+#~ msgstr "Fasilə düyməsi"
+
+#~ msgid "Stop (Audio) key"
+#~ msgstr "Dayandırma (Audio) düyməsi"
+
+#~ msgid "Previous (Audio) key"
+#~ msgstr "Öncəki (Audio) düyməsi"
+
+#~ msgid "Next (Audio) key"
+#~ msgstr "Sonrakı (Audio) düyməsi"
+
+#~ msgid "My Home key"
+#~ msgstr "Mənim Evim düyməsi"
+
+#~ msgid "Refresh key"
+#~ msgstr "Yeniləmə düyməsi"
+
+#~ msgid "Search key"
+#~ msgstr "Axtarma düyməsi"
+
+#~ msgid "E-Mail key"
+#~ msgstr "E-Poçt düyməsi"
+
+#~ msgid "Sleep key"
+#~ msgstr "Yatma düyməsi"
+
+#~ msgid "Finance key"
+#~ msgstr "Maliyyə düyməsi"
+
+#~ msgid "Help key"
+#~ msgstr "Yardım düyməsi"
+
+#~ msgid "WWW key"
+#~ msgstr "WWW düyməsi"
+
+#~ msgid "Groups key"
+#~ msgstr "Qruplar düyməsi"
+
+#~ msgid "Calculator key"
+#~ msgstr "Hesablayıcı düyməsi"
+
+#~ msgid "Record key"
+#~ msgstr "Qeyd düyməsi"
+
+#~ msgid "Close Window key"
+#~ msgstr "Pəncərə Bağlama düyməsi"
+
+#~ msgid "Shade Window key"
+#~ msgstr "Yuxarı Sarma düyməsi"
+
+#~ msgid "Brightness down key"
+#~ msgstr "Parlaqlığı Azaldma düyməsi"
+
+#~ msgid "Brightness up key"
+#~ msgstr "Parlaqlığı Artırma düyməsi"
+
+#~ msgid "Disabled"
+#~ msgstr "Qeyri-fəal"
+
+#~ msgid ""
+#~ "This key is already bound to action '%s'.\n"
+#~ "Please select another key."
+#~ msgstr ""
+#~ "Bu düymə onsuzda '%s' işinə təxsis edilib.\n"
+#~ "Xahiş edirik başqa düymə seçin."
+
+#~ msgid "Description"
+#~ msgstr "İzahat"
+
+#~ msgid "Status"
+#~ msgstr "Vəziyyət"
+
+#~ msgid "Multimedia Keys Preferences"
+#~ msgstr "Multimedya Düymələri Seçimləri"
+
+#~ msgid ""
+#~ "To assign a key to an action, click on a line, and press the key you want "
+#~ "to associate with it.\n"
+#~ "\"C\" cancels the capture, and \"Backspace\" disables the key shortcut."
+#~ msgstr ""
+#~ "Bir hadisəyə düymə tanımlamaq üçün sətirə tiqlayin, və onunla "
+#~ "əlaqələndirmək istədiyiniz düyməni basın.\n"
+#~ "\"C\" düymə alımını ləğv edir və \"Backspace\" düymənin qısa yolunu ləğv "
+#~ "edir."
+
+#~ msgid "Use _PCM volume instead of Master volume"
+#~ msgstr "Əsas səs yerinə _PCM səsi işlət"
+
+#~ msgid "Multimedia Keys"
+#~ msgstr "Multimedya Düymələri"
+
+#~ msgid "Brightness down key's XKeycode"
+#~ msgstr "Parlaqlıği azaltma düyməsinin XKeycode'u"
+
+#~ msgid "Brightness down key's XKeycode, 0 to disable"
+#~ msgstr ""
+#~ "Parlaqlıği azaltma düyməsinin XKeycode'u, qeyri fəallaşdırmaq üçün 0'a "
+#~ "basın"
+
+#~ msgid "Brightness up key's XKeycode"
+#~ msgstr "Parlaqlığı artırma düyməsinin Xkeycode'u"
+
+#~ msgid "Brightness up key's XKeycode, 0 to disable"
+#~ msgstr ""
+#~ "Parlaqlıği artırma düyməsinin XKeycode'u, qeyri fəallaşdırmaq üçün 0'a "
+#~ "basın"
+
+#~ msgid "Calculator key's XKeycode"
+#~ msgstr "Hesablayıcı düyməsinin XKeycode'u"
+
+#~ msgid "Calculator key's XKeycode, 0 to disable"
+#~ msgstr ""
+#~ "Hesablayıcı düyməsinin XKeycode'u, qeyri fəallaşdırmaq üçün 0'a basın"
+
+#~ msgid "Close Window key's XKeycode"
+#~ msgstr "Pəncərəni Bağla düyməsinin XKeycode'u"
+
+#~ msgid "Close Window key's XKeycode, 0 to disable"
+#~ msgstr ""
+#~ "Pəncərəni Bağla düyməsinin XKeycode'u, qeyri fəallaşdırmaq üçün 0'a basın"
+
+#~ msgid "E-Mail key's XKeycode"
+#~ msgstr "E-Poçt düyməsinin XKeycode'u"
+
+#~ msgid "E-Mail key's XKeycode, 0 to disable"
+#~ msgstr "E-Poçt düyməsinin XKeycode'u, qeyri fəallaşdırmaq üçün 0'a basın"
+
+#~ msgid "Eject key's XKeycode"
+#~ msgstr "Çıxart düyməsinin XKeycode'u"
+
+#~ msgid "Eject key's XKeycode, 0 to disable"
+#~ msgstr "Çıxart düyməsinin XKeycode'u, qeyri fəallaşdırmaq üçün 0'a basın"
+
+#~ msgid "Finance key's XKeycode"
+#~ msgstr "Maliyyə düyməsinin XKeycode'u"
+
+#~ msgid "Finance key's XKeycode, 0 to disable"
+#~ msgstr "Maliyyə düyməsinin XKeycode'u, qeyri fəallaşdırmaq üçün 0'a basın"
+
+#~ msgid "Groups key's XKeycode"
+#~ msgstr "Qruplar düyməsinin XKeycode'u"
+
+#~ msgid "Groups key's XKeycode, 0 to disable"
+#~ msgstr "Qruplar düyməsinin XKeycode'u, qeyri fəallaşdırmaq üçün 0'a basın"
+
+#~ msgid "Help key's XKeycode"
+#~ msgstr "Yardım düyməsinin XKeycode'u"
+
+#~ msgid "Help key's XKeycode, 0 to disable"
+#~ msgstr "Yardım düyməsinin XKeycode'u, qeyri fəallaşdırmaq üçün 0'a basın"
+
+#~ msgid "Mute key's XKeycode"
+#~ msgstr "Səsi kəsmə düyməsinin XKeycode'u"
+
+#~ msgid "Mute key's XKeycode, 0 to disable"
+#~ msgstr ""
+#~ "Səsi kəsmə düyməsinin XKeycode'u, qeyri fəallaşdırmaq üçün 0'a basın"
+
+#~ msgid "My Home key's XKeycode"
+#~ msgstr "Mənim Evim düyməsinin XKeycode'u"
+
+#~ msgid "My Home key's XKeycode, 0 to disable"
+#~ msgstr ""
+#~ "Mənim Evim düyməsinin XKeycode'u, qeyri fəallaşdırmaq üçün 0'a basın"
+
+#~ msgid "Next key's XKeycode"
+#~ msgstr "Sonrakı düyməsinin XKeycode'u"
+
+#~ msgid "Next key's XKeycode, 0 to disable"
+#~ msgstr "Sonrakı düyməsinin XKeycode'u, qeyri fəallaşdırmaq üçün 0'a basın"
+
+#~ msgid "Pause key's XKeycode"
+#~ msgstr "Fasilə düyməsinin XKeycode'u"
+
+#~ msgid "Pause key's XKeycode, 0 to disable"
+#~ msgstr "Fasilə düyməsinin XKeycode'u, qeyri fəallaşdırmaq üçün 0'a basın"
+
+#~ msgid "Play key's XKeycode"
+#~ msgstr "Çal düyməsinin XKeycode'u"
+
+#~ msgid "Play key's XKeycode, 0 to disable"
+#~ msgstr "Çal düyməsinin XKeycode'u, qeyri fəallaşdırmaq üçün 0'a basın"
+
+#~ msgid "Power key's XKeycode"
+#~ msgstr "Güc düyməsinin XKeycode'u"
+
+#~ msgid "Power key's XKeycode, 0 to disable"
+#~ msgstr "Güc düyməsinin XKeycode'u, qeyri fəallaşdırmaq üçün 0'a basın"
+
+#~ msgid "Previous key's XKeycode"
+#~ msgstr "Öncəki düyməsinin XKeycode'u"
+
+#~ msgid "Previous key's XKeycode, 0 to disable"
+#~ msgstr "Öncəki düyməsinin XKeycode'u, qeyri fəallaşdırmaq üçün 0'a basın"
+
+#~ msgid "Record key's XKeycode"
+#~ msgstr "Qeyd Et düyməsinin XKeycode'u"
+
+#~ msgid "Record key's XKeycode, 0 to disable"
+#~ msgstr "Qeyd Et düyməsinin XKeycode'u, qeyri fəallaşdırmaq üçün 0'a basın"
+
+#~ msgid "Refresh key's XKeycode"
+#~ msgstr "Yenilə düyməsinin XKeycode'u"
+
+#~ msgid "Refresh key's XKeycode, 0 to disable"
+#~ msgstr "Yenilə düyməsinin XKeycode'u, qeyri fəallaşdırmaq üçün 0'a basın"
+
+#~ msgid "Screensaver key's XKeycode"
+#~ msgstr "Ekran Qoruyucusu düyməsinin XKeycode'u"
+
+#~ msgid "Screensaver key's XKeycode, 0 to disable"
+#~ msgstr ""
+#~ "Ekran Qoruyucusu düyməsinin XKeycode'u, qeyri fəallaşdırmaq üçün 0'a basın"
+
+#~ msgid "Search key's XKeycode"
+#~ msgstr "Axtar düyməsinin XKeycode'u"
+
+#~ msgid "Search key's XKeycode, 0 to disable"
+#~ msgstr "Axtar düyməsinin XKeycode'u, qeyri fəallaşdırmaq üçün 0'a basın"
+
+#~ msgid "Shade Window key's XKeycode"
+#~ msgstr "Yuxarı Sarma düyməsinin XKeycode'u"
+
+#~ msgid "Shade Window key's XKeycode, 0 to disable"
+#~ msgstr ""
+#~ "Yuxarı Sarma düyməsinin XKeycode'u, qeyri fəallaşdırmaq üçün 0'a basın"
+
+#~ msgid "Sleep key's XKeycode"
+#~ msgstr "Yat düyməsinin XKeycode'u"
+
+#~ msgid "Sleep key's XKeycode, 0 to disable"
+#~ msgstr "Yat düyməsinin XKeycode'u, qeyri fəallaşdırmaq üçün 0'a basın"
+
+#~ msgid "Sound file to be played when volume is changed"
+#~ msgstr "Səs səviyəsi dəyişdiriləndə çalınacaq audio fayl"
+
+#~ msgid "Volume down key's XKeycode"
+#~ msgstr "Səsi azalt düyməsinin XKeycode'u"
+
+#~ msgid "Volume down key's XKeycode, 0 to disable"
+#~ msgstr ""
+#~ "Səsi azalt düyməsinin XKeycode'u, qeyri fəallaşdırmaq üçün 0'a basın"
+
+#~ msgid "Volume step"
+#~ msgstr "Səs addımı"
+
+#~ msgid "Volume step as percentage of volume"
+#~ msgstr "Səs faizi olaraq səs addımı"
+
+#~ msgid "Volume up key's XKeycode"
+#~ msgstr "Səsi artır düyməsinin XKeycode'u"
+
+#~ msgid "Volume up key's XKeycode, 0 to disable"
+#~ msgstr ""
+#~ "Səsi artır düyməsinin XKeycode'u, qeyri fəallaşdırmaq üçün 0'a basın"
+
+#~ msgid "WWW key's XKeycode"
+#~ msgstr "WWW düyməsinin XKeycode'u"
+
+#~ msgid "WWW key's XKeycode, 0 to disable"
+#~ msgstr "WWW düyməsinin XKeycode'u, qeyri fəallaşdırmaq üçün 0'a basın"
+
+#~ msgid "Accelerator key"
+#~ msgstr "Sür'ətləndirici düyməsi"
+
+#~ msgid "Accelerator modifiers"
+#~ msgstr "Sür'ətləndirici dəyişdiriciləri"
+
+#~ msgid "Accelerator Mode"
+#~ msgstr "Sür'ətləndirici Modu"
+
+#~ msgid "The type of accelerator."
+#~ msgstr "Sür'ətləndiricinin növü"
+
+#~ msgid "Type a new accelerator, or press Backspace to clear"
+#~ msgstr "Yeni sür'ətləndirici yazın ya da Backspace-ə basıb silin"
+
+#~ msgid "Type a new accelerator"
+#~ msgstr "Yeni sür'ətləndirici yazın"

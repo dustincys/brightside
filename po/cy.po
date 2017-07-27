@@ -1,0 +1,774 @@
+# Brightside yn Gymraeg.
+# Copyright (C) 2003 Chris M Jackson.
+# This file is distributed under the same license as the Brightside package.
+# Chris M. Jackson <chris@www.linux.org.uk>, 2003.
+#
+# Telsa did a global s/allwedd/bysell on this file. Typos etc are her fault.
+#
+# Anyone wanting to add to this file who has not seen the iBook and
+# PowerBook keyboard layouts, these URLs might help. 
+# http://developer.apple.com/techpubs/hardware/Developer_Notes/Macintosh_CPUs-G4/PowerBookG4_17inch/3Input-Output/chapter_4_section_24.html
+# http://developer.apple.com/techpubs/hardware/Developer_Notes/Macintosh_CPUs-G3/iBook/3_Input-Output/chapter_4_section_12.html
+#          --Telsa
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Brightside\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-01-16 02:13+0000\n"
+"PO-Revision-Date: 2003-08-25 22:53+0100\n"
+"Last-Translator: Dafydd Harries <daf@parnassus.ath.cx>\n"
+"Language-Team: gnome-cy <gnome-cy@pengwyn.linux.org.uk>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/brightside.c:224
+#, c-format
+msgid ""
+"Couldn't execute command: %s\n"
+"Verify that this command exists."
+msgstr ""
+"Methu gweithredu gorchymyn: %s\n"
+"Gwnewch yn siwr bod y gorchymyn yn bodoli."
+
+#: src/brightside.c:243
+#, c-format
+msgid ""
+"Permissions on the file %s are broken\n"
+"Please check Brightside's documentation, correct the problem and restart "
+"Brightside."
+msgstr ""
+"Mae'r caniatâd ffeil %s wedi torri\n"
+"Gweler y dogfennau Brightside, cywiriwch y problem ac ailddechreuwch "
+"Brightside."
+
+#: src/brightside.c:487
+msgid "translator_credits"
+msgstr "Chris M. Jackson <chris@www.linux.org.uk>"
+
+#: src/brightside.c:498
+msgid "Brightside"
+msgstr "Brightside"
+
+#: src/brightside.c:500 src/brightside.c:573
+msgid "Screen Corners and Edges daemon"
+msgstr ""
+
+#: src/brightside.c:579
+msgid "Screen Corners and Edges daemon active"
+msgstr ""
+
+#: src/brightside.c:1733
+msgid "Daemon already running, exiting...\n"
+msgstr ""
+
+#: src/brightside.c:1742
+msgid ""
+"Couldn't load the Glade file.\n"
+"Make sure that this daemon is properly installed."
+msgstr ""
+"Methu llwytho'r ffeil Glade.\n"
+"Sicrhewch bod y daemon yma wedi'i osod."
+
+#: src/brightside.glade.h:1
+msgid "Volume"
+msgstr "Lefel sain"
+
+#: src/brightside.h:65
+#, fuzzy
+msgid "Mute volume"
+msgstr "Bysell Tawelwch"
+
+#: src/brightside.h:67
+msgid "Prevent screensaver starting"
+msgstr ""
+
+#: src/brightside.h:69
+#, fuzzy
+msgid "Start screensaver"
+msgstr "Bysell Arbedwr Sgri^n"
+
+#: src/brightside.h:71
+msgid "Enter DPMS standby mode"
+msgstr ""
+
+#: src/brightside.h:73
+msgid "Enter DPMS suspend mode"
+msgstr ""
+
+#: src/brightside.h:75
+msgid "Enter DPMS off mode"
+msgstr ""
+
+#: src/brightside.h:78
+msgid "Dim laptop backlight"
+msgstr ""
+
+#: src/brightside.h:81
+msgid "Custom action..."
+msgstr ""
+
+#: src/brightside-properties.c:283 src/brightside-properties.glade.h:9
+#: src/brightside.desktop.in.h:2
+msgid "Screen Corners and Edges"
+msgstr ""
+
+#: src/brightside-properties.glade.h:1 src/custom-action.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: src/brightside-properties.glade.h:2
+msgid "<small><i>Long</i></small>"
+msgstr ""
+
+#: src/brightside-properties.glade.h:3
+msgid "<small><i>Short</i></small>"
+msgstr ""
+
+#: src/brightside-properties.glade.h:4
+#, fuzzy
+msgid "<span weight=\"bold\">Screen Corners</span>"
+msgstr "<span weight=\"bold\">Gosod Sain</span>"
+
+#: src/brightside-properties.glade.h:5
+#, fuzzy
+msgid "<span weight=\"bold\">Screen Edges</span>"
+msgstr "<span weight=\"bold\">Gosod Sain</span>"
+
+#: src/brightside-properties.glade.h:6
+#, fuzzy
+msgid "Action to take while mouse is placed in corner of screen"
+msgstr "Y gorchymyn i'w wethredu pan gwasgir y botwm Allfwrw"
+
+#: src/brightside-properties.glade.h:7
+msgid "Bottom r_ight corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:8
+msgid "D_elay:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:10
+msgid "Switch to _adjacent workspace when mouse is moved to edge of screen"
+msgstr ""
+
+#: src/brightside-properties.glade.h:11
+msgid "Top _right corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:12
+msgid "When switching workspace, _wrap around edges of workspace layout"
+msgstr ""
+
+#: src/brightside-properties.glade.h:13
+msgid "_Bottom left corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:14
+msgid "_Configurable actions"
+msgstr ""
+
+#: src/brightside-properties.glade.h:15
+msgid "_Delay:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:16
+msgid "_Switch to diagonally adjacent workspace"
+msgstr ""
+
+#: src/brightside-properties.glade.h:17
+msgid "_Top left corner:"
+msgstr ""
+
+#: src/brightside.desktop.in.h:1
+#, fuzzy
+msgid "Configure screen-edge behaviour"
+msgstr "Cyflunio ymddygiad y bysellau amlgyfrwng"
+
+#: src/brightside.schemas.in.h:1
+msgid "Action enabled when mouse is in bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:2
+msgid "Action enabled when mouse is in bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:3
+msgid "Action enabled when mouse is in top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:4
+msgid "Action enabled when mouse is in top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:5
+msgid "Action to occur when mouse is in bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:6
+msgid "Action to occur when mouse is in bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:7
+msgid "Action to occur when mouse is in top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:8
+msgid "Action to occur when mouse is in top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:9
+msgid "After flip command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:10
+msgid "Bottom left corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:11
+msgid "Bottom left corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:12
+msgid "Bottom left corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:13
+msgid "Bottom left corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:14
+msgid "Bottom left corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:15
+msgid "Bottom right corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:16
+msgid "Bottom right corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:17
+msgid "Bottom right corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:18
+msgid "Bottom right corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:19
+msgid "Bottom right corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:20
+msgid "Command to execute after flipping workspace (empty string for none)"
+msgstr ""
+
+#: src/brightside.schemas.in.h:21
+msgid "Corner delay"
+msgstr ""
+
+#: src/brightside.schemas.in.h:22
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse enters bottom left corner of screen"
+msgstr "Y gorchymyn i'w wethredu pan gwasgir y botwm Allfwrw"
+
+#: src/brightside.schemas.in.h:23
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse enters bottom right corner of screen"
+msgstr "Y gorchymyn i'w wethredu pan gwasgir y botwm Allfwrw"
+
+#: src/brightside.schemas.in.h:24
+#, fuzzy
+msgid "Custom command to execute when mouse enters top left corner of screen"
+msgstr "Y gorchymyn i'w wethredu pan gwasgir y botwm Allfwrw"
+
+#: src/brightside.schemas.in.h:25
+#, fuzzy
+msgid "Custom command to execute when mouse enters top right corner of screen"
+msgstr "Y gorchymyn i'w wethredu pan gwasgir y botwm Allfwrw"
+
+#: src/brightside.schemas.in.h:26
+#, fuzzy
+msgid "Custom command to execute when mouse exits bottom left corner of screen"
+msgstr "Y gorchymyn i'w wethredu pan gwasgir y botwm Allfwrw"
+
+#: src/brightside.schemas.in.h:27
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse exits bottom right corner of screen"
+msgstr "Y gorchymyn i'w wethredu pan gwasgir y botwm Allfwrw"
+
+#: src/brightside.schemas.in.h:28
+#, fuzzy
+msgid "Custom command to execute when mouse exits top left corner of screen"
+msgstr "Y gorchymyn i'w wethredu pan gwasgir y botwm Allfwrw"
+
+#: src/brightside.schemas.in.h:29
+#, fuzzy
+msgid "Custom command to execute when mouse exits top right corner of screen"
+msgstr "Y gorchymyn i'w wethredu pan gwasgir y botwm Allfwrw"
+
+#: src/brightside.schemas.in.h:30
+msgid "Delay in milliseconds before edge flip occurs"
+msgstr ""
+
+#: src/brightside.schemas.in.h:31
+msgid "Delay in milliseconds before screen corner action occurs"
+msgstr ""
+
+#: src/brightside.schemas.in.h:32
+msgid "Edge delay"
+msgstr ""
+
+#: src/brightside.schemas.in.h:33
+msgid "Edge wrap"
+msgstr ""
+
+#: src/brightside.schemas.in.h:34
+#, fuzzy
+msgid "Enable corner flip"
+msgstr "Galluog"
+
+#: src/brightside.schemas.in.h:35
+#, fuzzy
+msgid "Enable edge flip"
+msgstr "Galluog"
+
+#: src/brightside.schemas.in.h:36
+msgid "Orientable workspaces"
+msgstr ""
+
+#: src/brightside.schemas.in.h:37
+msgid ""
+"Switch to diagonally adjacent workspace when mouse placed in the corner of "
+"the screen, instead of executing a configurable action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:38
+msgid ""
+"Switch to the adjacent workspace when the mouse reaches the edge of the "
+"screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:39
+msgid "Terminate custom command when mouse exits bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:40
+msgid "Terminate custom command when mouse exits bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:41
+msgid "Terminate custom command when mouse exits top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:42
+msgid "Terminate custom command when mouse exits top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:43
+msgid "Top left corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:44
+msgid "Top left corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:45
+msgid "Top left corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:46
+msgid "Top left corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:47
+msgid "Top left corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:48
+msgid "Top right corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:49
+msgid "Top right corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:50
+msgid "Top right corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:51
+msgid "Top right corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:52
+msgid "Top right corner kill custom command"
+msgstr ""
+
+# EFALLAI
+#: src/brightside.schemas.in.h:53
+msgid "Use PCM Volume instead of Master Volume"
+msgstr "Defnyddio uchder PCM yn lee y Prif Uchder"
+
+#: src/brightside.schemas.in.h:54
+msgid "Whether workspace layout is orientable"
+msgstr ""
+
+#: src/brightside.schemas.in.h:55
+msgid "Wrap wround edges of workspace layout when flipping workspace"
+msgstr ""
+
+#: src/custom-action.glade.h:2
+msgid "*"
+msgstr ""
+
+#: src/custom-action.glade.h:3
+#, fuzzy
+msgid "<span weight=\"bold\">On _entering region</span>"
+msgstr "<span weight=\"bold\">Gosod Bysellau </span>"
+
+#: src/custom-action.glade.h:4
+#, fuzzy
+msgid "<span weight=\"bold\">On leaving region</span>"
+msgstr "<span weight=\"bold\">Gosod Sain</span>"
+
+#: src/custom-action.glade.h:5 src/custom-action.c:104
+msgid "Custom action"
+msgstr ""
+
+#: src/custom-action.glade.h:6
+msgid "_Run another command:"
+msgstr ""
+
+#: src/custom-action.glade.h:7
+msgid "_Terminate above application"
+msgstr ""
+
+#~ msgid ""
+#~ "Couldn't execute either command: %s\n"
+#~ "or command: %s\n"
+#~ "Verify that at least one of these commands exist."
+#~ msgstr ""
+#~ "Methu gweithredu naill ai: %s\n"
+#~ "neu: %s\n"
+#~ "Gwnewch yn siwr bod o leiaf un o'r gorchmynion yn bodoli."
+
+# EFALLAI
+#~ msgid ""
+#~ "There was an error removing access to the multimedia keys.\n"
+#~ "Key %d couldn't be unbound."
+#~ msgstr ""
+#~ "Roedd gwall wrth dynnu mynediad i'r bysellau amlgyfrwng.\n"
+#~ "Ni ellir datrwymo y bysell %d."
+
+#~ msgid ""
+#~ "It seems that another application already has access to the multimedia "
+#~ "keys.\n"
+#~ "Key %d couldn't be bound.\n"
+#~ "Is another daemon already running ?"
+#~ msgstr ""
+#~ "Mae'n edrych fel petai rhaglen arall wedi gafael yr bysellau amlgyfrwng.\n"
+#~ "Methu rhwymo'r bysell %d.\n"
+#~ "A oes yna daemon arall yn rhedeg ?"
+
+#~ msgid "Multimedia keys daemon"
+#~ msgstr "Daemon bysellau amlgyfrwng"
+
+#~ msgid "Multimedia Keys daemon active"
+#~ msgstr "Daemon bysellau amlgywfrwng yn rhedeg"
+
+#~ msgid "Volume down key"
+#~ msgstr "Bysell lleihau sain"
+
+#~ msgid "Volume up key"
+#~ msgstr "Bysell cynyddu sain"
+
+#~ msgid "Power key"
+#~ msgstr "Bysell Pŵer"
+
+#~ msgid "Eject key"
+#~ msgstr "Bysell Allfwrw"
+
+#~ msgid "Media key"
+#~ msgstr "Bysell cyfryngau"
+
+#~ msgid "Play key"
+#~ msgstr "Bysell Chwarae"
+
+#~ msgid "Pause key"
+#~ msgstr "Bysell Seibio"
+
+#~ msgid "Stop (Audio) key"
+#~ msgstr "Bysell Atal (Sain)"
+
+#~ msgid "Previous (Audio) key"
+#~ msgstr "Bysell Blaenorol (Sain)"
+
+#~ msgid "Next (Audio) key"
+#~ msgstr "Bysell Nesaf (Sain)"
+
+#~ msgid "My Home key"
+#~ msgstr "Bysell `My Home'"
+
+#~ msgid "Refresh key"
+#~ msgstr "Bysell Adnewyddu"
+
+#~ msgid "Search key"
+#~ msgstr "Bysell Chwilio"
+
+#~ msgid "E-Mail key"
+#~ msgstr "Bysell E-bost"
+
+#~ msgid "Sleep key"
+#~ msgstr "Bysell Cysgu"
+
+#~ msgid "Finance key"
+#~ msgstr "Bysell Cyllid"
+
+#~ msgid "Help key"
+#~ msgstr "Bysell Help"
+
+#~ msgid "WWW key"
+#~ msgstr "Bysell Gwê"
+
+#~ msgid "Groups key"
+#~ msgstr "Bysell Grŵpiau"
+
+#~ msgid "Calculator key"
+#~ msgstr "Bysell Cyfrifiannell"
+
+#~ msgid "Record key"
+#~ msgstr "Bysell Recordio"
+
+#~ msgid "Close Window key"
+#~ msgstr "Bysell Cau Ffenestr"
+
+#~ msgid "Shade Window key"
+#~ msgstr "Bysell Cysgodi Ffenestr"
+
+#~ msgid "Brightness down key"
+#~ msgstr "Bysell Lleiháu Disgleirdeb"
+
+#~ msgid "Brightness up key"
+#~ msgstr "Bysell Cryfháu Disgleirdeb"
+
+#~ msgid "Disabled"
+#~ msgstr "Analluog"
+
+#~ msgid ""
+#~ "This key is already bound to action '%s'.\n"
+#~ "Please select another key."
+#~ msgstr ""
+#~ "Mae'r bysell yma wedi'i rhwymo i '%s' yn barod.\n"
+#~ "Dewisiwch bysell arall."
+
+#~ msgid "Description"
+#~ msgstr "Disgrifiad"
+
+#~ msgid "Status"
+#~ msgstr "Cyflwr"
+
+#~ msgid "Multimedia Keys Preferences"
+#~ msgstr "Hoffterau Bysellau Amlgyfrwng"
+
+# EFALLAI (Backspace?)
+#~ msgid ""
+#~ "To assign a key to an action, click on a line, and press the key you want "
+#~ "to associate with it.\n"
+#~ "\"C\" cancels the capture, and \"Backspace\" disables the key shortcut."
+#~ msgstr ""
+#~ "Er mwyn cysylltu bysell a gweithred, cliciwch ar linell a gwasgwch y "
+#~ "bysell hoffwch gysylltu ag ef.\n"
+#~ "Mae \"C\" yn diddymu'r cipiad, a \"Backspace\" yn ei analluogi."
+
+#~ msgid "Use _PCM volume instead of Master volume"
+#~ msgstr "Defnyddio sain _PCM yn lle'r Feistr"
+
+# PWYSIG
+# Foo key's XKeycode : XKeycode yr Bysell Ffŵ
+# 0 to disable : 0 i'w analluogi
+# Anyone up for an editor macro here?
+#~ msgid "Multimedia Keys"
+#~ msgstr "Bysellau Amlgyfrwng"
+
+#~ msgid "Brightness down key's XKeycode"
+#~ msgstr "XKeycode yr Bysell Lleiháu Disgleirdeb"
+
+#~ msgid "Brightness down key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode yr Bysell Lleiháu Disgleirdeb.  0 i'w analluogi."
+
+#~ msgid "Brightness up key's XKeycode"
+#~ msgstr "XKeycode yr Bysell Cryfháu Disgleirdeb."
+
+#~ msgid "Brightness up key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode yr Bysell Cryfháu Disgleirdeb. 0 i'w analluogi."
+
+#~ msgid "Calculator key's XKeycode"
+#~ msgstr "XKeycode yr Bysell Cyfrifiannell"
+
+#~ msgid "Calculator key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode yr Bysell Cyfrifiannell. 0 i'w analluogi."
+
+#~ msgid "Close Window key's XKeycode"
+#~ msgstr "XKeycode yr Bysell Cau Ffenestr"
+
+#~ msgid "Close Window key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode yr Bysell Cau Ffenestr. 0 i'w analluogi."
+
+#~ msgid "E-Mail key's XKeycode"
+#~ msgstr "XKeycode yr Bysell E-bost"
+
+#~ msgid "E-Mail key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode yr Bysell E-bost. 0 i'w analluogi."
+
+#~ msgid "Eject key's XKeycode"
+#~ msgstr "XKeycode yr Bysell Allfwrw"
+
+#~ msgid "Eject key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode yr Bysell Allfwrw. 0 i'w analluogi."
+
+#~ msgid "Finance key's XKeycode"
+#~ msgstr "XKeycode yr Bysell Cyllid"
+
+#~ msgid "Finance key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode yr Bysell Cyllid. 0 i'w analluogi."
+
+#~ msgid "Groups key's XKeycode"
+#~ msgstr "XKeycode yr Bysell Grŵpiau"
+
+#~ msgid "Groups key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode yr Bysell Grŵpiau. 0 i'w analluogi."
+
+#~ msgid "Help key's XKeycode"
+#~ msgstr "XKeycode yr Bysell Help"
+
+#~ msgid "Help key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode yr Bysell Help. 0 i'w analluogi."
+
+#~ msgid "Mute key's XKeycode"
+#~ msgstr "XKeycode yr Bysell Tawelwch"
+
+#~ msgid "Mute key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode yr Bysell Tawelwch. 0 i'w analluogi."
+
+#~ msgid "My Home key's XKeycode"
+#~ msgstr "XKeycode yr Bysell \"My Home\""
+
+#~ msgid "My Home key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode yr Bysell \"My Home\". 0 i'w analluogi."
+
+#~ msgid "Next key's XKeycode"
+#~ msgstr "XKeycode yr Bysell Nesaf"
+
+#~ msgid "Next key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode yr Bysell Nesaf. 0 i'w analluogi."
+
+#~ msgid "Pause key's XKeycode"
+#~ msgstr "XKeycode yr Bysell Seibio"
+
+#~ msgid "Pause key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode yr Bysell Seibio. 0 i'w analluogi."
+
+#~ msgid "Play key's XKeycode"
+#~ msgstr "XKeycode yr Bysell Chwarae"
+
+#~ msgid "Play key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode yr Bysell Chwarae. 0 i'w analluogi."
+
+#~ msgid "Power key's XKeycode"
+#~ msgstr "XKeycode yr Bysell Pŵer"
+
+#~ msgid "Power key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode yr Bysell Pŵer. 0 i'w analluogi."
+
+#~ msgid "Previous key's XKeycode"
+#~ msgstr "XKeycode yr Bysell Blaenorol"
+
+#~ msgid "Previous key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode yr Bysell Blaenorol. 0 i'w analluogi."
+
+#~ msgid "Record key's XKeycode"
+#~ msgstr "XKeycode yr Bysell Recordio"
+
+#~ msgid "Record key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode yr Bysell Recordio. 0 i'w analluogi."
+
+#~ msgid "Refresh key's XKeycode"
+#~ msgstr "XKeycode yr Bysell Adnewyddu"
+
+#~ msgid "Refresh key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode yr Bysell Adnewyddu. 0 i'w analluogi."
+
+#~ msgid "Screensaver key's XKeycode"
+#~ msgstr "XKeycode yr Bysell Arbedwr Sgrîn"
+
+#~ msgid "Screensaver key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode yr Bysell Arbedwr Sgrîn. 0 i'w analluogi."
+
+#~ msgid "Search key's XKeycode"
+#~ msgstr "XKeycode yr Bysell Chwilio"
+
+#~ msgid "Search key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode yr Bysell Chwilio. 0 i'w analluogi."
+
+#~ msgid "Shade Window key's XKeycode"
+#~ msgstr "XKeycode yr Bysell Cysgodi Ffenestr"
+
+#~ msgid "Shade Window key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode yr Bysell Cysgodi Ffenestr. 0 i'w analluogi."
+
+#~ msgid "Sleep key's XKeycode"
+#~ msgstr "XKeycode yr Bysell Cysgu"
+
+#~ msgid "Sleep key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode yr Bysell Cysgu. 0 i'w analluogi."
+
+# EFALLAI
+#~ msgid "Sound file to be played when volume is changed"
+#~ msgstr "Y ffeil sain i'w chwarae pan newidir uchder y sain"
+
+#~ msgid "Volume down key's XKeycode"
+#~ msgstr "XKeycode yr Bysell Tawelu Sain"
+
+#~ msgid "Volume down key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode yr Bysell Tawelu Sain. 0 i'w analluogi."
+
+#, fuzzy
+#~ msgid "Volume step"
+#~ msgstr "Lefel sain"
+
+#~ msgid "Volume up key's XKeycode"
+#~ msgstr "XKeycode yr Bysell Cynyddu Sain"
+
+#~ msgid "Volume up key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode yr Bysell Cynyddu Sain. 0 i'w analluogi."
+
+#~ msgid "WWW key's XKeycode"
+#~ msgstr "XKeycode yr Bysell Gwê"
+
+#~ msgid "WWW key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode yr Bysell Gwê. 0 i'w analluogi."
+
+#~ msgid "Accelerator key"
+#~ msgstr "Bysell cyflymu"
+
+#~ msgid "Accelerator modifiers"
+#~ msgstr "Addasyddion cyflymu"
+
+#~ msgid "Accelerator Mode"
+#~ msgstr "Modd Cyflymydd"
+
+#~ msgid "The type of accelerator."
+#~ msgstr "Y math o gyflymydd."
+
+#~ msgid "Type a new accelerator, or press Backspace to clear"
+#~ msgstr "Teipiwch gyflymydd newydd, neu gwasgwch Ôlnod er mwyn clirio"
+
+#~ msgid "Type a new accelerator"
+#~ msgstr "Teipiwch gyflymydd newydd"

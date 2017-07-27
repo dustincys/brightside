@@ -1,0 +1,767 @@
+# translation of Brightside.HEAD.he.po to Hebrew
+# translation of Brightside.HEAD.po to Hebrew
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# Gil 'Dolfin' Osher <dolfin@rpg.org.il>, 2002,2003
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Brightside.HEAD.he\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-01-16 02:13+0000\n"
+"PO-Revision-Date: 2003-03-11 14:39+0200\n"
+"Last-Translator: Gil 'Dolfin' Osher <dolfin@rpg.org.il>\n"
+"Language-Team: Hebrew <he@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.0\n"
+
+#: src/brightside.c:224
+#, c-format
+msgid ""
+"Couldn't execute command: %s\n"
+"Verify that this command exists."
+msgstr ""
+"לא ניתן לבצע את הפקודה: %s\n"
+"ודא כי פקודה זו קיימת."
+
+#: src/brightside.c:243
+#, c-format
+msgid ""
+"Permissions on the file %s are broken\n"
+"Please check Brightside's documentation, correct the problem and restart "
+"Brightside."
+msgstr ""
+"הרשאות לקובץ %s שבורות\n"
+"אנא בדוק בתיעוד של אקמי, תקן את התקלה והפעל מחדש את אקמי."
+
+#: src/brightside.c:487
+msgid "translator_credits"
+msgstr ""
+"גיל אשר\n"
+"dolfin@rpg.org.il\n"
+"\n"
+"פרוייקט linBrew\n"
+"http://linbrew.sourceforge.net"
+
+#: src/brightside.c:498
+msgid "Brightside"
+msgstr "אקמי"
+
+#: src/brightside.c:500 src/brightside.c:573
+msgid "Screen Corners and Edges daemon"
+msgstr ""
+
+#: src/brightside.c:579
+msgid "Screen Corners and Edges daemon active"
+msgstr ""
+
+#: src/brightside.c:1733
+msgid "Daemon already running, exiting...\n"
+msgstr ""
+
+#: src/brightside.c:1742
+msgid ""
+"Couldn't load the Glade file.\n"
+"Make sure that this daemon is properly installed."
+msgstr ""
+"לא ניתן לטעון את קובץ Glade.\n"
+"ודא כי תהליך השירות מותקן כראוי."
+
+#: src/brightside.glade.h:1
+msgid "Volume"
+msgstr "עוצמה"
+
+#: src/brightside.h:65
+#, fuzzy
+msgid "Mute volume"
+msgstr "מקש השתקה"
+
+#: src/brightside.h:67
+msgid "Prevent screensaver starting"
+msgstr ""
+
+#: src/brightside.h:69
+#, fuzzy
+msgid "Start screensaver"
+msgstr "מקש שומר-מסך"
+
+#: src/brightside.h:71
+msgid "Enter DPMS standby mode"
+msgstr ""
+
+#: src/brightside.h:73
+msgid "Enter DPMS suspend mode"
+msgstr ""
+
+#: src/brightside.h:75
+msgid "Enter DPMS off mode"
+msgstr ""
+
+#: src/brightside.h:78
+msgid "Dim laptop backlight"
+msgstr ""
+
+#: src/brightside.h:81
+msgid "Custom action..."
+msgstr ""
+
+#: src/brightside-properties.c:283 src/brightside-properties.glade.h:9
+#: src/brightside.desktop.in.h:2
+msgid "Screen Corners and Edges"
+msgstr ""
+
+#: src/brightside-properties.glade.h:1 src/custom-action.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: src/brightside-properties.glade.h:2
+msgid "<small><i>Long</i></small>"
+msgstr ""
+
+#: src/brightside-properties.glade.h:3
+msgid "<small><i>Short</i></small>"
+msgstr ""
+
+#: src/brightside-properties.glade.h:4
+#, fuzzy
+msgid "<span weight=\"bold\">Screen Corners</span>"
+msgstr "<span weight=\"bold\">הגדרות קול</span>"
+
+#: src/brightside-properties.glade.h:5
+#, fuzzy
+msgid "<span weight=\"bold\">Screen Edges</span>"
+msgstr "<span weight=\"bold\">הגדרות קול</span>"
+
+#: src/brightside-properties.glade.h:6
+#, fuzzy
+msgid "Action to take while mouse is placed in corner of screen"
+msgstr "פקודה לביצוע כאשר כפתור ההוצאה נלחץ"
+
+#: src/brightside-properties.glade.h:7
+msgid "Bottom r_ight corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:8
+msgid "D_elay:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:10
+msgid "Switch to _adjacent workspace when mouse is moved to edge of screen"
+msgstr ""
+
+#: src/brightside-properties.glade.h:11
+msgid "Top _right corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:12
+msgid "When switching workspace, _wrap around edges of workspace layout"
+msgstr ""
+
+#: src/brightside-properties.glade.h:13
+msgid "_Bottom left corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:14
+msgid "_Configurable actions"
+msgstr ""
+
+#: src/brightside-properties.glade.h:15
+msgid "_Delay:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:16
+msgid "_Switch to diagonally adjacent workspace"
+msgstr ""
+
+#: src/brightside-properties.glade.h:17
+msgid "_Top left corner:"
+msgstr ""
+
+#: src/brightside.desktop.in.h:1
+#, fuzzy
+msgid "Configure screen-edge behaviour"
+msgstr "הגדר התנהגות מקשי מולטימדיה"
+
+#: src/brightside.schemas.in.h:1
+msgid "Action enabled when mouse is in bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:2
+msgid "Action enabled when mouse is in bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:3
+msgid "Action enabled when mouse is in top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:4
+msgid "Action enabled when mouse is in top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:5
+msgid "Action to occur when mouse is in bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:6
+msgid "Action to occur when mouse is in bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:7
+msgid "Action to occur when mouse is in top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:8
+msgid "Action to occur when mouse is in top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:9
+msgid "After flip command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:10
+msgid "Bottom left corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:11
+msgid "Bottom left corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:12
+msgid "Bottom left corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:13
+msgid "Bottom left corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:14
+msgid "Bottom left corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:15
+msgid "Bottom right corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:16
+msgid "Bottom right corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:17
+msgid "Bottom right corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:18
+msgid "Bottom right corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:19
+msgid "Bottom right corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:20
+msgid "Command to execute after flipping workspace (empty string for none)"
+msgstr ""
+
+#: src/brightside.schemas.in.h:21
+msgid "Corner delay"
+msgstr ""
+
+#: src/brightside.schemas.in.h:22
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse enters bottom left corner of screen"
+msgstr "פקודה לביצוע כאשר כפתור ההוצאה נלחץ"
+
+#: src/brightside.schemas.in.h:23
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse enters bottom right corner of screen"
+msgstr "פקודה לביצוע כאשר כפתור ההוצאה נלחץ"
+
+#: src/brightside.schemas.in.h:24
+#, fuzzy
+msgid "Custom command to execute when mouse enters top left corner of screen"
+msgstr "פקודה לביצוע כאשר כפתור ההוצאה נלחץ"
+
+#: src/brightside.schemas.in.h:25
+#, fuzzy
+msgid "Custom command to execute when mouse enters top right corner of screen"
+msgstr "פקודה לביצוע כאשר כפתור ההוצאה נלחץ"
+
+#: src/brightside.schemas.in.h:26
+#, fuzzy
+msgid "Custom command to execute when mouse exits bottom left corner of screen"
+msgstr "פקודה לביצוע כאשר כפתור ההוצאה נלחץ"
+
+#: src/brightside.schemas.in.h:27
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse exits bottom right corner of screen"
+msgstr "פקודה לביצוע כאשר כפתור ההוצאה נלחץ"
+
+#: src/brightside.schemas.in.h:28
+#, fuzzy
+msgid "Custom command to execute when mouse exits top left corner of screen"
+msgstr "פקודה לביצוע כאשר כפתור ההוצאה נלחץ"
+
+#: src/brightside.schemas.in.h:29
+#, fuzzy
+msgid "Custom command to execute when mouse exits top right corner of screen"
+msgstr "פקודה לביצוע כאשר כפתור ההוצאה נלחץ"
+
+#: src/brightside.schemas.in.h:30
+msgid "Delay in milliseconds before edge flip occurs"
+msgstr ""
+
+#: src/brightside.schemas.in.h:31
+msgid "Delay in milliseconds before screen corner action occurs"
+msgstr ""
+
+#: src/brightside.schemas.in.h:32
+msgid "Edge delay"
+msgstr ""
+
+#: src/brightside.schemas.in.h:33
+msgid "Edge wrap"
+msgstr ""
+
+#: src/brightside.schemas.in.h:34
+#, fuzzy
+msgid "Enable corner flip"
+msgstr "דולק"
+
+#: src/brightside.schemas.in.h:35
+#, fuzzy
+msgid "Enable edge flip"
+msgstr "דולק"
+
+#: src/brightside.schemas.in.h:36
+msgid "Orientable workspaces"
+msgstr ""
+
+#: src/brightside.schemas.in.h:37
+msgid ""
+"Switch to diagonally adjacent workspace when mouse placed in the corner of "
+"the screen, instead of executing a configurable action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:38
+msgid ""
+"Switch to the adjacent workspace when the mouse reaches the edge of the "
+"screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:39
+msgid "Terminate custom command when mouse exits bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:40
+msgid "Terminate custom command when mouse exits bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:41
+msgid "Terminate custom command when mouse exits top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:42
+msgid "Terminate custom command when mouse exits top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:43
+msgid "Top left corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:44
+msgid "Top left corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:45
+msgid "Top left corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:46
+msgid "Top left corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:47
+msgid "Top left corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:48
+msgid "Top right corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:49
+msgid "Top right corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:50
+msgid "Top right corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:51
+msgid "Top right corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:52
+msgid "Top right corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:53
+msgid "Use PCM Volume instead of Master Volume"
+msgstr "השתמש ב PCM במקום עוצמה מרכזית"
+
+#: src/brightside.schemas.in.h:54
+msgid "Whether workspace layout is orientable"
+msgstr ""
+
+#: src/brightside.schemas.in.h:55
+msgid "Wrap wround edges of workspace layout when flipping workspace"
+msgstr ""
+
+#: src/custom-action.glade.h:2
+msgid "*"
+msgstr ""
+
+#: src/custom-action.glade.h:3
+#, fuzzy
+msgid "<span weight=\"bold\">On _entering region</span>"
+msgstr "<span weight=\"bold\">הגדרות מקשים </span>"
+
+#: src/custom-action.glade.h:4
+#, fuzzy
+msgid "<span weight=\"bold\">On leaving region</span>"
+msgstr "<span weight=\"bold\">הגדרות קול</span>"
+
+#: src/custom-action.glade.h:5 src/custom-action.c:104
+msgid "Custom action"
+msgstr ""
+
+#: src/custom-action.glade.h:6
+msgid "_Run another command:"
+msgstr ""
+
+#: src/custom-action.glade.h:7
+msgid "_Terminate above application"
+msgstr ""
+
+#~ msgid ""
+#~ "Couldn't execute either command: %s\n"
+#~ "or command: %s\n"
+#~ "Verify that at least one of these commands exist."
+#~ msgstr ""
+#~ "לא ניתן לבצע את הפקודה: %s\n"
+#~ "או את הפקודה: %s\n"
+#~ "ודא כי לפחות אחת מהפקודות הללו קיימות."
+
+#~ msgid ""
+#~ "There was an error removing access to the multimedia keys.\n"
+#~ "Key %d couldn't be unbound."
+#~ msgstr ""
+#~ "ארעה שגיאה בהסרת הגישה למקשי המולטימדיה.\n"
+#~ "לא ניתן לנתק את המקש %d."
+
+#~ msgid ""
+#~ "It seems that another application already has access to the multimedia "
+#~ "keys.\n"
+#~ "Key %d couldn't be bound.\n"
+#~ "Is another daemon already running ?"
+#~ msgstr ""
+#~ "נראה כי ליישום אחר כבר יש גישה למקשי המולטימדיה.\n"
+#~ "לא ניתן לשר את המקש %d.\n"
+#~ "האם תהליך שירות אחר מופעל ?"
+
+#~ msgid "Multimedia keys daemon"
+#~ msgstr "תהליך שירות למקשי מולטימדיה"
+
+#~ msgid "Multimedia Keys daemon active"
+#~ msgstr "תהליך השירות למקשי המולטימדיה פעיל"
+
+#~ msgid "Volume down key"
+#~ msgstr "מקש הקטנת עוצמה"
+
+#~ msgid "Volume up key"
+#~ msgstr "מקש הגדלת עוצמה"
+
+#~ msgid "Power key"
+#~ msgstr "מקש הפעלה"
+
+#~ msgid "Eject key"
+#~ msgstr "מקש הוצאה"
+
+#~ msgid "Media key"
+#~ msgstr "מקש מדיה"
+
+#~ msgid "Play key"
+#~ msgstr "מקש נגן"
+
+#~ msgid "Pause key"
+#~ msgstr "מקש הפסק (שמע)"
+
+#~ msgid "Stop (Audio) key"
+#~ msgstr "מקש עצור (שמע)"
+
+#~ msgid "Previous (Audio) key"
+#~ msgstr "מקש (שמע) קודם"
+
+#~ msgid "Next (Audio) key"
+#~ msgstr "מקש (שמע) הבא"
+
+#~ msgid "My Home key"
+#~ msgstr "מקש הבית שלי"
+
+#~ msgid "Refresh key"
+#~ msgstr "מקש רענון"
+
+#~ msgid "Search key"
+#~ msgstr "מקש חיפוש"
+
+#~ msgid "E-Mail key"
+#~ msgstr "מקש דוא\"ל"
+
+#~ msgid "Sleep key"
+#~ msgstr "מקש שינה"
+
+#~ msgid "Finance key"
+#~ msgstr "מקש כלכלי"
+
+#~ msgid "Help key"
+#~ msgstr "מקש עזרה"
+
+#~ msgid "WWW key"
+#~ msgstr "מקש WWW"
+
+#~ msgid "Groups key"
+#~ msgstr "מקש קבוצות"
+
+#~ msgid "Calculator key"
+#~ msgstr "מקש מחשבון"
+
+#~ msgid "Record key"
+#~ msgstr "מקש הקלטה"
+
+#~ msgid "Close Window key"
+#~ msgstr "מקש סגירת חלון"
+
+#~ msgid "Shade Window key"
+#~ msgstr "מקש הצללת חלון"
+
+#~ msgid "Brightness down key"
+#~ msgstr "מקש בהירות מטה"
+
+#~ msgid "Brightness up key"
+#~ msgstr "מקש בהירות מעלה"
+
+#~ msgid "Disabled"
+#~ msgstr "כבוי"
+
+#~ msgid ""
+#~ "This key is already bound to action '%s'.\n"
+#~ "Please select another key."
+#~ msgstr ""
+#~ "מקש זה כבר משויך לפעולה '%s'.\n"
+#~ "אנא בחר מקש אחר."
+
+#~ msgid "Description"
+#~ msgstr "תיאור"
+
+#~ msgid "Status"
+#~ msgstr "מצב"
+
+#~ msgid "Multimedia Keys Preferences"
+#~ msgstr "העדפות מקשי מולטימדיה"
+
+#~ msgid ""
+#~ "To assign a key to an action, click on a line, and press the key you want "
+#~ "to associate with it.\n"
+#~ "\"C\" cancels the capture, and \"Backspace\" disables the key shortcut."
+#~ msgstr ""
+#~ "כדי לשייך מקש לפעולה, לחץ על שורה, ולחץ על המקש אותו אתה מעוניין לשייך עם "
+#~ "זה.\n"
+#~ "\"ב\" מבטל את התפיסה, ו\"מחיקה\" מבטל את קיצור המקש."
+
+#~ msgid "Use _PCM volume instead of Master volume"
+#~ msgstr "השתמש בעוצמת _PCM במקום עוצמה מרכזית"
+
+#~ msgid "Multimedia Keys"
+#~ msgstr "מקשי מולטימדיה"
+
+#~ msgid "Brightness down key's XKeycode"
+#~ msgstr "XKeycode למקש בהירות מטה"
+
+#~ msgid "Brightness down key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode למקש בהירות מטה, 0 כדי לכבות"
+
+#~ msgid "Brightness up key's XKeycode"
+#~ msgstr "XKeycode למקש בהירות מעלה"
+
+#~ msgid "Brightness up key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode למקש בהירות מעלה, 0 כדי לכבות"
+
+#~ msgid "Calculator key's XKeycode"
+#~ msgstr "XKeycode למקש המחשבון"
+
+#~ msgid "Calculator key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode למקש המחשבון, 0 כדי לכבות"
+
+#~ msgid "Close Window key's XKeycode"
+#~ msgstr "XKeycode למקש סגירת החלון"
+
+#~ msgid "Close Window key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode למקש סגירת החלון, 0 כדי לכבות"
+
+#~ msgid "E-Mail key's XKeycode"
+#~ msgstr "XKeycode למקש הדוא\"ל"
+
+#~ msgid "E-Mail key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode למקש הדוא\"ל, 0 כדי לכבות"
+
+#~ msgid "Eject key's XKeycode"
+#~ msgstr "XKeycode למקש ההוצאה"
+
+#~ msgid "Eject key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode למקש ההוצאה, 0 כדי לכבות"
+
+#~ msgid "Finance key's XKeycode"
+#~ msgstr "XKeycode למקש הכלכלה"
+
+#~ msgid "Finance key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode למקש הכלכלה, 0 כדי לכבות"
+
+#~ msgid "Groups key's XKeycode"
+#~ msgstr "XKeycode למקש הקבוצות"
+
+#~ msgid "Groups key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode למקש הקבוצות, 0 כדי לכבות"
+
+#~ msgid "Help key's XKeycode"
+#~ msgstr "XKeycode למקש העזרה"
+
+#~ msgid "Help key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode למקש העזרה, 0 כדי לכבות"
+
+#~ msgid "Mute key's XKeycode"
+#~ msgstr "XKeycode למקש ההשתקה"
+
+#~ msgid "Mute key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode למקש ההשתקה, 0 כדי לכבות"
+
+#~ msgid "My Home key's XKeycode"
+#~ msgstr "XKeycode למקש הבית שלי"
+
+#~ msgid "My Home key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode למקש הבית שלי, 0 כדי לכבות"
+
+#~ msgid "Next key's XKeycode"
+#~ msgstr "XKeycode למקש הבא"
+
+#~ msgid "Next key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode למקש הבא, 0 כדי לכבות"
+
+#~ msgid "Pause key's XKeycode"
+#~ msgstr "XKeycode למקש הפסק"
+
+#~ msgid "Pause key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode למקש הפסק, 0 כדי לכבות"
+
+#~ msgid "Play key's XKeycode"
+#~ msgstr "XKeycode למקש נגן"
+
+#~ msgid "Play key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode למקש נגן, 0 כדי לכבות"
+
+#~ msgid "Power key's XKeycode"
+#~ msgstr "XKeycode למקש הפעלה"
+
+#~ msgid "Power key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode למקש הפעלה, 0 כדי לכבות"
+
+#~ msgid "Previous key's XKeycode"
+#~ msgstr "XKeycode למקש הקודם"
+
+#~ msgid "Previous key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode למקש הקודם, 0 כדי לכבות"
+
+#~ msgid "Record key's XKeycode"
+#~ msgstr "XKeycode למקש הקלט"
+
+#~ msgid "Record key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode למקש הקלט, 0 כדי לכבות"
+
+#~ msgid "Refresh key's XKeycode"
+#~ msgstr "XKeycode למקש רענון"
+
+#~ msgid "Refresh key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode למקש רענון, 0 כדי לכבות"
+
+#~ msgid "Screensaver key's XKeycode"
+#~ msgstr "XKeycode למקש שומר המסך"
+
+#~ msgid "Screensaver key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode למקש שומר המסך, 0 כדי לכבות"
+
+#~ msgid "Search key's XKeycode"
+#~ msgstr "XKeycode למקש החיפוש"
+
+#~ msgid "Search key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode למקש החיפוש, 0 כדי לכבות"
+
+#~ msgid "Shade Window key's XKeycode"
+#~ msgstr "XKeycode למקש הצלל חלון"
+
+#~ msgid "Shade Window key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode למקש הצלל חלון, 0 כדי לכבות"
+
+#~ msgid "Sleep key's XKeycode"
+#~ msgstr "XKeycode למקש שינה"
+
+#~ msgid "Sleep key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode למקש שינה, 0 כדי לכבות"
+
+#~ msgid "Sound file to be played when volume is changed"
+#~ msgstr "קובץ שמע לניגון כאשר משנים את העוצמה"
+
+#~ msgid "Volume down key's XKeycode"
+#~ msgstr "XKeycode למקש עוצמה מטה"
+
+#~ msgid "Volume down key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode למקש עוצמה מטה, 0 כדי לכבות"
+
+#, fuzzy
+#~ msgid "Volume step"
+#~ msgstr "עוצמה"
+
+#~ msgid "Volume up key's XKeycode"
+#~ msgstr "XKeycode למקש עוצמה מעלה"
+
+#~ msgid "Volume up key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode למקש עוצמה מעלה, 0 כדי לכבות"
+
+#~ msgid "WWW key's XKeycode"
+#~ msgstr "XKeycode למקש WWW"
+
+#~ msgid "WWW key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode למקש WWW, 0 כדי לכבות"
+
+#~ msgid "Accelerator key"
+#~ msgstr "מקש קיצור"
+
+#~ msgid "Accelerator modifiers"
+#~ msgstr "מקשי בקרה לקיצור"
+
+#~ msgid "Accelerator Mode"
+#~ msgstr "מצב קיצור"
+
+#~ msgid "The type of accelerator."
+#~ msgstr "סוג הקיצור."
+
+#~ msgid "Type a new accelerator, or press Backspace to clear"
+#~ msgstr "הזן קיצור חדש, או לחץ על מקש החזרה לניקוי"
+
+#~ msgid "Type a new accelerator"
+#~ msgstr "הזן קיצור חדש"
+
+#~ msgid "_Launch the multimedia key daemon"
+#~ msgstr "_הפעל את תהליך השירות למקשי המולטימדיה"

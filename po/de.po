@@ -1,0 +1,768 @@
+# German Brightside translation.
+# Copyright (C) 2002-2003 Free Software Foundation, Inc.
+# This file is distributed under the same license as the Brightside package.
+# Christian Neumair <chris@gnome-de.org>, 2002, 2003.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Brightside 2.0.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-01-16 02:13+0000\n"
+"PO-Revision-Date: 2003-07-29 13:10+0100\n"
+"Last-Translator: Christian Neumair <chris@gnome-de.org>\n"
+"Language-Team: German <gnome-de@gnome.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/brightside.c:224
+#, c-format
+msgid ""
+"Couldn't execute command: %s\n"
+"Verify that this command exists."
+msgstr ""
+"Befehl »%s« konnte nicht ausgeführt werden\n"
+"Stellen Sie sicher, dass dieser Befehl existiert."
+
+#: src/brightside.c:243
+#, c-format
+msgid ""
+"Permissions on the file %s are broken\n"
+"Please check Brightside's documentation, correct the problem and restart "
+"Brightside."
+msgstr ""
+"Die Berechtigungen für die Datei %s sind fehlerhaft\n"
+"Bitte schauen Sie in der Brightside-Dokumentation nach, beheben Sie das "
+"Problem und starten Sie Brightside neu."
+
+#: src/brightside.c:487
+msgid "translator_credits"
+msgstr "Christian Neumair <chris@gnome-de.org>"
+
+#: src/brightside.c:498
+msgid "Brightside"
+msgstr "Brightside"
+
+#: src/brightside.c:500 src/brightside.c:573
+msgid "Screen Corners and Edges daemon"
+msgstr ""
+
+#: src/brightside.c:579
+msgid "Screen Corners and Edges daemon active"
+msgstr ""
+
+#: src/brightside.c:1733
+msgid "Daemon already running, exiting...\n"
+msgstr ""
+
+#: src/brightside.c:1742
+msgid ""
+"Couldn't load the Glade file.\n"
+"Make sure that this daemon is properly installed."
+msgstr ""
+"Die Glade-Datei konnte nicht geladen werden.\n"
+"Stellen Sie sicher, dass dieser Dämon korrekt installiert ist."
+
+#: src/brightside.glade.h:1
+msgid "Volume"
+msgstr "Lautstärke"
+
+#: src/brightside.h:65
+#, fuzzy
+msgid "Mute volume"
+msgstr "Stumm-Taste"
+
+#: src/brightside.h:67
+msgid "Prevent screensaver starting"
+msgstr ""
+
+#: src/brightside.h:69
+#, fuzzy
+msgid "Start screensaver"
+msgstr "Bildschirmschoner-Taste"
+
+#: src/brightside.h:71
+msgid "Enter DPMS standby mode"
+msgstr ""
+
+#: src/brightside.h:73
+msgid "Enter DPMS suspend mode"
+msgstr ""
+
+#: src/brightside.h:75
+msgid "Enter DPMS off mode"
+msgstr ""
+
+#: src/brightside.h:78
+msgid "Dim laptop backlight"
+msgstr ""
+
+#: src/brightside.h:81
+msgid "Custom action..."
+msgstr ""
+
+#: src/brightside-properties.c:283 src/brightside-properties.glade.h:9
+#: src/brightside.desktop.in.h:2
+msgid "Screen Corners and Edges"
+msgstr ""
+
+#: src/brightside-properties.glade.h:1 src/custom-action.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: src/brightside-properties.glade.h:2
+msgid "<small><i>Long</i></small>"
+msgstr ""
+
+#: src/brightside-properties.glade.h:3
+msgid "<small><i>Short</i></small>"
+msgstr ""
+
+#: src/brightside-properties.glade.h:4
+#, fuzzy
+msgid "<span weight=\"bold\">Screen Corners</span>"
+msgstr "<span weight=\"bold\">Audio-Einstellungen</span>"
+
+#: src/brightside-properties.glade.h:5
+#, fuzzy
+msgid "<span weight=\"bold\">Screen Edges</span>"
+msgstr "<span weight=\"bold\">Audio-Einstellungen</span>"
+
+#: src/brightside-properties.glade.h:6
+#, fuzzy
+msgid "Action to take while mouse is placed in corner of screen"
+msgstr "Beim Drücken der Auswurftaste auszuführender Befehl"
+
+#: src/brightside-properties.glade.h:7
+msgid "Bottom r_ight corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:8
+msgid "D_elay:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:10
+msgid "Switch to _adjacent workspace when mouse is moved to edge of screen"
+msgstr ""
+
+#: src/brightside-properties.glade.h:11
+msgid "Top _right corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:12
+msgid "When switching workspace, _wrap around edges of workspace layout"
+msgstr ""
+
+#: src/brightside-properties.glade.h:13
+msgid "_Bottom left corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:14
+msgid "_Configurable actions"
+msgstr ""
+
+#: src/brightside-properties.glade.h:15
+msgid "_Delay:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:16
+msgid "_Switch to diagonally adjacent workspace"
+msgstr ""
+
+#: src/brightside-properties.glade.h:17
+msgid "_Top left corner:"
+msgstr ""
+
+#: src/brightside.desktop.in.h:1
+#, fuzzy
+msgid "Configure screen-edge behaviour"
+msgstr "Das Verhalten der Multimedia-Tasten festlegen"
+
+#: src/brightside.schemas.in.h:1
+msgid "Action enabled when mouse is in bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:2
+msgid "Action enabled when mouse is in bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:3
+msgid "Action enabled when mouse is in top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:4
+msgid "Action enabled when mouse is in top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:5
+msgid "Action to occur when mouse is in bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:6
+msgid "Action to occur when mouse is in bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:7
+msgid "Action to occur when mouse is in top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:8
+msgid "Action to occur when mouse is in top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:9
+msgid "After flip command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:10
+msgid "Bottom left corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:11
+msgid "Bottom left corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:12
+msgid "Bottom left corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:13
+msgid "Bottom left corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:14
+msgid "Bottom left corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:15
+msgid "Bottom right corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:16
+msgid "Bottom right corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:17
+msgid "Bottom right corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:18
+msgid "Bottom right corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:19
+msgid "Bottom right corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:20
+msgid "Command to execute after flipping workspace (empty string for none)"
+msgstr ""
+
+#: src/brightside.schemas.in.h:21
+msgid "Corner delay"
+msgstr ""
+
+#: src/brightside.schemas.in.h:22
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse enters bottom left corner of screen"
+msgstr "Beim Drücken der Auswurftaste auszuführender Befehl"
+
+#: src/brightside.schemas.in.h:23
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse enters bottom right corner of screen"
+msgstr "Beim Drücken der Auswurftaste auszuführender Befehl"
+
+#: src/brightside.schemas.in.h:24
+#, fuzzy
+msgid "Custom command to execute when mouse enters top left corner of screen"
+msgstr "Beim Drücken der Auswurftaste auszuführender Befehl"
+
+#: src/brightside.schemas.in.h:25
+#, fuzzy
+msgid "Custom command to execute when mouse enters top right corner of screen"
+msgstr "Beim Drücken der Auswurftaste auszuführender Befehl"
+
+#: src/brightside.schemas.in.h:26
+#, fuzzy
+msgid "Custom command to execute when mouse exits bottom left corner of screen"
+msgstr "Beim Drücken der Auswurftaste auszuführender Befehl"
+
+#: src/brightside.schemas.in.h:27
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse exits bottom right corner of screen"
+msgstr "Beim Drücken der Auswurftaste auszuführender Befehl"
+
+#: src/brightside.schemas.in.h:28
+#, fuzzy
+msgid "Custom command to execute when mouse exits top left corner of screen"
+msgstr "Beim Drücken der Auswurftaste auszuführender Befehl"
+
+#: src/brightside.schemas.in.h:29
+#, fuzzy
+msgid "Custom command to execute when mouse exits top right corner of screen"
+msgstr "Beim Drücken der Auswurftaste auszuführender Befehl"
+
+#: src/brightside.schemas.in.h:30
+msgid "Delay in milliseconds before edge flip occurs"
+msgstr ""
+
+#: src/brightside.schemas.in.h:31
+msgid "Delay in milliseconds before screen corner action occurs"
+msgstr ""
+
+#: src/brightside.schemas.in.h:32
+msgid "Edge delay"
+msgstr ""
+
+#: src/brightside.schemas.in.h:33
+msgid "Edge wrap"
+msgstr ""
+
+#: src/brightside.schemas.in.h:34
+#, fuzzy
+msgid "Enable corner flip"
+msgstr "Aktiviert"
+
+#: src/brightside.schemas.in.h:35
+#, fuzzy
+msgid "Enable edge flip"
+msgstr "Aktiviert"
+
+#: src/brightside.schemas.in.h:36
+msgid "Orientable workspaces"
+msgstr ""
+
+#: src/brightside.schemas.in.h:37
+msgid ""
+"Switch to diagonally adjacent workspace when mouse placed in the corner of "
+"the screen, instead of executing a configurable action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:38
+msgid ""
+"Switch to the adjacent workspace when the mouse reaches the edge of the "
+"screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:39
+msgid "Terminate custom command when mouse exits bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:40
+msgid "Terminate custom command when mouse exits bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:41
+msgid "Terminate custom command when mouse exits top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:42
+msgid "Terminate custom command when mouse exits top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:43
+msgid "Top left corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:44
+msgid "Top left corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:45
+msgid "Top left corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:46
+msgid "Top left corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:47
+msgid "Top left corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:48
+msgid "Top right corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:49
+msgid "Top right corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:50
+msgid "Top right corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:51
+msgid "Top right corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:52
+msgid "Top right corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:53
+msgid "Use PCM Volume instead of Master Volume"
+msgstr "PCM- statt Haupt-Lautstärke verwenden"
+
+#: src/brightside.schemas.in.h:54
+msgid "Whether workspace layout is orientable"
+msgstr ""
+
+#: src/brightside.schemas.in.h:55
+msgid "Wrap wround edges of workspace layout when flipping workspace"
+msgstr ""
+
+#: src/custom-action.glade.h:2
+msgid "*"
+msgstr ""
+
+#: src/custom-action.glade.h:3
+#, fuzzy
+msgid "<span weight=\"bold\">On _entering region</span>"
+msgstr "<span weight=\"bold\">Tasten-Einstellungen </span>"
+
+#: src/custom-action.glade.h:4
+#, fuzzy
+msgid "<span weight=\"bold\">On leaving region</span>"
+msgstr "<span weight=\"bold\">Audio-Einstellungen</span>"
+
+#: src/custom-action.glade.h:5 src/custom-action.c:104
+msgid "Custom action"
+msgstr ""
+
+#: src/custom-action.glade.h:6
+msgid "_Run another command:"
+msgstr ""
+
+#: src/custom-action.glade.h:7
+msgid "_Terminate above application"
+msgstr ""
+
+#~ msgid ""
+#~ "Couldn't execute either command: %s\n"
+#~ "or command: %s\n"
+#~ "Verify that at least one of these commands exist."
+#~ msgstr ""
+#~ "Weder der Befehl »%s« noch »%s« konnte ausgeführt werden.\n"
+#~ "Stellen Sie sicher, dass mindestens einer dieser Befehl existiert."
+
+#~ msgid ""
+#~ "There was an error removing access to the multimedia keys.\n"
+#~ "Key %d couldn't be unbound."
+#~ msgstr ""
+#~ "Beim Aufheben des Zugriffs auf die Multimedia-Tasten ist ein Fehler "
+#~ "aufgetreten.\n"
+#~ "Taste %d konnte nicht gelöst werden."
+
+#~ msgid ""
+#~ "It seems that another application already has access to the multimedia "
+#~ "keys.\n"
+#~ "Key %d couldn't be bound.\n"
+#~ "Is another daemon already running ?"
+#~ msgstr ""
+#~ "Scheinbar greift bereits eine andere Anwendung auf die Multimedia-Tasten "
+#~ "zu.\n"
+#~ "Die Taste %d konnte nicht zugewiesen werden.\n"
+#~ "Läuft bereits ein anderer Dämon?"
+
+#~ msgid "Multimedia keys daemon"
+#~ msgstr "Multimedia-Tastendämon"
+
+#~ msgid "Multimedia Keys daemon active"
+#~ msgstr "Multimedia-Tastendämon aktiv"
+
+#~ msgid "Volume down key"
+#~ msgstr "Leiser-Taste"
+
+#~ msgid "Volume up key"
+#~ msgstr "Lauter-Taste"
+
+#~ msgid "Power key"
+#~ msgstr "Power-Taste"
+
+#~ msgid "Eject key"
+#~ msgstr "Auswurftaste"
+
+#~ msgid "Media key"
+#~ msgstr "Medien-Taste"
+
+#~ msgid "Play key"
+#~ msgstr "Wiedergabe-Taste"
+
+#~ msgid "Pause key"
+#~ msgstr "Pause-Taste"
+
+#~ msgid "Stop (Audio) key"
+#~ msgstr "Stop-Taste (Audio)"
+
+#~ msgid "Previous (Audio) key"
+#~ msgstr "Vorheriger-Taste (Audio)"
+
+#~ msgid "Next (Audio) key"
+#~ msgstr "Nächster-Taste (Audio)"
+
+#~ msgid "My Home key"
+#~ msgstr "Persönlicher Ordner-Taste"
+
+#~ msgid "Refresh key"
+#~ msgstr "Aktualisieren-Taste"
+
+#~ msgid "Search key"
+#~ msgstr "Suchtaste"
+
+#~ msgid "E-Mail key"
+#~ msgstr "E-Mail-Taste"
+
+#~ msgid "Sleep key"
+#~ msgstr "Sleep-Taste"
+
+#~ msgid "Finance key"
+#~ msgstr "Finanzen-Taste"
+
+#~ msgid "Help key"
+#~ msgstr "Hilfe-Taste"
+
+#~ msgid "WWW key"
+#~ msgstr "Internet-Taste"
+
+#~ msgid "Groups key"
+#~ msgstr "Gruppen-Taste"
+
+#~ msgid "Calculator key"
+#~ msgstr "Taschenrechner-Taste"
+
+#~ msgid "Record key"
+#~ msgstr "Aufnahmetaste"
+
+#~ msgid "Close Window key"
+#~ msgstr "Fenster schließen-Taste"
+
+#~ msgid "Shade Window key"
+#~ msgstr "Fenster einrollen-Taste"
+
+#~ msgid "Brightness down key"
+#~ msgstr "Dunkler-Taste"
+
+#~ msgid "Brightness up key"
+#~ msgstr "Heller-Taste"
+
+#~ msgid "Disabled"
+#~ msgstr "Deaktiviert"
+
+#~ msgid ""
+#~ "This key is already bound to action '%s'.\n"
+#~ "Please select another key."
+#~ msgstr ""
+#~ "Diese Taste ist bereits der Aktion »%s« zugewiesen.\n"
+#~ "Bitte wählen Sie eine Andere."
+
+#~ msgid "Description"
+#~ msgstr "Beschreibung"
+
+#~ msgid "Status"
+#~ msgstr "Status"
+
+#~ msgid "Multimedia Keys Preferences"
+#~ msgstr "Einstellungen der Multimedia-Tasten"
+
+#~ msgid ""
+#~ "To assign a key to an action, click on a line, and press the key you want "
+#~ "to associate with it.\n"
+#~ "\"C\" cancels the capture, and \"Backspace\" disables the key shortcut."
+#~ msgstr ""
+#~ "Klicken Sie auf eine Zeile und drücken Sie die dann die Taste, die Sie "
+#~ "mit dieser Aktion verknüpfen möchten, um sie dieser Taste zuzuweisen.\n"
+#~ "»C« bricht die Erfassung ab und die Rücktaste deaktiviert das "
+#~ "Tastenkürzel."
+
+#~ msgid "Use _PCM volume instead of Master volume"
+#~ msgstr "_PCM- statt Haupt-Lautstärke verwenden"
+
+#~ msgid "Multimedia Keys"
+#~ msgstr "Multimedia-Tasten"
+
+#~ msgid "Brightness down key's XKeycode"
+#~ msgstr "XKeycode der Dunkler-Taste"
+
+#~ msgid "Brightness down key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode der Dunkler-Taste, 0 zum Deaktivieren"
+
+#~ msgid "Brightness up key's XKeycode"
+#~ msgstr "XKeycode der Heller-Taste"
+
+#~ msgid "Brightness up key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode der Heller-Taste, 0 zum Deaktivieren"
+
+#~ msgid "Calculator key's XKeycode"
+#~ msgstr "XKeycode der Taschenrechner-Taste"
+
+#~ msgid "Calculator key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode der Taschenrechner-Taste, 0 zum Deaktivieren"
+
+#~ msgid "Close Window key's XKeycode"
+#~ msgstr "XKeycode der Fenster schließen-Taste"
+
+#~ msgid "Close Window key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode der Fenster schließen-Taste, 0 zum Deaktivieren"
+
+#~ msgid "E-Mail key's XKeycode"
+#~ msgstr "XKeycode der E-Mail-Taste"
+
+#~ msgid "E-Mail key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode der E-Mail-Taste, 0 zum Deaktivieren"
+
+#~ msgid "Eject key's XKeycode"
+#~ msgstr "XKeycode der Auswurftaste"
+
+#~ msgid "Eject key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode der Auswurftaste, 0 zum Deaktivieren"
+
+#~ msgid "Finance key's XKeycode"
+#~ msgstr "XKeycode der Finanzen-Taste"
+
+#~ msgid "Finance key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode der Finanzen-Taste, 0 zum Deaktivieren"
+
+#~ msgid "Groups key's XKeycode"
+#~ msgstr "XKeycode der Gruppen-Taste"
+
+#~ msgid "Groups key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode der Gruppen-Taste, 0 zum Deaktivieren"
+
+#~ msgid "Help key's XKeycode"
+#~ msgstr "XKeycode der Hilfe-Taste"
+
+#~ msgid "Help key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode der Hilfe-Taste, 0 zum Deaktivieren"
+
+#~ msgid "Mute key's XKeycode"
+#~ msgstr "XKeycode der Stumm-Taste"
+
+#~ msgid "Mute key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode der Stumm-Taste, 0 zum Deaktivieren"
+
+#~ msgid "My Home key's XKeycode"
+#~ msgstr "XKeycode der Persönlicher Ordner-Taste"
+
+#~ msgid "My Home key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode der Persönlicher Ordner-Taste, 0 zum Deaktivieren"
+
+#~ msgid "Next key's XKeycode"
+#~ msgstr "XKeycode der Nächster-Taste"
+
+#~ msgid "Next key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode der Nächster-Taste, 0 zum Deaktivieren"
+
+#~ msgid "Pause key's XKeycode"
+#~ msgstr "XKeycode der Pause-Taste"
+
+#~ msgid "Pause key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode der Pause-Taste, 0 zum Deaktivieren"
+
+#~ msgid "Play key's XKeycode"
+#~ msgstr "XKeycode der Wiedergabe-Taste"
+
+#~ msgid "Play key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode der Wiedergabe-Taste, 0 zum Deaktivieren"
+
+#~ msgid "Power key's XKeycode"
+#~ msgstr "XKeycode der Power-Taste"
+
+#~ msgid "Power key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode der Power-Taste, 0 zum Deaktivieren"
+
+#~ msgid "Previous key's XKeycode"
+#~ msgstr "XKeycode der Vorheriger-Taste"
+
+#~ msgid "Previous key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode der Vorheriger-Taste, 0 zum Deaktivieren"
+
+#~ msgid "Record key's XKeycode"
+#~ msgstr "XKeycode der Aufnahmetaste"
+
+#~ msgid "Record key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode der Aufnahmetaste, 0 zum Deaktivieren"
+
+#~ msgid "Refresh key's XKeycode"
+#~ msgstr "XKeycode der Aktualisieren-Taste"
+
+#~ msgid "Refresh key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode der Aktualisieren-Taste, 0 zum Deaktivieren"
+
+#~ msgid "Screensaver key's XKeycode"
+#~ msgstr "XKeycode der Bildschirmschoner-Taste"
+
+#~ msgid "Screensaver key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode der Bildschirmschoner-Taste, 0 zum Deaktivieren"
+
+#~ msgid "Search key's XKeycode"
+#~ msgstr "XKeycode der Suchtaste"
+
+#~ msgid "Search key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode der Suchtaste, 0 zum Deaktivieren"
+
+#~ msgid "Shade Window key's XKeycode"
+#~ msgstr "XKeycode der Fenster einrollen-Taste"
+
+#~ msgid "Shade Window key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode der Fenster einrollen-Taste, 0 zum Deaktivieren"
+
+#~ msgid "Sleep key's XKeycode"
+#~ msgstr "XKeycode der Sleep-Taste"
+
+#~ msgid "Sleep key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode der Sleep-Taste, 0 zum Deaktivieren"
+
+#~ msgid "Sound file to be played when volume is changed"
+#~ msgstr "Beim Verändern der Lautstärke wiederzugebende Audio-Datei"
+
+#~ msgid "Volume down key's XKeycode"
+#~ msgstr "XKeycode der Leiser-Taste"
+
+#~ msgid "Volume down key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode der Leiser-Taste, 0 zum Deaktivieren"
+
+#, fuzzy
+#~ msgid "Volume step"
+#~ msgstr "Lautstärke"
+
+#~ msgid "Volume up key's XKeycode"
+#~ msgstr "XKeycode der Lauter-Taste"
+
+#~ msgid "Volume up key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode der Lauter-Taste, 0 zum Deaktivieren"
+
+#~ msgid "WWW key's XKeycode"
+#~ msgstr "XKeycode der Internet-Taste"
+
+#~ msgid "WWW key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode der Internet-Taste, 0 zum Deaktivieren"
+
+#~ msgid "Accelerator key"
+#~ msgstr "Tastenkombinationstaste"
+
+#~ msgid "Accelerator modifiers"
+#~ msgstr "Tastenkombinationsumschalter"
+
+#~ msgid "Accelerator Mode"
+#~ msgstr "Tastenkombinationsmodus"
+
+#~ msgid "The type of accelerator."
+#~ msgstr "Der Tastenkürzeltyp"
+
+#~ msgid "Type a new accelerator, or press Backspace to clear"
+#~ msgstr ""
+#~ "Geben Sie eine neue Tastenkombination ein oder drücken Sie die Rücktaste, "
+#~ "um sie zu löschen"
+
+#~ msgid "Type a new accelerator"
+#~ msgstr "Geben Sie eine neue Tastenkombination ein"
+
+#~ msgid "_Launch the multimedia key daemon"
+#~ msgstr "Den Multimedia-Tastendämon _starten"
+
+#~ msgid "(C) 2001 Bastien Nocera"
+#~ msgstr "© 2001 Bastien Nocera"

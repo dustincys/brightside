@@ -1,0 +1,760 @@
+# Brightside Portuguese translation.
+# Copyright (C) 2003 Gnome 2.2
+# This file is distributed under the same license as the Brightside package.
+# Duarte Loreto <happyguy_pt@hotmail.com>, 2003.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-01-16 02:13+0000\n"
+"PO-Revision-Date: 2003-03-11 21:30+0100\n"
+"Last-Translator: Duarte Loreto <happyguy_pt@hotmail.com>\n"
+"Language-Team: pt <gnome_pt@yahoogroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/brightside.c:224
+#, c-format
+msgid ""
+"Couldn't execute command: %s\n"
+"Verify that this command exists."
+msgstr ""
+"Incapaz de executar o comando: %s\n"
+"Verifique que este comando existe."
+
+#: src/brightside.c:243
+#, c-format
+msgid ""
+"Permissions on the file %s are broken\n"
+"Please check Brightside's documentation, correct the problem and restart "
+"Brightside."
+msgstr ""
+"As permissões sobre o ficheiro %s estão incorrectas\n"
+"Verifique a documentaçãoo Brightside, corrija o problema e reinicie o "
+"Brightside."
+
+#: src/brightside.c:487
+msgid "translator_credits"
+msgstr "Duarte Loreto <happyguy_pt@hotmail.com>"
+
+#: src/brightside.c:498
+msgid "Brightside"
+msgstr "Brightside"
+
+#: src/brightside.c:500 src/brightside.c:573
+msgid "Screen Corners and Edges daemon"
+msgstr ""
+
+#: src/brightside.c:579
+msgid "Screen Corners and Edges daemon active"
+msgstr ""
+
+#: src/brightside.c:1733
+msgid "Daemon already running, exiting...\n"
+msgstr ""
+
+#: src/brightside.c:1742
+msgid ""
+"Couldn't load the Glade file.\n"
+"Make sure that this daemon is properly installed."
+msgstr ""
+"Incapaz de carregar o ficheiro Glade.nCertifique-se de que o deamon está "
+"correctamente instalado."
+
+#: src/brightside.glade.h:1
+msgid "Volume"
+msgstr "Volume"
+
+#: src/brightside.h:65
+#, fuzzy
+msgid "Mute volume"
+msgstr "Tecla de silêncio"
+
+#: src/brightside.h:67
+msgid "Prevent screensaver starting"
+msgstr ""
+
+#: src/brightside.h:69
+#, fuzzy
+msgid "Start screensaver"
+msgstr "Tecla de protector de ecrã"
+
+#: src/brightside.h:71
+msgid "Enter DPMS standby mode"
+msgstr ""
+
+#: src/brightside.h:73
+msgid "Enter DPMS suspend mode"
+msgstr ""
+
+#: src/brightside.h:75
+msgid "Enter DPMS off mode"
+msgstr ""
+
+#: src/brightside.h:78
+msgid "Dim laptop backlight"
+msgstr ""
+
+#: src/brightside.h:81
+msgid "Custom action..."
+msgstr ""
+
+#: src/brightside-properties.c:283 src/brightside-properties.glade.h:9
+#: src/brightside.desktop.in.h:2
+msgid "Screen Corners and Edges"
+msgstr ""
+
+#: src/brightside-properties.glade.h:1 src/custom-action.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: src/brightside-properties.glade.h:2
+msgid "<small><i>Long</i></small>"
+msgstr ""
+
+#: src/brightside-properties.glade.h:3
+msgid "<small><i>Short</i></small>"
+msgstr ""
+
+#: src/brightside-properties.glade.h:4
+#, fuzzy
+msgid "<span weight=\"bold\">Screen Corners</span>"
+msgstr "<span weight=\"bold\">Configuração Som</span>"
+
+#: src/brightside-properties.glade.h:5
+#, fuzzy
+msgid "<span weight=\"bold\">Screen Edges</span>"
+msgstr "<span weight=\"bold\">Configuração Som</span>"
+
+#: src/brightside-properties.glade.h:6
+#, fuzzy
+msgid "Action to take while mouse is placed in corner of screen"
+msgstr "Comando a executar quando o botão Ejectar é primido"
+
+#: src/brightside-properties.glade.h:7
+msgid "Bottom r_ight corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:8
+msgid "D_elay:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:10
+msgid "Switch to _adjacent workspace when mouse is moved to edge of screen"
+msgstr ""
+
+#: src/brightside-properties.glade.h:11
+msgid "Top _right corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:12
+msgid "When switching workspace, _wrap around edges of workspace layout"
+msgstr ""
+
+#: src/brightside-properties.glade.h:13
+msgid "_Bottom left corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:14
+msgid "_Configurable actions"
+msgstr ""
+
+#: src/brightside-properties.glade.h:15
+msgid "_Delay:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:16
+msgid "_Switch to diagonally adjacent workspace"
+msgstr ""
+
+#: src/brightside-properties.glade.h:17
+msgid "_Top left corner:"
+msgstr ""
+
+#: src/brightside.desktop.in.h:1
+#, fuzzy
+msgid "Configure screen-edge behaviour"
+msgstr "Configurar o comportamento das teclas multimédia"
+
+#: src/brightside.schemas.in.h:1
+msgid "Action enabled when mouse is in bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:2
+msgid "Action enabled when mouse is in bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:3
+msgid "Action enabled when mouse is in top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:4
+msgid "Action enabled when mouse is in top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:5
+msgid "Action to occur when mouse is in bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:6
+msgid "Action to occur when mouse is in bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:7
+msgid "Action to occur when mouse is in top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:8
+msgid "Action to occur when mouse is in top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:9
+msgid "After flip command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:10
+msgid "Bottom left corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:11
+msgid "Bottom left corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:12
+msgid "Bottom left corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:13
+msgid "Bottom left corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:14
+msgid "Bottom left corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:15
+msgid "Bottom right corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:16
+msgid "Bottom right corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:17
+msgid "Bottom right corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:18
+msgid "Bottom right corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:19
+msgid "Bottom right corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:20
+msgid "Command to execute after flipping workspace (empty string for none)"
+msgstr ""
+
+#: src/brightside.schemas.in.h:21
+msgid "Corner delay"
+msgstr ""
+
+#: src/brightside.schemas.in.h:22
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse enters bottom left corner of screen"
+msgstr "Comando a executar quando o botão Ejectar é primido"
+
+#: src/brightside.schemas.in.h:23
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse enters bottom right corner of screen"
+msgstr "Comando a executar quando o botão Ejectar é primido"
+
+#: src/brightside.schemas.in.h:24
+#, fuzzy
+msgid "Custom command to execute when mouse enters top left corner of screen"
+msgstr "Comando a executar quando o botão Ejectar é primido"
+
+#: src/brightside.schemas.in.h:25
+#, fuzzy
+msgid "Custom command to execute when mouse enters top right corner of screen"
+msgstr "Comando a executar quando o botão Ejectar é primido"
+
+#: src/brightside.schemas.in.h:26
+#, fuzzy
+msgid "Custom command to execute when mouse exits bottom left corner of screen"
+msgstr "Comando a executar quando o botão Ejectar é primido"
+
+#: src/brightside.schemas.in.h:27
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse exits bottom right corner of screen"
+msgstr "Comando a executar quando o botão Ejectar é primido"
+
+#: src/brightside.schemas.in.h:28
+#, fuzzy
+msgid "Custom command to execute when mouse exits top left corner of screen"
+msgstr "Comando a executar quando o botão Ejectar é primido"
+
+#: src/brightside.schemas.in.h:29
+#, fuzzy
+msgid "Custom command to execute when mouse exits top right corner of screen"
+msgstr "Comando a executar quando o botão Ejectar é primido"
+
+#: src/brightside.schemas.in.h:30
+msgid "Delay in milliseconds before edge flip occurs"
+msgstr ""
+
+#: src/brightside.schemas.in.h:31
+msgid "Delay in milliseconds before screen corner action occurs"
+msgstr ""
+
+#: src/brightside.schemas.in.h:32
+msgid "Edge delay"
+msgstr ""
+
+#: src/brightside.schemas.in.h:33
+msgid "Edge wrap"
+msgstr ""
+
+#: src/brightside.schemas.in.h:34
+#, fuzzy
+msgid "Enable corner flip"
+msgstr "Activo"
+
+#: src/brightside.schemas.in.h:35
+#, fuzzy
+msgid "Enable edge flip"
+msgstr "Activo"
+
+#: src/brightside.schemas.in.h:36
+msgid "Orientable workspaces"
+msgstr ""
+
+#: src/brightside.schemas.in.h:37
+msgid ""
+"Switch to diagonally adjacent workspace when mouse placed in the corner of "
+"the screen, instead of executing a configurable action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:38
+msgid ""
+"Switch to the adjacent workspace when the mouse reaches the edge of the "
+"screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:39
+msgid "Terminate custom command when mouse exits bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:40
+msgid "Terminate custom command when mouse exits bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:41
+msgid "Terminate custom command when mouse exits top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:42
+msgid "Terminate custom command when mouse exits top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:43
+msgid "Top left corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:44
+msgid "Top left corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:45
+msgid "Top left corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:46
+msgid "Top left corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:47
+msgid "Top left corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:48
+msgid "Top right corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:49
+msgid "Top right corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:50
+msgid "Top right corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:51
+msgid "Top right corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:52
+msgid "Top right corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:53
+msgid "Use PCM Volume instead of Master Volume"
+msgstr "Utilizar Volume PCM em vez do Volume Principal"
+
+#: src/brightside.schemas.in.h:54
+msgid "Whether workspace layout is orientable"
+msgstr ""
+
+#: src/brightside.schemas.in.h:55
+msgid "Wrap wround edges of workspace layout when flipping workspace"
+msgstr ""
+
+#: src/custom-action.glade.h:2
+msgid "*"
+msgstr ""
+
+#: src/custom-action.glade.h:3
+#, fuzzy
+msgid "<span weight=\"bold\">On _entering region</span>"
+msgstr "<span weight=\"bold\">Configuração Teclas </span>"
+
+#: src/custom-action.glade.h:4
+#, fuzzy
+msgid "<span weight=\"bold\">On leaving region</span>"
+msgstr "<span weight=\"bold\">Configuração Som</span>"
+
+#: src/custom-action.glade.h:5 src/custom-action.c:104
+msgid "Custom action"
+msgstr ""
+
+#: src/custom-action.glade.h:6
+msgid "_Run another command:"
+msgstr ""
+
+#: src/custom-action.glade.h:7
+msgid "_Terminate above application"
+msgstr ""
+
+#~ msgid ""
+#~ "Couldn't execute either command: %s\n"
+#~ "or command: %s\n"
+#~ "Verify that at least one of these commands exist."
+#~ msgstr ""
+#~ "Incapaz de executar qualquer um dos comandos: %s\n"
+#~ "ou: %s\n"
+#~ "Verifique que pelo menos um dos comandos existe."
+
+#~ msgid ""
+#~ "There was an error removing access to the multimedia keys.\n"
+#~ "Key %d couldn't be unbound."
+#~ msgstr ""
+#~ "Ocorreu um erro ao remover o acesso às teclas multimédia.\n"
+#~ "A tecla %d não pode ser desligada."
+
+#~ msgid ""
+#~ "It seems that another application already has access to the multimedia "
+#~ "keys.\n"
+#~ "Key %d couldn't be bound.\n"
+#~ "Is another daemon already running ?"
+#~ msgstr ""
+#~ "Parece que outra aplicação já possui acesso às teclas multimédia.\n"
+#~ "A tecla %d não pode ser desligada.Existirá já outro deamon a correr ?"
+
+#~ msgid "Multimedia keys daemon"
+#~ msgstr "Deamon de teclas multimédia"
+
+#~ msgid "Multimedia Keys daemon active"
+#~ msgstr "Deamon de teclas multimédia activo"
+
+#~ msgid "Volume down key"
+#~ msgstr "Tecla de redução volume"
+
+#~ msgid "Volume up key"
+#~ msgstr "Tecla de aumento de volume"
+
+#~ msgid "Power key"
+#~ msgstr "Tecla de energia"
+
+#~ msgid "Eject key"
+#~ msgstr "Tecla de ejectar"
+
+#~ msgid "Media key"
+#~ msgstr "Tecla de media"
+
+#~ msgid "Play key"
+#~ msgstr "Tecla de tocar"
+
+#~ msgid "Pause key"
+#~ msgstr "Tecla de pausar"
+
+#~ msgid "Stop (Audio) key"
+#~ msgstr "Tecla de parar (Audio)"
+
+#~ msgid "Previous (Audio) key"
+#~ msgstr "Tecla de anterior (Audio)"
+
+#~ msgid "Next (Audio) key"
+#~ msgstr "Tecla de seguinte (Audio)"
+
+#~ msgid "My Home key"
+#~ msgstr "Tecla Minha Casa"
+
+#~ msgid "Refresh key"
+#~ msgstr "Tecla de Actualizar"
+
+#~ msgid "Search key"
+#~ msgstr "Tecla de Procurar"
+
+#~ msgid "E-Mail key"
+#~ msgstr "Tecla de E-Mail"
+
+#~ msgid "Sleep key"
+#~ msgstr "Tecla de dormir"
+
+#~ msgid "Finance key"
+#~ msgstr "Tecla de finanças"
+
+#~ msgid "Help key"
+#~ msgstr "Tecla de ajuda"
+
+#~ msgid "WWW key"
+#~ msgstr "Tecla WWW"
+
+#~ msgid "Groups key"
+#~ msgstr "Tecla de grupos"
+
+#~ msgid "Calculator key"
+#~ msgstr "Tecla de calculadora"
+
+#~ msgid "Record key"
+#~ msgstr "Tecla de gravação"
+
+#~ msgid "Close Window key"
+#~ msgstr "Tecla de Encerrar Janela"
+
+#~ msgid "Shade Window key"
+#~ msgstr "Tecla de Janela Transparente"
+
+#~ msgid "Brightness down key"
+#~ msgstr "Tecla de reduzir brilho"
+
+#~ msgid "Brightness up key"
+#~ msgstr "Tecla de aumentar brilho"
+
+#~ msgid "Disabled"
+#~ msgstr "Inactivo"
+
+#~ msgid ""
+#~ "This key is already bound to action '%s'.\n"
+#~ "Please select another key."
+#~ msgstr ""
+#~ "Esta tecla já se encontra associada à acção '%s'.\n"
+#~ "Seleccione outra tecla."
+
+#~ msgid "Description"
+#~ msgstr "Descrição"
+
+#~ msgid "Status"
+#~ msgstr "Estado"
+
+#~ msgid "Multimedia Keys Preferences"
+#~ msgstr "Preferências de Teclas Multimédia"
+
+#~ msgid ""
+#~ "To assign a key to an action, click on a line, and press the key you want "
+#~ "to associate with it.\n"
+#~ "\"C\" cancels the capture, and \"Backspace\" disables the key shortcut."
+#~ msgstr ""
+#~ "Para associar uma tecla a uma acção, clique numa linha e prima a tecla "
+#~ "que deseja associar.\n"
+#~ "\"C\" cancela a captura e \"Backspace\" desabilita a tecla de atalho."
+
+#~ msgid "Use _PCM volume instead of Master volume"
+#~ msgstr "Utilizar volume _PCM em vez do volume Principal"
+
+#~ msgid "Multimedia Keys"
+#~ msgstr "Teclas Multimédia"
+
+#~ msgid "Brightness down key's XKeycode"
+#~ msgstr "XKeycode da tecla de redução de brilho"
+
+#~ msgid "Brightness down key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode da tecla de redução de brilho, 0 para inactivar"
+
+#~ msgid "Brightness up key's XKeycode"
+#~ msgstr "XKeycode da tecla de incremento de brilho"
+
+#~ msgid "Brightness up key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode da tecla de incremento de brilho, 0 para inactivar"
+
+#~ msgid "Calculator key's XKeycode"
+#~ msgstr "XKeycode da tecla de calculadora"
+
+#~ msgid "Calculator key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode da tecla de calculadora, 0 para inactivar"
+
+#~ msgid "Close Window key's XKeycode"
+#~ msgstr "XKeycode da tecla de Encerrar Janela"
+
+#~ msgid "Close Window key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode da tecla de Encerrar Janela, 0 para inactivar"
+
+#~ msgid "E-Mail key's XKeycode"
+#~ msgstr "XKeycode da tecla de E-Mail"
+
+#~ msgid "E-Mail key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode da tecla de E-Mail, 0 para inactivar"
+
+#~ msgid "Eject key's XKeycode"
+#~ msgstr "XKeycode da tecla de Ejectar"
+
+#~ msgid "Eject key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode da tecla de Ejectar, 0 para inactivar"
+
+#~ msgid "Finance key's XKeycode"
+#~ msgstr "XKeycode da tecla de Finanças"
+
+#~ msgid "Finance key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode da tecla de Finanças, 0 para inactivar"
+
+#~ msgid "Groups key's XKeycode"
+#~ msgstr "XKeycode da tecla de Grupos"
+
+#~ msgid "Groups key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode da tecla de Grupos, 0 para inactivar"
+
+#~ msgid "Help key's XKeycode"
+#~ msgstr "XKeycode da tecla de Ajuda"
+
+#~ msgid "Help key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode da tecla de Ajuda, 0 para inactivar"
+
+#~ msgid "Mute key's XKeycode"
+#~ msgstr "XKeycode da tecla de Silenciar"
+
+#~ msgid "Mute key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode da tecla de Silenciar, 0 para inactivar"
+
+#~ msgid "My Home key's XKeycode"
+#~ msgstr "XKeycode da tecla de Minha Casa"
+
+#~ msgid "My Home key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode da tecla de Minha Casa, 0 para inactivar"
+
+#~ msgid "Next key's XKeycode"
+#~ msgstr "XKeycode da tecla de Seguinte"
+
+#~ msgid "Next key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode da tecla de Seguinte, 0 para inactivar"
+
+#~ msgid "Pause key's XKeycode"
+#~ msgstr "XKeycode da tecla de Pausa"
+
+#~ msgid "Pause key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode da tecla de Pausa, 0 para inactivar"
+
+#~ msgid "Play key's XKeycode"
+#~ msgstr "XKeycode da tecla de Tocar"
+
+#~ msgid "Play key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode da tecla de Tocar, 0 para inactivar"
+
+#~ msgid "Power key's XKeycode"
+#~ msgstr "XKeycode da tecla de Energia"
+
+#~ msgid "Power key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode da tecla de Energia, 0 para inactivar"
+
+#~ msgid "Previous key's XKeycode"
+#~ msgstr "XKeycode da tecla de Anterior"
+
+#~ msgid "Previous key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode da tecla de Anterior, 0 para inactivar"
+
+#~ msgid "Record key's XKeycode"
+#~ msgstr "XKeycode da tecla de Gravação"
+
+#~ msgid "Record key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode da tecla de Gravação, 0 para inactivar"
+
+#~ msgid "Refresh key's XKeycode"
+#~ msgstr "XKeycode da tecla de Actualização"
+
+#~ msgid "Refresh key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode da tecla de Actualização, 0 para inactivar"
+
+#~ msgid "Screensaver key's XKeycode"
+#~ msgstr "XKeycode da tecla de Protecção de Ecrã"
+
+#~ msgid "Screensaver key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode da tecla de Protecção de Ecrã, 0 para inactivar"
+
+#~ msgid "Search key's XKeycode"
+#~ msgstr "XKeycode da tecla de Procurar"
+
+#~ msgid "Search key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode da tecla de Procurar, 0 para inactivar"
+
+#~ msgid "Shade Window key's XKeycode"
+#~ msgstr "XKeycode da tecla de Janela Transparente"
+
+#~ msgid "Shade Window key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode da tecla de Janela Transparente, 0 para inactivar"
+
+#~ msgid "Sleep key's XKeycode"
+#~ msgstr "XKeycode da tecla de Dormir"
+
+#~ msgid "Sleep key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode da tecla de Dormir, 0 para inactivar"
+
+#~ msgid "Sound file to be played when volume is changed"
+#~ msgstr "Ficheiro de som a ser tocado quando o volume é alterado"
+
+#~ msgid "Volume down key's XKeycode"
+#~ msgstr "XKeycode da tecla de reduzir Volume"
+
+#~ msgid "Volume down key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode da tecla de reduzir Volume, 0 para inactivar"
+
+#, fuzzy
+#~ msgid "Volume step"
+#~ msgstr "Volume"
+
+#~ msgid "Volume up key's XKeycode"
+#~ msgstr "XKeycode da tecla de aumentar Volume"
+
+#~ msgid "Volume up key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode da tecla de aumentar Volume, 0 para inactivar"
+
+#~ msgid "WWW key's XKeycode"
+#~ msgstr "XKeycode da tecla de WWW"
+
+#~ msgid "WWW key's XKeycode, 0 to disable"
+#~ msgstr "XKeycode da tecla de WWW, 0 para inactivar"
+
+#~ msgid "Accelerator key"
+#~ msgstr "Tecla de atalho"
+
+#~ msgid "Accelerator modifiers"
+#~ msgstr "Modificadores de atalho"
+
+#~ msgid "Accelerator Mode"
+#~ msgstr "Modo de Atalho"
+
+#~ msgid "The type of accelerator."
+#~ msgstr "O tipo de atalho."
+
+#~ msgid "Type a new accelerator, or press Backspace to clear"
+#~ msgstr "Insira um novo atalho, ou prima Backspace para limpar"
+
+#~ msgid "Type a new accelerator"
+#~ msgstr "Insira um novo atalho"
+
+#~ msgid "_Launch the multimedia key daemon"
+#~ msgstr "_Lançar o deamon de teclas multimédia"

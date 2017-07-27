@@ -1,0 +1,693 @@
+# Brightside eesti tõlge.
+# Copyright (C) 2003 Free Software Foundation, Inc.
+# This file is distributed under the same license as the Brightside package.
+# Tõivo Leedjärv <toivo@linux.ee>, 2003.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Brightside\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-01-16 02:13+0000\n"
+"PO-Revision-Date: 2003-02-25 01:46+0200\n"
+"Last-Translator: Tõivo Leedjärv <toivo@linux.ee>\n"
+"Language-Team: Estonian <gnome-et@linux.ee>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/brightside.c:224
+#, c-format
+msgid ""
+"Couldn't execute command: %s\n"
+"Verify that this command exists."
+msgstr ""
+
+#: src/brightside.c:243
+#, c-format
+msgid ""
+"Permissions on the file %s are broken\n"
+"Please check Brightside's documentation, correct the problem and restart "
+"Brightside."
+msgstr ""
+
+#: src/brightside.c:487
+msgid "translator_credits"
+msgstr ""
+"Tõlge eesti keelde:\n"
+"       Tõivo Leedjärv <toivo@linux.ee>, 2003."
+
+#: src/brightside.c:498
+msgid "Brightside"
+msgstr "Brightside"
+
+#: src/brightside.c:500 src/brightside.c:573
+msgid "Screen Corners and Edges daemon"
+msgstr ""
+
+#: src/brightside.c:579
+msgid "Screen Corners and Edges daemon active"
+msgstr ""
+
+#: src/brightside.c:1733
+msgid "Daemon already running, exiting...\n"
+msgstr ""
+
+#: src/brightside.c:1742
+msgid ""
+"Couldn't load the Glade file.\n"
+"Make sure that this daemon is properly installed."
+msgstr ""
+
+#: src/brightside.glade.h:1
+msgid "Volume"
+msgstr "Helitugevus"
+
+#: src/brightside.h:65
+#, fuzzy
+msgid "Mute volume"
+msgstr "Heli maha (tumm)"
+
+#: src/brightside.h:67
+msgid "Prevent screensaver starting"
+msgstr ""
+
+#: src/brightside.h:69
+#, fuzzy
+msgid "Start screensaver"
+msgstr "Ekraanisäästja"
+
+#: src/brightside.h:71
+msgid "Enter DPMS standby mode"
+msgstr ""
+
+#: src/brightside.h:73
+msgid "Enter DPMS suspend mode"
+msgstr ""
+
+#: src/brightside.h:75
+msgid "Enter DPMS off mode"
+msgstr ""
+
+#: src/brightside.h:78
+msgid "Dim laptop backlight"
+msgstr ""
+
+#: src/brightside.h:81
+msgid "Custom action..."
+msgstr ""
+
+#: src/brightside-properties.c:283 src/brightside-properties.glade.h:9
+#: src/brightside.desktop.in.h:2
+msgid "Screen Corners and Edges"
+msgstr ""
+
+#: src/brightside-properties.glade.h:1 src/custom-action.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: src/brightside-properties.glade.h:2
+msgid "<small><i>Long</i></small>"
+msgstr ""
+
+#: src/brightside-properties.glade.h:3
+msgid "<small><i>Short</i></small>"
+msgstr ""
+
+#: src/brightside-properties.glade.h:4
+#, fuzzy
+msgid "<span weight=\"bold\">Screen Corners</span>"
+msgstr "<span weight=\"bold\">Heli häälestus</span>"
+
+#: src/brightside-properties.glade.h:5
+#, fuzzy
+msgid "<span weight=\"bold\">Screen Edges</span>"
+msgstr "<span weight=\"bold\">Heli häälestus</span>"
+
+#: src/brightside-properties.glade.h:6
+#, fuzzy
+msgid "Action to take while mouse is placed in corner of screen"
+msgstr "Käsk, mis käivitada kui vajutatakse väljastamise klahvi"
+
+#: src/brightside-properties.glade.h:7
+msgid "Bottom r_ight corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:8
+msgid "D_elay:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:10
+msgid "Switch to _adjacent workspace when mouse is moved to edge of screen"
+msgstr ""
+
+#: src/brightside-properties.glade.h:11
+msgid "Top _right corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:12
+msgid "When switching workspace, _wrap around edges of workspace layout"
+msgstr ""
+
+#: src/brightside-properties.glade.h:13
+msgid "_Bottom left corner:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:14
+msgid "_Configurable actions"
+msgstr ""
+
+#: src/brightside-properties.glade.h:15
+msgid "_Delay:"
+msgstr ""
+
+#: src/brightside-properties.glade.h:16
+msgid "_Switch to diagonally adjacent workspace"
+msgstr ""
+
+#: src/brightside-properties.glade.h:17
+msgid "_Top left corner:"
+msgstr ""
+
+#: src/brightside.desktop.in.h:1
+#, fuzzy
+msgid "Configure screen-edge behaviour"
+msgstr "Häälesta multimeediaklahvide käitumist"
+
+#: src/brightside.schemas.in.h:1
+msgid "Action enabled when mouse is in bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:2
+msgid "Action enabled when mouse is in bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:3
+msgid "Action enabled when mouse is in top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:4
+msgid "Action enabled when mouse is in top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:5
+msgid "Action to occur when mouse is in bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:6
+msgid "Action to occur when mouse is in bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:7
+msgid "Action to occur when mouse is in top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:8
+msgid "Action to occur when mouse is in top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:9
+msgid "After flip command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:10
+msgid "Bottom left corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:11
+msgid "Bottom left corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:12
+msgid "Bottom left corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:13
+msgid "Bottom left corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:14
+msgid "Bottom left corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:15
+msgid "Bottom right corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:16
+msgid "Bottom right corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:17
+msgid "Bottom right corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:18
+msgid "Bottom right corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:19
+msgid "Bottom right corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:20
+msgid "Command to execute after flipping workspace (empty string for none)"
+msgstr ""
+
+#: src/brightside.schemas.in.h:21
+msgid "Corner delay"
+msgstr ""
+
+#: src/brightside.schemas.in.h:22
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse enters bottom left corner of screen"
+msgstr "Käsk, mis käivitada kui vajutatakse väljastamise klahvi"
+
+#: src/brightside.schemas.in.h:23
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse enters bottom right corner of screen"
+msgstr "Käsk, mis käivitada kui vajutatakse väljastamise klahvi"
+
+#: src/brightside.schemas.in.h:24
+#, fuzzy
+msgid "Custom command to execute when mouse enters top left corner of screen"
+msgstr "Käsk, mis käivitada kui vajutatakse väljastamise klahvi"
+
+#: src/brightside.schemas.in.h:25
+#, fuzzy
+msgid "Custom command to execute when mouse enters top right corner of screen"
+msgstr "Käsk, mis käivitada kui vajutatakse väljastamise klahvi"
+
+#: src/brightside.schemas.in.h:26
+#, fuzzy
+msgid "Custom command to execute when mouse exits bottom left corner of screen"
+msgstr "Käsk, mis käivitada kui vajutatakse väljastamise klahvi"
+
+#: src/brightside.schemas.in.h:27
+#, fuzzy
+msgid ""
+"Custom command to execute when mouse exits bottom right corner of screen"
+msgstr "Käsk, mis käivitada kui vajutatakse väljastamise klahvi"
+
+#: src/brightside.schemas.in.h:28
+#, fuzzy
+msgid "Custom command to execute when mouse exits top left corner of screen"
+msgstr "Käsk, mis käivitada kui vajutatakse väljastamise klahvi"
+
+#: src/brightside.schemas.in.h:29
+#, fuzzy
+msgid "Custom command to execute when mouse exits top right corner of screen"
+msgstr "Käsk, mis käivitada kui vajutatakse väljastamise klahvi"
+
+#: src/brightside.schemas.in.h:30
+msgid "Delay in milliseconds before edge flip occurs"
+msgstr ""
+
+#: src/brightside.schemas.in.h:31
+msgid "Delay in milliseconds before screen corner action occurs"
+msgstr ""
+
+#: src/brightside.schemas.in.h:32
+msgid "Edge delay"
+msgstr ""
+
+#: src/brightside.schemas.in.h:33
+msgid "Edge wrap"
+msgstr ""
+
+#: src/brightside.schemas.in.h:34
+#, fuzzy
+msgid "Enable corner flip"
+msgstr "Lubatud"
+
+#: src/brightside.schemas.in.h:35
+#, fuzzy
+msgid "Enable edge flip"
+msgstr "Lubatud"
+
+#: src/brightside.schemas.in.h:36
+msgid "Orientable workspaces"
+msgstr ""
+
+#: src/brightside.schemas.in.h:37
+msgid ""
+"Switch to diagonally adjacent workspace when mouse placed in the corner of "
+"the screen, instead of executing a configurable action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:38
+msgid ""
+"Switch to the adjacent workspace when the mouse reaches the edge of the "
+"screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:39
+msgid "Terminate custom command when mouse exits bottom left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:40
+msgid "Terminate custom command when mouse exits bottom right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:41
+msgid "Terminate custom command when mouse exits top left corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:42
+msgid "Terminate custom command when mouse exits top right corner of screen"
+msgstr ""
+
+#: src/brightside.schemas.in.h:43
+msgid "Top left corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:44
+msgid "Top left corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:45
+msgid "Top left corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:46
+msgid "Top left corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:47
+msgid "Top left corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:48
+msgid "Top right corner action"
+msgstr ""
+
+#: src/brightside.schemas.in.h:49
+msgid "Top right corner enabled"
+msgstr ""
+
+#: src/brightside.schemas.in.h:50
+msgid "Top right corner entry custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:51
+msgid "Top right corner exit custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:52
+msgid "Top right corner kill custom command"
+msgstr ""
+
+#: src/brightside.schemas.in.h:53
+msgid "Use PCM Volume instead of Master Volume"
+msgstr ""
+
+#: src/brightside.schemas.in.h:54
+msgid "Whether workspace layout is orientable"
+msgstr ""
+
+#: src/brightside.schemas.in.h:55
+msgid "Wrap wround edges of workspace layout when flipping workspace"
+msgstr ""
+
+#: src/custom-action.glade.h:2
+msgid "*"
+msgstr ""
+
+#: src/custom-action.glade.h:3
+#, fuzzy
+msgid "<span weight=\"bold\">On _entering region</span>"
+msgstr "<span weight=\"bold\">Klahvide häälestus</span>"
+
+#: src/custom-action.glade.h:4
+#, fuzzy
+msgid "<span weight=\"bold\">On leaving region</span>"
+msgstr "<span weight=\"bold\">Heli häälestus</span>"
+
+#: src/custom-action.glade.h:5 src/custom-action.c:104
+msgid "Custom action"
+msgstr ""
+
+#: src/custom-action.glade.h:6
+msgid "_Run another command:"
+msgstr ""
+
+#: src/custom-action.glade.h:7
+msgid "_Terminate above application"
+msgstr ""
+
+#~ msgid "Multimedia keys daemon"
+#~ msgstr "Multimeediaklahvide deemon"
+
+#~ msgid "Multimedia Keys daemon active"
+#~ msgstr "Multimeediaklahvide deemon on aktiivne"
+
+#~ msgid "Volume down key"
+#~ msgstr "Heli vaiksemaks"
+
+#~ msgid "Volume up key"
+#~ msgstr "Heli valjemaks"
+
+#~ msgid "Eject key"
+#~ msgstr "Väljasta"
+
+#~ msgid "Play key"
+#~ msgstr "Mängi"
+
+#~ msgid "Pause key"
+#~ msgstr "Paus"
+
+#~ msgid "Stop (Audio) key"
+#~ msgstr "Peata (heli)"
+
+#~ msgid "Previous (Audio) key"
+#~ msgstr "Eelmine (heli)"
+
+#~ msgid "Next (Audio) key"
+#~ msgstr "Järgmine (heli)"
+
+#~ msgid "My Home key"
+#~ msgstr "Minu kodu"
+
+#~ msgid "Refresh key"
+#~ msgstr "Värskenda"
+
+#~ msgid "Search key"
+#~ msgstr "Otsi"
+
+#~ msgid "E-Mail key"
+#~ msgstr "E-post"
+
+#~ msgid "Sleep key"
+#~ msgstr "Magama"
+
+#~ msgid "Help key"
+#~ msgstr "Abi"
+
+#~ msgid "WWW key"
+#~ msgstr "Veeb"
+
+#~ msgid "Groups key"
+#~ msgstr "Rühmad"
+
+#~ msgid "Calculator key"
+#~ msgstr "Taskuarvuti"
+
+#~ msgid "Record key"
+#~ msgstr "Salvesta (heli)"
+
+#~ msgid "Close Window key"
+#~ msgstr "Sulge aken"
+
+#~ msgid "Shade Window key"
+#~ msgstr "Keri aken kokku"
+
+#~ msgid "Brightness down key"
+#~ msgstr "Tumedamaks"
+
+#~ msgid "Brightness up key"
+#~ msgstr "Heledamaks"
+
+#~ msgid "Disabled"
+#~ msgstr "Keelatud"
+
+#~ msgid "Description"
+#~ msgstr "Kirjeldus"
+
+#~ msgid "Status"
+#~ msgstr "Olek"
+
+#~ msgid "Multimedia Keys Preferences"
+#~ msgstr "Multimeediaklahvide häälestus"
+
+#~ msgid ""
+#~ "To assign a key to an action, click on a line, and press the key you want "
+#~ "to associate with it.\n"
+#~ "\"C\" cancels the capture, and \"Backspace\" disables the key shortcut."
+#~ msgstr ""
+#~ "Klahvi sidumiseks tegevusega klõpsa real, ja vajuta klahvi, millega tahad "
+#~ "tegevust siduda.\n"
+#~ "\"C\" tühistab sisestamise ning \"Backspace\" kustutab seose."
+
+#~ msgid "Multimedia Keys"
+#~ msgstr "Multimeediaklahvid"
+
+#~ msgid "Brightness down key's XKeycode"
+#~ msgstr "Tumedamaks-klahvi XKeycode"
+
+#~ msgid "Brightness down key's XKeycode, 0 to disable"
+#~ msgstr "Tumedamaks-klahvi XKeycode, 0 - keelatud"
+
+#~ msgid "Brightness up key's XKeycode"
+#~ msgstr "Heledamaks-klahvi XKeycode"
+
+#~ msgid "Brightness up key's XKeycode, 0 to disable"
+#~ msgstr "Heledamaks-klahvi XKeycode, 0 - keelatud"
+
+#~ msgid "Calculator key's XKeycode"
+#~ msgstr "Kalkulaatoriklahvi XKeycode"
+
+#~ msgid "Calculator key's XKeycode, 0 to disable"
+#~ msgstr "Kalkulaatoriklahvi XKeycode, 0 - keelatud"
+
+#~ msgid "Close Window key's XKeycode"
+#~ msgstr "Akna sulgemise klahvi XKeycode"
+
+#~ msgid "Close Window key's XKeycode, 0 to disable"
+#~ msgstr "Akna sulgemise klahvi XKeycode, 0 - keelatud"
+
+#~ msgid "E-Mail key's XKeycode"
+#~ msgstr "Postiklahvi XKeycode"
+
+#~ msgid "E-Mail key's XKeycode, 0 to disable"
+#~ msgstr "Postiklahvi XKeycode, 0 - keelatud"
+
+#~ msgid "Eject key's XKeycode"
+#~ msgstr "Väljasta-klahvi XKeycode"
+
+#~ msgid "Eject key's XKeycode, 0 to disable"
+#~ msgstr "Väljasta-klahvi XKeycode, 0 - keelatud"
+
+#~ msgid "Groups key's XKeycode"
+#~ msgstr "Rühmad-klahvi XKeycode"
+
+#~ msgid "Groups key's XKeycode, 0 to disable"
+#~ msgstr "Rühmad-klahvi XKeycode, 0 - keelatud"
+
+#~ msgid "Help key's XKeycode"
+#~ msgstr "Abi-klahvi XKeycode"
+
+#~ msgid "Help key's XKeycode, 0 to disable"
+#~ msgstr "Abi-klahvi XKeycode, 0 - keelatud"
+
+#~ msgid "Mute key's XKeycode"
+#~ msgstr "Heli maha (tumm) klahvi XKeycode"
+
+#~ msgid "Mute key's XKeycode, 0 to disable"
+#~ msgstr "Heli maha (tumm) klahvi XKeycode, 0 - keelatud"
+
+#~ msgid "My Home key's XKeycode"
+#~ msgstr "Minu kodu-klahvi XKeycode"
+
+#~ msgid "My Home key's XKeycode, 0 to disable"
+#~ msgstr "Minu kodu-klahvi XKeycode, 0 - keelatud"
+
+#~ msgid "Next key's XKeycode"
+#~ msgstr "Järmine-klahvi XKeycode"
+
+#~ msgid "Next key's XKeycode, 0 to disable"
+#~ msgstr "Järmine-klahvi XKeycode, 0 - keelatud"
+
+#~ msgid "Pause key's XKeycode"
+#~ msgstr "Paus-klahvi XKeycode"
+
+#~ msgid "Pause key's XKeycode, 0 to disable"
+#~ msgstr "Paus-klahvi XKeycode, 0 - keelatud"
+
+#~ msgid "Play key's XKeycode"
+#~ msgstr "Mängi-klahvi XKeycode"
+
+#~ msgid "Play key's XKeycode, 0 to disable"
+#~ msgstr "Mängi-klahvi XKeycode, 0 - keelatud"
+
+#~ msgid "Previous key's XKeycode"
+#~ msgstr "Eelmine-klahvi XKeycode"
+
+#~ msgid "Previous key's XKeycode, 0 to disable"
+#~ msgstr "Eelmine-klahvi XKeycode, 0 - keelatud"
+
+#~ msgid "Record key's XKeycode"
+#~ msgstr "Salvesta (heli)-klahvi XKeycode"
+
+#~ msgid "Record key's XKeycode, 0 to disable"
+#~ msgstr "Salvesta (heli)-klahvi XKeycode, 0 - keelatud"
+
+#~ msgid "Refresh key's XKeycode"
+#~ msgstr "Värskenda-klahvi XKeycode"
+
+#~ msgid "Refresh key's XKeycode, 0 to disable"
+#~ msgstr "Värskenda-klahvi XKeycode, 0 - keelatud"
+
+#~ msgid "Screensaver key's XKeycode"
+#~ msgstr "Ekraanisäästja-klahvi XKeycode"
+
+#~ msgid "Screensaver key's XKeycode, 0 to disable"
+#~ msgstr "Ekraanisäästja-klahvi XKeycode, 0 - keelatud"
+
+#~ msgid "Search key's XKeycode"
+#~ msgstr "Otsinguklahvi XKeycode"
+
+#~ msgid "Search key's XKeycode, 0 to disable"
+#~ msgstr "Otsinguklahvi XKeycode, 0 - keelatud"
+
+#~ msgid "Shade Window key's XKeycode"
+#~ msgstr "Akna kokkukerimise klahvi XKeycode"
+
+#~ msgid "Shade Window key's XKeycode, 0 to disable"
+#~ msgstr "Akna kokkukerimise klahvi XKeycode, 0 - keelatud"
+
+#~ msgid "Sleep key's XKeycode"
+#~ msgstr "Magama-klahvi XKeycode"
+
+#~ msgid "Sleep key's XKeycode, 0 to disable"
+#~ msgstr "Magama-klahvi XKeycode, 0 - keelatud"
+
+#~ msgid "Volume down key's XKeycode"
+#~ msgstr "Heli vaiksemaks-klahvi XKeycode"
+
+#~ msgid "Volume down key's XKeycode, 0 to disable"
+#~ msgstr "Heli vaiksemaks-klahvi XKeycode, 0 - keelatud"
+
+#, fuzzy
+#~ msgid "Volume step"
+#~ msgstr "Helitugevus"
+
+#~ msgid "Volume up key's XKeycode"
+#~ msgstr "Heli valjemaks-klahvi XKeycode"
+
+#~ msgid "Volume up key's XKeycode, 0 to disable"
+#~ msgstr "Heli valjemaks-klahvi XKeycode, 0 - keelatud"
+
+#~ msgid "WWW key's XKeycode"
+#~ msgstr "Veebiklahvi XKeycode"
+
+#~ msgid "WWW key's XKeycode, 0 to disable"
+#~ msgstr "Veebiklahvi XKeycode, 0 - keelatud"
+
+#~ msgid "Accelerator key"
+#~ msgstr "Kiirklahv"
+
+#~ msgid "Accelerator modifiers"
+#~ msgstr "Kiirklahvi muuteklahvid"
+
+#~ msgid "The type of accelerator."
+#~ msgstr "Kiirklahvi tüüp."
+
+#~ msgid "Type a new accelerator, or press Backspace to clear"
+#~ msgstr "Sisesta uus kiirklahv või Backspace kustutamiseks"
+
+#~ msgid "Type a new accelerator"
+#~ msgstr "Sisesta uus kiirklahv"
+
+#~ msgid "_Launch the multimedia key daemon"
+#~ msgstr "_Käivita multimeediaklahvide deemon"

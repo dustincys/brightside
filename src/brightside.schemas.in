@@ -1,0 +1,341 @@
+<gconfschemafile>
+    <schemalist>    
+
+      <schema>
+        <key>/schemas/apps/brightside/corner_delay</key>
+        <applyto>/apps/brightside/corner_delay</applyto>
+        <owner>brightside</owner>
+        <type>int</type>
+        <default>500</default>
+        <locale name="C">
+          <short>Corner delay</short>
+          <long>Delay in milliseconds before screen corner action occurs</long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/brightside/edge_delay</key>
+        <applyto>/apps/brightside/edge_delay</applyto>
+        <owner>brightside</owner>
+        <type>int</type>
+        <default>500</default>
+        <locale name="C">
+          <short>Edge delay</short>
+          <long>Delay in milliseconds before edge flip occurs</long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/brightside/edge_wrap</key>
+        <applyto>/apps/brightside/edge_wrap</applyto>
+        <owner>brightside</owner>
+        <type>bool</type>
+        <default>false</default>
+        <locale name="C">
+          <short>Edge wrap</short>
+          <long>Wrap wround edges of workspace layout when flipping workspace</long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/brightside/corner_flip</key>
+        <applyto>/apps/brightside/corner_flip</applyto>
+        <owner>brightside</owner>
+        <type>bool</type>
+        <default>false</default>
+        <locale name="C">
+          <short>Enable corner flip</short>
+          <long>Switch to diagonally adjacent workspace when mouse placed in the corner of the screen, instead of executing a configurable action</long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/brightside/enable_edge_flip</key>
+        <applyto>/apps/brightside/enable_edge_flip</applyto>
+        <owner>brightside</owner>
+        <type>bool</type>
+        <default>false</default>
+        <locale name="C">
+          <short>Enable edge flip</short>
+          <long>Switch to the adjacent workspace when the mouse reaches the edge of the screen</long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/brightside/after_flip_command</key>
+        <applyto>/apps/brightside/after_flip_command</applyto>
+        <owner>brightside</owner>
+        <type>string</type>
+        <default></default>
+        <locale name="C">
+          <short>After flip command</short>
+          <long>Command to execute after flipping workspace (empty string for none)</long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/brightside/use_pcm</key>
+	<applyto>/apps/brightside/use_pcm</applyto>
+	<owner>brightside</owner>
+	<type>bool</type>
+	<default>false</default>
+	<locale name="C">
+	  <short>Use PCM Volume instead of Master Volume</short>
+	  <long>Use PCM Volume instead of Master Volume</long>
+	</locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/brightside/orientable_workspaces</key>
+	<applyto>/apps/brightside/orientable_workspaces</applyto>
+	<owner>brightside</owner>
+	<type>bool</type>
+	<default>true</default>
+	<locale name="C">
+	  <short>Orientable workspaces</short>
+	  <long>Whether workspace layout is orientable</long>
+	</locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/brightside/nw_enabled</key>
+        <applyto>/apps/brightside/nw_enabled</applyto>
+        <owner>brightside</owner>
+        <type>bool</type>
+        <default>false</default>
+        <locale name="C">
+          <short>Top left corner enabled</short>
+          <long>Action enabled when mouse is in top left corner of screen</long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/brightside/nw_action</key>
+        <applyto>/apps/brightside/nw_action</applyto>
+        <owner>brightside</owner>
+        <type>string</type>
+        <default>mute</default>
+        <locale name="C">
+          <short>Top left corner action</short>
+          <long>Action to occur when mouse is in top left corner of screen</long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/brightside/nw_custom_in</key>
+        <applyto>/apps/brightside/nw_custom_in</applyto>
+        <owner>brightside</owner>
+        <type>string</type>
+        <default></default>
+        <locale name="C">
+          <short>Top left corner entry custom command</short>
+          <long>Custom command to execute when mouse enters top left corner of screen</long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/brightside/nw_custom_out</key>
+        <applyto>/apps/brightside/nw_custom_out</applyto>
+        <owner>brightside</owner>
+        <type>string</type>
+        <default></default>
+        <locale name="C">
+          <short>Top left corner exit custom command</short>
+          <long>Custom command to execute when mouse exits top left corner of screen</long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/brightside/nw_custom_kill</key>
+        <applyto>/apps/brightside/nw_custom_kill</applyto>
+        <owner>brightside</owner>
+        <type>bool</type>
+        <default>false</default>
+        <locale name="C">
+          <short>Top left corner kill custom command</short>
+          <long>Terminate custom command when mouse exits top left corner of screen</long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/brightside/sw_enabled</key>
+        <applyto>/apps/brightside/sw_enabled</applyto>
+        <owner>brightside</owner>
+        <type>bool</type>
+        <default>false</default>
+        <locale name="C">
+          <short>Bottom left corner enabled</short>
+          <long>Action enabled when mouse is in bottom left corner of screen</long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/brightside/sw_action</key>
+        <applyto>/apps/brightside/sw_action</applyto>
+        <owner>brightside</owner>
+        <type>string</type>
+        <default>noscreensaver</default>
+        <locale name="C">
+          <short>Bottom left corner action</short>
+          <long>Action to occur when mouse is in bottom left corner of screen</long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/brightside/sw_custom_in</key>
+        <applyto>/apps/brightside/sw_custom_in</applyto>
+        <owner>brightside</owner>
+        <type>string</type>
+        <default></default>
+        <locale name="C">
+          <short>Bottom left corner entry custom command</short>
+          <long>Custom command to execute when mouse enters bottom left corner of screen</long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/brightside/sw_custom_out</key>
+        <applyto>/apps/brightside/sw_custom_out</applyto>
+        <owner>brightside</owner>
+        <type>string</type>
+        <default></default>
+        <locale name="C">
+          <short>Bottom left corner exit custom command</short>
+          <long>Custom command to execute when mouse exits bottom left corner of screen</long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/brightside/sw_custom_kill</key>
+        <applyto>/apps/brightside/sw_custom_kill</applyto>
+        <owner>brightside</owner>
+        <type>bool</type>
+        <default>false</default>
+        <locale name="C">
+          <short>Bottom left corner kill custom command</short>
+          <long>Terminate custom command when mouse exits bottom left corner of screen</long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/brightside/ne_enabled</key>
+        <applyto>/apps/brightside/ne_enabled</applyto>
+        <owner>brightside</owner>
+        <type>bool</type>
+        <default>false</default>
+        <locale name="C">
+          <short>Top right corner enabled</short>
+          <long>Action enabled when mouse is in top right corner of screen</long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/brightside/ne_action</key>
+        <applyto>/apps/brightside/ne_action</applyto>
+        <owner>brightside</owner>
+        <type>string</type>
+        <default>screensaver</default>
+        <locale name="C">
+          <short>Top right corner action</short>
+          <long>Action to occur when mouse is in top right corner of screen</long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/brightside/ne_custom_in</key>
+        <applyto>/apps/brightside/ne_custom_in</applyto>
+        <owner>brightside</owner>
+        <type>string</type>
+        <default></default>
+        <locale name="C">
+          <short>Top right corner entry custom command</short>
+          <long>Custom command to execute when mouse enters top right corner of screen</long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/brightside/ne_custom_out</key>
+        <applyto>/apps/brightside/ne_custom_out</applyto>
+        <owner>brightside</owner>
+        <type>string</type>
+        <default></default>
+        <locale name="C">
+          <short>Top right corner exit custom command</short>
+          <long>Custom command to execute when mouse exits top right corner of screen</long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/brightside/ne_custom_kill</key>
+        <applyto>/apps/brightside/ne_custom_kill</applyto>
+        <owner>brightside</owner>
+        <type>bool</type>
+        <default>false</default>
+        <locale name="C">
+          <short>Top right corner kill custom command</short>
+          <long>Terminate custom command when mouse exits top right corner of screen</long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/brightside/se_enabled</key>
+        <applyto>/apps/brightside/se_enabled</applyto>
+        <owner>brightside</owner>
+        <type>bool</type>
+        <default>false</default>
+        <locale name="C">
+          <short>Bottom right corner enabled</short>
+          <long>Action enabled when mouse is in bottom right corner of screen</long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/brightside/se_action</key>
+        <applyto>/apps/brightside/se_action</applyto>
+        <owner>brightside</owner>
+        <type>string</type>
+        <default>standby</default>
+        <locale name="C">
+          <short>Bottom right corner action</short>
+          <long>Action to occur when mouse is in bottom right corner of screen</long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/brightside/se_custom_in</key>
+        <applyto>/apps/brightside/se_custom_in</applyto>
+        <owner>brightside</owner>
+        <type>string</type>
+        <default></default>
+        <locale name="C">
+          <short>Bottom right corner entry custom command</short>
+          <long>Custom command to execute when mouse enters bottom right corner of screen</long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/brightside/se_custom_out</key>
+        <applyto>/apps/brightside/se_custom_out</applyto>
+        <owner>brightside</owner>
+        <type>string</type>
+        <default></default>
+        <locale name="C">
+          <short>Bottom right corner exit custom command</short>
+          <long>Custom command to execute when mouse exits bottom right corner of screen</long>
+        </locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/brightside/se_custom_kill</key>
+        <applyto>/apps/brightside/se_custom_kill</applyto>
+        <owner>brightside</owner>
+        <type>bool</type>
+        <default>false</default>
+        <locale name="C">
+          <short>Bottom right corner kill custom command</short>
+          <long>Terminate custom command when mouse exits bottom right corner of screen</long>
+        </locale>
+      </schema>
+
+  </schemalist>
+</gconfschemafile>
